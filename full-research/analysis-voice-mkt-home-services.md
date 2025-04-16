@@ -1,6 +1,6 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# Voice Call \& SMS Marketing Best Practices for Home Services: A Comprehensive Analysis
+# Voice Call & SMS Marketing Best Practices for Home Services: A Comprehensive Analysis
 
 This analysis provides data-backed insights on optimizing both voice call and SMS marketing for home services companies (plumbing, electrical, HVAC). Our research reveals that effective communication strategies significantly impact conversion rates, with properly structured conversations and well-timed text messages creating seamless customer journeys that convert more leads into appointments.
 

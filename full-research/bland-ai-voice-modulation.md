@@ -35,19 +35,19 @@ Use clear, bracketed cues or ALL CAPS to direct the AI’s delivery:
 
 ## 2. **Common Modulation Cues \& When to Use Them**
 
-| Cue | Use Case Example | Effect |
-| :-- | :-- | :-- |
-| [pause 0.5s] | After price or key info | Lets info sink in |
-| [upward inflection] | On questions, offers, or CTAs | Invites response, excitement |
-| [downward inflection] | On closing, price, or guarantees | Authority, confidence |
-| [lower pitch] | On objections, price discussions | Trust, calm |
-| [higher pitch] | On emergencies, urgency | Energy, alertness |
-| [slower] | On complex info, legal, or price | Clarity, seriousness |
-| [faster] | On greetings, excitement, urgency | Energy, engagement |
-| [cheerful] | On good news, welcomes | Warmth, positivity |
-| [empathetic] | On complaints, objections | Builds rapport |
-| [urgent] | On emergencies, deadlines | Drives action |
-| [emphasize: word] | On discounts, deadlines, guarantees | Focuses attention |
+| Cue                   | Use Case Example                    | Effect                       |
+| :-------------------- | :---------------------------------- | :--------------------------- |
+| [pause 0.5s]          | After price or key info             | Lets info sink in            |
+| [upward inflection]   | On questions, offers, or CTAs       | Invites response, excitement |
+| [downward inflection] | On closing, price, or guarantees    | Authority, confidence        |
+| [lower pitch]         | On objections, price discussions    | Trust, calm                  |
+| [higher pitch]        | On emergencies, urgency             | Energy, alertness            |
+| [slower]              | On complex info, legal, or price    | Clarity, seriousness         |
+| [faster]              | On greetings, excitement, urgency   | Energy, engagement           |
+| [cheerful]            | On good news, welcomes              | Warmth, positivity           |
+| [empathetic]          | On complaints, objections           | Builds rapport               |
+| [urgent]              | On emergencies, deadlines           | Drives action                |
+| [emphasize: word]     | On discounts, deadlines, guarantees | Focuses attention            |
 
 ---
 
@@ -91,19 +91,19 @@ Use clear, bracketed cues or ALL CAPS to direct the AI’s delivery:
 
 ## 6. **Quick Reference Table**
 
-| Modulation Cue | Script Notation Example |
-| :-- | :-- |
-| Pause | [pause 0.5s] |
-| Upward Inflection | [upward inflection] |
-| Downward Inflection | [downward inflection] |
-| Lower Pitch | [lower pitch] |
-| Higher Pitch | [higher pitch] |
-| Slower | [slower] |
-| Faster | [faster] |
-| Cheerful | [cheerful] |
-| Empathetic | [empathetic] |
-| Urgent | [urgent] |
-| Emphasize | [emphasize: word/phrase] |
+| Modulation Cue      | Script Notation Example  |
+| :------------------ | :----------------------- |
+| Pause               | [pause 0.5s]             |
+| Upward Inflection   | [upward inflection]      |
+| Downward Inflection | [downward inflection]    |
+| Lower Pitch         | [lower pitch]            |
+| Higher Pitch        | [higher pitch]           |
+| Slower              | [slower]                 |
+| Faster              | [faster]                 |
+| Cheerful            | [cheerful]               |
+| Empathetic          | [empathetic]             |
+| Urgent              | [urgent]                 |
+| Emphasize           | [emphasize: word/phrase] |
 
 ---
 
