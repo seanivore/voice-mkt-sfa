@@ -15,3 +15,4 @@ Nothing technical, just the things valuable to:
 - Business Development 
 - Product 
 
+AHH the scripts should be interactive and visual! like speech bubbles coming in for each site. Example of each persona, illustrating a strategy. 
