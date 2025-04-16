@@ -12,22 +12,22 @@ The unified voice marketing approach operates on four fundamental pillars that c
 
 ### 1. Engagement Spectrum: From Assertive to Empathetic
 
-| Approach | Core Principle | Best Application | Key Technique |
-|----------|---------------|------------------|---------------|
-| **Assertive-Urgent** | Creates time pressure and emphasizes consequences of inaction | Time-limited offers, emergency services | Direct calls to action, scarcity framing |
-| **Curiosity-Gap** | Creates knowledge gaps that prospects feel compelled to fill | New products/services, exclusive information | Hint at valuable information, secure micro-commitments |
-| **Empathy-Based** | Validates concerns while reframing the conversation | Objection handling, relationship building | Active listening, strategic reframing |
+| Approach             | Core Principle                                                | Best Application                             | Key Technique                                          |
+| -------------------- | ------------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------ |
+| **Assertive-Urgent** | Creates time pressure and emphasizes consequences of inaction | Time-limited offers, emergency services      | Direct calls to action, scarcity framing               |
+| **Curiosity-Gap**    | Creates knowledge gaps that prospects feel compelled to fill  | New products/services, exclusive information | Hint at valuable information, secure micro-commitments |
+| **Empathy-Based**    | Validates concerns while reframing the conversation           | Objection handling, relationship building    | Active listening, strategic reframing                  |
 
 ### 2. Psychological Triggers Matrix
 
-| Trigger | Description | Voice Technique | Example Phrasing |
-|---------|-------------|-----------------|------------------|
-| **Scarcity/Urgency** | Creates time pressure | Volume spike on time terms | "This is the *last chance* before prices increase" |
-| **Loss Aversion** | Emphasizes potential negative outcomes | Downward inflection | "Waiting could *cost you thousands*" |
-| **Curiosity** | Creates knowledge gaps | Slight pause after intriguing statement | "Most people haven't heard about this yet..." |
-| **Validation** | Acknowledges customer perspective | Softer tone, empathetic inflection | "I completely understand—timing is everything" |
-| **Social Proof** | Leverages others' actions | Upward inflection on quantity terms | "*Many homeowners* in your area have already..." |
-| **Authority** | Establishes expertise | Lower pitch (130Hz), technical emphasis | "Our FEMA-approved team can be there in 45 minutes" |
+| Trigger              | Description                            | Voice Technique                         | Example Phrasing                                    |
+| -------------------- | -------------------------------------- | --------------------------------------- | --------------------------------------------------- |
+| **Scarcity/Urgency** | Creates time pressure                  | Volume spike on time terms              | "This is the *last chance* before prices increase"  |
+| **Loss Aversion**    | Emphasizes potential negative outcomes | Downward inflection                     | "Waiting could *cost you thousands*"                |
+| **Curiosity**        | Creates knowledge gaps                 | Slight pause after intriguing statement | "Most people haven't heard about this yet..."       |
+| **Validation**       | Acknowledges customer perspective      | Softer tone, empathetic inflection      | "I completely understand—timing is everything"      |
+| **Social Proof**     | Leverages others' actions              | Upward inflection on quantity terms     | "*Many homeowners* in your area have already..."    |
+| **Authority**        | Establishes expertise                  | Lower pitch (130Hz), technical emphasis | "Our FEMA-approved team can be there in 45 minutes" |
 
 ### 3. Conversation Flow Architecture
 
@@ -61,13 +61,13 @@ The unified voice marketing approach operates on four fundamental pillars that c
 
 ### 4. Voice Modulation Framework
 
-| Element | Technical Specification | Emotional Impact | Best Application |
-|---------|-------------------------|------------------|------------------|
-| **Pitch** | Low (130Hz) to High (180Hz) | Authority to Urgency | Lower for expertise, higher for time-sensitivity |
-| **Pace** | Slow (135WPM) to Fast (185WPM) | Thoughtfulness to Excitement | Slower for complex info, faster for urgent offers |
-| **Pauses** | Strategic (0.3s to 0.8s) | Creates emphasis, allows processing | After key information or before important questions |
-| **Volume** | Baseline with +3-5dB emphasis | Highlights key terms, creates emphasis | On guarantee terms, savings amounts, deadlines |
-| **Inflection** | Upward or Downward | Question/opportunity vs. Statement/authority | Upward for benefits, downward for guarantees |
+| Element        | Technical Specification        | Emotional Impact                             | Best Application                                    |
+| -------------- | ------------------------------ | -------------------------------------------- | --------------------------------------------------- |
+| **Pitch**      | Low (130Hz) to High (180Hz)    | Authority to Urgency                         | Lower for expertise, higher for time-sensitivity    |
+| **Pace**       | Slow (135WPM) to Fast (185WPM) | Thoughtfulness to Excitement                 | Slower for complex info, faster for urgent offers   |
+| **Pauses**     | Strategic (0.3s to 0.8s)       | Creates emphasis, allows processing          | After key information or before important questions |
+| **Volume**     | Baseline with +3-5dB emphasis  | Highlights key terms, creates emphasis       | On guarantee terms, savings amounts, deadlines      |
+| **Inflection** | Upward or Downward             | Question/opportunity vs. Statement/authority | Upward for benefits, downward for guarantees        |
 
 > **ACTIONABLE INSIGHT:** Voice modulation should be precisely matched to both the demographic target and the specific psychological trigger being employed. This technical precision creates subconscious emotional resonance that significantly increases conversion rates.
 
@@ -329,12 +329,12 @@ To maximize the effectiveness of this unified strategy, implement a comprehensiv
 
 ### Key Performance Indicators
 
-| KPI Category | Specific Metrics | Target Benchmarks |
-|--------------|------------------|-------------------|
-| **Engagement** | - Conversation duration<br>- Response length<br>- Question frequency | - >2 minutes<br>- >3 words per response<br>- >1 customer question |
-| **Conversion** | - Appointment rate<br>- Information request rate<br>- Call-back request rate | - >15% overall<br>- >40% for info requests<br>- >10% for callbacks |
-| **Voice Impact** | - Response to modulation changes<br>- Emotional tone shifts<br>- Callback rates by voice type | - Measure relative performance<br>- Track sentiment improvement<br>- Compare by demographic |
-| **Strategy Effectiveness** | - Assertive vs. Curiosity vs. Empathy<br>- Psychological trigger response<br>- Objection handling success rate | - Test relative performance<br>- Track by demographic<br>- >65% objection recovery |
+| KPI Category               | Specific Metrics                                                                                               | Target Benchmarks                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Engagement**             | - Conversation duration<br>- Response length<br>- Question frequency                                           | - >2 minutes<br>- >3 words per response<br>- >1 customer question                           |
+| **Conversion**             | - Appointment rate<br>- Information request rate<br>- Call-back request rate                                   | - >15% overall<br>- >40% for info requests<br>- >10% for callbacks                          |
+| **Voice Impact**           | - Response to modulation changes<br>- Emotional tone shifts<br>- Callback rates by voice type                  | - Measure relative performance<br>- Track sentiment improvement<br>- Compare by demographic |
+| **Strategy Effectiveness** | - Assertive vs. Curiosity vs. Empathy<br>- Psychological trigger response<br>- Objection handling success rate | - Test relative performance<br>- Track by demographic<br>- >65% objection recovery          |
 
 ### Testing Framework
 
