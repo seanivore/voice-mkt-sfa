@@ -76,38 +76,32 @@
 │   │   ├── hydro-flask-brand.md
 │   │   └── jungalow-brand.md
 │   ├── content-plan
-│   │   ├── 1-draft
-│   │   │   ├── glossier-content-plan-draft.md
-│   │   │   ├── hydro-flask-content-plan-draft.md
-│   │   │   └── jungalow-content-plan-draft.md
-│   │   ├── 2-review
-│   │   │   ├── glossier-content-plan-review.md
-│   │   │   ├── hydro-flask-content-plan-review.md
-│   │   │   └── jungalow-content-plan-review.md
-│   │   └── 3-finalize
-│   │       ├── glossier-content-plan.md
-│   │       ├── hydro-flask-content-plan.md
-│   │       └── jungalow-content-plan.md
+│   │   ├── glossier-content-plan.md
+│   │   ├── hydro-flask-content-plan.md
+│   │   ├── jungalow-content-plan.md
+│   │   └── production-flow-docs
+│   │       ├── glossier-content-plan-draft.md
+│   │       ├── glossier-content-plan-review.md
+│   │       ├── hydro-flask-content-plan-draft.md
+│   │       ├── hydro-flask-content-plan-review.md
+│   │       ├── jungalow-content-plan-draft.md
+│   │       └── jungalow-content-plan-review.md
 │   ├── email-blast
-│   │   ├── 1-draft
-│   │   │   ├── glossier-email-draft.md
-│   │   │   └── hydro-flask-email-draft.md
-│   │   ├── 2-review
-│   │   │   ├── glossier-email-review.md
-│   │   │   └── hydro-email-review.md
-│   │   └── 3-finalize
-│   │       ├── glossier-email-campaign.md
-│   │       └── hydro-flask-email-campaign.md
+│   │   ├── glossier-email-campaign.md
+│   │   ├── hydro-flask-email-campaign.md
+│   │   └── production-flow-docs
+│   │       ├── glossier-email-draft.md
+│   │       ├── glossier-email-review.md
+│   │       ├── hydro-email-review.md
+│   │       └── hydro-flask-email-draft.md
 │   ├── instagram-post
-│   │   ├── 1-draft
-│   │   │   ├── glossier-instagram-post-drafts.md
-│   │   │   └── hydro-flask-instagram-post-drafts.md
-│   │   ├── 2-review
-│   │   │   ├── glossier-instagram-content-review.md
-│   │   │   └── hydro-flask-instagram-content-review.md.md
-│   │   └── 3-finalize
-│   │       ├── glossier-instagram-posts.md
-│   │       └── hydro-flask-instagram-posts.md
+│   │   ├── glossier-instagram-posts.md
+│   │   ├── hydro-flask-instagram-posts.md
+│   │   └── production-flow-docs
+│   │       ├── glossier-instagram-content-review.md
+│   │       ├── glossier-instagram-post-drafts.md
+│   │       ├── hydro-flask-instagram-content-review.md.md
+│   │       └── hydro-flask-instagram-post-drafts.md
 │   └── writing-guide
 │       └── emotion-driven-copywriting.md
 ├── cost-benefit.md
