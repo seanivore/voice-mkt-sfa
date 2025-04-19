@@ -1,53 +1,107 @@
-# AI Resources Repository
+# Deck-Vibe Website Presentation of Content 
 
-Place to organize actual AI `./resources/` directory, a resource that gets copied into all new project by using the `./repo-starter/` directory. This AI directory also houses main copies of CORE DOCS as templates, and Claude OS app workspace documents that breakdown using tools written in JSON, including a copy for Cursor, both of which have protocol for the Memory system used to manage projects in concert, and then a master map file for all projects. 
+Content that is impressive in its own right, not any more or less impressive because of SFA. Reflecting my creative ability more than anything. The resources I use are only secondary in how they help me create at such a large scale. 
 
-## Repo Starter & AI Resources 
+## Client's Focus 
 
-The `_ai` directory contains Claude-designed UI documents for AI workspaces. 
+### Medium 
 
-- Workspace configuration files
-  - Project management memory system protocol 
-  - Memory system keywords 
-  - Tools listed in JSON format 
-  - Master map for all project planning and task management 
+Bland AI, an AI Voice Telemarketing code-free tool for designing and deploying campaigns through complex workflows. 
 
-- The `repo-starter` directory includes pre-configured:
-  - `.gitignore` optimized for AI development
-  - `.cursor/rules/` ready for rules, etc. 
-  - `.vscode/` with copy of settings and template Cursor workspace file 
-  - CORE DOCS as templates 
-  - The full AI `./resources/` directory 
-  - Directory full of markdown CSS files 
-  - Sample Aider config file 
+### Message 
 
-## Usage
+The most I know is that the client is in Home Services. I remember him mentioning plumbing, and I think electrical. 
 
-### Starting a New Project
+### Audience 
 
-1. Create a new project directory; slug style filename will be used for the project name 
-2. Copy contents from `repo-starter/` into your new directory with `cp -R /Users/seanivore/Development/_ai.resources/repo-starter/. .`
-3. Run `git init`
-4. Rename branch to mirror project name from project directory name 
-5. Create GitHub repo with same project name using `gh repo create <repo-project-name> --public --source=. --remote=origin` 
-6. Last, push the commit using `git push -u origin <repo-project-name>` to set `git push` as functional 
+The research got into audience segments a bit, but it was not the focus. Of the segments I pulled information on, totally making presumptions about the client, was rural homeowners in lower socioeconomic status, and then suburban homeowners in lower and middle socioeconomic status. That is just a guess. Take it as context. Not what we'll focus on here. 
 
-### MCP Resources
+## Content & Strategy Research Pathway  
 
-The `resources` directory contains essential reference materials:
+The research included variables like cold, warm, and hot leads, as well as price-focused consumers, quality-focused, and then I had a curiosity about objecting consumers and how to turn them around. 
 
-- **MCP Core Concepts** - Foundational documentation on Model Context Protocol
-- **MCP Spec Schemas** - Technical specifications and JSON schemas
-- **MCP Test & Debug** - Tools and guides for testing MCP implementations
-- **Aider How To** - Aider documentation in TXT format
-- **About SFA** - About Single File Agents 
-- **LLM Context** - LLM Context how to; still confusing  
+I quickly drilled down to a much more practical and actionable focus. I needed to know how to create content that is effective through the medium. That required answering two questions: 
 
-### MASTER_MAP
+### 1. **What to talk about** & **How to talk about it** 
 
-The [MASTER_MAP.md](./AI.MASTER_MAP.md) is our central planning document that:
+More specifically, I needed to know: 
 
-- Organizes all projects, tasks, and priorities in one place
-- Uses emoji indicators for visual task status tracking
-- Structures work into New Business, In Focus, and Old Business sections
-- Provides a foundation for automated task management via single-file agents
+1. What will the creative work look like? 
+2. What kind of technical knowledge is required? 
+
+I knew that: 
+
+- It is written text inputs — you create conversation flows for the AI, you pick out different voices, and then Bland AI can save "Personas" you design. 
+
+- It is generated audio — so my curiosity was how to make use of the bulk of the research out there, which would be on voice, intonation, and language like topics. 
+
+### 2. **Writing** & **Voice** 
+
+This meant I needed to know: 
+
+1. What are the most effective strategies were for the medium? 
+2. How do you convey these messages in those strategies? 
+
+- Some strategy is content of the writing/spoken word. Conceptual tactics used on the listener like creating "curiosity gaps" or making them feel a sense of "urgency".
+
+- The rest of the strategy was about the way you use voice to convey these tactics. It ended up being about how to humanize an AI generated voice using just plain text. 
+
+### 3. **Top Voice Strategies** 
+
+First we pulled from the research a combination of variables that make up five different voice strategies. 
+
+1. Assertive-Urgent Voice Marketing 
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/assertive-urgent.md`
+
+2. The Curiosity Gap Approach in Voice Marketing
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/curiosity-gap.md`
+
+3. Empathy-Based Objection Handling in Voice Marketing
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/empathy-objection.md` 
+
+4. Demographic-Tailored, Topical Combinations Framework
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/strategy-combo.md`
+
+5. Emotional Trigger Optimization Framework
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/strongest.md`
+
+There is a lot of cross-over between the documents. They were analyzed all together and then main strategies were pulled out. It was synthesized into the following framework. 
+
+*Unified Voice Marketing Strategy Framework*
+
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/persona-with-strategy/voice-persona-strategy.md`
+
+### 4. **Communicating The Strategy** 
+
+Here is where we had to take the strategy, pull out what very human elements, and give them a frame work. This was done through archetypes; a persona. A character that happened to speak a certain way. 
+
+- Pauses: Short, Medium, Long, Paragraph Break 
+- Emphasis: ALL CAPS, *Italics*, **Bold**
+- Tone Variations: Friendly, Serious, Excited, Concerned 
+- Pace Variations: Fast, Slow 
+- Pitch Control: Low or 130Hz, High or 180Hz 
+- Inflection Patterns: Rising, Falling, Questioning 
+
+The framework was then used to create a persona. 
+
+*Strategic Voice Marketing Personas with Scripts*
+
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/persona-with-strategy/voice-persona-scripts.md`
+
+## Technical Application of Strategies
+
+The research covered a lot of ground. I needed to know how to apply the strategies to the technical implementation; something covered here and there throughout the strategy documents because the focus was research studies on voice marketing, even using AI. Now we needed something to make the implementation easier. 
+
+*Understanding the tactics, how to we make the AI talk the way we need it to?*
+
+### 1.**Voice Modulation Script Writing Notation**
+
+Voice Modulation Guide
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/writing-voice/modulation-guide.md`
+
+Voice Script Writing 
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/writing-voice/script-voice-indicators.md`
+
+### 2. **Comprehensive AI Voice Scripting Cheat Sheet**
+
+`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/writing-voice/cheat-sheet.md`
