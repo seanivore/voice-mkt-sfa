@@ -88,51 +88,83 @@ Voice Modulation Guide:
 - Pitch: Scientific frequencies for trust (160Hz) and urgency (185Hz)
 - Emphasis: Psychological triggers in key moments
 
-> I think for want to show and define the notation. Grouped. Maybe an example here and there; not like a full script but a one-liner. Because I do think it will probably be the most important thing for them to learn how to do. In marketing you can kind of just feel the trend and what is working and use analytics if needed, but the notation is something different. And then totally find if they become more than one slide I think, too. OH and of course, make sure they are the notation that Bland AI has to use. 
+## Voice Control Notation System
+**Precise control through simple commands**
 
-~~## Ready-to-Deploy System~~
-~~**Every call becomes a data point for improvement**~~
-~~Complete Toolkit:~~
-~~- Situation-specific script templates~~
-~~- Emotional response frameworks~~
-~~- A/B testing protocols~~
-~~- Performance analytics dashboard~~
+Essential Notation Categories:
+1. **Emotional Tone** 
+> Perfect for building trust and managing customer emotions
+```
+[friendly] "Welcome back!"
+[urgent] "This offer ends today."
+[empathetic] "I understand your concern."
+```
 
-> I like this concept but let's be more direct to what ways they can identify what they need, and use that to find the strategy that will work. We should just search through the core five strategy documents and basically make a list of "types of customers" or "problems you encounter" as a caller, as in the first group can be about WHO would be influenced by talking about the economy, rather than "talk about the economy". 
+2. **Timing & Pace**
+> Key for emphasizing important points and allowing information to sink in
+```
+[pause 0.5s] Strategic silence
+[faster] Quick, energetic delivery
+[slower] Deliberate, thoughtful pace
+```
 
-> However, I do think then that opens us up to framing everything from the opposite side as well. Sort of like these are two different parts of an index. One part of the index you can look up solutions based on your lead. This second part you can look up solutions to learn what kind of leads they work on. Two different mentalities. Once they know the type of person they work on, they can look at their warm leads and be like, hmmmmm, oh yes, Ethel will be sold using this tactic. 
+3. **Voice Qualities**
+> Essential for matching voice to message and maximizing impact
+```
+[higher pitch] For excitement & urgency
+[lower pitch] For trust & authority
+[emphasize: word] For key points
+```
 
-~~## Launch Path~~
-1. Choose your emotional connection strategy --> `INDEX`
-2. Select pre-validated script templates --> `A STATEMENT LIKE THIS SHOULD BE MORE ABOUT HOW THERE WOULD BE A WEALTH OF SCRIPT EXAMPLES AND TEMPLATES TO GET INSPIRED AND GET YOUR BRAIN GOING OR FIND THE SOLUTION YOU CAN'T PUT YOUR FINGER ONE.` 
-3. Configure voice parameters --> `THIS COULD BE IN THE NOTATION SLIDE AND SAY LEARN TO CONTROL AI VOICE PARAMETERS`
-~~4. Monitor and optimize in real-time~~
+## Customer Type Index
+**Match strategies to your leads**
 
-> This can be wrapped into the above, re: the second index would show different emotional connection strategies, you read about one quick, consider your contact lists, and pick a subset group or maybe throw together a list using some variables about them in the database. 
+### Rural & Suburban Lower SES
+- Concerned about rising costs
+- Value clear price guarantees
+- Respond to community references
+- Need subsidy/program awareness
 
-> All the other stuff that is like, "things that Sean and the SFA tools could provide" e.g. monitor and optimize in real time, should be saved for one final 'looking ahead' 'other potential' slide. 
+### Suburban Middle SES
+- Focus on long-term value
+- Appreciate technical expertise
+- Respond to market knowledge
+- Value premium positioning
 
-~~## Measurable Impact~~
-~~Based on validated research:~~
-- 25-30% more appointments scheduled
-- 31% fewer price objections
-- 40% deeper customer engagement
-- Results visible from day one
+### Emergency Response Segment
+- Weather-event concerned
+- Insurance-aware
+- Value quick response times
+- Need clear safety assurance
 
-> We have a lot of slides, so I sort of feel like these out-of-nowhere stats could be dropped completely, unless we can do it in a way that provides a hyperlink to click through to the document that talks about that stat. IF it has additional similar stats. 
+## Strategy Type Index
+**Find the right approach**
 
-~~## Next Steps~~
-1. Identify your priority emotional triggers
-2. Select matching voice strategies
-3. Import proven scripts
-4. Launch your enhanced customer connection system
+### Economic Security
+- Price-lock guarantees
+- Inflation protection
+- Long-term warranties
+- Subsidy optimization
 
-> These next steps are a good angle to introduce the two index slides. 
+### Emergency Prevention
+- Weather preparation
+- System maintenance
+- Insurance compliance
+- Safety upgrades
 
-~~## Notes on Presentation Style~~
-~~- Mirror the emotional → logical → technical progression~~
-~~- Use real examples that connect to opening challenges~~
-~~- Show concrete numbers that matter to decision-makers~~
-~~- Emphasize immediate implementation value~~
+### Trust Building
+- Technical expertise
+- Community references
+- Data-driven insights
+- Preventive care
 
-> And this we'll make the 'looking ahead' slide mentioned above. 
+## Looking Ahead
+**Enhance your voice marketing system**
+
+Future Capabilities:
+- Real-time performance tracking
+- A/B testing frameworks
+- Custom script libraries
+- Analytics dashboards
+- Database integration for targeted campaigns
+- Automated optimization systems 
