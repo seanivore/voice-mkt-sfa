@@ -1,4 +1,4 @@
-# VOICE SCRIPT MODULATION GUIDE
+# Voice Modulation Guide 
 
 ## QUICK REFERENCE
 
