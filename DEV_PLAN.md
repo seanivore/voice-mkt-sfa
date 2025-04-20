@@ -369,6 +369,7 @@ Inspiration for [brand art](assets/images/brand-logo-art-inspo.png) background. 
 
 Colors below are directly from the inspiration image. Let's pick our own, but still make sure they are that vibe of euphoric sunrise gradient of colors. 
 
+Note that this is made to go across the bottom of the screen with a nice margin below. 
 
 ```CSS
 .brand-art-logo {
@@ -404,3 +405,53 @@ Place in Head of website:
 <meta name="apple-mobile-web-app-title" content="AUGUST" />
 <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 ```
+
+# Review Feedback 
+
+## CSS <-- and --> HTML (lol) 
+
+Off the bat just want to make sure you're planning on separating out the CSS to a /styles.css file during our next update to the HTML? It is a token-max-output pet peeve of mine. That said it might have had the same fate the following issues. Only 3.8k right now so NBD but I'm actually OCD haha. 
+
+## Scrolling Doesn't Work without JS 
+
+Also just FYI there are two JS scripts for the scrolling to work 😉 I very carefully included them for you in the dev plan. 
+
+## No Images Are Previewing In Any Browser **FIXED**
+
+Okay so... So the images weren't showing up. This is an oddity that pisses me off. When we pull my websites from Webflow/Framer there are always some paths that won't convert from relative. Here is one of the favicon I just pulled directly from the console for our current index.html preview that isn't working in any browser: "file:///assets/favicon/favicon-96x96.png" — lol wtf 
+
+Pisses me off because: 
+
+- In big projects, like my huge 'webflow-store' it will convert some of them with "./" and some with "/" IN THE SAME FILE, and refuse to convert some with "./" and some with "/" IN THE SAME FILE. 
+- In all cases, as with currently, in the IDE I can click through the path to the file with "/" -- usually the full-proof way of testing your paths. Not here! 
+- Using the IDE to input a path by the pop-up modal UI, it will always use "/" -- which all browsers are not finding right now. 
+
+I spent so long trying to figure all this out for my 'webflow-store' site: @SITE_ISSUES.md
+
+Clear rule that took me hours to figure out is: Write the path to accommodate where you are writing from, not where you are going. This subtle different is key apparently. 
+
+"/" = ROOT no matter where the page you are on is 
+"./" = Same directory the page you are on is in  
+"../" = Back Up this many directories first 
+"../../" = Back Up two directories (if you're on a page at fashion/lookbook/ for example) 
+
+BUT — I would wager that this is the problem: because programmers are crazy, when you write a path to root from root, both "./" and "/" work. This doesn't make logical sense because, it is all about these characters before a path because every path starts from the root. So the conflict/annoyance/confusion is that "assets/images/brand-text-logo.svg" is NOT IN THE SAME DIRECTORY AS THE INDEX.HTML FILE and therefore "./" should NOT work!!! 
+
+Genuinely think that HTML in general is having this confusion. 
+
+BUT I just tried it and when I put a period in front of the paths in the index.html file, it worked. 
+
+DOES NOT LOAD IN BROWSER: "/assets/images/brand-text-logo.svg"
+LOADS IN BROWSER: "./assets/images/brand-text-logo.svg"
+
+But watch, we're going to update them to have period and I bet you later they will stop working with freaking periods. 
+
+Anyway. 
+
+## Title Slide Savvy 
+
+Omg, so let's use an impressive stat about how many Hz to speak at to improve conversions. Make it seem normal and like obvious how to do it. Then hook the joke by using the YouTube iFrame API's HTML to auto play WHAT 180 Hz SOUNDS LIKE. Spoiler: Hilariously like nothing helpful at all. It'll come of hilarious because it sort of sets things up like "oh god damn it, is everything here that Sean provided going to be completely useless?" Bait and switch, because then we're like BOOM cheat sheet to write this as notation in scripts. 
+
+This YouTube API sounds PERFECT. is one page document has some HTML and JS to be able to queue it for playback and adjust volume to make sure it is up. There are certain events too which makes me wonder if we can burry the joke/lead even more rather than them going to the next slide and seeing the YouTube video's thumbnail giving away what it will play. [YouTube IFrame API](https://developers.google.com/youtube/iframe_api_reference) [GitHub YouTube API Examples](https://github.com/youtube/api-samples) [130 Hz Sound](https://youtu.be/S7Jv1EZ7N8c?si=pwFslPGGj6CzsYpw)
+
+I could always get an actual MP3 if that is easier. Might be easier to be sneaky about the fact that the audio we're about to share helps with nothing tangible. 

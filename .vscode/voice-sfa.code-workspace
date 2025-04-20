@@ -1,7 +1,1489 @@
 {
 	"folders": [
-        {
-            "path": ".."
-        }
-    ]
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../_resources/ai-dev-docs"
+		}
+	],
+    "settings": {
+        "chat.commandCenter.enabled": true,
+        "chat.detectParticipant.enabled": true,
+        "chat.editor.fontFamily": "default",
+        "chat.editor.fontSize": 12,
+        "chat.editor.fontWeight": "default",
+        "chat.editor.lineHeight": 0,
+        "chat.editor.wordWrap": "off",
+        "workbench.settings.editor": "json",
+        "workbench.colorCustomizations": {},
+        "cursor.composer.collapsePaneInputBoxPills": true,
+        "cursor.terminal.usePreviewBox": true,
+        "cursor.general.enableShadowWorkspace": true,
+        "cursor.chat.terminalShowHoverHint": true,
+        "cursor.composer.shouldShowMarkdownHoverParticipantActions2": false,
+        "cursor.general.disableHttp2": false,
+        "cursor.general.gitGraphIndexing": "default",
+        "cursor.preferNotificationsSameAsChat": false,
+        "cursor.composer.cmdPFilePicker2": false,
+        "cursor.composer.shouldAutoSaveNonAgent": true,
+        "cursor.composer.shouldAutoScrollToBottom": true,
+        "cursor.composer.showSuggestedFiles": true,
+        "cursor.cpp.disabledLanguages": [
+            "plaintext"
+        ],
+        "explorer.confirmDelete": false,
+        "explorer.confirmDragAndDrop": false,
+        "git.allowForcePush": false,
+        "git.allowNoVerifyCommit": false,
+        "git.autorefresh": true,
+        "git.autoRepositoryDetection": true,
+        "git.branchSortOrder": "committerdate",
+        "git.branchValidationRegex": "",
+        "git.branchWhitespaceChar": "-",
+        "git.checkoutType": [
+            "local",
+            "remote",
+            "tags"
+        ],
+        "git.commandsToLog": [],
+        "git.confirmForcePush": true,
+        "git.confirmNoVerifyCommit": true,
+        "git.confirmSync": true,
+        "git.decorations.enabled": true,
+        "git.ignoredRepositories": [],
+        "git.ignoreLegacyWarning": false,
+        "git.ignoreLimitWarning": false,
+        "git.ignoreMissingGitWarning": false,
+        "git.ignoreRebaseWarning": false,
+        "git.ignoreWindowsGit27Warning": false,
+        "git.inputValidation": false,
+        "git.inputValidationLength": 72,
+        "git.inputValidationSubjectLength": 50,
+        "git.mergeEditor": false,
+        "git.openAfterClone": "prompt",
+        "git.showInlineOpenFileAction": true,
+        "git.showPushSuccessNotification": false,
+        "git.terminalAuthentication": true,
+        "git.terminalGitEditor": false,
+        "git.timeline.date": "committed",
+        "git.timeline.showAuthor": true,
+        "git.timeline.showUncommitted": false,
+        "git.useEditorAsCommitInput": true,
+        "git.useForcePushIfIncludes": true,
+        "git.useForcePushWithLease": true,
+        "git.useIntegratedAskPass": true,
+        "github.gitProtocol": "https",
+        "github-enterprise.uri": "",
+        "simpleBrowser.focusLockIndicator.enabled": false,
+        "markdown.extension.toc.omittedFromToc": {},
+        "markdown.math.enabled": true,
+        "markdown.extension.bold.indicator": "**",
+        "markdown.extension.extraLangIds": [],
+        "markdown.extension.italic.indicator": "*",
+        "markdown.extension.katex.macros": {},
+        "markdown.extension.list.toggle.candidate-markers": [
+            "-",
+            "*",
+            "+",
+            "1.",
+            "1)"
+        ],
+        "markdown.extension.math.enabled": true,
+        "markdown.extension.orderedList.autoRenumber": true,
+        "markdown.extension.orderedList.marker": "ordered",
+        "markdown.extension.preview.autoShowPreviewToSide": false,
+        "markdown.extension.print.includeVscodeStylesheets": true,
+        "markdown.extension.print.validateUrls": true,
+        "markdown.extension.syntax.decorationFileSizeLimit": 50000,
+        "markdown.extension.syntax.plainTheme": false,
+        "markdown.extension.tableFormatter.delimiterRowNoPadding": false,
+        "markdown.extension.tableFormatter.enabled": true,
+        "markdown.extension.tableFormatter.normalizeIndentation": false,
+        "markdown.extension.toc.levels": "1..6",
+        "markdown.extension.toc.orderedList": false,
+        "markdown.extension.toc.plaintext": false,
+        "markdown.extension.toc.slugifyMode": "github",
+        "markdown.extension.toc.unorderedList.marker": "-",
+        "keyboard.touchbar.enabled": false,
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "markup.heading",
+                        "entity.name.section",
+                        "heading.1.markdown",
+                        "heading.2.markdown",
+                        "heading.3.markdown",
+                        "heading.4.markdown",
+                        "heading.5.markdown",
+                        "heading.6.markdown",
+                        "punctuation.definition.heading.markdown",
+                        "markup.heading.markdown",
+                        "markup.heading.1.markdown",
+                        "markup.heading.2.markdown",
+                        "markup.heading.3.markdown",
+                        "markup.heading.4.markdown",
+                        "markup.heading.5.markdown",
+                        "markup.heading.6.markdown",
+                        "entity.name.section.markdown",
+                        "meta.block-level.markdown heading.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#FF9D00",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.bold",
+                        "punctuation.definition.bold.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#FFD866",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.italic",
+                        "punctuation.definition.italic.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#bf437f",
+                        "fontStyle": "italic bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.quote",
+                        "markup.quote.markdown",
+                        "punctuation.definition.quote.begin.markdown",
+                        "meta.block-level.markdown markup.quote",
+                        "meta.list.markdown markup.quote",
+                        "meta.block-level.markdown markup.quote.markdown",
+                        "meta.list.markdown markup.quote.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#E6DB74",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.fenced_code",
+                        "punctuation.definition.markdown",
+                        "fenced_code.block.language",
+                        "markup.fenced_code.block.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#6767fc"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.raw.block",
+                        "markup.raw.block.markdown",
+                        "markup.raw.block.fenced.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#8989e3"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.inline.raw",
+                        "markup.inline.raw.string.markdown",
+                        "markup.inline.raw.markdown",
+                        "markup.quote markup.inline.raw",
+                        "markup.quote.markdown markup.inline.raw.markdown",
+                        "meta.list.markdown markup.inline.raw",
+                        "meta.block-level.markdown markup.inline.raw"
+                    ],
+                    "settings": {
+                        "foreground": "#f34d3e",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.link",
+                        "string.other.link.title.markdown",
+                        "string.other.link.description.markdown",
+                        "punctuation.definition.string.begin.markdown",
+                        "punctuation.definition.string.end.markdown",
+                        "punctuation.definition.metadata.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#AB9DF2"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.link.url.markdown",
+                        "string.other.link.destination.markdown",
+                        "punctuation.definition.link.destination.markdown",
+                        "markup.underline.link.image.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#8BE9FD"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.underline.link.markdown",
+                        "constant.other.reference.link.markdown",
+                        "meta.link.reference.def.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#50FA7B"
+                    }
+                },
+                {
+                    "scope": [
+                        "string.other.link.description.title.markdown",
+                        "meta.link.inline.markdown",
+                        "meta.image.inline.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#AB9DF2"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.other.uppercase",
+                        "constant.language.uppercase",
+                        "entity.name.uppercase"
+                    ],
+                    "settings": {
+                        "foreground": "#00ffaa",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "string.quoted.double.markdown",
+                        "punctuation.definition.string.begin.markdown",
+                        "punctuation.definition.string.end.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#c792ea",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "string.quoted.double.markdown",
+                        "punctuation.definition.string.begin.markdown",
+                        "punctuation.definition.string.end.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#c792ea",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.parens.markdown",
+                        "punctuation.definition.parens.begin.markdown",
+                        "punctuation.definition.parens.end.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#4d0857",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.brackets.markdown",
+                        "punctuation.definition.brackets.begin.markdown",
+                        "punctuation.definition.brackets.end.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#085715",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.other.reference.url.markdown",
+                        "meta.path.url.markdown",
+                        "string.unquoted.url.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#4d0857",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.list"
+                    ],
+                    "settings": {
+                        "foreground": "#cccccc"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.list.unnumbered.markdown",
+                        "markup.list.unordered.markdown",
+                        "meta.paragraph.list.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#a6f7cd"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.list.numbered.markdown",
+                        "markup.list.ordered.markdown",
+                        "meta.paragraph.list.ordered.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#f7c3f7"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.list.begin.markdown",
+                        "meta.list.markdown punctuation.definition.list.begin.markdown",
+                        "meta.paragraph.list punctuation.definition.list.begin.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#dfc532",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.list.unnumbered punctuation.definition.list.begin.markdown",
+                        "markup.list.unordered punctuation.definition.list.begin.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#dfc532",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.list.numbered.markdown markup.list.unnumbered.markdown punctuation.definition.list.begin.markdown",
+                        "meta.list.markdown markup.list.numbered markup.list.unnumbered punctuation.definition.list.begin.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#dfc532",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.list.number.markdown",
+                        "beginning.punctuation.definition.list.markdown",
+                        "markup.list.numbered.markdown punctuation.definition.list.begin.markdown",
+                        "meta.list.markdown markup.list.numbered punctuation.definition.list.begin.markdown",
+                        "meta.paragraph.list.ordered punctuation.definition.list.begin.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#ff6b6b",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.checkbox.markdown",
+                        "punctuation.definition.markdown.checkbox"
+                    ],
+                    "settings": {
+                        "foreground": "#50faad",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.strikethrough",
+                        "punctuation.definition.strikethrough"
+                    ],
+                    "settings": {
+                        "foreground": "#6272A4",
+                        "fontStyle": "strikethrough"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.table",
+                        "punctuation.definition.table.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#e2ff79"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.separator.markdown",
+                        "meta.separator",
+                        "punctuation.definition.thematic-break.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#93f9c6"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.footnote",
+                        "punctuation.definition.footnote.markdown",
+                        "constant.other.reference.footnote.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#8BE9FD",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.ignored.markdown",
+                        "markup.disabled.markdown",
+                        "meta.diff.header.to-file",
+                        "meta.diff.header.from-file"
+                    ],
+                    "settings": {
+                        "foreground": "#6272A4",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.inserted.markdown",
+                        "markup.inserted",
+                        "markup.addition"
+                    ],
+                    "settings": {
+                        "foreground": "#50FA7B"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.deleted.markdown",
+                        "markup.deleted",
+                        "markup.deletion"
+                    ],
+                    "settings": {
+                        "foreground": "#FF5555"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.changed.markdown",
+                        "markup.changed",
+                        "markup.modification"
+                    ],
+                    "settings": {
+                        "foreground": "#FFB86C"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.embedded.block.html",
+                        "punctuation.definition.tag"
+                    ],
+                    "settings": {
+                        "foreground": "#FF79C6"
+                    }
+                },
+                {
+                    "scope": [
+                        "fenced_code.block.language",
+                        "entity.name.tag.yaml",
+                        "variable.language.fenced.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#F1FA8C"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.embedded.block.frontmatter",
+                        "punctuation.definition.frontmatter",
+                        "entity.other.attribute-name.frontmatter"
+                    ],
+                    "settings": {
+                        "foreground": "#BD93F9",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.character.escape.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#FF79C6",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "text.html.markdown.math",
+                        "markup.math.inline",
+                        "markup.math.block"
+                    ],
+                    "settings": {
+                        "foreground": "#8BE9FD",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.highlight",
+                        "markup.highlight.markdown",
+                        "punctuation.definition.highlight"
+                    ],
+                    "settings": {
+                        "foreground": "#F1FA8C",
+                        "background": "#6272A4",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.emoji",
+                        "constant.character.entity.html",
+                        "entity.name.emoji"
+                    ],
+                    "settings": {
+                        "foreground": "#FFB86C",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.kbd",
+                        "meta.tag.inline.kbd",
+                        "entity.name.tag.kbd"
+                    ],
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "background": "#44475A",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.list.definition",
+                        "markup.heading.definition",
+                        "variable.other.definition"
+                    ],
+                    "settings": {
+                        "foreground": "#50FA7B",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.abbreviation.markdown",
+                        "constant.other.abbreviation.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#BD93F9",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.critic.addition",
+                        "markup.critic.deletion",
+                        "markup.critic.substitution",
+                        "markup.critic.comment",
+                        "markup.critic.highlight"
+                    ],
+                    "settings": {
+                        "foreground": "#50FA7B",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.admonition",
+                        "markup.admonition.header",
+                        "entity.name.admonition"
+                    ],
+                    "settings": {
+                        "foreground": "#FFB86C",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.superscript",
+                        "markup.subscript",
+                        "punctuation.definition.superscript",
+                        "punctuation.definition.subscript"
+                    ],
+                    "settings": {
+                        "foreground": "#8BE9FD",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.attribute.markdown",
+                        "entity.other.attribute-name.markdown",
+                        "string.other.attribute-value.markdown",
+                        "punctuation.definition.attribute.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#FF79C6",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.fenced_code.block.mermaid",
+                        "source.mermaid"
+                    ],
+                    "settings": {
+                        "foreground": "#8BE9FD",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.fenced_code.block.dot",
+                        "source.dot"
+                    ],
+                    "settings": {
+                        "foreground": "#FF79C6",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.paragraph.list"
+                    ],
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "markup.citation",
+                        "constant.other.citation"
+                    ],
+                    "settings": {
+                        "foreground": "#BD93F9",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "comment.block.html",
+                        "punctuation.definition.comment.html"
+                    ],
+                    "settings": {
+                        "foreground": "#6272A4",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        },
+        "cSpell.autoFormatConfigFile": true,
+        "solidity.compilerOptimization": 200,
+        "solidity.compileUsingLocalVersion": "",
+        "solidity.compileUsingRemoteVersion": "latest",
+        "solidity.defaultCompiler": "remote",
+        "solidity.enabledAsYouTypeCompilationErrorCheck": true,
+        "solidity.evmVersion": "",
+        "solidity.explorer_bscscan_apikey": "YourApiKey",
+        "solidity.explorer_etherscan_apikey": "YourApiKey",
+        "solidity.explorer_etherscan_optimism_apikey": "YourApiKey",
+        "solidity.explorer_polygonscan_apikey": "YourApiKey",
+        "prettier.disableLanguages": [],
+        "prettier.documentSelectors": [],
+        "solidity.formatter": "prettier",
+        "solidity.linter": "solhint",
+        "solidity.monoRepoSupport": true,
+        "solidity.nodemodulespackage": "solc",
+        "solidity.packageDefaultDependenciesContractsDirectory": [
+            "src",
+            "contracts",
+            ""
+        ],
+        "solidity.packageDefaultDependenciesDirectory": [
+            "node_modules",
+            "lib"
+        ],
+        "solidity.remappings": [],
+        "solidity.remappingsUnix": [],
+        "solidity.remappingsWindows": [],
+        "solidity.solhintRules": "null",
+        "solidity.soliumRules": {
+            "imports-on-top": 0,
+            "variable-declarations": 0,
+            "indentation": [
+                "off",
+                4
+            ],
+            "quotes": [
+                "off",
+                "double"
+            ]
+        },
+        "solidity.validationDelay": 1500,
+        "solidity.viaIR": false,
+        "npm.fetchOnlinePackageInfo": true,
+        "npm.scriptExplorerAction": "open",
+        "npm.scriptHover": true,
+        "remote.autoForwardPorts": true,
+        "remote.autoForwardPortsFallback": 20,
+        "remote.autoForwardPortsSource": "process",
+        "remote.downloadExtensionsLocally": false,
+        "remote.extensionKind": {
+            "pub.name": [
+                "ui"
+            ]
+        },
+        "remote.forwardOnOpen": true,
+        "remote.localPortHost": "localhost",
+        "remote.otherPortsAttributes": {},
+        "remote.portsAttributes": {
+            "443": {
+                "protocol": "https"
+            },
+            "8443": {
+                "protocol": "https"
+            }
+        },
+        "remote.restoreForwardedPorts": true,
+        "outline.icons": true,
+        "outline.problems.badges": true,
+        "outline.problems.colors": true,
+        "outline.problems.enabled": true,
+        "timeline.pageOnScroll": false,
+        "timeline.pageSize": null,
+        "mergeEditor.diffAlgorithm": "advanced",
+        "mergeEditor.showDeletionMarkers": true,
+        "multiDiffEditor.experimental.enabled": true,
+        "emmet.excludeLanguages": [
+            "markdown"
+        ],
+        "emmet.includeLanguages": {},
+        "emmet.optimizeStylesheetParsing": true,
+        "emmet.preferences": {},
+        "emmet.showExpandedAbbreviation": "always",
+        "emmet.showSuggestionsAsSnippets": false,
+        "emmet.syntaxProfiles": {},
+        "emmet.useInlineCompletions": false,
+        "emmet.variables": {},
+        "mediaPreview.video.autoPlay": false,
+        "mediaPreview.video.loop": false,
+        "merge-conflict.autoNavigateNextConflict.enabled": false,
+        "merge-conflict.codeLens.enabled": true,
+        "merge-conflict.decorators.enabled": true,
+        "merge-conflict.diffViewPosition": "Current",
+        "debug.javascript.autoAttachFilter": "disabled",
+        "debug.javascript.autoAttachSmartPattern": [
+            "${workspaceFolder}/**",
+            "!**/node_modules/**",
+            "**/$KNOWN_TOOLS$/**"
+        ],
+        "debug.javascript.automaticallyTunnelRemoteServer": true,
+        "debug.javascript.breakOnConditionalError": false,
+        "debug.javascript.codelens.npmScripts": "top",
+        "debug.javascript.debugByLinkOptions": "on",
+        "debug.javascript.defaultRuntimeExecutable": {
+            "pwa-node": "node"
+        },
+        "debug.javascript.enableNetworkView": false,
+        "debug.javascript.pickAndAttachOptions": {},
+        "debug.javascript.resourceRequestOptions": {},
+        "debug.javascript.terminalOptions": {},
+        "debug.javascript.unmapMissingSources": false,
+        "references.preferredLocation": "peek",
+        "cSpell.suggestWords": [],
+        "cSpell.validateDirectives": false,
+        "cSpell.enabledSchemes": {
+            "comment": true,
+            "file": true,
+            "gist": true,
+            "repo": true,
+            "sftp": true,
+            "untitled": true,
+            "vscode-notebook-cell": true,
+            "vscode-scm": true,
+            "vscode-userdata": true,
+            "vscode-vfs": true,
+            "vsls": true
+        },
+        "cSpell.spellCheckOnlyWorkspaceFiles": false,
+        "cSpell.ignoreRandomStrings": true,
+        "cSpell.minRandomLength": 40,
+        "cursor.cmdk.autoSelect": true,
+        "cursor.cmdk.useThemedDiffBackground": true,
+        "cursor.diffs.useCharacterLevelDiffs": false,
+        "editor.semanticTokenColorCustomizations": {},
+        "inlineChat.accessibleDiffView": "auto",
+        "inlineChat.finishOnType": false,
+        "inlineChat.holdToSpeech": true,
+        "inlineChat.lineEmptyHint": false,
+        "inlineChat.lineNaturalLanguageHint": true,
+        "inlineChat.mode": "live",
+        "accessibility.hideAccessibleView": false,
+        "window.density.editorTabHeight": "default",
+        "workbench.activityBar.iconClickBehavior": "toggle",
+        "workbench.activityBar.location": "default",
+        "workbench.activityBar.orientation": "horizontal",
+        "workbench.cloudChanges.autoResume": "onReload",
+        "workbench.cloudChanges.continueOn": "prompt",
+        "workbench.colorTheme": "Cursor Dark Anysphere",
+        "workbench.commandPalette.experimental.askChatLocation": "chatView",
+        "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
+        "workbench.commandPalette.experimental.suggestCommands": false,
+        "workbench.commandPalette.history": 50,
+        "workbench.commandPalette.preserveInput": false,
+        "workbench.editor.alwaysShowEditorActions": false,
+        "workbench.editor.autoLockGroups": {
+            "default": false,
+            "workbench.editor.chatSession": false,
+            "workbench.editorinputs.searchEditorInput": false,
+            "repl": false,
+            "terminalEditor": true,
+            "imagePreview.previewEditor": false,
+            "vscode.audioPreview": false,
+            "vscode.videoPreview": false,
+            "jsProfileVisualizer.cpuprofile.table": false,
+            "jsProfileVisualizer.heapprofile.table": false,
+            "jsProfileVisualizer.heapsnapshot.table": false,
+            "jupyter-notebook": false,
+            "workbench.editor.mdc": false,
+            "workbench.input.interactive": false,
+            "mainThreadWebview-markdown.preview": false,
+            "mainThreadWebview-simpleBrowser.view": true,
+            "mainThreadWebview-browserPreview": true
+        },
+        "workbench.editor.centeredLayoutAutoResize": true,
+        "workbench.editor.centeredLayoutFixedWidth": false,
+        "workbench.editor.closeEmptyGroups": true,
+        "workbench.editor.closeOnFileDelete": false,
+        "workbench.editor.customLabels.enabled": true,
+        "workbench.editor.customLabels.patterns": {},
+        "workbench.editor.decorations.badges": true,
+        "workbench.editor.decorations.colors": true,
+        "workbench.editor.defaultBinaryEditor": "",
+        "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "expand",
+        "workbench.editor.dragToOpenWindow": true,
+        "workbench.editor.editorActionsLocation": "default",
+        "workbench.editor.empty.hint": "text",
+        "workbench.editor.enablePreview": true,
+        "workbench.editor.enablePreviewFromCodeNavigation": false,
+        "workbench.editor.enablePreviewFromQuickOpen": false,
+        "workbench.editor.focusRecentEditorAfterClose": true,
+        "workbench.editor.highlightModifiedTabs": false,
+        "workbench.editor.historyBasedLanguageDetection": true,
+        "workbench.editor.labelFormat": "default",
+        "workbench.editor.languageDetectionHints": {
+            "untitledEditors": true,
+            "notebookEditors": true
+        },
+        "workbench.editor.limit.enabled": false,
+        "workbench.editor.limit.excludeDirty": false,
+        "workbench.editor.limit.perEditorGroup": false,
+        "workbench.editor.limit.value": 10,
+        "workbench.editor.mouseBackForwardToNavigate": true,
+        "workbench.editor.navigationScope": "default",
+        "workbench.editor.openPositioning": "right",
+        "workbench.editor.openSideBySideDirection": "right",
+        "workbench.editor.pinnedTabSizing": "normal",
+        "workbench.editor.pinnedTabsOnSeparateRow": false,
+        "workbench.editor.preferHistoryBasedLanguageDetection": false,
+        "workbench.editor.preventPinnedEditorClose": "keyboardAndMouse",
+        "workbench.editor.revealIfOpen": false,
+        "workbench.editor.scrollToSwitchTabs": false,
+        "workbench.editor.sharedViewState": false,
+        "workbench.editor.showIcons": true,
+        "workbench.editor.showTabs": "multiple",
+        "workbench.editor.splitInGroupLayout": "horizontal",
+        "workbench.editor.splitOnDragAndDrop": true,
+        "workbench.editor.splitSizing": "auto",
+        "workbench.editor.tabActionCloseVisibility": true,
+        "workbench.editor.tabActionLocation": "right",
+        "workbench.editor.tabActionUnpinVisibility": true,
+        "workbench.editor.tabSizing": "fit",
+        "workbench.editor.tabSizingFixedMaxWidth": 160,
+        "workbench.editor.tabSizingFixedMinWidth": 50,
+        "workbench.editor.titleScrollbarSizing": "default",
+        "workbench.editor.untitled.labelFormat": "content",
+        "workbench.editor.wrapTabs": false,
+        "workbench.editorAssociations": {},
+        "workbench.experimental.cloudChanges.autoStore": "off",
+        "workbench.experimental.cloudChanges.partialMatches.enabled": false,
+        "workbench.experimental.share.enabled": false,
+        "workbench.externalBrowser": "",
+        "workbench.externalUriOpeners": {},
+        "workbench.fontAliasing": "default",
+        "workbench.hover.delay": 250,
+        "workbench.iconTheme": "vs-seti",
+        "workbench.layoutControl.enabled": true,
+        "workbench.layoutControl.type": "both",
+        "workbench.list.defaultFindMatchType": "fuzzy",
+        "workbench.list.defaultFindMode": "highlight",
+        "workbench.list.fastScrollSensitivity": 5,
+        "workbench.list.horizontalScrolling": false,
+        "workbench.list.mouseWheelScrollSensitivity": 1,
+        "workbench.list.multiSelectModifier": "ctrlCmd",
+        "workbench.list.openMode": "singleClick",
+        "workbench.list.scrollByPage": false,
+        "workbench.list.smoothScrolling": false,
+        "workbench.list.typeNavigationMode": "automatic",
+        "workbench.navigationControl.enabled": true,
+        "workbench.panel.defaultLocation": "bottom",
+        "workbench.panel.opensMaximized": "preserve",
+        "workbench.panel.showLabels": true,
+        "workbench.preferredDarkColorTheme": "Cursor Dark Anysphere",
+        "workbench.preferredHighContrastColorTheme": "Default High Contrast",
+        "workbench.preferredHighContrastLightColorTheme": "Default High Contrast Light",
+        "workbench.preferredLightColorTheme": "Cursor Dark Anysphere",
+        "workbench.productIconTheme": "Default",
+        "workbench.quickOpen.closeOnFocusLost": true,
+        "workbench.quickOpen.preserveInput": false,
+        "workbench.reduceMotion": "auto",
+        "workbench.remoteIndicator.showExtensionRecommendations": true,
+        "workbench.sash.hoverDelay": 300,
+        "workbench.sash.size": 4,
+        "workbench.settings.enableNaturalLanguageSearch": true,
+        "workbench.settings.openDefaultKeybindings": false,
+        "workbench.settings.openDefaultSettings": false,
+        "workbench.settings.settingsSearchTocBehavior": "filter",
+        "workbench.settings.useSplitJSON": false,
+        "workbench.sideBar.location": "left",
+        "workbench.statusBar.visible": true,
+        "workbench.tips.enabled": true,
+        "workbench.tree.enableStickyScroll": true,
+        "workbench.tree.expandMode": "singleClick",
+        "workbench.tree.indent": 8,
+        "workbench.tree.renderIndentGuides": "onHover",
+        "workbench.tree.stickyScrollMaxItemCount": 7,
+        "workbench.view.alwaysShowHeaderActions": false,
+        "workbench.view.showQuietly": {},
+        "window.autoDetectColorScheme": false,
+        "window.closeWhenEmpty": false,
+        "window.commandCenter": false,
+        "window.confirmSaveUntitledWorkspace": true,
+        "window.title": "${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+        "window.titleSeparator": " — ",
+        "window.zoomLevel": 0,
+        "window.zoomPerWindow": true,
+        "files.associations": {},
+        "files.defaultLanguage": "",
+        "files.enableTrash": true,
+        "files.participants.timeout": 60000,
+        "files.readonlyFromPermissions": false,
+        "files.refactoring.autoSave": true,
+        "files.restoreUndoStack": true,
+        "files.simpleDialog.enable": false,
+        "screencastMode.fontSize": 56,
+        "screencastMode.keyboardOptions": {
+            "showKeys": true,
+            "showKeybindings": true,
+            "showCommands": true,
+            "showCommandGroups": false,
+            "showSingleEditorCursorMoves": true
+        },
+        "screencastMode.keyboardOverlayTimeout": 800,
+        "screencastMode.mouseIndicatorColor": "#FF0000",
+        "screencastMode.mouseIndicatorSize": 20,
+        "screencastMode.verticalOffset": 20,
+        "zenMode.centerLayout": true,
+        "zenMode.fullScreen": true,
+        "zenMode.hideActivityBar": true,
+        "zenMode.hideLineNumbers": true,
+        "zenMode.hideStatusBar": true,
+        "zenMode.restore": true,
+        "zenMode.showTabs": "multiple",
+        "zenMode.silentNotifications": true,
+        "explorer.autoOpenDroppedFile": true,
+        "explorer.autoReveal": true,
+        "explorer.autoRevealExclude": {
+            "**/node_modules": true,
+            "**/bower_components": true
+        },
+        "explorer.compactFolders": true,
+        "explorer.confirmPasteNative": true,
+        "explorer.confirmUndo": "default",
+        "explorer.copyRelativePathSeparator": "auto",
+        "explorer.decorations.badges": true,
+        "explorer.decorations.colors": true,
+        "explorer.enableDragAndDrop": true,
+        "explorer.enableUndo": true,
+        "explorer.expandSingleFolderWorkspaces": true,
+        "explorer.fileNesting.expand": true,
+        "explorer.incrementalNaming": "simple",
+        "explorer.openEditors.minVisible": 0,
+        "explorer.openEditors.sortOrder": "editorOrder",
+        "explorer.openEditors.visible": 9,
+        "explorer.sortOrder": "default",
+        "explorer.sortOrderLexicographicOptions": "default",
+        "explorer.sortOrderReverse": false,
+        "search.actionsPosition": "right",
+        "search.collapseResults": "alwaysExpand",
+        "search.decorations.badges": true,
+        "search.decorations.colors": true,
+        "search.defaultViewMode": "list",
+        "search.experimental.closedNotebookRichContentResults": false,
+        "search.followSymlinks": true,
+        "search.globalFindClipboard": false,
+        "search.maxResults": 20000,
+        "search.mode": "view",
+        "search.quickAccess.preserveInput": false,
+        "search.quickOpen.history.filterSortOrder": "default",
+        "search.quickOpen.includeHistory": true,
+        "search.quickOpen.includeSymbols": false,
+        "search.ripgrep.maxThreads": 0,
+        "search.searchEditor.defaultNumberOfContextLines": 1,
+        "search.searchEditor.doubleClickBehaviour": "goToLocation",
+        "search.searchEditor.focusResultsOnSearch": false,
+        "search.searchEditor.reusePriorSearchConfiguration": false,
+        "search.searchEditor.singleClickBehaviour": "default",
+        "search.searchOnType": true,
+        "search.searchOnTypeDebouncePeriod": 300,
+        "search.seedOnFocus": false,
+        "search.seedWithNearestWord": false,
+        "search.showLineNumbers": false,
+        "search.smartCase": false,
+        "search.sortOrder": "default",
+        "search.useReplacePreview": true,
+        "keyboard.touchbar.ignored": [],
+        "cSpell.logFile": "",
+        "cSpell.logLevel": "Error",
+        "cSpell.trustedWorkspace": true,
+        "comments.collapseOnResolve": true,
+        "comments.maxHeight": true,
+        "comments.openView": "firstFile",
+        "comments.useRelativeTime": true,
+        "comments.visible": true,
+        "debug.allowBreakpointsEverywhere": false,
+        "debug.autoExpandLazyVariables": "auto",
+        "debug.closeReadonlyTabsOnEnd": false,
+        "debug.confirmOnExit": "never",
+        "debug.console.acceptSuggestionOnEnter": "off",
+        "debug.console.closeOnEnd": false,
+        "debug.console.collapseIdenticalLines": true,
+        "debug.console.fontFamily": "default",
+        "debug.console.fontSize": 12,
+        "debug.console.historySuggestions": true,
+        "debug.console.lineHeight": 0,
+        "debug.console.wordWrap": true,
+        "debug.disassemblyView.showSourceCode": true,
+        "debug.enableStatusBarColor": true,
+        "debug.focusEditorOnBreak": true,
+        "debug.focusWindowOnBreak": true,
+        "debug.gutterMiddleClickAction": "logpoint",
+        "debug.hideLauncherWhileDebugging": false,
+        "debug.hideSlowPreLaunchWarning": false,
+        "debug.inlineValues": "auto",
+        "debug.internalConsoleOptions": "openOnFirstSessionStart",
+        "debug.onTaskErrors": "prompt",
+        "debug.openDebug": "openOnDebugBreak",
+        "debug.openExplorerOnEnd": false,
+        "debug.showBreakpointsInOverviewRuler": false,
+        "debug.showInlineBreakpointCandidates": true,
+        "debug.showInStatusBar": "onFirstSessionStart",
+        "debug.showSubSessionsInToolBar": false,
+        "debug.showVariableTypes": false,
+        "debug.terminal.clearBeforeReusing": false,
+        "debug.toolBarLocation": "floating",
+        "launch": {
+            "configurations": [],
+            "compounds": []
+        },
+        "html.format.enable": true,
+        "html.trace.server": "off",
+        "json.format.enable": true,
+        "json.format.keepLines": false,
+        "json.maxItemsComputed": 5000,
+        "json.schemaDownload.enable": true,
+        "json.trace.server": "off",
+        "json.validate.enable": true,
+        "markdown.copyFiles.destination": {},
+        "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
+        "markdown.editor.drop.copyIntoWorkspace": "mediaFiles",
+        "markdown.editor.filePaste.audioSnippet": "<audio controls src=\"${src}\" title=\"${title}\"></audio>",
+        "markdown.editor.filePaste.copyIntoWorkspace": "mediaFiles",
+        "markdown.editor.filePaste.videoSnippet": "<video controls src=\"${src}\" title=\"${title}\"></video>",
+        "markdown.preferredMdPathExtensionStyle": "auto",
+        "markdown.server.log": "off",
+        "markdown.trace.extension": "off",
+        "markdown.trace.server": "off",
+        "markdown.updateLinksOnFileMove.enabled": "always",
+        "markdown.updateLinksOnFileMove.enableForDirectories": true,
+        "markdown.updateLinksOnFileMove.include": [
+            "**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
+            "**/*.{jpg,jpe,jpeg,png,bmp,gif,ico,webp,avif,tiff,svg,mp4}"
+        ],
+        "php.suggest.basic": true,
+        "php.validate.enable": true,
+        "php.validate.run": "onSave",
+        "javascript.format.enable": true,
+        "javascript.preferences.organizeImports": {},
+        "javascript.preferGoToSourceDefinition": false,
+        "javascript.referencesCodeLens.enabled": false,
+        "javascript.referencesCodeLens.showOnAllFunctions": false,
+        "javascript.updateImportsOnPaste.enabled": false,
+        "javascript.validate.enable": true,
+        "js/ts.implicitProjectConfig.checkJs": false,
+        "js/ts.implicitProjectConfig.experimentalDecorators": false,
+        "js/ts.implicitProjectConfig.module": "ESNext",
+        "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+        "js/ts.implicitProjectConfig.strictNullChecks": true,
+        "js/ts.implicitProjectConfig.target": "ES2022",
+        "typescript.check.npmIsInstalled": true,
+        "typescript.disableAutomaticTypeAcquisition": false,
+        "typescript.enablePromptUseWorkspaceTsdk": false,
+        "typescript.experimental.expandableHover": false,
+        "typescript.format.enable": true,
+        "typescript.implementationsCodeLens.enabled": false,
+        "typescript.implementationsCodeLens.showOnInterfaceMethods": false,
+        "typescript.locale": "auto",
+        "typescript.preferences.includePackageJsonAutoImports": "auto",
+        "typescript.preferences.organizeImports": {},
+        "typescript.preferGoToSourceDefinition": false,
+        "typescript.referencesCodeLens.enabled": false,
+        "typescript.referencesCodeLens.showOnAllFunctions": false,
+        "typescript.reportStyleChecksAsWarnings": true,
+        "typescript.surveys.enabled": true,
+        "typescript.tsc.autoDetect": "on",
+        "typescript.tsdk": "",
+        "typescript.tsserver.enableRegionDiagnostics": true,
+        "typescript.tsserver.enableTracing": false,
+        "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+        "typescript.tsserver.log": "off",
+        "typescript.tsserver.maxTsServerMemory": 3072,
+        "typescript.tsserver.nodePath": "",
+        "typescript.tsserver.useSyntaxServer": "auto",
+        "typescript.tsserver.watchOptions": "vscode",
+        "typescript.tsserver.web.projectWideIntellisense.enabled": true,
+        "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": false,
+        "typescript.tsserver.web.typeAcquisition.enabled": true,
+        "typescript.updateImportsOnPaste.enabled": false,
+        "typescript.validate.enable": true,
+        "typescript.workspaceSymbols.excludeLibrarySymbols": true,
+        "typescript.workspaceSymbols.scope": "allOpenProjects",
+        "testing.alwaysRevealTestOnStateChange": false,
+        "testing.automaticallyOpenPeekView": "never",
+        "testing.automaticallyOpenPeekViewDuringAutoRun": false,
+        "testing.automaticallyOpenTestResults": "openOnTestStart",
+        "testing.countBadge": "failed",
+        "testing.coverageBarThresholds": {
+            "red": 0,
+            "yellow": 60,
+            "green": 90
+        },
+        "testing.coverageToolbarEnabled": false,
+        "testing.defaultGutterClickAction": "run",
+        "testing.displayedCoveragePercent": "totalCoverage",
+        "testing.followRunningTest": false,
+        "testing.gutterEnabled": true,
+        "testing.saveBeforeTest": true,
+        "testing.showAllMessages": false,
+        "testing.showCoverageInExplorer": true,
+        "css.format.enable": true,
+        "css.trace.server": "off",
+        "less.format.enable": true,
+        "scss.format.enable": true,
+        "extensions.closeExtensionDetailsOnViewChange": false,
+        "extensions.experimental.affinity": {
+            "vscodevim.vim": 1,
+            "asvetliakov.vscode-neovim": 1
+        },
+        "extensions.experimental.deferredStartupFinishedActivation": false,
+        "extensions.experimental.issueQuickAccess": true,
+        "extensions.ignoreRecommendations": false,
+        "extensions.supportVirtualWorkspaces": {},
+        "extensions.webWorker": "auto",
+        "output.smartScroll.enabled": true,
+        "interactiveWindow.collapseCellInputCode": "fromEditor",
+        "notebook.backup.sizeLimit": 10000,
+        "notebook.breadcrumbs.showCodeCells": true,
+        "notebook.cellExecutionTimeVerbosity": "default",
+        "notebook.cellFailureDiagnostics": true,
+        "notebook.cellFocusIndicator": "gutter",
+        "notebook.cellToolbarLocation": {
+            "default": "right"
+        },
+        "notebook.cellToolbarVisibility": "click",
+        "notebook.compactView": true,
+        "notebook.confirmDeleteRunningCell": true,
+        "notebook.consolidatedOutputButton": true,
+        "notebook.consolidatedRunButton": false,
+        "notebook.defaultFormatter": "shd101wyy.markdown-preview-enhanced",
+        "notebook.diff.enablePreview": true,
+        "notebook.diff.ignoreMetadata": false,
+        "notebook.diff.ignoreOutputs": false,
+        "notebook.diff.overviewRuler": false,
+        "notebook.displayOrder": [],
+        "notebook.dragAndDropEnabled": true,
+        "notebook.editorOptionsCustomizations": {},
+        "notebook.experimental.generate": true,
+        "notebook.experimental.remoteSave": false,
+        "notebook.find.filters": {
+            "markupSource": true,
+            "markupPreview": true,
+            "codeSource": true,
+            "codeOutput": true
+        },
+        "notebook.formatOnCellExecution": false,
+        "notebook.formatOnSave.enabled": false,
+        "notebook.globalToolbar": true,
+        "notebook.globalToolbarShowLabel": "always",
+        "notebook.gotoSymbols.showAllSymbols": true,
+        "notebook.insertFinalNewline": false,
+        "notebook.insertToolbarLocation": "both",
+        "notebook.lineNumbers": "off",
+        "notebook.markdown.lineHeight": 0,
+        "notebook.markup.fontSize": 0,
+        "notebook.multiCursor.enabled": false,
+        "notebook.navigation.allowNavigateToSurroundingCells": true,
+        "notebook.outline.showCodeCells": false,
+        "notebook.outline.showCodeCellSymbols": true,
+        "notebook.outline.showMarkdownHeadersOnly": true,
+        "notebook.output.fontFamily": "",
+        "notebook.output.fontSize": 0,
+        "notebook.output.lineHeight": 0,
+        "notebook.output.linkifyFilePaths": true,
+        "notebook.output.minimalErrorRendering": false,
+        "notebook.output.scrolling": false,
+        "notebook.output.textLineLimit": 30,
+        "notebook.output.wordWrap": false,
+        "notebook.scrolling.revealNextCellOnExecute": "fullCell",
+        "notebook.showCellStatusBar": "visible",
+        "notebook.showFoldingControls": "mouseover",
+        "notebook.stickyScroll.enabled": false,
+        "notebook.stickyScroll.mode": "indented",
+        "notebook.undoRedoPerCell": true,
+        "notebook.variablesView": false,
+        "interactiveWindow.alwaysScrollOnNewCell": true,
+        "interactiveWindow.executeWithShiftEnter": false,
+        "interactiveWindow.promptToSaveOnClose": false,
+        "interactiveWindow.showExecutionHint": true,
+        "application.experimental.rendererProfiling": false,
+        "terminal.explorerKind": "integrated",
+        "terminal.sourceControlRepositoriesKind": "integrated",
+        "terminal.integrated.accessibleViewFocusOnCommandExecution": false,
+        "terminal.integrated.accessibleViewPreserveCursorPosition": false,
+        "terminal.integrated.allowChords": true,
+        "terminal.integrated.allowedLinkSchemes": [
+            "file",
+            "http",
+            "https",
+            "mailto",
+            "vscode",
+            "vscode-insiders"
+        ],
+        "terminal.integrated.allowMnemonics": false,
+        "terminal.integrated.altClickMovesCursor": true,
+        "terminal.integrated.automationProfile.linux": null,
+        "terminal.integrated.automationProfile.osx": null,
+        "terminal.integrated.automationProfile.windows": null,
+        "terminal.integrated.autoReplies": {},
+        "terminal.integrated.bellDuration": 1000,
+        "terminal.integrated.commandsToSkipShell": [],
+        "terminal.integrated.confirmOnExit": "never",
+        "terminal.integrated.confirmOnKill": "editor",
+        "terminal.integrated.copyOnSelection": false,
+        "terminal.integrated.cursorBlinking": false,
+        "terminal.integrated.cursorStyle": "block",
+        "terminal.integrated.cursorStyleInactive": "outline",
+        "terminal.integrated.cursorWidth": 1,
+        "terminal.integrated.customGlyphs": true,
+        "terminal.integrated.defaultLocation": "view",
+        "terminal.integrated.defaultProfile.linux": null,
+        "terminal.integrated.defaultProfile.osx": null,
+        "terminal.integrated.defaultProfile.windows": null,
+        "terminal.integrated.detectLocale": "auto",
+        "terminal.integrated.drawBoldTextInBrightColors": true,
+        "terminal.integrated.enableFileLinks": "on",
+        "terminal.integrated.enableImages": false,
+        "terminal.integrated.enableMultiLinePasteWarning": "auto",
+        "terminal.integrated.enablePersistentSessions": true,
+        "terminal.integrated.enableVisualBell": false,
+        "terminal.integrated.env.linux": {},
+        "terminal.integrated.env.osx": {},
+        "terminal.integrated.env.windows": {},
+        "terminal.integrated.environmentChangesIndicator": "warnonly",
+        "terminal.integrated.environmentChangesRelaunch": true,
+        "terminal.integrated.experimental.windowsUseConptyDll": false,
+        "terminal.integrated.fastScrollSensitivity": 5,
+        "terminal.integrated.focusAfterRun": "none",
+        "terminal.integrated.fontFamily": "",
+        "terminal.integrated.fontLigatures": false,
+        "terminal.integrated.fontSize": 12,
+        "terminal.integrated.fontWeight": "normal",
+        "terminal.integrated.fontWeightBold": "bold",
+        "terminal.integrated.gpuAcceleration": "auto",
+        "terminal.integrated.hideOnStartup": "never",
+        "terminal.integrated.ignoreBracketedPasteMode": false,
+        "terminal.integrated.ignoreProcessNames": [
+            "starship",
+            "oh-my-posh",
+            "bash",
+            "zsh"
+        ],
+        "terminal.integrated.initialHint": true,
+        "terminal.integrated.letterSpacing": 0,
+        "terminal.integrated.lineHeight": 1,
+        "terminal.integrated.localEchoEnabled": "auto",
+        "terminal.integrated.localEchoExcludePrograms": [
+            "vim",
+            "vi",
+            "nano",
+            "tmux"
+        ],
+        "terminal.integrated.localEchoLatencyThreshold": 30,
+        "terminal.integrated.localEchoStyle": "dim",
+        "terminal.integrated.macOptionClickForcesSelection": false,
+        "terminal.integrated.macOptionIsMeta": false,
+        "terminal.integrated.middleClickBehavior": "default",
+        "terminal.integrated.minimumContrastRatio": 4.5,
+        "terminal.integrated.mouseWheelScrollSensitivity": 1,
+        "terminal.integrated.mouseWheelZoom": false,
+        "terminal.integrated.persistentSessionReviveProcess": "onExit",
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "bash",
+                "icon": "terminal-bash"
+            },
+            "zsh": {
+                "path": "zsh"
+            },
+            "fish": {
+                "path": "fish"
+            },
+            "tmux": {
+                "path": "tmux",
+                "icon": "terminal-tmux"
+            },
+            "pwsh": {
+                "path": "pwsh",
+                "icon": "terminal-powershell"
+            }
+        },
+        "terminal.integrated.profiles.osx": {
+            "bash": {
+                "path": "bash",
+                "args": [
+                    "-l"
+                ],
+                "icon": "terminal-bash"
+            },
+            "zsh": {
+                "path": "zsh",
+                "args": [
+                    "-l"
+                ]
+            },
+            "fish": {
+                "path": "fish",
+                "args": [
+                    "-l"
+                ]
+            },
+            "tmux": {
+                "path": "tmux",
+                "icon": "terminal-tmux"
+            },
+            "pwsh": {
+                "path": "pwsh",
+                "icon": "terminal-powershell"
+            }
+        },
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "source": "PowerShell",
+                "icon": "terminal-powershell"
+            },
+            "Command Prompt": {
+                "path": [
+                    "${env:windir}\\Sysnative\\cmd.exe",
+                    "${env:windir}\\System32\\cmd.exe"
+                ],
+                "args": [],
+                "icon": "terminal-cmd"
+            },
+            "Git Bash": {
+                "source": "Git Bash"
+            }
+        },
+        "terminal.integrated.rescaleOverlappingGlyphs": true,
+        "terminal.integrated.rightClickBehavior": "selectWord",
+        "terminal.integrated.scrollback": 1000,
+        "terminal.integrated.sendKeybindingsToShell": false,
+        "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+        "terminal.integrated.shellIntegration.enabled": true,
+        "terminal.integrated.shellIntegration.history": 100,
+        "terminal.integrated.shellIntegration.showCommandGuide": true,
+        "terminal.integrated.showExitAlert": true,
+        "terminal.integrated.smoothScrolling": false,
+        "terminal.integrated.splitCwd": "inherited",
+        "terminal.integrated.stickyScroll.enabled": false,
+        "terminal.integrated.stickyScroll.maxLineCount": 5,
+        "terminal.integrated.suggest.builtinCompletions": {
+            "pwshCode": true,
+            "pwshGit": true
+        },
+        "terminal.integrated.suggest.enabled": false,
+        "terminal.integrated.suggest.enableExtensionCompletions": false,
+        "terminal.integrated.suggest.quickSuggestions": true,
+        "terminal.integrated.suggest.runOnEnter": "ignore",
+        "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+        "terminal.integrated.tabs.description": "${task}${separator}${local}${separator}${cwdFolder}",
+        "terminal.integrated.tabs.enableAnimation": true,
+        "terminal.integrated.tabs.enabled": true,
+        "terminal.integrated.tabs.focusMode": "doubleClick",
+        "terminal.integrated.tabs.hideCondition": "singleTerminal",
+        "terminal.integrated.tabs.location": "right",
+        "terminal.integrated.tabs.separator": " - ",
+        "terminal.integrated.tabs.showActions": "singleTerminalOrNarrow",
+        "terminal.integrated.tabs.showActiveTerminal": "singleTerminalOrNarrow",
+        "terminal.integrated.tabs.title": "${process}",
+        "terminal.integrated.tabStopWidth": 8,
+        "terminal.integrated.unicodeVersion": "11",
+        "terminal.integrated.useWslProfiles": true,
+        "terminal.integrated.windowsEnableConpty": true,
+        "terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’“”|",
+        "task.allowAutomaticTasks": "on",
+        "task.autoDetect": "on",
+        "task.problemMatchers.neverPrompt": false,
+        "task.quickOpen.detail": true,
+        "task.quickOpen.history": 30,
+        "task.quickOpen.showAll": false,
+        "task.quickOpen.skip": false,
+        "task.reconnection": true,
+        "task.saveBeforeRun": "always",
+        "task.slowProviderWarning": true,
+        "task.verboseLogging": false,
+        "problems.autoReveal": true,
+        "problems.decorations.enabled": true,
+        "problems.defaultViewMode": "tree",
+        "problems.showCurrentInStatus": false,
+        "problems.sortOrder": "severity",
+        "problems.visibility": true,
+        "breadcrumbs.enabled": true,
+        "breadcrumbs.filePath": "on",
+        "breadcrumbs.icons": true,
+        "breadcrumbs.symbolPath": "on",
+        "markdown-preview-enhanced.codeBlockTheme": "coy.css",
+        "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
+        "markdown-pdf.type": "pdf",
+        "markdown-pdf.styles": [
+            [
+                "/Users/seanivore/Development/_ai/.vscode/markdown-pdf-styles/report.css"
+            ]
+        ],
+        "markdown-pdf.format": "Letter",
+        "markdown-pdf.highlight": false,
+        "markdown-pdf.outputDirectory": "/Users/seanivore/Downloads",
+        "markdown-pdf.orientation": "portrait",
+        "markdown-pdf.highlightStyle": "monokai.css",
+        "markdown-mermaid.languages": [
+            "mermaid"
+        ],
+        "cursor.cpp.enablePartialAccepts": true
+    }
 }
