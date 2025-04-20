@@ -97,11 +97,17 @@ Users/seanviore/Development/voice-mkt-sfa/
 │       └── strongest.md
 ├── assets
 │   ├── docs
-│   │   ├── geometric-logo-text-art.ai
-│   │   └── Screenshot 2025-04-20 at 01.33.14.png
+│   │   └── geometric-logo-text-art.ai
 │   ├── fonts
-│   │   ├── character-styles.ai
-│   │   └── character-styles.pdf
+│   │   ├── `102 hidden font files`
+│   ├── favicon
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-96x96.png
+│   │   ├── favicon.ico
+│   │   ├── favicon.svg
+│   │   ├── site.webmanifest
+│   │   ├── web-app-manifest-192x192.png
+│   │   └── web-app-manifest-512x512.png
 │   └── images
 │       ├── agency-fb-sans-serif.png
 │       ├── brand-logo-art-inspo.png
@@ -110,7 +116,9 @@ Users/seanviore/Development/voice-mkt-sfa/
 │       ├── raining-giant-pixels.png
 │       ├── brand-text-logo.svg
 │       ├── terminal-blurred-glass-ui-inspiration.png
-│       └── vscode-blurred-glasss-inspiration.png
+│       ├── avatar-black.png
+│       ├── avatar-colored.png
+│       └── vscode-blurred-glass-inspiration.png
 ├── CLAUDE.md
 ├── content-production-case-study
 │   ├── brand-identity-briefings.md
@@ -384,7 +392,9 @@ This should create a resource light but engaging UX that makes the left and righ
 
 I'd like to hold off making the wavy shapes until we have the scrolling effect and content in place, including the sticky brand logo text art. This will ensure I only make it once, for the perfect fit. 
 
-## Favicon For Head of Website 
+## Favicon 
+
+Place in Head of website: 
 
 ```HTML
 <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />

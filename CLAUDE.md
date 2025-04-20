@@ -2,7 +2,7 @@
 
 ## Project Structure 
 
-~/Dev/voice-mkt-sfa/
+Users/seanviore/Development/voice-mkt-sfa/
 ├── ai-voice-telemarketing
 │   ├── actionable-implementation
 │   │   ├── persona-with-strategy
@@ -32,6 +32,30 @@
 │       ├── empathy-objection.md
 │       ├── strategy-combo.md
 │       └── strongest.md
+├── assets
+│   ├── docs
+│   │   ├── geometric-logo-text-art.ai
+│   ├── fonts
+│   │   ├── `102 hidden font files`
+│   ├── favicon
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-96x96.png
+│   │   ├── favicon.ico
+│   │   ├── favicon.svg
+│   │   ├── site.webmanifest
+│   │   ├── web-app-manifest-192x192.png
+│   │   └── web-app-manifest-512x512.png
+│   └── images
+│       ├── agency-fb-sans-serif.png
+│       ├── brand-logo-art-inspo.png
+│       ├── character-styles-png
+│       ├── gimlet-micro-serif.png
+│       ├── raining-giant-pixels.png
+│       ├── brand-text-logo.svg
+│       ├── terminal-blurred-glass-ui-inspiration.png
+│       ├── avatar-black.png
+│       ├── avatar-colored.png
+│       └── vscode-blurred-glass-inspiration.png
 ├── CLAUDE.md
 ├── content-production-case-study
 │   ├── brand-identity-briefings.md
@@ -51,6 +75,7 @@
 │   └── writing-guide
 │       └── emotion-driven-copywriting.md
 ├── cost-benefit.md
+├── DEV_PLAN.md
 ├── README.md
 └── SLIDE_DRAFTS.md
 
