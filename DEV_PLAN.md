@@ -218,9 +218,15 @@ Organized access to all research documents:
 
 ### Background and Scrolling UX 
 
-Creates a 'Slides' of deck experience. 
+Creates a 'Slides' of deck experience. Imagine a horizontally scrolling website that is a off-white. Each "panel" or "slide" is 100 vw x 100 vh. 
 
-Imagine a horizontally scrolling website that is a dark charcoal color, almost black but slightly faded. Each "panel" or "slide" is 100 vw x 100 vh. 
+```CSS
+body {
+background-color: #fffdf6;
+}
+```
+
+
 
 For scrolling, let's create a horizontal scrolling experience that mimics the macOS workspace swipe navigation on trackpads and mobile devices by combining CSS for overflow and over-scroll behavior with JavaScript event handling. 
 
@@ -322,26 +328,68 @@ The style and weight might not be accurate below. See [Agency FB](assets/images/
 ```CSS
 .H1 {
 font-family: agency-fb, sans-serif;
-font-style: normal;
+font-style: bold;
 font-weight: 700;
 }
 ```
 
+[Vinyl OT Oblique](https://fonts.adobe.com/fonts/vinyl)
+
+```CSS
+.H2 {
+font-family: vinyl, sans-serif;
+font-style: oblique;
+font-weight: 400;
+}
+```
+
 [Gimlet Micro](https://fonts.adobe.com/fonts/gimlet-micro)
+[Gimlet Text Narrow](https://fonts.adobe.com/fonts/gimlet-text)
 Elegant, timeless, very readable. Classic. Times New Roman but hip. 
 The style and weight might not be accurate below. See [Gimlet Micro](assets/images/gimlet-micro-serif.png) for the correct style and weight, or to use a second weight for another heading. 
 
 ```CSS
 .p {
-font-family: gimlet-micro, serif;
+font-family: gimlet-text-narrow, serif;
 font-style: normal;
+font-weight: 400;
+}
+```
+
+[Sizmo Line Pro Lite](https://fonts.adobe.com/fonts/ff-sizmo)
+
+```CSS
+.ACCENT_1 {
+font-family: sizmo-line, sans-serif;
+font-style: light;
 font-weight: 300;
+}
+```
+
+[P22 Glaser Babyteeth Solid](https://fonts.adobe.com/fonts/p22-glaser)
+
+```CSS
+.ACCENT_2 {
+font-family: p22-glaser-babyteeth-solid, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+.ACCENT_3 {
+font-family: p22-glaser-kitchen-regular, sans-serif;
+font-style: normal;
+font-weight: 400;
 }
 ```
 
 ### Interactive Elements 
 
-The brand font is [Pressio](https://fonts.adobe.com/fonts/pressio). Depending on how much it lets me edit it, we might be able to actually use the CSS. Otherwise I'm going to either use the [lowercase](assets/images/pressio-black-lower-case.png) or [uppercase](assets/images/pressio-black-upper-case.png) version, and convert it to vectors, then open up the white space to make it less legible. I'm not sure [transforming](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) the letters will look as good as an edited SVG. 
+Inspiration for [brand art](assets/images/brand-logo-art-inspo.png) background. Just pretend the phone isn't in that inspiration image. Silhouette of mountains in the distance of the desert vibe. 
+
+The [SVG](assets/images/SVG/brand-art-2.svg) is across the lower-middle of the screen, and stays with the screen as it scrolls. It is the [Pressio](https://fonts.adobe.com/fonts/pressio) font, with the vector paths pulled apart. 
+
+Over top of it, and varying in wavy color shapes, reaching from the start of the first panel on the left to the end of the last panel on the right, when the user scrolls left and right it will move in front of the brand art. 
+
+Woth considering just using the actual font in [lowercase](assets/images/pressio-black-lower-case.png). Maybe with some [transforming](https://developer.mozilla.org/en-US/docs/Web/CSS/transform). 
 
 ```CSS
 .brand {
@@ -349,11 +397,21 @@ font-family: pressio, sans-serif;
 font-style: normal;
 font-weight: 700;
 }
+.brand-art {
+color: #151515;
+}
+.brand-art-wave {
+color: #051644;
+color: #560c78; 
+color: #b92826;
+color: #ec652b;
+color: #edac3c;
+}
 ```
-I would like to have it across the lower-middle of the screen, and stays with the screen as it scrolls. With paths edited it will sort of look like the silhouette of mountains in the distance of the desert. 
-
-Over top of it, and varying in wavy color shapes, reaching from the start of the first panel on the left to the end of the last panel on the right, when the user scrolls left and right it will move in front of the [brand font art](assets/images/brand-logo-art-inspo.png). Just pretend the phone isn't in that inspiration image. 
 
 The UX would be that the colors on top of the brand font art move, staying with whatever is on the screen. At the same time, the the shapes of the brand font art stay still behind the colors, moving with the screen as it scrolls, the content on the page moving off to one side of the screen as new content moves in from the other side. 
 
 The result should be a very engaging but simple to implement UX that will be a great way to keep the user engaged with the content as they scroll, even helping encourage them to intuitively understand the horizontal scrolling behavior. 
+
+Colors selected are from the inspiration image. They don't need to be those, but they should be a gradient with sunrise vibes. 
+
