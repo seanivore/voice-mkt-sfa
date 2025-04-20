@@ -65,7 +65,74 @@ First work on the slideshow from start to finish. It is the most important infor
 
 Here's a tree so that we get all our asset reference paths correct. 
 
-
+Users/seanviore/Development/voice-mkt-sfa/
+├── ai-voice-telemarketing
+│   ├── actionable-implementation
+│   │   ├── persona-with-strategy
+│   │   │   ├── persona-development.md
+│   │   │   ├── voice-persona-scripts.md
+│   │   │   └── voice-persona-strategy.md
+│   │   └── writing-voice
+│   │       ├── cheat-sheet.md
+│   │       ├── modulation-guide.md
+│   │       └── script-voice-indicators.md
+│   ├── bland-ai-guides
+│   │   ├── api-documentation.md
+│   │   └── app-ui-guide.md
+│   ├── full-research
+│   │   ├── analysis-optimizing-voice-ai-mkt.md
+│   │   ├── analysis-voice-mkt-home-services.md
+│   │   ├── bland-ai-pro-tips.md
+│   │   ├── bland-ai-voice-modulation.md
+│   │   ├── strategy-assertive-urgent.md
+│   │   ├── strategy-combinations.md
+│   │   ├── strategy-curiosity-gap.md
+│   │   ├── strategy-empathy-objection.md
+│   │   └── strategy-strongest-combos.md
+│   └── top-voice-strategy
+│       ├── assertive-urgent.md
+│       ├── curiosity-gap.md
+│       ├── empathy-objection.md
+│       ├── strategy-combo.md
+│       └── strongest.md
+├── assets
+│   ├── docs
+│   │   ├── geometric-logo-text-art.ai
+│   │   └── Screenshot 2025-04-20 at 01.33.14.png
+│   ├── fonts
+│   │   ├── character-styles.ai
+│   │   └── character-styles.pdf
+│   └── images
+│       ├── agency-fb-sans-serif.png
+│       ├── brand-logo-art-inspo.png
+│       ├── character-styles-png
+│       ├── gimlet-micro-serif.png
+│       ├── raining-giant-pixels.png
+│       ├── brand-text-logo.svg
+│       ├── terminal-blurred-glass-ui-inspiration.png
+│       └── vscode-blurred-glasss-inspiration.png
+├── CLAUDE.md
+├── content-production-case-study
+│   ├── brand-identity-briefings.md
+│   ├── content-plan
+│   │   ├── glossier-content-plan.md
+│   │   ├── hydro-flask-content-plan.md
+│   │   ├── jungalow-content-plan.md
+│   │   └── production-flow-content-plan.md
+│   ├── email-blast
+│   │   ├── glossier-email-campaign.md
+│   │   ├── hydro-flask-email-campaign.md
+│   │   └── production-flow-email-blast.md
+│   ├── instagram-post
+│   │   ├── glossier-instagram-posts.md
+│   │   ├── hydro-flask-instagram-posts.md
+│   │   └── production-flow-instagram-posts.md
+│   └── writing-guide
+│       └── emotion-driven-copywriting.md
+├── cost-benefit.md
+├── DEV_PLAN.md
+├── README.md
+└── SLIDE_DRAFTS.md
 
 ## Home Page Design 
 
@@ -239,9 +306,12 @@ My Mac OS terminal does a nice job of [the glass effect](assets/images/terminal-
 
 ### Typography and Color Scheme 
 
+Find .h1 as 'Lorem ipsum' using bold, not black; .h2 as 'SeanAugust' to the right; .p as the block of lorem ipsum text; .accent-1 as '28% increase'; the remaining 'SeanAugust' to the left side is the same as what the brand logo text art is. [Character Styles](assets/images/character-styles.png)
+
+The URLs are included because this is the first time I've seen Adobe put the CSS right on the page. Maybe it doesn't show up if I wasn't logged in. Regardless though I did download all of the fonts from their hidden folder. If we want to use them that way, we'll need to do something Claude did for our Portfolio and create a script the looks at the font file's 'get info' to find the font name and then renames the file. Then change the font file type to .ttf. from .otf. This took them a minute to write and it ran perfectly so either way is fine. The [fonts](assets/fonts) directory is full with the whole family of each. 
+
+#### Agency FB Sans Serif as .h1
 [Boxy and thick](https://fonts.adobe.com/fonts/agency-fb)
-Sort of futura-esque, but much heavier bold, not as condensed, and interestingly shapely. 
-The style and weight might not be accurate below. See [Agency FB](assets/images/agency-fb-sans-serif.png) for the correct style and weight, or to use a second weight for another heading. Note to not use the heaviest weight as it looks too much like the .brand font. 
 
 ```CSS
 .h1 {
@@ -250,6 +320,8 @@ font-style: bold;
 font-weight: 700;
 }
 ```
+
+#### Vinyl OT Oblique as .h2
 
 [Vinyl OT Oblique](https://fonts.adobe.com/fonts/vinyl)
 
@@ -261,10 +333,8 @@ font-weight: 400;
 }
 ```
 
-[Gimlet Micro](https://fonts.adobe.com/fonts/gimlet-micro)
+#### Gimlet Text Narrow as .p
 [Gimlet Text Narrow](https://fonts.adobe.com/fonts/gimlet-text)
-Elegant, timeless, very readable. Classic. Times New Roman but hip. 
-The style and weight might not be accurate below. See [Gimlet Micro](assets/images/gimlet-micro-serif.png) for the correct style and weight, or to use a second weight for another heading. 
 
 ```CSS
 .p {
@@ -284,25 +354,10 @@ font-weight: 300;
 }
 ```
 
-[P22 Glaser Babyteeth Solid](https://fonts.adobe.com/fonts/p22-glaser)
-
-```CSS
-.accent-2 {
-font-family: p22-glaser-babyteeth-solid, sans-serif;
-font-style: normal;
-font-weight: 400;
-}
-.accent-3 {
-font-family: p22-glaser-kitchen-regular, sans-serif;
-font-style: normal;
-font-weight: 400;
-}
-```
-
 ### Interactive Elements 
 
 #### The Static Art 
-Inspiration for [brand art](assets/images/brand-logo-art-inspo.png) background. Just pretend the phone isn't in the middle. Silhouette of mountains in the distance of the desert vibe. Actually is a [SVG](assets/images/SVG/brand-text-logo-v11.svg) of brand logo text. On top we'll place very similar colored-wavy shapes. 
+Inspiration for [brand art](assets/images/brand-logo-art-inspo.png) background. Just pretend the phone isn't in the middle. Silhouette of mountains in the distance of the desert vibe. Actually is a [SVG](assets/images/brand-text-logo.svg) of brand logo text. On top we'll place very similar colored-wavy shapes. 
 
 Colors below are directly from the inspiration image. Let's pick our own, but still make sure they are that vibe of euphoric sunrise gradient of colors. 
 
@@ -328,3 +383,14 @@ This should create a resource light but engaging UX that makes the left and righ
 #### Developing the Real Thing 
 
 I'd like to hold off making the wavy shapes until we have the scrolling effect and content in place, including the sticky brand logo text art. This will ensure I only make it once, for the perfect fit. 
+
+## Favicon For Head of Website 
+
+```HTML
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="AUGUST" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
+```
