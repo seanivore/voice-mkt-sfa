@@ -199,7 +199,7 @@
                     "punctuation.definition.strikethrough"
                 ],
                 "settings": {
-                    "foreground": "#6272A4",
+                    "foreground": "#8c909d",
                     "fontStyle": "strikethrough"
                 }
             },

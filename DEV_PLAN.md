@@ -1,99 +1,50 @@
 # Development Plan: Voice Marketing Research Presentation
 
 ## Project Overview
-Present voice marketing research and strategies in an engaging, professional website format that emphasizes immediate business value while providing depth through linked resources.
+
+Content that is impressive in its own right, not any more or less impressive because of SFA. Reflecting my creative ability more than anything; the resources I use are only secondary in how they help me create at such a large scale. Must make sure the design is strong because his initial ask was if I could take on design work. 
 
 ## Core Structure
+1. Home page with overall navigation 
+2. Presentation style deck section 
+3. Document pages are markdown converted to HTML
 
-### 1. Landing Experience
-- Emotional hook from slide presentation
-- Clear value proposition
-- Visual representation of voice marketing impact
-- Quick-access navigation to key sections
+## Development 
 
-### 2. Main Content Sections
-Each section follows presentation flow:
-- Client's Challenge
-- Our Challenge
-- The Discovery
-- The Solution
-- Strategy Examples
-- Implementation Tools
+First work on the slideshow from start to finish. It is the most important information to convey and time is of the essence. 
 
-### 3. Resource Library
-Organized access to all research documents:
-- Voice Strategy Documents
-- Technical Guides
-- Implementation Frameworks
-- Case Studies & Examples
+### Phase 1: Planning & Preparing
+~~- Design Concept Planning for slideshow~~
+~~- Design Concept Planning for homepage~~
+~~- Compile scrolling logic and implementation~~
+~~- Typography and color scheme~~
+~~- Write slide copy~~
+- Sean finish background art SVGs
+- Review finalized planning 
 
-## Technical Requirements
+### Phase 2: Build Slideshow 
+- Build slideshow section
+- Use Portfolio's modular HTML (and update it)
+- Make sure it is responsive 
+- Markdown > HTML Jekyll Template  
+- Clean up markdown document 
+- This should be individually launched
 
-### Design System
-- Clean, professional aesthetic
-- Clear typography hierarchy
-- Consistent color scheme
-- Mobile-responsive layout
-- Accessible navigation
-
-### Interactive Elements
-- Slide-style navigation
-- Expandable research sections
-- Quick-copy script examples
-- Linked reference system
-- Progress tracking
-
-### Content Organization
-- Progressive disclosure of information
-- Clear pathways through material
-- Easy access to source documents
-- Practical implementation guides
-
-## Development Phases
-
-### Phase 1: Core Structure
-- Set up project architecture
-- Implement basic navigation
-- Create content templates
-- Establish design system
-
-### Phase 2: Content Integration
-- Format all research documents
-- Create interactive elements
-- Implement cross-referencing
-- Build resource library
-
-### Phase 3: Enhancement
-- Add interactive examples
-- Implement progress tracking
-- Create quick-reference tools
-- Optimize user experience
-
-### Phase 4: Polish
-- Refine animations
-- Optimize performance
-- Add final styling
-- Test all functionality
-
-## Key Features
-
-### Navigation System
-- Slide-style main navigation
-- Quick-jump to sections
+### Phase 3: Build Homepage & Other Pages 
+- Build homepage with just motion art
+- New modular tiles link to pages
 - Breadcrumb tracking
-- Progress indicators
+- Make sure it is responsive 
+- This is point to launch entire site 
 
-### Content Display
-- Progressive reveal of information
-- Expandable research sections
-- Linked references
-- Quick-copy functionality
-
-### Resource Management
-- Organized document library
-- Search functionality
+### Phase 4: Improvements 
+- Make homepage interactive 
+- Add search functionality 
+- Research section facelift 
+- Quick-copy UI on script examples
+- Quick-jump to sections
+- Open in Google Docs UI option 
 - Filtered viewing options
-- Download capabilities
 
 ## Technical Stack
 
@@ -109,132 +60,56 @@ Organized access to all research documents:
 - Search functionality
 - Reference system
 
-## Quality Assurance
-
-### Testing Requirements
-- Mobile responsiveness
-- Cross-browser compatibility
-- Performance optimization
-- Accessibility compliance
-
-### Success Metrics
-- Navigation clarity
-- Content accessibility
-- Load time optimization
-- User engagement tracking
-
-## Future Considerations
-
-### Potential Enhancements
-- Interactive voice examples
-- Real-time script testing
-- Community contributions
-- Integration with voice platforms
-
-### Scalability
-- Content expansion system
-- Version control for research
-- User accounts (if needed)
-- Analytics integration
-
-## Implementation Notes
-
-### Priority Features
-1. Clear navigation system
-2. Easy access to research
-3. Quick-copy functionality
-4. Mobile optimization
-
-### Development Guidelines
-- Focus on immediate value
-- Maintain professional aesthetic
-- Ensure easy maintenance
-- Prioritize performance
-
-## Timeline & Milestones
-
-### Week 1: Setup & Structure
-- Project setup
-- Core architecture
-- Basic navigation
-- Content templates
-
-### Week 2: Content & Features
-- Research integration
-- Interactive elements
-- Cross-referencing
-- Resource library
-
-### Week 3: Enhancement & Testing
-- User experience optimization
-- Performance testing
-- Content refinement
-- Bug fixes
-
-### Week 4: Polish & Launch
-- Final styling
-- Documentation
-- Launch preparation
-- Deployment
-
-## Documentation Requirements
-
-### Technical Documentation
-- Setup instructions
-- Maintenance guides
-- Update procedures
-- Troubleshooting
-
-### Content Guidelines
-- Formatting standards
-- Reference system
-- Content organization
-- Update processes
-
-## Maintenance Plan
-
-### Regular Updates
-- Content refreshes
-- Performance optimization
-- Feature enhancements
-- Bug fixes
-
-### Monitoring
-- Usage analytics
-- Performance metrics
-- Error tracking
-- User feedback
-
-## Next Steps
-
-1. Review and finalize technical requirements
-2. Set up development environment
-3. Begin Phase 1 implementation
-4. Schedule regular progress reviews 
-
-----
-
 ## Home Page Design 
 
-**Deck Presentation**
+For the background of the deck slides section I proposed a two layer piece of art that create an interesting UX with one static and the length of all the slides, and the other moving with the screen as it scrolls. 
 
-**AI Voice Marketing Case Study**
-Actionable Implementation 
-- Writing Script Cheat Sheet 
-- Script Examples 
-- Emotion-Based Writing Guide
-Strategy Breakdown Documents 
-- Persona Strategy 
-- Top Tactics  
-Controlling Voice Documents
+I'd like to explore a more visual motion art background for the home page, also our landing page. I have a similar piece of inspiration art for it, that uses one of the same pieces of art, but then are vibrant squares that look like extra big pixels that showering down from the art element. [Inspiration Art](assets/images/raining-giant-pixels.png) 
+
+My logic is that, this is a presentation-centric site, that initially was only planned as it seemed the simplest way to showcase the agent work I could do for my friend Cliff's project for a client. I want to keep that mentality by not over-complicating the home page. This is one of those very rare occasions where it doesn't need to be marketing focused, so let's revel in that. 
+
+Note that there are two main labor-intensive sections of this site. All the secondary pages will just be cleaned-up, simplified markdown files that jekyll can convert to HTML. That leaves design for the slides, proposed below; which I don't think will be complicated. The background is a simple 'fixed' versus sticky background dual layer art. Otherwise it is static — just the motion of scrolling creates the interactive feel. It also  proposes a very effect UX feel for side scrolling inspired by Mac OS, but I found implementation directions so easily I don't think that will be difficult either. Then the rest is just adding the text we composed. 
+
+The home page is the only other section that requires some design work, other than a simple frame CSS/HTML theme edit for the Jekyll conversion. I've yet to really figure out the rest of the home page design and layout other than those raining pixels. Adn I'm thinking we'll make them motion but not interactive at first then double back if we have time to give some cursor interaction fun. I started planning the 'sections' or tiles or however we present the links to the secondary pages and the deck, but am not sure how to mix it up with the fun raining art idea yet. 
+
+### Primary Sections For Navigation 
+
+*I'm picturing the first three being laid out in two columns, the larger two-row-tall tile for presentation on the right. On the left two narrow rows for quick reference docs and easy access to script examples.*
+
+**Deck Presentation**
+Tile section that just links to the first slide. 
+
+**AI Voice Marketing Cheat Sheets**
+Script Writing Cheat Sheet 
+Simple over view of the main strategies 
+Emotion-based writing guide 
+
+**Actionable Telephony Documents**
+Persona Overview With Scripts 
+Solution-Oriented Strategy Scripts 
+
+*Then this next one could be three tiles in one row, reminiscent of pricing pages.*
+
+**AI Voice MKT Case Study Documents**
+1. The 5 top strategies.
+- Five top Tactics
+1. Personas that fit the strategies. 
+- Persona Strategy
+1. Information on controlling AI voice. 
 - Creating Modulation 
 - Using Indicators 
-Deep Research Documents 
-- All Full Research Files 
+
+*Then this is a row with two columns.* 
 
 **Agentic Production**
 Overview 
 - Cost, Benefit, Process 
+- Glimpse into the SFA workings 
+Looking Ahead 
+- Pull the 'future potential' last page of the deck info to a page here 
+- Pull the running list of custom tool build ideas here as well 
+
+*This is another row with narrow columns that show the flow of the content.*
 
 **Content Production Case Study** 
 Overview 
@@ -242,6 +117,11 @@ Overview
 - Comprehensive: Content Plans 
 - Social: Instagram Posts 
 - Direct: Email Blast
+
+*Honestly these are more of a 'just making sure you see the full scope of what we can do' kind of thing.* 
+
+**Deep Research Documents**
+- Full Research for AI Voice Marketing 
 
 ## Main 'Slides' Section Design 
 
@@ -259,7 +139,7 @@ For scrolling, let's create a horizontal scrolling experience that mimics the ma
 
 The key is that you can push the content to the next or previous panel but it bounces back to the center unless you cross the 50% mark at which point you can let go and it bounces back to that next or previous panel's center. 
 
-Visual cues are transparent glass-like and simple < and > arrows at the bottom of the screen on pageload until the user scrolls. We can make them look similar to the narrow and wide left and right directional keys on a keyboard, then offer that as an alternative scrolling method. 
+Visual cues are transparent slight-blur glass and simple < and > arrows at the bottom of the screen on pageload until the user scrolls. We can make them look similar to the narrow and wide left and right directional keys on a keyboard, then offer that as an alternative scrolling method. 
 
 Regarding preventing default behavior, I guess I'm not sure why that is needed. 
 
@@ -441,5 +321,3 @@ The UX would be that the colors on top of the brand font art move, staying with 
 The result should be a very engaging but simple to implement UX that will be a great way to keep the user engaged with the content as they scroll, even helping encourage them to intuitively understand the horizontal scrolling behavior. 
 
 Colors selected are from the inspiration image. They don't need to be those, but they should be a gradient with sunrise vibes. 
-
-##
