@@ -19,7 +19,7 @@ First work on the slideshow from start to finish. It is the most important infor
 ~~- Compile scrolling logic and implementation~~
 ~~- Typography and color scheme~~
 ~~- Write slide copy~~
-- Sean finish background art SVGs
+~~- Sean finish brand logo text SVG~~
 - Review finalized planning 
 
 ### Phase 2: Build Slideshow 
@@ -31,6 +31,7 @@ First work on the slideshow from start to finish. It is the most important infor
 - This should be individually launched
 
 ### Phase 3: Build Homepage & Other Pages 
+- Sean create colored-wavy shapes SVG for slides 
 - Build homepage with just motion art
 - New modular tiles link to pages
 - Breadcrumb tracking
@@ -59,6 +60,12 @@ First work on the slideshow from start to finish. It is the most important infor
 - Dynamic routing
 - Search functionality
 - Reference system
+
+## Project Directory Structure 
+
+Here's a tree so that we get all our asset reference paths correct. 
+
+
 
 ## Home Page Design 
 
@@ -127,7 +134,7 @@ Overview
 
 ### Background and Scrolling UX 
 
-Creates a 'Slides' of deck experience. Imagine a horizontally scrolling website that is a off-white. Each "panel" or "slide" is 100 vw x 100 vh. 
+Creates a 'Slides' of deck experience. Imagine a horizontally scrolling website that is a off-white. Each "panel" or "slide" is 100 vw x 100 vh. (I wanted black but the inspiration art is black object on white and I can't picture it otherwise in a way I like.)
 
 ```CSS
 body {
@@ -135,13 +142,15 @@ background-color: #fffdf6;
 }
 ```
 
-For scrolling, let's create a horizontal scrolling experience that mimics the macOS workspace swipe navigation on trackpads and mobile devices by combining CSS for overflow and over-scroll behavior with JavaScript event handling. 
+Scrolling UX replicates the macOS workspace swipe navigation on trackpads and mobile devices. It must not be unusual because the Google AI gathered the implementation details. Please make sure indeed make sense. 
 
-The key is that you can push the content to the next or previous panel but it bounces back to the center unless you cross the 50% mark at which point you can let go and it bounces back to that next or previous panel's center. 
+The key with what makes the swiping workspaces to enjoyable is that you can push the content into to the next or previous panel but it bounces back to the center unless you cross the 50% mark, at which point you can let go and it bounces out to that next or previous panel's center instead, like it is weighted. 
 
-Visual cues are transparent slight-blur glass and simple < and > arrows at the bottom of the screen on pageload until the user scrolls. We can make them look similar to the narrow and wide left and right directional keys on a keyboard, then offer that as an alternative scrolling method. 
+Let's use incredible subtle arrow visual cues; the background art described below is our additional subconscious cues to scroll horizontally. The actual arrows should be of a transparent slightly-blurred glass effect, with the left < and right > arrow appearing indented or etched into the glass and frosted. They should appear on page-load and then disappear when the user scrolls. Below in equally subtle, transparent system font we should write "USE KEYBOARD DIRECTIONAL ARROWS" as our alternative scrolling method. 
 
-Regarding preventing default behavior, I guess I'm not sure why that is needed. 
+Regarding preventing default behavior, I guess I'm not sure why that is needed. Or rather, I would prefer if when the user with a mouse and scroll wheel, goes to scroll down, the page should intuitively scroll to the next section, even though it is to the right. I've never found this confusing. 
+
+Bonus points because it means the whole presentation is more basically mobile first because it is so natural on a phone to use gestures. 
 
 ```CSS 
 .scrollable-container {
@@ -222,9 +231,11 @@ scrollableContainer.addEventListener('touchend', () => {
 
 ### Content Column and Sidebar Navigation 
 
-Almost one column. Make the right column take up 80% of the width. Then along the left side-bar, taking up the remaining 20% of the screen, a navigation panel that provides direct links to resources to read more in depth about the content of the slide. 
+Two columns, one row. The right column takes up 80% of the width. Then along the left side-bar, taking up the remaining 20% of the screen, a navigation panel that provides direct links to resources to read more in depth about the content of the slide. 
 
-On mobile, it is a vertical stack of links in a model that shows using a hamburger menu. The icon should be a very simple ^ arrow, but with a wider stance. When clicked it flips 180º and shows the links as they would appear along the left side on desktop. 
+On mobile, we'll use a hamburger menu but the icon is a very simple ^ arrow at the top right of the screen. It is appears to be the same material design as the arrows used in the scrolling UX. When clicked it flips 180º and shows the links as they would appear along the left side on desktop. The links are also in a model that matches the button: transparent, blurred glass. 
+
+My Mac OS terminal does a nice job of [the glass effect](assets/images/terminal-blurred-glass-ui-inspiration.png). VS Code also does a nice job of this, and just like with my desktop background, we'll [see the art on the webpage](assets/images/terminal-blurred-glass-ui-inspiration.png) when in the slides section. This is very trendy, but it gives us opportunity to use our colors on the text; perhaps color-coding certain links with certain colors so that if needed one could super quickly identify the cheat sheet and navigate to it. One more thought, that might be best saved for phase 4, is to have the content the is currently over the art on the page disappear when the user opens the navigation modal, so that we're emphasizing the design choice. In fact, I like this idea so much that we might consider having at least a few links in a site-wide navigation, using the same hamburger menu style for desktop as well to keep our design language consistent and not clutter the presentation. 
 
 ### Typography and Color Scheme 
 
@@ -233,7 +244,7 @@ Sort of futura-esque, but much heavier bold, not as condensed, and interestingly
 The style and weight might not be accurate below. See [Agency FB](assets/images/agency-fb-sans-serif.png) for the correct style and weight, or to use a second weight for another heading. Note to not use the heaviest weight as it looks too much like the .brand font. 
 
 ```CSS
-.H1 {
+.h1 {
 font-family: agency-fb, sans-serif;
 font-style: bold;
 font-weight: 700;
@@ -243,7 +254,7 @@ font-weight: 700;
 [Vinyl OT Oblique](https://fonts.adobe.com/fonts/vinyl)
 
 ```CSS
-.H2 {
+.h2 {
 font-family: vinyl, sans-serif;
 font-style: oblique;
 font-weight: 400;
@@ -266,7 +277,7 @@ font-weight: 400;
 [Sizmo Line Pro Lite](https://fonts.adobe.com/fonts/ff-sizmo)
 
 ```CSS
-.ACCENT_1 {
+.accent-1 {
 font-family: sizmo-line, sans-serif;
 font-style: light;
 font-weight: 300;
@@ -276,12 +287,12 @@ font-weight: 300;
 [P22 Glaser Babyteeth Solid](https://fonts.adobe.com/fonts/p22-glaser)
 
 ```CSS
-.ACCENT_2 {
+.accent-2 {
 font-family: p22-glaser-babyteeth-solid, sans-serif;
 font-style: normal;
 font-weight: 400;
 }
-.ACCENT_3 {
+.accent-3 {
 font-family: p22-glaser-kitchen-regular, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -290,21 +301,14 @@ font-weight: 400;
 
 ### Interactive Elements 
 
-Inspiration for [brand art](assets/images/brand-logo-art-inspo.png) background. Just pretend the phone isn't in that inspiration image. Silhouette of mountains in the distance of the desert vibe. 
+#### The Static Art 
+Inspiration for [brand art](assets/images/brand-logo-art-inspo.png) background. Just pretend the phone isn't in the middle. Silhouette of mountains in the distance of the desert vibe. Actually is a [SVG](assets/images/SVG/brand-text-logo-v11.svg) of brand logo text. On top we'll place very similar colored-wavy shapes. 
 
-The [SVG](assets/images/SVG/brand-art-2.svg) is across the lower-middle of the screen, and stays with the screen as it scrolls. It is the [Pressio](https://fonts.adobe.com/fonts/pressio) font, with the vector paths pulled apart. 
+Colors below are directly from the inspiration image. Let's pick our own, but still make sure they are that vibe of euphoric sunrise gradient of colors. 
 
-Over top of it, and varying in wavy color shapes, reaching from the start of the first panel on the left to the end of the last panel on the right, when the user scrolls left and right it will move in front of the brand art. 
-
-Woth considering just using the actual font in [lowercase](assets/images/pressio-black-lower-case.png). Maybe with some [transforming](https://developer.mozilla.org/en-US/docs/Web/CSS/transform). 
 
 ```CSS
-.brand {
-font-family: pressio, sans-serif;
-font-style: normal;
-font-weight: 700;
-}
-.brand-art {
+.brand-art-logo {
 color: #151515;
 }
 .brand-art-wave {
@@ -316,8 +320,11 @@ color: #edac3c;
 }
 ```
 
-The UX would be that the colors on top of the brand font art move, staying with whatever is on the screen. At the same time, the the shapes of the brand font art stay still behind the colors, moving with the screen as it scrolls, the content on the page moving off to one side of the screen as new content moves in from the other side. 
+#### Motion Logic 
+The brand logo text will be almost exactly 100 vw wide and sticky so that it stays with the screen as it scrolls, with content of the file moving off to the side while new content moves in from the other side. The colored-wavy shapes will move similar to the content on the panels and will be static, made to fit across all of the panels; if there are 8 panels, it will be 800 vw wide exactly, with a bleed, e.g. the image goes right up as if off the screen. 
 
-The result should be a very engaging but simple to implement UX that will be a great way to keep the user engaged with the content as they scroll, even helping encourage them to intuitively understand the horizontal scrolling behavior. 
+This should create a resource light but engaging UX that makes the left and right scrolling of the page feel intuitive instead of unusual. 
 
-Colors selected are from the inspiration image. They don't need to be those, but they should be a gradient with sunrise vibes. 
+#### Developing the Real Thing 
+
+I'd like to hold off making the wavy shapes until we have the scrolling effect and content in place, including the sticky brand logo text art. This will ensure I only make it once, for the perfect fit. 
