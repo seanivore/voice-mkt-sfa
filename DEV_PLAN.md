@@ -214,6 +214,35 @@ Organized access to all research documents:
 
 ----
 
+## Home Page Design 
+
+**Deck Presentation**
+
+**AI Voice Marketing Case Study**
+Actionable Implementation 
+- Writing Script Cheat Sheet 
+- Script Examples 
+- Emotion-Based Writing Guide
+Strategy Breakdown Documents 
+- Persona Strategy 
+- Top Tactics  
+Controlling Voice Documents
+- Creating Modulation 
+- Using Indicators 
+Deep Research Documents 
+- All Full Research Files 
+
+**Agentic Production**
+Overview 
+- Cost, Benefit, Process 
+
+**Content Production Case Study** 
+Overview 
+- Input: Brand Identity Briefings 
+- Comprehensive: Content Plans 
+- Social: Instagram Posts 
+- Direct: Email Blast
+
 ## Main 'Slides' Section Design 
 
 ### Background and Scrolling UX 
@@ -225,8 +254,6 @@ body {
 background-color: #fffdf6;
 }
 ```
-
-
 
 For scrolling, let's create a horizontal scrolling experience that mimics the macOS workspace swipe navigation on trackpads and mobile devices by combining CSS for overflow and over-scroll behavior with JavaScript event handling. 
 
@@ -415,3 +442,4 @@ The result should be a very engaging but simple to implement UX that will be a g
 
 Colors selected are from the inspiration image. They don't need to be those, but they should be a gradient with sunrise vibes. 
 
+##
