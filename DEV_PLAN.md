@@ -98,8 +98,6 @@ Users/seanviore/Development/voice-mkt-sfa/
 ├── assets
 │   ├── docs
 │   │   └── geometric-logo-text-art.ai
-│   ├── fonts
-│   │   ├── `102 hidden font files`
 │   ├── favicon
 │   │   ├── apple-touch-icon.png
 │   │   ├── favicon-96x96.png
@@ -370,9 +368,10 @@ NOTE: on desktop, the nav buttons don't work on the other slides. Also it is sor
 
 On mobile when you click the buttons they turn a light blue and then the same brown the other buttons change to when pressed. There is some kind of delay, I think maybe a transition for fading in. Note that there is no blue when buttons are pressed on desktop. 
 
-## Scrolling Doesn't Work without JS 
+## Scrolling Doesn't Work  
 
-Also just FYI there are two JS scripts for the scrolling to work 😉 I very carefully included them for you in the dev plan. 
+I thought there was no JS but just found it at the bottom of the HTML! 
+
 
 ## No Images Are Previewing In Any Browser **FIXED**
 
