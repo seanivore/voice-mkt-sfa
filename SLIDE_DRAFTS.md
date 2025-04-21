@@ -24,20 +24,22 @@ Here's where our factious joking ends.
 
 > Voice Customization: Bland offers extensive voice customization options, allowing businesses to select from a library of lifelike voices or even create custom voice clones to maintain brand consistency. Furthermore, the platform supports the creation of voices in virtually any language, empowering AI SDRs to communicate with prospects in their preferred language, enhancing engagement and potentially opening doors to new global markets.​
 
-Yes, that is as detailed as the very detailed document gets. They go on in other documents about all the voices they have available, and their beautiful website even plays examples of them on their main HOW IT WORKS landing page. 
+Yes, that is as detailed as that, frankly otherwise very detailed document gets. You can find, even listen to, all the different voices they have right on their HOW IT WORKS landing page. Heading the page with HOW IT WORKS but not including details is a little on the nose for my taste, but damn if that website isn't beautiful. 
 
-Not very up front with the information you need: How to manipulate AI voice modulation. Clearly sounding human is necessary, but these top strategies are only half about conversation tactics that only work if you're not a 1980's robot. 
+The days of us strategic humans needing to read through entire, dense help sections and watch slow video tutorial, both produced by salespeople, have gloriously come to an end. Fk that noise. 
 
 ## A decade of experience at a non-profit finally comes in handy! 
-Well, obviously I immediately made a call. Not being up front with the most important information is terrible. It was so obvious. Yes, it was a little awkward. But they all are a little awkward. But I needed consultation. I needed details. Here's what my most trusted research advisor shared. Perplexity said: 
+Well, obviously I immediately made a call. Not being up front with the most important information is terrible. It was so obvious. Yes, it was a little awkward. But they all are a little awkward. And I needed consultation; I needed details. Here's what my most trusted research advisor shared. Perplexity said: 
 
 > "Yes, Bland AI offers consulting services, specifically for businesses interested in implementing their AI phone agent solutions. They provide consultations to help businesses understand how AI can address their specific needs and build tailored solutions."
 
-> "While they offer a standard pay-as-you-go model for their API and self-hosted infrastructure, they also provide custom implementation and solutions engineering services for a fee. They offer two solutions: direct API access and custom implementations. For custom solutions, they work with businesses to define the task, timeline, and success metrics, building and scaling the solution together." 
+"Specific needs!" A designer would say, you should have designed the entire product from the specific perspective of HOW TO MANIPULATE human sounding voice. 
 
-Okay, I won't pretend to be surprised. They want to make money. Maybe you already knew that. Maybe the clients pay for it. 
+> "While they offer a standard pay-as-you-go model for their API and self-hosted infrastructure, they also provide custom implementation and solutions engineering services for a fee." 
 
-Fortunately, their stunning web design didn't distract me from terrorizing but also winning the internet for years at a non-profit. You didn't propose plans that had costs. This was a group who would challenge laid off employees in court if they tried to claim unemployment. That — and really, all of the money — "is for the animals" they said. And then I learned what a toxic liberal was.
+Okay, I won't pretend to be surprised. They want to make money. Maybe you already knew that. Maybe the clients pay for it. But you can't help but do a double take at the term "solutions engineering services". They're not saying it, as in the one freaking piece of information you need to answer the question, what is the creative process for doing what this crazy research requires, they're silently screaming it. WE HAVE YOUR DETAILS. They's why they spent so much on that website I can't stop thinking about. 
+
+Fortunately, stunning web design didn't distract me from recalling the years I spent terrorizing, but also completely owning, the internet for the most frugal non-profit out there. All non-profits have to publish their budgets. While Green Peace might have used private jets, PETA would force their own laid off employees into court, fighting to refuse to pay their unemployment claims. "That money is for the animals" is a phrase I heard monthly. Hello, are you Toxic Liberals? Your views are sort of ... authoritarian. Anyway, I'm getting off track. 
 
 ## Clusters of Claudes Channeling Clever Clarity 
 

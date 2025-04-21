@@ -314,53 +314,8 @@ My Mac OS terminal does a nice job of [the glass effect](assets/images/terminal-
 
 ### Typography and Color Scheme 
 
-Find .h1 as 'Lorem ipsum' using bold, not black; .h2 as 'SeanAugust' to the right; .p as the block of lorem ipsum text; .accent-1 as '28% increase'; the remaining 'SeanAugust' to the left side is the same as what the brand logo text art is. [Character Styles](assets/images/character-styles.png)
+Added fonts to the CSS file. [Character Styles](assets/images/character-styles.png). The [fonts](/assets/fonts) directory is full with the whole family of each should we figure out how to pull the name from the metadata info. 
 
-The URLs are included because this is the first time I've seen Adobe put the CSS right on the page. Maybe it doesn't show up if I wasn't logged in. Regardless though I did download all of the fonts from their hidden folder. If we want to use them that way, we'll need to do something Claude did for our Portfolio and create a script the looks at the font file's 'get info' to find the font name and then renames the file. Then change the font file type to .ttf. from .otf. This took them a minute to write and it ran perfectly so either way is fine. The [fonts](assets/fonts) directory is full with the whole family of each. 
-
-#### Agency FB Sans Serif as .h1
-[Boxy and thick](https://fonts.adobe.com/fonts/agency-fb)
-
-```CSS
-.h1 {
-font-family: agency-fb, sans-serif;
-font-style: bold;
-font-weight: 700;
-}
-```
-
-#### Vinyl OT Oblique as .h2
-
-[Vinyl OT Oblique](https://fonts.adobe.com/fonts/vinyl)
-
-```CSS
-.h2 {
-font-family: vinyl, sans-serif;
-font-style: oblique;
-font-weight: 400;
-}
-```
-
-#### Gimlet Text Narrow as .p
-[Gimlet Text Narrow](https://fonts.adobe.com/fonts/gimlet-text)
-
-```CSS
-.p {
-font-family: gimlet-text-narrow, serif;
-font-style: normal;
-font-weight: 400;
-}
-```
-
-[Sizmo Line Pro Lite](https://fonts.adobe.com/fonts/ff-sizmo)
-
-```CSS
-.accent-1 {
-font-family: sizmo-line, sans-serif;
-font-style: light;
-font-weight: 300;
-}
-```
 
 ### Interactive Elements 
 
@@ -455,3 +410,16 @@ Omg, so let's use an impressive stat about how many Hz to speak at to improve co
 This YouTube API sounds PERFECT. is one page document has some HTML and JS to be able to queue it for playback and adjust volume to make sure it is up. There are certain events too which makes me wonder if we can burry the joke/lead even more rather than them going to the next slide and seeing the YouTube video's thumbnail giving away what it will play. [YouTube IFrame API](https://developers.google.com/youtube/iframe_api_reference) [GitHub YouTube API Examples](https://github.com/youtube/api-samples) [130 Hz Sound](https://youtu.be/S7Jv1EZ7N8c?si=pwFslPGGj6CzsYpw)
 
 I could always get an actual MP3 if that is easier. Might be easier to be sneaky about the fact that the audio we're about to share helps with nothing tangible. 
+
+## Fonts 
+
+Interest thing. Sonny 3.5 from months ago when we first started setting up my portfolio site, we pulled the fonts directly for the dumb hidden file they put them in, they ran a command to rename them from their ".47208.otf" random name to literally "47208.otf first. Then we went through almost the exact same experience as today except not listening to me, lol. Because last time they tried 'font forge' and it didn't work. Then I told them that if you open the font file's info the metadata has the font name. So last time they wrote a script that looked there and did that. Then they wrote another script to change the file from .otf to .ttf. I remember so specifically because it was the first thing they every wrote a script on the fly for and ran the terminal command. It took them only a few minutes and 100s of fonts were fixed — I even still have them named because I put them back in the hidden folder in a "file name" sub-folder and they're still .otf files. 
+
+Well this time, they kep trying to use font forge and then was having issues from there being spaces in some of the names. And they eventually gave up because "my font forge isn't working". And I was like, you didn't even use that last time! THEN they said the pixelated fonts were really cool for another project and AGREED THAT ADOBE ROTATES FONTS QUICKLY SO THEY MIGHT NOT BE THERE by then. So I guess for now we're using the Adobe import method. Then they made this super weird document of cards in HTML showing off the names of the fonts and acted like they didn't know I had the Adobe web font link to import them. So very weird. Like yes I have it but also I have paid monthly to adobe for a decade I think I can have my fonts considering they put them on my computer like can they even put thing on my property and then say it isn't my property? So weird. Anyway. 
+
+Super weird file: `/Users/seanivore/Development/_resources/ai-dev-docs/adobe-fonts-demo.html` @adobe-fonts-demo.html 
+Many attempts: `/Users/seanivore/Development/voice-mkt-sfa/assets/docs/convert-name-fonts/` @/assets/docs/convert-name-fonts/ 
+Such rad fonts I spent an hour just looking threw all the new additions: 
+`/Users/seanivore/Development/_resources/ai-dev-docs/font-examples` @ai-dev-docs/font-examples/
+
+I updated all the font names to be exact matches from Adobe. I added the import link. 
