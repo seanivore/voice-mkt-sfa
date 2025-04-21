@@ -11,7 +11,7 @@ Content that is impressive in its own right, not any more or less impressive bec
 
 ## Development 
 
-First work on the slideshow from start to finish. It is the most important information to convey and time is of the essence. 
+Continue working on the slide show until it is finished. It is the most important information to convey and time is of the essence. 
 
 ### Phase 1: Planning & Preparing
 ~~- Design Concept Planning for slideshow~~
@@ -20,7 +20,7 @@ First work on the slideshow from start to finish. It is the most important infor
 ~~- Typography and color scheme~~
 ~~- Write slide copy~~
 ~~- Sean finish brand logo text SVG~~
-- Review finalized planning 
+~~- Review finalized planning~~
 
 ### Phase 2: Build Slideshow 
 - Build slideshow section
@@ -348,24 +348,27 @@ This should create a resource light but engaging UX that makes the left and righ
 
 I'd like to hold off making the wavy shapes until we have the scrolling effect and content in place, including the sticky brand logo text art. This will ensure I only make it once, for the perfect fit. 
 
-## Favicon 
-
-Place in Head of website: 
-
-```HTML
-<link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="AUGUST" />
-<link rel="manifest" href="/assets/favicon/site.webmanifest" />
-```
+----
 
 # Review Feedback 
 
-## CSS <-- and --> HTML (lol) 
+## Changes 
 
-Off the bat just want to make sure you're planning on separating out the CSS to a /styles.css file during our next update to the HTML? It is a token-max-output pet peeve of mine. That said it might have had the same fate the following issues. Only 3.8k right now so NBD but I'm actually OCD haha. 
+I separated into CSS and HTML files. CSS is at /assets/css/main.css
+
+Updated the SVG logo to this cool looking cubist stylized font that is two that are layered and staggered and transparent so it is rad looking. Changed background color to play well with the logo transparency. 
+
+## Navigation 
+
+I added some depth with shading, pulled it from the bleed edge, curved the corners, more shadow below, and then set height to fit content. I made similar changes to the mobile nav and buttons. I'll probably continue working on the edges little by little every time we work on this. Uses system font for buttons. Honestly I love system font, if this wasn't a presentation purpose website I'd be strict to only using that. 
+
+I gotta find a better "^" character maybe just different font and size. 
+
+Is there a way to make it so the shadow doesn't rotate with the button when clicked? Maybe we move the rotation to just the character "^"? 
+
+NOTE: on desktop, the nav buttons don't work on the other slides. Also it is sort of weird that you can click the UI helper buttons when they're not even there. Honestly if we make them not clickable at all that'd be okay with me. 
+
+On mobile when you click the buttons they turn a light blue and then the same brown the other buttons change to when pressed. There is some kind of delay, I think maybe a transition for fading in. Note that there is no blue when buttons are pressed on desktop. 
 
 ## Scrolling Doesn't Work without JS 
 
@@ -373,35 +376,22 @@ Also just FYI there are two JS scripts for the scrolling to work 😉 I very car
 
 ## No Images Are Previewing In Any Browser **FIXED**
 
-Okay so... So the images weren't showing up. This is an oddity that pisses me off. When we pull my websites from Webflow/Framer there are always some paths that won't convert from relative. Here is one of the favicon I just pulled directly from the console for our current index.html preview that isn't working in any browser: "file:///assets/favicon/favicon-96x96.png" — lol wtf 
+Images weren't showing up. Honestly I'm pretty sure this is a glitch with the way HTML is designed in general. All the paths didn't change to absolute. Here is one of the favicon I just pulled directly from the console for our current index.html preview that isn't working in any browser: "file:///assets/favicon/favicon-96x96.png". 
 
-Pisses me off because: 
-
-- In big projects, like my huge 'webflow-store' it will convert some of them with "./" and some with "/" IN THE SAME FILE, and refuse to convert some with "./" and some with "/" IN THE SAME FILE. 
-- In all cases, as with currently, in the IDE I can click through the path to the file with "/" -- usually the full-proof way of testing your paths. Not here! 
-- Using the IDE to input a path by the pop-up modal UI, it will always use "/" -- which all browsers are not finding right now. 
-
-I spent so long trying to figure all this out for my 'webflow-store' site: @SITE_ISSUES.md
-
-Clear rule that took me hours to figure out is: Write the path to accommodate where you are writing from, not where you are going. This subtle different is key apparently. 
+THis happens all the time. @SITE_ISSUES.md 
 
 "/" = ROOT no matter where the page you are on is 
 "./" = Same directory the page you are on is in  
 "../" = Back Up this many directories first 
 "../../" = Back Up two directories (if you're on a page at fashion/lookbook/ for example) 
 
-BUT — I would wager that this is the problem: because programmers are crazy, when you write a path to root from root, both "./" and "/" work. This doesn't make logical sense because, it is all about these characters before a path because every path starts from the root. So the conflict/annoyance/confusion is that "assets/images/brand-text-logo.svg" is NOT IN THE SAME DIRECTORY AS THE INDEX.HTML FILE and therefore "./" should NOT work!!! 
+And I've spent a lot of time trying to figure it out. At the core it is because the rule the *almost* always follows the logic is that paths are written to accommodate where you are writing from, not where you are going. This subtle difference is key. 
 
-Genuinely think that HTML in general is having this confusion. 
+Which is why this is a glitch. The root paths anywhere sometimes require "./" and sometimes require "/". My webflow-short site has conflicts IN THE SAME FILE. 
 
-BUT I just tried it and when I put a period in front of the paths in the index.html file, it worked. 
+It is pretty annoying. Even if you use the IDE to select a path from the UI modal pop-up, it follow the rule and does not give a a path written on a file at the root, like index.html going to say /assets/favicon/favicon-96x96.png. The rule is "./" is reserved for "in the same directory as you are writing from" and obviously index.html is not in the same directory as the favicon. 
 
-DOES NOT LOAD IN BROWSER: "/assets/images/brand-text-logo.svg"
-LOADS IN BROWSER: "./assets/images/brand-text-logo.svg"
-
-But watch, we're going to update them to have period and I bet you later they will stop working with freaking periods. 
-
-Anyway. 
+I won't be surprised if it eventually wants the periods to be removed. but for now I updated them all. This whole file was actually sort of strange like design stuff was appearing over time -- at first I thought you were in the file making nice updates lol. 
 
 ## Title Slide Savvy 
 
