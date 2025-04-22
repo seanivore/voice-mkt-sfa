@@ -89,7 +89,7 @@ Users/seanviore/Development/voice-mkt-sfa/
 │   ├── bland-ai-guides
 │   │   ├── api-documentation.md
 │   │   └── app-ui-guide.md
-│   ├── full-research
+│   ├── full-research          `<-- Kept purely for reference, not main content to link to`
 │   │   ├── analysis-optimizing-voice-ai-mkt.md
 │   │   ├── analysis-voice-mkt-home-services.md
 │   │   ├── bland-ai-pro-tips.md
@@ -105,30 +105,16 @@ Users/seanviore/Development/voice-mkt-sfa/
 │       ├── empathy-objection.md
 │       ├── strategy-combo.md
 │       └── strongest.md
-├── assets
-│   ├── docs
-│   │   └── geometric-logo-text-art.ai
-│   ├── favicon
-│   │   ├── apple-touch-icon.png
-│   │   ├── favicon-96x96.png
-│   │   ├── favicon.ico
-│   │   ├── favicon.svg
-│   │   ├── site.webmanifest
-│   │   ├── web-app-manifest-192x192.png
-│   │   └── web-app-manifest-512x512.png
-│   └── images
-│       ├── agency-fb-sans-serif.png
-│       ├── brand-logo-art-inspo.png
-│       ├── character-styles-png
-│       ├── gimlet-micro-serif.png
-│       ├── raining-giant-pixels.png
-│       ├── brand-text-logo.svg
-│       ├── terminal-blurred-glass-ui-inspiration.png
-│       ├── avatar-black.png
-│       ├── avatar-colored.png
-│       └── vscode-blurred-glass-inspiration.png
+├── assets                                   `<-- Removed font files and added Adobe provided CSS link`
+│   ├── css
+│   │   └── **main.css**                     `<-- Separated CSS from the homepage HTML file`
+│   ├── docs/                                `<-- Draft things; currently just Illustrator files`
+│   │   ├── geometric-logo-text-art.ai
+│   │   └── ribbons-block-letters.ai
+│   ├── favicon/
+│   └── images/
 ├── CLAUDE.md
-├── content-production-case-study
+├── content-production-case-study             `<-- Better organized for presentation`
 │   ├── brand-identity-briefings.md
 │   ├── content-plan
 │   │   ├── glossier-content-plan.md
@@ -146,15 +132,27 @@ Users/seanviore/Development/voice-mkt-sfa/
 │   └── writing-guide
 │       └── emotion-driven-copywriting.md
 ├── cost-benefit.md
-├── DEV_PLAN.md
-├── README.md
-└── SLIDE_DRAFTS.md
+├── DEV_PLAN.md          `<-- You are here`
+├── index.html          `<-- Current primary HTML and JS file, combined`
+├── README.md          `<-- Planning document that ended up working well as project overview`
+└── SLIDE_DRAFTS.md          `<-- All updated`
+
+19 directories, 66 files
+
+Hidden project directories:
+./.cursor
+./.vscode
+
+Hidden project files:
+./.example.env
+./.gitignore
+./.sample.aider.conf.yml
 
 ## Home Page Design 
 
 For the background of the deck slides section I proposed a two layer piece of art that create an interesting UX with one static and the length of all the slides, and the other moving with the screen as it scrolls. 
 
-I'd like to explore a more visual motion art background for the home page, also our landing page. I have a similar piece of inspiration art for it, that uses one of the same pieces of art, but then are vibrant squares that look like extra big pixels that showering down from the art element. [Inspiration Art](assets/images/raining-giant-pixels.png) 
+I'd like to explore a more visual motion art background for the home page, also our landing page. I have a similar piece of inspiration art for it, that uses one of the same pieces of art, but then are vibrant squares that look like extra big pixels that showering down from the art element. [Inspiration Art](../images/raining-giant-pixels.png) 
 
 My logic is that, this is a presentation-centric site, that initially was only planned as it seemed the simplest way to showcase the agent work I could do for my friend Cliff's project for a client. I want to keep that mentality by not over-complicating the home page. This is one of those very rare occasions where it doesn't need to be marketing focused, so let's revel in that. 
 
@@ -318,17 +316,17 @@ Two columns, one row. The right column takes up 80% of the width. Then along the
 
 On mobile, we'll use a hamburger menu but the icon is a very simple ^ arrow at the top right of the screen. It is appears to be the same material design as the arrows used in the scrolling UX. When clicked it flips 180º and shows the links as they would appear along the left side on desktop. The links are also in a model that matches the button: transparent, blurred glass. 
 
-My Mac OS terminal does a nice job of [the glass effect](assets/images/terminal-blurred-glass-ui-inspiration.png). VS Code also does a nice job of this, and just like with my desktop background, we'll [see the art on the webpage](assets/images/terminal-blurred-glass-ui-inspiration.png) when in the slides section. This is very trendy, but it gives us opportunity to use our colors on the text; perhaps color-coding certain links with certain colors so that if needed one could super quickly identify the cheat sheet and navigate to it. One more thought, that might be best saved for phase 4, is to have the content the is currently over the art on the page disappear when the user opens the navigation modal, so that we're emphasizing the design choice. In fact, I like this idea so much that we might consider having at least a few links in a site-wide navigation, using the same hamburger menu style for desktop as well to keep our design language consistent and not clutter the presentation. 
+My Mac OS terminal does a nice job of [the glass effect](../images/terminal-blurred-glass-ui-inspiration.png). VS Code also does a nice job of this, and just like with my desktop background, we'll [see the art on the webpage](../images/terminal-blurred-glass-ui-inspiration.png) when in the slides section. This is very trendy, but it gives us opportunity to use our colors on the text; perhaps color-coding certain links with certain colors so that if needed one could super quickly identify the cheat sheet and navigate to it. One more thought, that might be best saved for phase 4, is to have the content the is currently over the art on the page disappear when the user opens the navigation modal, so that we're emphasizing the design choice. In fact, I like this idea so much that we might consider having at least a few links in a site-wide navigation, using the same hamburger menu style for desktop as well to keep our design language consistent and not clutter the presentation. 
 
 ### Typography and Color Scheme 
 
-Added fonts to the CSS file. [Character Styles](assets/images/character-styles.png). The [fonts](/assets/fonts) directory is full with the whole family of each should we figure out how to pull the name from the metadata info. 
+Added fonts to the CSS file. [Character Styles](../images/character-styles.png). The [fonts](/assets/fonts) directory is full with the whole family of each should we figure out how to pull the name from the metadata info. 
 
 
 ### Interactive Elements 
 
 #### The Static Art 
-Inspiration for [brand art](assets/images/brand-logo-art-inspo.png) background. Just pretend the phone isn't in the middle. Silhouette of mountains in the distance of the desert vibe. Actually is a [SVG](assets/images/brand-text-logo.svg) of brand logo text. On top we'll place very similar colored-wavy shapes. 
+Inspiration for [brand art](../images/brand-logo-art-inspo.png) background. Just pretend the phone isn't in the middle. Silhouette of mountains in the distance of the desert vibe. Actually is a [SVG](../images/brand-text-logo.svg) of brand logo text. On top we'll place very similar colored-wavy shapes. 
 
 Colors below are directly from the inspiration image. Let's pick our own, but still make sure they are that vibe of euphoric sunrise gradient of colors. 
 
