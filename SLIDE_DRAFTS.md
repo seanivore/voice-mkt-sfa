@@ -1,62 +1,111 @@
-# Slide Drafts
+# PRESENTATION 1 SLIDES
 
 ## Building Effective AI SDRs
 How do Sales Development Representatives snag leads? 
 
-Home services AI voice marketing performance data is plentiful. Top strategies are incredibly detailed and you have "AI voices that sound human" — BLAND AI 
-Here's a common collection of data points with impressive conversion rates. 
+--> AI voice marketing performance data for Home Services is plentiful with impressive conversion rates. 
 
 - 27% increase in up-sales by matching natural instructional speech pacing.
 - Pause for half a second before explaining benefits and they are 12% better at recalling the information. 
 - Use a downward inflection with technical terms and people are 15% more likely to perceive you as technically competent. 
 - 21% increase in perception of trust by resonating pitch in chest at 130-140Hz. 
 
-But wait, let us make that tangible for you. Turn your audio up before swiping to the next slide. 
+Let's make that tangible. Audio up for the next slide. 
 
 ## Hear The Trust 
-A video example. 
-When you're ready, just hit the play button for an example of how to sound trustworthy. 
+Let's employ one of those strategies.
+
+--> An example of how to sound trustworthy
+--> When you're ready, just hit the play button 
+
+> Audio player. 
 
 ## Doesn't it sound human?! 
-BLAND AI's documents dig into "Key Features of Bland AI for AI SDRs" in a blog posted March 2025. 
+We're being facetious, but it is to make a point: How far does "AI voices that sound human" get you? 
 
-Here's where our factious joking ends. 
+BLAND AI's very detailed March 2025 blog titled "Key Features of Bland AI for AI SDRs" had this to say on the point. 
 
 > Voice Customization: Bland offers extensive voice customization options, allowing businesses to select from a library of lifelike voices or even create custom voice clones to maintain brand consistency. Furthermore, the platform supports the creation of voices in virtually any language, empowering AI SDRs to communicate with prospects in their preferred language, enhancing engagement and potentially opening doors to new global markets.​
 
-Yes, that is as detailed as that, frankly otherwise very detailed document gets. You can find, even listen to, all the different voices they have right on their HOW IT WORKS landing page. Heading the page with HOW IT WORKS but not including details is a little on the nose for my taste, but damn if that website isn't beautiful. 
+You thinking what we're thinking? 
 
-The days of us strategic humans needing to read through entire, dense help sections and watch slow video tutorial, both produced by salespeople, have gloriously come to an end. Fk that noise. 
+## Help Me Out Here, BLAND AI 
+Show us the creative process needed to implement this crazy research. 
 
-## A decade of experience at a non-profit finally comes in handy! 
-Well, obviously I immediately made a call. Not being up front with the most important information is terrible. It was so obvious. Yes, it was a little awkward. But they all are a little awkward. And I needed consultation; I needed details. Here's what my most trusted research advisor shared. Perplexity said: 
+--> Next, a landing page titled 'HOW IT WORKS' section. 
+--> Listen to the different voices... cool... but not helpful. 
 
-> "Yes, Bland AI offers consulting services, specifically for businesses interested in implementing their AI phone agent solutions. They provide consultations to help businesses understand how AI can address their specific needs and build tailored solutions."
+It left me fixated on the logical implications of spending 50k–100k+ on this stunning of a website. 
 
-"Specific needs!" A designer would say, you should have designed the entire product from the specific perspective of HOW TO MANIPULATE human sounding voice. 
+--> The research was clear, detailing exact needs for success 
+--> Ideally product UI design would be centered around this need 
+--> This need went beyond "Human sounding voice" 
+--> Achieving this need was not the focused selling point of the website 
 
-> "While they offer a standard pay-as-you-go model for their API and self-hosted infrastructure, they also provide custom implementation and solutions engineering services for a fee." 
+Meaning, if I'm not their target audience, who is? 
 
-Okay, I won't pretend to be surprised. They want to make money. Maybe you already knew that. Maybe the clients pay for it. But you can't help but do a double take at the term "solutions engineering services". They're not saying it, as in the one freaking piece of information you need to answer the question, what is the creative process for doing what this crazy research requires, they're silently screaming it. WE HAVE YOUR DETAILS. They's why they spent so much on that website I can't stop thinking about. 
+Time to confirm my suspicions. 
 
-Fortunately, stunning web design didn't distract me from recalling the years I spent terrorizing, but also completely owning, the internet for the most frugal non-profit out there. All non-profits have to publish their budgets. While Green Peace might have used private jets, PETA would force their own laid off employees into court, fighting to refuse to pay their unemployment claims. "That money is for the animals" is a phrase I heard monthly. Hello, are you Toxic Liberals? Your views are sort of ... authoritarian. Anyway, I'm getting off track. 
+## Strategy Implementation Needs Buried  
+BLAND AI's intentions seemed too obvious. So we consulted our most trusted research advisor: Perplexity. 
+
+> "Yes, Bland AI offers consulting services, specifically for businesses interested in implementing their AI phone agent solutions. They provide consultations to help businesses understand how AI can address their specific needs and build tailored solutions. While they offer a standard pay-as-you-go model for their API and self-hosted infrastructure, they also provide custom implementation and solutions engineering services for a fee." 
+
+Hear that? Product designers screams echoing through time. "But sir, you must understand the entire product should be built around how to easily MANIPULATE HUMAN SOUNDING VOICE if you want the tool to sell.
+
+--> The tool isn't the product 
+--> Help sections will be written by salespeople 
+
+IT WAS TIME TO CALL IN THE ARMY. 
 
 ## Clusters of Claudes Channeling Clever Clarity 
+After some rearmament, they were ready to go. 
 
-We sent out many little Claude's armed with little tools. 
-Filled their heads with little tasks and offered little guidance. 
-Their results? Well. I was a little overwhelmed by the amount of research. 
+--> We sent out many little Claude's armed with little tools. 
+--> Filled their heads with little tasks and offered little guidance. 
+--> Their research? A quantity I found a little overwhelming. 
 
-They didn't stop there. One Claude synthesized and another Claude critiqued. They even role played as Hollywood Movie Stars hired to improve character created to write strategy specific scripts. 
+They continued. I was focused on how to write strategy-specific scripts. 
 
-They were focused on "TOP STRATEGY FRAMEWORKS" and "ACTIONABLE IMPLEMENTATION GUIDES". 
-I was focused on nagging them to use a vocabulary more fitting for a human after coding and creative writing for more than a 10 hour sitting. Those ASD super powers that also make you forget that things like food and bathrooms exist.  
+--> Some Claude's synthesized while other Claude's critiqued. 
+--> Some role played as Hollywood Movie Stars improving character scripts. 
 
-Their revised "actionable" word choice brought clarity to me and the research. 
+They developed an actionable framework.
 
-They humanized the detail heavy strategies, finding archetypes that played into the tactic's speech patterns and voice modulation. 
+--> Technical research was humanized into written scripts. 
+--> They used archetypes that played into strategies identified in the research. 
 
-Best of all they topped it off with a "Cheat Sheet" of notation to write into text scripts so those human-sounding BLAND AI agent know when to use the beyond-just-human-sounding vocal requirements like pitch, inflection, tone, pace, pause, emphasis and more. 
+## Modulating the "Human-sounding" Voice of BLAND AI 
+They delivered, illustrating implementation of the research and the scripts that resulted. 
+
+--> Rules for writing plain text scripts with notation
+--> Writing techniques specific to BLAND AI voice agents 
+--> Indicating to AI HOW and WHEN to manipulate their human-sounding voice 
+
+My final request: At-a-glance understanding how to implement all the research-backed voice modulation.
+
+> A cheat sheet on writing scripts that result in controlled vocal changes 
+> How to adjust pitch, inflection, tone, pace, pause, emphasis and more 
+> Cover all needs to be able to implement research-backed voice modulation 
+
+## Script Draft Generation Based On Needs 
+We've started two indexes useful for matching strategies to your leads and finding the right approach. With this last element, AI can generate script drafts that vary across strategies and customer types, or drill down into specifics like timely information such as inflation or weather events. 
+
+Understand these tools and build you audience lists accordingly. 
+
+One of two indexes: 
+1. I have X type of lead. Which strategy should I use? 
+2. I'm working with Y strategies, what leads are they best for? 
+
+Both writing guides: 
+--> Emotion-Driven Copywriting Guide 
+--> Script Writing Cheat Sheet 
+
+Ideation through production of research-backed, targeted, scripts is now in your hands. 
+
+----
+
+# PRESENTATION 2 SLIDES
 
 ## Client's Challenge
 **Not even economists agree on our financial future**

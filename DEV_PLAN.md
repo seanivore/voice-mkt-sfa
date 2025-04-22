@@ -23,22 +23,32 @@ Continue working on the slide show until it is finished. It is the most importan
 ~~- Review finalized planning~~
 
 ### Phase 2: Build Slideshow 
-- Build slideshow section
-- Use Portfolio's modular HTML (and update it)
-- Make sure it is responsive 
-- Markdown > HTML Jekyll Template  
-- Clean up markdown document 
-- This should be individually launched
+~~- Build slideshow section~~
+~~- Make sure it is responsive~~
+~~- Finish a second slide copy review to finalize~~
+~~- Review slide design ~~
+- Implement slide design feedback 
+- Add the final slide copy 
 
-### Phase 3: Build Homepage & Other Pages 
-- Sean create colored-wavy shapes SVG for slides 
+### Phase 3: Markdown Resources 
+- Clean up markdown documents 
+- Markdown > HTML Jekyll Template 
+- Prepare for GitHub Pages deployment 
+- Add URLs for these resources where needed
+  - Referenced on slides 
+  - Referenced in Navigation 
+- Launch now so that the two slide shows can be presented if they need to be 
+
+### Phase 4: Build Homepage  
+- Sean finish colored-wavy shapes SVG for slides 
 - Build homepage with just motion art
-- New modular tiles link to pages
-- Breadcrumb tracking
+- New modular tiles link to pages (reference Portfolio's modular tiles and update after)
+- Breadcrumb tracking 
 - Make sure it is responsive 
-- This is point to launch entire site 
+- Prepare for updated website GitHub Pages deployment 
+- Launch entire site this time  
 
-### Phase 4: Improvements 
+### Phase 5: Improvements 
 - Make homepage interactive 
 - Add search functionality 
 - Research section facelift 
