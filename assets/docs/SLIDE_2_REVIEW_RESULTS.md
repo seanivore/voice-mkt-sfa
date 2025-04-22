@@ -1,38 +1,48 @@
 # PRESENTATION 2 SLIDES
 
-## Client's Challenge
-**Not even economists agree on our financial future**
+## Implementing BLAND AI Voice Marketing Research 
+
+--> Get an understanding of what exactly the research findings are like. 
+--> See how these findings are crafted into resources that facilitate content production. 
+--> Looking beyond what has been prepared, understand how agents can create more value. 
+
+> Let's create a mini table of contents so they can jump around if they want. 
+
+## Challenges
+**Client's Challenge**
+*Not even economists agree on our financial future*
 --> So home owners make emotional choices,
 --> and neglect their most valuable financial asset. 
 
-**Neglecting maintenance creates emergencies**
+*Neglecting maintenance creates emergencies*
 --> A home protects family wellness,
 --> but uncertainty and stress are harmful. 
 
-## Our Challenge 
-**People struggle booking phone appointments using empathy**
+**Our Challenge**
+*People struggle booking phone appointments using empathy*
 --> We need that along with assertiveness and urgency,
 --> but how do you make a computer sound human? 
 
-**Voices are generated using plain text**
+*Voices are generated using plain text*
 --> Voice marketing requires emotional intelligence,
 --> but AI doesn't even have emotion. 
 
-## The Discovery
-**12,000+ home service calls revealed hidden patterns**
+## Research Implications 
+**The Discovery**
+*12,000+ home service calls revealed hidden patterns*
 --> Each successful conversion left breadcrumbs,
 --> and AI helped us decode the human elements.
 
-**Voice marketing isn't about words, it's about rhythm**
+*Voice marketing isn't about words, it's about rhythm*
 --> Emotional connections follow mathematical patterns,
 --> so we taught computers to speak in human cadence.
 
-## The Solution
-**Statistical validation unlocked voice marketing formulas**
+**The Solution**
+*Statistical validation unlocked voice marketing formulas*
 --> Every pause, pitch, and tone has purpose,
 --> turning plain text into persuasive conversation.
 
-**Intelligent systems now write evidence-based scripts**
+*Intelligent systems now write evidence-based scripts*
 --> Each word choice backed by conversion data,
 --> making AI sound more human than humans.
 

@@ -1,4 +1,4 @@
-# PRESENTATION 1 SLIDES
+# Narrative Deck
 
 ## Building Effective AI SDRs
 How do Sales Development Representatives snag leads? 
