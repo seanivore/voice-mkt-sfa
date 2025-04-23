@@ -4,6 +4,7 @@
     grid-template-columns: repeat(100, 1fr);
     grid-template-rows: repeat(50, 1fr);
     width: 100%;
+    min-height: 3rem;
     aspect-ratio: 2/1;
     margin: 0 auto;
 }
@@ -24,7 +25,7 @@
 }
 
 .yellow {
-    background-color: #FFFF00;
+    background-color: #fdef32;
 }
 
 .green {
