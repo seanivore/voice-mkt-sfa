@@ -92,17 +92,15 @@ body {
 }
 
 .list-item {
-    font-family: "vista-sans-narrow", sans-serif;
+    font-family: "vista-sans", sans-serif;
     text-shadow: -3px -4px 3px #0d0d0ce0;
     font-weight: 200;
-    font-style: normal;
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-    margin-top: 0.5rem;
-    text-indent: 1rem;
-    padding-left: 3rem;
-    letter-spacing: 0.05rem;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    text-indent: 0.25rem;
+    padding-left: 1.25rem;
 }
 
 .accent-1 {
@@ -214,7 +212,7 @@ body {
 }
 
 .nav-link {
-    background: linear-gradient(190deg, #edac3c, #966a1f);
+    background: linear-gradient(190deg, #b167b2, #4b194b);
     padding: 0.5rem;
     border-left: 1px solid #e5ad4d52;
     border-top: 1px solid #e5ad4d52;
@@ -232,22 +230,22 @@ body {
 }
 
 .nav-link:hover {
-    background: linear-gradient(180deg, #7de98d, #124e1b);
-    border: 1px solid #92e89f;
+    background: linear-gradient(180deg, #fdbf2f, #875f00);
+    border: 1px solid #fdd987;
     color: var(--text-color);
     transform: translateY(-1px);
 }
 
 .nav-link:active {
-    background: linear-gradient(180deg, #124e1b, #7de98d);
-    border: 1px solid #92e89f;
+    background: linear-gradient(180deg, #875f00, #fdbf2f);
+    border: 1px solid #fdd987;
     color: var(--text-color);
     transform: translateY(-1px);
 }
 
 .nav-link.active {
-    background: linear-gradient(190deg, #b167b2, #4b194b);
-    border: 1px solid #da8edb;
+    background: linear-gradient(180deg, #7de98d, #124e1b);
+    border: 1px solid #92e89f;
     color: var(--text-color);
     transform: translateY(-1px);
 }
