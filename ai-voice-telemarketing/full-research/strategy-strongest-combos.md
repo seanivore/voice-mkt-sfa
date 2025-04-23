@@ -1,14 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Oh I was hoping you might actually write some VO script that starts each conversation for each of those marketing strategy combinations x SES groups. Could you please illustrate that way for just an introduction, the person responding a single word or phrase, and then your response. Nothing more is needed as this should be enough to help us better imagine the creative side of all this technical information you've gathered so diligently - thank you for that! Wdyt?
-
-Absolutely—this is a great way to bring the strategies to life! Here are sample voice-over (VO) script snippets for each SES group and strategy, using the technical and topical cues from above. Each includes:
-
-- The AI’s opening line (with voice modulation notes in brackets)
-- The customer’s brief response
-- The AI’s immediate follow-up
-
----
+# Scripts for SES Groups and Strategies Using Technical and Topical Cues
 
 ## 1. Rural Lower SES (Agriculture-Dependent)
 

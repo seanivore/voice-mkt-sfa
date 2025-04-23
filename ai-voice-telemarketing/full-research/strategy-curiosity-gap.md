@@ -1,16 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# POWERFUL. Okay I have to end by asking you what you would provide now to illustrate in this VO fashion. You've been able to better take in all of the research so quickly and I'm still scratching the surface. Show me what I'm missing that would perhaps make another strong split test?
-
-Here’s what you might be missing for a truly robust split test: **the “curiosity gap” and “micro-commitment” approach**—a style that’s neither soft nor aggressive, but instead leverages intrigue, personalization, and a low-pressure “next step.” This method is highly effective for skeptical or distracted prospects, especially in home services, and is supported by current best practices in sales psychology[^1][^3][^4].
-
-Below, I’ll illustrate this with VO scripts for each SES group and strategy, using a curiosity-driven opener, a micro-commitment ask, and a quick follow-up. This approach is designed to:
-
-- Spark interest without pressure
-- Personalize the value proposition
-- Secure a small “yes” (like agreeing to a tip, resource, or callback), which research shows increases the chance of a bigger “yes” later[^3][^4][^5].
-
----
+# The 'Curiosity Gap' and 'Micro-Commitment' Approach
 
 ## 1. Rural Lower SES (Agriculture-Dependent)
 

@@ -1,10 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Interesting. Omg I'm getting into this there are so many variables to play with! Can we do another batch of those but with a more aggressive tactic? That way we could do some split testing. Wdyt?
-
-Absolutely! Split-testing assertive/aggressive tactics versus empathetic ones is a fantastic way to optimize for different customer segments and scenarios. Below are more assertive, urgency-driven responses for each SES group and strategy. These scripts use direct language, scarcity, and “loss aversion” psychology—while still staying professional and compliant.
-
----
+# Assertive & Aggressive Tactics 
 
 ## 1. Rural Lower SES (Agriculture-Dependent)
 

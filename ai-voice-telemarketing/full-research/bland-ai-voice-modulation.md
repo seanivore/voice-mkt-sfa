@@ -1,15 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# I would love as much of this kind of "cheat sheet" quick reference guide notes specifically for manipulating voice in Bland AI:
-
-Pro Tip: Use brackets or all-caps for modulation cues, e.g.,
-“Our service is GUARANTEED [upward inflection].”
-“That’s just \$29 a month [pause 0.8s, lower pitch].”
-
-Absolutely! Here’s a **Bland AI Voice Modulation Cheat Sheet**—a quick-reference guide for scripting and manipulating voice characteristics in your Bland AI pathways, based on platform documentation and best practices[^1][^2][^4][^6][^8]:
-
----
-
 # Bland AI Voice Modulation Cheat Sheet
 
 ## 1. **Notation for Modulation in Scripts**

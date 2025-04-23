@@ -1,4 +1,4 @@
-Brand Identity Documents 
+# Brand Identity Documents 
 
 [Glossier Brand](#glossier-brand)
 [Hydro Flask Brand](#hydro-flask-brand)

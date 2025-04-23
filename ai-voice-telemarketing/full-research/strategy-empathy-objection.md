@@ -1,10 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# WOW, that was a lot more illustrative than I suspected. Would you be able to do the same, for all the same categories, but this time you're responding to the customer saying something along the lines of not being interested at this time or being otherwise hesitant. Are there strong tactics we can illustrate this way that are used to effectively turn a conversation around? A gut check of sorts? I'm not even sure hahah. but that was great. Wdyt?
-
-Absolutely—this is a powerful way to illustrate objection handling in context. Below are creative, research-backed VO script snippets for each SES group and strategy, showing how to turn around a “not interested” or hesitant response. Each follows best practices: active listening, validation, reframing, and a gentle next step[^5][^6][^8].
-
----
+# Empathy-Based Objection Handling For Each SES Group and Strategy
 
 ## 1. Rural Lower SES (Agriculture-Dependent)
 

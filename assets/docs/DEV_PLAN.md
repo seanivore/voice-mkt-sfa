@@ -23,7 +23,7 @@ We are at [PHASE 2: Build Slideshow](#phase-2-build-slideshow)
 
 Continue working on the slide show until it is finished. It is the most important information to convey and time is of the essence. 
 
-### Phase 1: Planning & Preparing
+~~### Phase 1: Planning & Preparing~~
 ~~- Design Concept Planning for slideshow~~
 ~~- Design Concept Planning for homepage~~
 ~~- Compile scrolling logic and implementation~~
@@ -32,7 +32,7 @@ Continue working on the slide show until it is finished. It is the most importan
 ~~- Sean finish brand logo text SVG~~
 ~~- Review finalized planning~~
 
-### Phase 2: Build Slideshow 
+~~### Phase 2: Build Slideshow~~
 ~~- Build slideshow section~~
 ~~- Make sure it is responsive~~
 ~~- Finish a second slide copy review to finalize~~
@@ -43,9 +43,16 @@ Continue working on the slide show until it is finished. It is the most importan
 ~~- Allow for feedback review~~
 ~~- Finished updates to 'sales-development-ai-secrets.html'~~
 ~~- Duplicated file to make 'implement-bland-modulation-research.html'~~
-- Address feedback about MP3 player instead of video player
-- Add final copy for presentation 2
-- Presentation 2 review 
+~~- Address feedback about MP3 player instead of video player~~
+~~- Add final copy for presentation 2~~
+~~- Presentation 2 review~~
+- Clean up markdown documents 
+- Markdown > HTML Jekyll Template 
+- Prepare for GitHub Pages deployment 
+- Add URLs for these resources where needed
+  - Referenced on slides 
+  - Referenced in Navigation 
+- Launch now so that the two slide shows can be presented if they need to be 
 
 ---- 
 
@@ -55,18 +62,9 @@ Continue working on the slide show until it is finished. It is the most importan
 - Line 99 of presentation 1: `sales-development-ai-secrets.html` "<p class="p">DID YOU LOVE IT?! 🙃</p>"
 - It feels like we should have something after they play the joke audio to make it feel more complete and make sure they're not just like like "what??" 
 
-## 
+## Sean to Finish Buttons of Mobile Navigation 
 
 ----
-
-#### Phase 2, continued. Preparing Pages for Resource Links in Presentations 
-- Clean up markdown documents 
-- Markdown > HTML Jekyll Template 
-- Prepare for GitHub Pages deployment 
-- Add URLs for these resources where needed
-  - Referenced on slides 
-  - Referenced in Navigation 
-- Launch now so that the two slide shows can be presented if they need to be 
 
 ### Phase 3: Build Homepage  
 - Sean finish colored-wavy shapes SVG for slides 
@@ -193,69 +191,6 @@ Overview
 
 # Project Directory Structure 
 
-Here's a tree so that we get all our asset reference paths correct, with **some updates in indicated** below. 
 
-Users/seanivore/Development/voice-mkt-sfa/
-├── ai-voice-telemarketing
-│   ├── actionable-implementation
-│   │   ├── persona-with-strategy
-│   │   │   ├── persona-development.md
-│   │   │   ├── voice-persona-scripts.md
-│   │   │   └── voice-persona-strategy.md
-│   │   └── writing-voice
-│   │       ├── cheat-sheet.md
-│   │       ├── modulation-guide.md
-│   │       └── script-voice-indicators.md
-│   ├── bland-ai-guides
-│   │   ├── api-documentation.md
-│   │   └── app-ui-guide.md
-│   ├── full-research          `<-- Kept purely for reference, not main content to link to`
-│   └── top-voice-strategy
-│       ├── assertive-urgent.md
-│       ├── curiosity-gap.md
-│       ├── empathy-objection.md
-│       ├── strategy-combo.md
-│       └── strongest.md
-├── assets                                   `<-- Removed font files and added Adobe provided CSS link`
-│   ├── css
-│   │   └── **main.css**              `<-- Separated CSS from the homepage HTML file`
-│   ├── docs                                `<-- Draft things; moved DEV_PLAN.md, SLIDE_DRAFTS.md, and SLIDE_2_REVIEW_RESULTS.md to here`
-│   │   ├── DEV_PLAN.md                              `<-- You are here`
-│   │   ├── geometric-logo-text-art.ai
-│   │   ├── ribbons-block-letters.ai
-│   │   ├── SLIDE_1_REVIEW_RESULTS.md               `<-- Narrative slide to be first presentation version`
-│   │   └── SLIDES_2_NARRATIVE.md               `<-- Original presentation, needs name to make sense next to "narrative deck"`
-│   ├── favicon
-│   └── images
-├── CLAUDE.md
-├── content-production-case-study                     `<-- Started reorganizing, preparing for phase 4`
-│   ├── brand-identity-briefings.md
-│   ├── content-plan
-│   │   ├── glossier-content-plan.md
-│   │   ├── hydro-flask-content-plan.md
-│   │   ├── jungalow-content-plan.md
-│   │   └── production-flow-content-plan.md
-│   ├── email-blast
-│   │   ├── glossier-email-campaign.md
-│   │   ├── hydro-flask-email-campaign.md
-│   │   └── production-flow-email-blast.md
-│   ├── instagram-post
-│   │   ├── glossier-instagram-posts.md
-│   │   ├── hydro-flask-instagram-posts.md
-│   │   └── production-flow-instagram-posts.md
-│   └── writing-guide
-│       └── emotion-driven-copywriting.md
-├── cost-benefit.md
-├── index.html                               `<-- Current primary HTML and JS file, combined`
-└── README.md
 
-18 directories, 62 files
-
-Hidden project directories:
-./.cursor
-./.vscode
-
-Hidden project files:
-./.example.env
-./.gitignore
-./.sample.aider.conf.yml
+----
