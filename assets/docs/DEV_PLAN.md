@@ -8,7 +8,7 @@ Content that is impressive in its own right, not any more or less impressive bec
 We are at [PHASE 2: Build Slideshow](#phase-2-build-slideshow)
 
 [Presentation Deck Design](#main-slides-section-design)
-[Review Feedback](#review-feedback)
+[Review Feedback](#feedback-and-updates)
 [Home Page Design](#home-page-design)
 [Project Directory Structure](#project-directory-structure)
 
@@ -49,7 +49,7 @@ Continue working on the slide show until it is finished. It is the most importan
 
 ----
 
-# Review, Feedback, And Updates 
+# Feedback and Updates 
 
 Everything is beautiful! 
 
