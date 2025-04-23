@@ -41,25 +41,29 @@ Continue working on the slide show until it is finished. It is the most importan
 ~~- Implement feedback~~
 ~~- Add final copy for presentation 1~~
 ~~- Allow for feedback review~~
+~~- Finished updates to 'sales-development-ai-secrets.html'~~
+~~- Duplicated file to make 'implement-bland-modulation-research.html'~~
+- Address feedback about MP3 player instead of video player
 - Add final copy for presentation 2
-- Allow for final feedback review 
-
-**Presentation one:**original HTML copy, now `sales-development-ai-secrets.html` and copy is finalized. I've made a few stylistic edits to the CSS file, but otherwise it is the same. 
-**Presentation two:** a duplicate copy of the first presentation, now named `implement-ai-voice-marketing-research.html` has been placed in the same `ai-voice-telemarketing` directory. The copy, *SLIDES_2_NARRATIVE.md*, is located in the assets/docs directory. 
+- Presentation 2 review 
 
 ----
 
-# Review Feedback 
+# Review, Feedback, And Updates 
 
-TO BE UPDATED BEFORE SUBMITTING REVIEW FEEDBACK FOR IMPLEMENTATION. Right now it is a lot of notes for me to get around to before finishing up. 
+Everything is beautiful! 
 
-## CSS Animation Behind Logo Text Brand Art 
+## MP3 Audio Instead of YouTube Video 
 
-Instead of my original idea, either something new or the pixel animation kept really narrow. Regardless of what animation, if we go that route then it can just be 100% width and stay sticky along with the actual logo brand art. 
+- I downloaded and trimmed a clip of 130 Hz audio, aka 21% increase in trust noise 😂 
+- Saved as an MP3 in a new assets/audio directory: `assets/audio/130-hz-trust-frequency-ai-voice-mkt.mp3`
+- I'm hoping we can implement a super simple audio player on slide 2 of the first presentation `ai-voice-telemarketing/sales-development-ai-secrets.html`
+- The YouTube video has a giant thumbnail that tells the viewer exactly what they're about to hear, which totally ruins the joke. 
 
-## Download MP3 of Hertz Audio 
+## Presentation Two Setup
 
-The YouTube video has a giant thumbnail that tells the viewer exactly what they're about to hear, which totally ruins the joke. Let's use a super basic audio player. 
+- I make a copy of the HTML file for presentation two named `ai-voice-telemarketing/implement-bland-modulation-research.html`
+- The copy is all ready to go in the document `assets/docs/SLIDE_2_REVIEW_RESULTS.md` 
 
 ----
 
