@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #232323;
+    --bg-color: #91b2b1;
     --text-color: #eaeaea;
-    --accent-1: #c0d6df;
-    --accent-2: #560c78;
-    --accent-3: #b92826;
-    --accent-4: #ec652b;
-    --accent-5: #edac3c;
+    --accent-1: #f4efcc;
+    --accent-2: #1c8097;
+    --accent-3: #00365c;
+    --accent-4: #f23d50;
+    --accent-5: #dd5742;
 }
 
 * {
@@ -97,9 +97,10 @@ body {
 }
 
 .accent-1 {
-    font-family: "sizmo-line", sans-serif;
+    font-family: "utopian", sans-serif;
     font-weight: 300;
-    font-size: 2.5rem;
+    font-style: normal;
+    font-size: 3rem;
     color: var(--accent-4);
 }
 

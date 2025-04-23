@@ -51,19 +51,11 @@ Continue working on the slide show until it is finished. It is the most importan
 
 # Feedback and Updates 
 
-Everything is beautiful! 
+## 3s Delay Shift from Opacity 0 to 1 - possible? 
+- Line 99 of presentation 1: `sales-development-ai-secrets.html` "<p class="p">DID YOU LOVE IT?! 🙃</p>"
+- It feels like we should have something after they play the joke audio to make it feel more complete and make sure they're not just like like "what??" 
 
-## MP3 Audio Instead of YouTube Video 
-
-- I downloaded and trimmed a clip of 130 Hz audio, aka 21% increase in trust noise 😂 
-- Saved as an MP3 in a new assets/audio directory: `assets/audio/130-hz-trust-frequency-ai-voice-mkt.mp3`
-- I'm hoping we can implement a super simple audio player on slide 2 of the first presentation `ai-voice-telemarketing/sales-development-ai-secrets.html`
-- The YouTube video has a giant thumbnail that tells the viewer exactly what they're about to hear, which totally ruins the joke. 
-
-## Presentation Two Setup
-
-- I make a copy of the HTML file for presentation two named `ai-voice-telemarketing/implement-bland-modulation-research.html`
-- The copy is all ready to go in the document `assets/docs/SLIDE_2_REVIEW_RESULTS.md` 
+## 
 
 ----
 
