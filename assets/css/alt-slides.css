@@ -1,9 +1,9 @@
 :root {
-    --bg-color: #91b2b1;
-    --text-color: #eaeaea;
-    --accent-1: #f4efcc;
+    --bg-color: #00365c;
+    --text-color: #f4efcc;
+    --accent-1: #91b2b1;
     --accent-2: #1c8097;
-    --accent-3: #00365c;
+    --accent-3: #e3b547;
     --accent-4: #f23d50;
     --accent-5: #dd5742;
 }
@@ -145,7 +145,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 3rem 6rem 3rem 6rem;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 /* Slide styling */
@@ -180,11 +180,11 @@ body {
     padding: 1.5rem;
     padding-top: 1.5rem;
     backdrop-filter: blur(8px);
-    background: linear-gradient(20deg, #b2729f20, #bc82ab59);
-    border-left: 1px solid #75565c3b;
-    border-top: 1px solid #75565c3b;
-    border-right: 1px solid #c67c8a44;
-    border-bottom: 1px solid #c370813b;
+    background: linear-gradient(145deg, #dd574270, #e8b1a823);
+    border-left: 1px solid #842d1f8f;
+    border-top: 1px solid #6f22179e;
+    border-right: 1px solid #d16453a0;
+    border-bottom: 1px solid #d57465c4;
     font-family: system-ui, sans-serif;
     margin: 1rem;
     row-gap: 1rem;
@@ -202,12 +202,12 @@ body {
 }
 
 .nav-link {
-    background: linear-gradient(100deg, #1698b5a3, #34a7c1b6);
+    background: linear-gradient(190deg, #edac3c, #966a1f);
     padding: 0.5rem;
-    border-left: 1px solid #2d869ab6;
-    border-top: 1px solid #2d869a8c;
-    border-right: 1px solid #45b3ccc3;
-    border-bottom: 1px solid #50b9d1cd;
+    border-left: 1px solid #e5ad4d52;
+    border-top: 1px solid #e5ad4d52;
+    border-right: 1px solid #e5ad4d52;
+    border-bottom: 1px solid #e5ad4d52;
     backdrop-filter: blur(5px);
     border-radius: 4px;
     text-decoration: none;
@@ -220,22 +220,22 @@ body {
 }
 
 .nav-link:hover {
-    background: linear-gradient(190deg, #b6cbd3, #4f6d78);
-    border: 1px solid #5d7a86;
+    background: linear-gradient(180deg, #7de98d, #124e1b);
+    border: 1px solid #92e89f;
     color: var(--text-color);
     transform: translateY(-1px);
 }
 
 .nav-link:active {
-    background: linear-gradient(190deg, #4f6d78, #6d8b96);
-    border: 1px solid #5d7a86;
+    background: linear-gradient(180deg, #124e1b, #7de98d);
+    border: 1px solid #92e89f;
     color: var(--text-color);
     transform: translateY(-1px);
 }
 
 .nav-link.active {
-    background: linear-gradient(190deg, #edac3c, #966a1f);
-    border: 1px solid #e5ad4d52;
+    background: linear-gradient(190deg, #b167b2, #4b194b);
+    border: 1px solid #da8edb;
     color: var(--text-color);
     transform: translateY(-1px);
 }

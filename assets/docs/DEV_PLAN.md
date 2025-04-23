@@ -47,7 +47,7 @@ Continue working on the slide show until it is finished. It is the most importan
 - Add final copy for presentation 2
 - Presentation 2 review 
 
-----
+---- 
 
 # Feedback and Updates 
 
