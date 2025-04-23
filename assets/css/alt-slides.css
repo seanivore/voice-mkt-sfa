@@ -19,13 +19,14 @@ body {
     color: var(--text-color);
     overflow: hidden;
     font-family: "gimlet-text-narrow", serif;
-    background-image: linear-gradient(to right, #1ab7f515 1px, transparent 1px), linear-gradient(to bottom, #1ab7f515 1px, transparent 1px);
-    background-size: 24px 24px;
+    background-image: radial-gradient(#275e853a 3px, transparent 2px);
+    background-size: 16px 16px;
 }
 
 /* Typography */
 .h1 {
     font-family: "agency-fb", sans-serif;
+    text-shadow: -3px -3px 7px #0d0d0cd1;
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 1.1;
@@ -34,7 +35,8 @@ body {
 
 .h2 {
     font-family: "vinyl", sans-serif;
-    color: var(--accent-1);
+    text-shadow: -3px -3px 7px #0d0d0cd1;
+    color: var(--accent-3);
     font-weight: 400;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -43,14 +45,17 @@ body {
 
 .h2-margin-extra {
     margin-bottom: 1.5rem;
+    text-shadow: -3px -3px 7px #0d0d0cd1;
 }
 
 .h2-margin-small {
     margin-bottom: 0.25rem;
+    text-shadow: -3px -3px 7px #0d0d0cd1;
 }
 
 .h3 {
     font-family: "vinyl", sans-serif;
+    text-shadow: -3px -3px 7px #0d0d0cd1;
     font-weight: 400;
     font-size: 1.75rem;
     font-style: italic;
@@ -59,6 +64,7 @@ body {
 
 .p {
     font-family: "gimlet-text-narrow", serif;
+    text-shadow: -3px -4px 3px #0d0d0ce0;
     font-style: normal;
     font-weight: 400;
     font-size: 1.1rem;
@@ -68,10 +74,12 @@ body {
 
 .p-delayed {
     margin-top: 1rem;
+    text-shadow: -3px -4px 3px #0d0d0ce0;
 }
 
 .blockquote {
     font-family: "vista-sans-narrow", sans-serif;
+    text-shadow: -3px -4px 3px #0d0d0ce0;
     font-weight: 200;
     font-style: italic;
     font-size: 1.2rem;
@@ -85,6 +93,7 @@ body {
 
 .list-item {
     font-family: "vista-sans-narrow", sans-serif;
+    text-shadow: -3px -4px 3px #0d0d0ce0;
     font-weight: 200;
     font-style: normal;
     font-size: 1.2rem;
@@ -98,6 +107,7 @@ body {
 
 .accent-1 {
     font-family: "utopian", sans-serif;
+    text-shadow: -3px -3px 7px #0d0d0cd1;
     font-weight: 300;
     font-style: normal;
     font-size: 3rem;
@@ -186,9 +196,11 @@ body {
     border-right: 1px solid #d16453a0;
     border-bottom: 1px solid #d57465c4;
     font-family: system-ui, sans-serif;
+    text-shadow: -2px 0px 2px #0d0d0c66;
     margin: 1rem;
     row-gap: 1rem;
     z-index: 10;
+    text-align: center;
 }
 
 .nav-links {
@@ -295,7 +307,7 @@ body {
     width: 100%;
     text-align: center;
     font-size: 0.8rem;
-    opacity: 0.5;
+    opacity: 0.3;
     font-family: system-ui, sans-serif;
 }
 
@@ -306,7 +318,7 @@ body {
     width: 100%;
     text-align: right;
     font-size: 0.8rem;
-    opacity: 0.5;
+    opacity: 0.2;
     font-family: system-ui, sans-serif;
 }
 

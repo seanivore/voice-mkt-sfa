@@ -71,7 +71,7 @@ Example Script:
 --> 45% increase in long-term plan sign-ups
 
 ## Strategy: Building Trust Through Technology **SLIDE 6**
-**AI doesn't just predict problems - it prevents them**
+**AI doesn't just predict problems, it prevents them**
 Example Script:
 ```
 [serious][slower] Our AI just flagged something concerning about your area's infrastructure.
