@@ -203,64 +203,46 @@ I'd like to hold off making the wavy shapes until we have the scrolling effect a
 
 ## Changes 
 
-I separated into CSS and HTML files. CSS is at /assets/css/main.css
+File updates:
+- I separated into CSS and HTML files. CSS is at /assets/css/main.css
+- Let's also separate out the JS. 
+- I removed the fonts from the repo and added the Adobe link. 
 
-Updated the SVG logo to this cool looking cubist stylized font that is two that are layered and staggered and transparent so it is rad looking. Changed background color to play well with the logo transparency. 
+Design updates:
+- Updated the SVG logo to this cool looking cubist stylized font that is two that are layered and staggered and transparent so it is rad looking. Changed background color to play well with the logo transparency. Made a large number of changes to the CSS until it felt perfect. 
+- On the navigation bar I added shading depth, pulled away from edge, curved the corners, set height to fit content. I made similar changes to the mobile nav and buttons. I often do this and will probably make little changes every time I'm working in there. I'll try to include the most notable changes, but just FYI so that if you see something that looks changed from what you recall you can just check with me. 
+
+Slide show updates:
+- I went to create a title slide and it turned into something so big that I made it into a second slide show. All copy is finalized. When you check them out, LMK what you think. I feel like they both have value, but I didn't want one super long presentation. I condensed a lot, but got to a point where I just didn't want to remove anymore. 
+- COPY FOR NARRATIVE SLIDE SHOW: `/Users/seanivore/Development/voice-mkt-sfa/assets/docs/SLIDES_1_NARRATIVE.md`
+- COPY FOR ORIGINAL SLIDE SHOW: `/Users/seanivore/Development/voice-mkt-sfa/assets/docs/SLIDE_2_REVIEW_RESULTS.md` 
+- This new version is very much a "narrative" version, but so I'm not sure what to call the other version. When we figure out what to call each to identify them, let's change their HTML file names to their appropriate URL slugs. At that point the 'index.html' will only be the HTML for the home page. 
 
 ## Navigation Bar
 
-I added some depth with shading, pulled it from the bleed edge, curved the corners, more shadow below, and then set height to fit content. I made similar changes to the mobile nav and buttons. I'll probably continue working on the edges little by little every time we work on this. Uses system font for buttons. Honestly I love system font, if this wasn't a presentation purpose website I'd be strict to only using that. 
+1. We need a better "^" character. Maybe just different font and size. 
+2. Is there a way to make it so the shadow doesn't rotate with the button when clicked? Maybe we move the rotation to just the character "^" inside the circle button? 
+3. On desktop, the nav buttons don't click when you are not on the first slide. 
+4. On mobile when you click the buttons they turn a light blue and then the same brown the other buttons change to when pressed. There is some kind of delay, I think maybe a transition for fading in. Note that there is no blue when buttons are pressed on desktop. 
 
-I gotta find a better "^" character maybe just different font and size. 
+## Scrolling  
 
-Is there a way to make it so the shadow doesn't rotate with the button when clicked? Maybe we move the rotation to just the character "^"? 
+1. It doesn't work.I thought there was no JS but just found it at the bottom of the HTML. 
+2. Sort of weird we can click the UI buttons even when you can't see them. Do they need to be clickable at all? 
 
-NOTE: on desktop, the nav buttons don't work on the other slides. Also it is sort of weird that you can click the UI helper buttons when they're not even there. Honestly if we make them not clickable at all that'd be okay with me. 
+## Title Slide Savvy (Re: Narrative Slide Show)
 
-On mobile when you click the buttons they turn a light blue and then the same brown the other buttons change to when pressed. There is some kind of delay, I think maybe a transition for fading in. Note that there is no blue when buttons are pressed on desktop. 
-
-## Scrolling Doesn't Work 
-
-I thought there was no JS but just found it at the bottom of the HTML! 
-
-## No Images Are Previewing In Any Browser **FIXED BUT FYI**
-
-Images weren't showing up. Honestly I'm pretty sure this is a glitch with the way HTML is designed in general. All the paths didn't change to absolute. Here is one of the favicon I just pulled directly from the console for our current index.html preview that isn't working in any browser: "file:///assets/favicon/favicon-96x96.png". 
-
-THis happens all the time. @SITE_ISSUES.md 
-
-"/" = ROOT no matter where the page you are on is 
-"./" = Same directory the page you are on is in  
-"../" = Back Up this many directories first 
-"../../" = Back Up two directories (if you're on a page at fashion/lookbook/ for example) 
-
-And I've spent a lot of time trying to figure it out. At the core it is because the rule the *almost* always follows the logic is that paths are written to accommodate where you are writing from, not where you are going. This subtle difference is key. 
-
-Which is why this is a glitch. The root paths anywhere sometimes require "./" and sometimes require "/". My webflow-short site has conflicts IN THE SAME FILE. 
-
-It is pretty annoying. Even if you use the IDE to select a path from the UI modal pop-up, it follow the rule and does not give a a path written on a file at the root, like index.html going to say /assets/favicon/favicon-96x96.png. The rule is "./" is reserved for "in the same directory as you are writing from" and obviously index.html is not in the same directory as the favicon. 
-
-I won't be surprised if it eventually wants the periods to be removed. but for now I updated them all. This whole file was actually sort of strange like design stuff was appearing over time -- at first I thought you were in the file making nice updates lol. 
-
-## Slide show
-
-First, a quick update. I went to create a title slide and it turned into something so big that I made it into a second slide show. All copy is finalized. This new version is very much a "narrative" version, but so I'm not sure what to call the other version. When you check them out, LMK what you think. I feel like they both have value, but I didn't want one super long presentation. I condensed a lot, but got to a point where I just didn't want to remove anymore. 
-
-COPY FOR NARRATIVE SLIDE SHOW: 
-`/Users/seanivore/Development/voice-mkt-sfa/assets/docs/SLIDES_1_NARRATIVE.md`
-
-COPY FOR ORIGINAL SLIDE SHOW: 
-`/Users/seanivore/Development/voice-mkt-sfa/assets/docs/SLIDE_2_REVIEW_RESULTS.md`
-
-### Title Slide Savvy (Re: Narrative Slide Show)
-
-Omg, so let's use an impressive stat about how many Hz to speak at to improve conversions. Make it seem normal and like obvious how to do it. Then hook the joke by using the YouTube iFrame API's HTML to auto play WHAT 180 Hz SOUNDS LIKE. Spoiler: Hilariously like nothing helpful at all. It'll come of hilarious because it sort of sets things up like "oh god damn it, is everything here that Sean provided going to be completely useless?" Bait and switch, because then we're like BOOM cheat sheet to write this as notation in scripts. 
+Omg, what do you think of this idea. I'm thinking we should use an impressive stat about how many Hz to speak at to improve conversions. Make it seem normal and like obvious how to do it. Then hook the joke by using the YouTube iFrame API's HTML to auto play WHAT 180 Hz SOUNDS LIKE. Spoiler: Hilariously like nothing helpful at all. It'll come of hilarious because it sort of sets things up like "oh god damn it, is everything here that Sean provided going to be completely useless?" Bait and switch, because then we're like BOOM cheat sheet to write this as notation in scripts. 
 
 This YouTube API sounds PERFECT. is one page document has some HTML and JS to be able to queue it for playback and adjust volume to make sure it is up. There are certain events too which makes me wonder if we can burry the joke/lead even more rather than them going to the next slide and seeing the YouTube video's thumbnail giving away what it will play. [YouTube IFrame API](https://developers.google.com/youtube/iframe_api_reference) [GitHub YouTube API Examples](https://github.com/youtube/api-samples) [130 Hz Sound](https://youtu.be/S7Jv1EZ7N8c?si=pwFslPGGj6CzsYpw)
 
 I could always get an actual MP3 if that is easier. Might be easier to be sneaky about the fact that the audio we're about to share helps with nothing tangible. 
 
-## Fonts Not Displaying **FIXED USING ADOBE LINK**
+## No Images Are Previewing In Any Browser **FIXED BUT FYI**
+
+- Images weren't showing up because some of the paths weren't changing from relative to absolute when previewed. For example, I copied this from one of them now working as you can tell by the URL it created: "file:///assets/favicon/favicon-96x96.png" 
+- They work now because I added "./" to all the paths. 
+- IDK who "manages" HTML, like... globally, but I broke down the logic-rule, explained the consequences (that we're experiencing here), and then showed how allowing both "/" and "./" when you're writing a path from a file in the root to anywhere else breaks the logic by using an example of applying the broken logic's "logic" to an example. Hopefully they know about this issue because it is pain. Here is if you're curious. I put this together one day while spending hours trying to figure out exactly why so many paths on an old website we were making local wasn't working. `/Users/seanivore/Development/_resources/ai-dev-docs/_notes/SITE_ISSUES.md` 
 
 ----
 
