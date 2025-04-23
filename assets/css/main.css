@@ -75,6 +75,13 @@ body {
     /* Firefox */
     -ms-overflow-style: none;
     /* IE and Edge */
+    scroll-behavior: smooth;
+}
+
+/* Properly handle snap scrolling - critical for MacOS-style swipe UX */
+.scroll-snap-mode {
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
 }
 
 .scrollable-container::-webkit-scrollbar {
@@ -154,10 +161,13 @@ body {
     color: var(--text-color);
     transition: all 0.2s ease;
     font-family: system-ui, sans-serif;
+    display: block;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:active {
     background-color: rgba(237, 172, 60, 0.2);
+    color: var(--text-color);
 }
 
 /* Navigation arrows */
@@ -216,7 +226,7 @@ body {
     z-index: 20;
     width: 40px;
     height: 40px;
-    filter: drop-shadow(2px 4px 3px black);
+    filter: drop-shadow(2px 4px 3px rgba(0, 0, 0, 0.3));
     background-color: rgba(255, 253, 246, 0.7);
     backdrop-filter: blur(5px);
     border-radius: 50%;
@@ -224,7 +234,19 @@ body {
     justify-content: center;
     font-size: 1.2rem;
     cursor: pointer;
+    overflow: hidden;
+}
+
+.mobile-nav-toggle::after {
+    content: "︿";
+    font-family: system-ui, sans-serif;
+    font-size: 1.4rem;
+    display: block;
     transition: transform 0.3s ease;
+}
+
+.mobile-nav-toggle.active::after {
+    transform: rotate(180deg);
 }
 
 .mobile-nav {
@@ -249,10 +271,6 @@ body {
 
 .mobile-nav.active {
     transform: translateX(0);
-}
-
-.mobile-nav-toggle.active {
-    transform: rotate(180deg);
 }
 
 /* Media queries */
