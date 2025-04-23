@@ -105,83 +105,6 @@ implement-ai-voice-marketing-research.html
 
 Creates a 'Slides' of deck experience. Scrolling UX replicates the macOS workspace swipe navigation on trackpads and mobile devices. UI key is swipe to next slide and let go before the 50% mark and it bounces back to the center of the page you were on. Let go after the 50% mark and it bounces out to the next panel's center. Use subtle arrows, visual cues, keyboard alternative scrolling. Appears on page load and then disappears when the user scrolls. 
 
-```CSS 
-.scrollable-container {
-/* enables horizontal scrolling on the element */
-  overflow-x: scroll;
-/* prevents the page from being dragged back to the previous page when the horizontal scroll reaches the edges */
-  overscroll-behavior-x: contain;
-}
-```
-
-```JavaScript
-// Trackpad handling
-const scrollableContainer = document.querySelector('.scrollable-container');
-// This event listener detects trackpad scrolling
-scrollableContainer.addEventListener('mousewheel', (event) => {
-//Prevents the default scrolling behavior (page navigation).
-  event.preventDefault();
-
-  // Get scroll boundaries
-  const maxX = scrollableContainer.scrollWidth - scrollableContainer.offsetWidth;
-
-  // Prevent scrolling beyond boundaries and determine the direction of scrolling by checking event.deltaX value
-  const currentScroll = scrollableContainer.scrollLeft;
-  const newScrollPosition = currentScroll + event.deltaX;
-
-  if (newScrollPosition < 0) {
-    scrollableContainer.scrollLeft = 0;
-    return;
-  }
-  if (newScrollPosition > maxX) {
-    scrollableContainer.scrollLeft = maxX;
-    return;
-  }
-
-  // Apply the scroll
-  scrollableContainer.scrollLeft = newScrollPosition;
-});
-```
-
-```JavaScript
-// Mobile handling
-const scrollableContainer = document.querySelector('.scrollable-container');
-let startX = 0;
-let isScrolling = false;
-// Handle touch events on mobile devices
-scrollableContainer.addEventListener('touchstart', (event) => {
-  startX = event.touches[0].clientX;
-  isScrolling = true;
-});
-// Handle touch events on mobile devices
-scrollableContainer.addEventListener('touchmove', (event) => {
-  if (!isScrolling) return;
-  event.preventDefault();
-
-  // Get scroll boundaries
-  const maxX = scrollableContainer.scrollWidth - scrollableContainer.offsetWidth;
-
-  // Calculate swipe distance (Track the touch position and calculate the distance swiped. Update the scroll position accordingly.)
-  const currentX = event.touches[0].clientX;
-  const deltaX = currentX - startX;
-
-  // Update scroll position (Track the touch position and calculate the distance swiped. Update the scroll position accordingly.)
-  scrollableContainer.scrollLeft -= deltaX;
-
-  // Prevent scrolling beyond boundaries
-  if (scrollableContainer.scrollLeft < 0) {
-    scrollableContainer.scrollLeft = 0;
-  }
-  if (scrollableContainer.scrollLeft > maxX) {
-    scrollableContainer.scrollLeft = maxX;
-  }
-});
-
-scrollableContainer.addEventListener('touchend', () => {
-  isScrolling = false;
-});
-```
-
 ## Interactive Elements 
 
 ### The Static Art 
@@ -200,42 +123,33 @@ I'd like to hold off making the wavy shapes until we have the scrolling effect a
 
 # Review Feedback 
 
-## Changes 
+## Scrolling 
 
-File updates:
-- I separated into CSS and HTML files. CSS is at /assets/css/main.css
-- Let's also separate out the JS. 
-- I removed the fonts from the repo and added the Adobe link. 
+Re: Scrolling, can we make it so that the arrows at the bottom of the page stay there instead of disappearing? Those work when you click them. And using the keyboard arrows works to move from section to section. 
+Re: Scrolling, however you still can't use the scrolling on the trackpad at all; up and down does nothing, and swiping with gestures like that JS/CSS I found online, along with any changes you did or didn't make, doesn't work either. 
+  - Should we look it up? Unless you set it up a way you knew of, the directions I found were direct from the Google Results and I mean that AI is honestly not very accurate in general. 
+  - How does it all work? Like is this a common thing or not? I assumed so just by how easily that Google AI was able to provide an answer, but the site I made with v0 had issues with this same request. 
+  - If all else fails we should ask Perplexity. They find really accurate results because they can search for sentiment, they're like tapped into Reddit that way. 
+  - I just added a new Perplexity search MCP and refreshed all the MCPs. 
 
-Design updates:
-- Updated the SVG logo to this cool looking cubist stylized font that is two that are layered and staggered and transparent so it is rad looking. Changed background color to play well with the logo transparency. Made a large number of changes to the CSS until it felt perfect. 
-- On the navigation bar I added shading depth, pulled away from edge, curved the corners, set height to fit content. I made similar changes to the mobile nav and buttons. I often do this and will probably make little changes every time I'm working in there. I'll try to include the most notable changes, but just FYI so that if you see something that looks changed from what you recall you can just check with me. 
+Re: Navigation Bar, Love the updated mobile nav character. Thank you for that. Clicking all those mobile nav links work as well, they go right to the correct section of the pseudo-slideshow. 
+Re: Navigation Bar, I've added to images to this message. Though it hides my mouse when I take a screenshot, my mouse was hovering in both images. The first one, when our pages is positioned at 0-100vw. But the second was at 100vw-200vw and it didn't work. The buttons just don't highlight with hover and you can see that clicking them doesn't register. This is the same from 200vw all the way to the end of the page. 
+Re: Navigation Bar, Also the nav buttons on the desktop version don't go anywhere even on the first-slide where they visually appear like they are functioning. 
+  - What is the difference between the mobile and the desktop implementation with scrolling? I have a feeling it might be able that on desktop. Wdyt? It just doesn't seem to understand what to do. Because it is notable that the the nav buttons, which are anchors right?, *do* work on mobile view of the nav. 
+  - However, I also wanted to note that I previewed the site locally on Safari and it looked like it had no CSS. *ACTUALLY* I bet you it is the freaking path issue. Why does that keep happening?! 
+  - Either way, maybe we should try that other method for testing. You ran a server from the terminal, right? Because I'm curious if that might solve the path issue. But I'm also thinking I could look at it on my phone if we preview that way and see if the swiping works on mobile. 
+  - Then we'd have an even more solid indication of it is actually the mobile versus desktop implementation at a deeper level or not. 
 
-Slide show updates:
-- I went to create a title slide and it turned into something so big that I made it into a second slide show. All copy is finalized. When you check them out, LMK what you think. I feel like they both have value, but I didn't want one super long presentation. I condensed a lot, but got to a point where I just didn't want to remove anymore. 
-- COPY FOR NARRATIVE SLIDE SHOW: `/Users/seanivore/Development/voice-mkt-sfa/assets/docs/SLIDES_1_NARRATIVE.md`
-- COPY FOR ORIGINAL SLIDE SHOW: `/Users/seanivore/Development/voice-mkt-sfa/assets/docs/SLIDE_2_REVIEW_RESULTS.md` 
-- This new version is very much a "narrative" version, but so I'm not sure what to call the other version. When we figure out what to call each to identify them, let's change their HTML file names to their appropriate URL slugs. At that point the 'index.html' will only be the HTML for the home page. 
+Okay one more thing that seems really notable, re: scrolling. At first the keyboard arrows work great! But when I go back to the page or look at it for a while and then try them again, they only move the page a tiny bit while you have the button pressed. That's weird right? Maybe we need to remove any complexity from the scrolling logic, if there is any to make it  more like the Mac OS scrolling UX, and see if it works at all or better. 
 
-## Scrolling  
+OMG so weird — when it was stuck between pages because of the keyboard arrows suddenly only nudging it a bit, I tried the swipe gesture on the trackpad and it worked. No idea what that means. But then it didn't work again. 
 
-1. It doesn't work.I thought there was no JS but just found it at the bottom of the HTML. 
-2. Sort of weird we can click the UI buttons even when you can't see them. Do they need to be clickable at all? 
+I don't really want to dig into the CSS and design tweaks I want to make until we can figure out these items. At that point we can chat about the Video embedding and option of doing an MP3 instead. I hate that I can see the Youtube thumbnail because it completely ruins the joke. 
 
-## Navigation Bar
-
-1. We need a better "^" character. Maybe just different font and size. 
-2. Is there a way to make it so the shadow doesn't rotate with the button when clicked? Maybe we move the rotation to just the character "^" inside the circle button? 
-3. On desktop, the nav buttons don't click when you are not on the first slide. 
-4. On mobile when you click the buttons they turn a light blue and then the same brown the other buttons change to when pressed. There is some kind of delay, I think maybe a transition for fading in. Note that there is no blue when buttons are pressed on desktop. 
 
 ## Title Slide Savvy (Re: Narrative Slide Show)
 
-Omg, what do you think of this idea. I'm thinking we should use an impressive stat about how many Hz to speak at to improve conversions. Make it seem normal and like obvious how to do it. Then hook the joke by using the YouTube iFrame API's HTML to auto play WHAT 180 Hz SOUNDS LIKE. Spoiler: Hilariously like nothing helpful at all. It'll come of hilarious because it sort of sets things up like "oh god damn it, is everything here that Sean provided going to be completely useless?" Bait and switch, because then we're like BOOM cheat sheet to write this as notation in scripts. 
-
-This YouTube API sounds PERFECT. is one page document has some HTML and JS to be able to queue it for playback and adjust volume to make sure it is up. There are certain events too which makes me wonder if we can burry the joke/lead even more rather than them going to the next slide and seeing the YouTube video's thumbnail giving away what it will play. [YouTube IFrame API](https://developers.google.com/youtube/iframe_api_reference) [GitHub YouTube API Examples](https://github.com/youtube/api-samples) [130 Hz Sound](https://youtu.be/S7Jv1EZ7N8c?si=pwFslPGGj6CzsYpw)
-
-I could always get an actual MP3 if that is easier. Might be easier to be sneaky about the fact that the audio we're about to share helps with nothing tangible. 
+[130 Hz Sound](https://youtu.be/S7Jv1EZ7N8c?si=pwFslPGGj6CzsYpw). I could always get an actual MP3 if that is easier. Might be easier to be sneaky about the fact that the audio we're about to share helps with nothing tangible. 
 
 ## No Images Are Previewing In Any Browser **FIXED BUT FYI**
 
