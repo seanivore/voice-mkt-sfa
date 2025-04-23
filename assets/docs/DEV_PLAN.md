@@ -53,10 +53,6 @@ Continue working on the slide show until it is finished. It is the most importan
 
 TO BE UPDATED BEFORE SUBMITTING REVIEW FEEDBACK FOR IMPLEMENTATION. Right now it is a lot of notes for me to get around to before finishing up. 
 
-## BLAND AI Animation on Mobile 
-
-It looked tiny but I just checked their site and it is the same. Zoom in a tiny bit; maybe 80% with visible of the entire animation. And then no reason for it to be 100% height on mobile when it wasn't on desktop. It looks enough like the "vibe" of BRAND AI to be recognized and impress. 
-
 ## CSS Animation Behind Logo Text Brand Art 
 
 Instead of my original idea, either something new or the pixel animation kept really narrow. Regardless of what animation, if we go that route then it can just be 100% width and stay sticky along with the actual logo brand art. 

@@ -175,10 +175,10 @@ body {
     padding: 1.5rem;
     padding-top: 1.5rem;
     backdrop-filter: blur(8px);
-    background: linear-gradient(100deg, #7036415b, #cc596e5f);
+    background: linear-gradient(20deg, #b2729f20, #bc82ab59);
     border-left: 1px solid #75565c3b;
     border-top: 1px solid #75565c3b;
-    border-right: 1px solid #c370813b;
+    border-right: 1px solid #c67c8a44;
     border-bottom: 1px solid #c370813b;
     font-family: system-ui, sans-serif;
     margin: 1rem;
@@ -197,8 +197,12 @@ body {
 }
 
 .nav-link {
+    background: linear-gradient(100deg, #1698b5a3, #34a7c1b6);
     padding: 0.5rem;
-    border: 1px solid #4F6D7A;
+    border-left: 1px solid #2d869ab6;
+    border-top: 1px solid #2d869a8c;
+    border-right: 1px solid #45b3ccc3;
+    border-bottom: 1px solid #50b9d1cd;
     backdrop-filter: blur(5px);
     border-radius: 4px;
     text-decoration: none;
@@ -275,7 +279,7 @@ body {
 
 .keyboard-hint {
     position: fixed;
-    bottom: 1rem;
+    bottom: 0.5rem;
     left: 0;
     width: 100%;
     text-align: center;
@@ -283,6 +287,18 @@ body {
     opacity: 0.5;
     font-family: system-ui, sans-serif;
 }
+
+.footer-copyright {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    width: 100%;
+    text-align: right;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    font-family: system-ui, sans-serif;
+}
+
 
 /* Mobile navigation */
 .mobile-nav-toggle {
@@ -305,7 +321,7 @@ body {
 }
 
 .mobile-nav-toggle::after {
-    content: "︿";
+    content: "▲";
     font-family: system-ui, sans-serif;
     font-size: 1.4rem;
     display: block;
@@ -348,7 +364,7 @@ body {
 
     .slide-content {
         width: 100%;
-        padding: 2rem;
+        padding: 1.5rem;
     }
 
     .brand-logo-sticky {
@@ -361,22 +377,61 @@ body {
         display: flex;
     }
 
+    /* Simplified approach to nullify the active styling on mobile */
+    .mobile-nav .nav-link.active {
+        background: linear-gradient(100deg, #1698b5a3, #34a7c1b6);
+        border-left: 1px solid #2d869ab6;
+        border-top: 1px solid #2d869a8c;
+        border-right: 1px solid #45b3ccc3;
+        border-bottom: 1px solid #50b9d1cd;
+        transform: none;
+    }
+
     .h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .h2 {
         font-size: 1.5rem;
     }
 
+    .p {
+        font-size: 0.9rem;
+    }
+
+    .list-item {
+        font-size: 0.9rem;
+        padding-left: 1.25rem;
+        text-indent: 0.5rem;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .accent-1 {
+        font-size: 2rem;
+    }
+
+    .blockquote {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .pixel-container {
+        max-height: 4rem;
+    }
+
     /* Make arrows more visible on mobile */
     .nav-arrows {
         opacity: 0.9;
+        bottom: 3rem;
     }
 
-    .arrow {
-        width: 50px;
-        height: 50px;
-        font-size: 1.8rem;
+    .keyboard-hint {
+        margin-bottom: 1.2rem;
+    }
+
+    .footer-copyright {
+        font-size: 0.7rem;
+        opacity: 0.3;
     }
 }
