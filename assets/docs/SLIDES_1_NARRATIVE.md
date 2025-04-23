@@ -3,18 +3,18 @@
 
 ## Uncovering the Secrets Behind Effective AI SDRs **SLIDE 1**
 
-How do Sales Development Representatives snag leads? 
+~~How do Sales Development Representatives snag leads?~~
 
---> AI voice marketing performance data for Home Services is plentiful with impressive conversion rates. 
+~~--> AI voice marketing performance data for Home Services is plentiful with impressive conversion rates.~~
 
-- 27% increase in up-sales by matching natural instructional speech pacing.
-- Pause for half a second before explaining benefits and they are 12% better at recalling the information. 
-- Use a downward inflection with technical terms and people are 15% more likely to perceive you as technically competent. 
-- 21% increase in perception of trust by resonating pitch in chest at 130-140Hz. 
+~~- 27% increase in up-sales by matching natural instructional speech pacing.~~
+~~- Pause for half a second before explaining benefits and they are 12% better at recalling the information.~~
+~~- Use a downward inflection with technical terms and people are 15% more likely to perceive you as technically competent.~~
+~~- 21% increase in perception of trust by resonating pitch in chest at 130-140Hz.~~
 
-Let's make that tangible. Audio up for the next slide. 
+~~Let's make that tangible. Audio up for the next slide.~~
 
-## Hear The Trust 
+## Hear The Trust **SLIDE 2**
 Let's employ one of those strategies.
 
 --> An example of how to sound trustworthy
@@ -22,7 +22,7 @@ Let's employ one of those strategies.
 
 > Audio player. 
 
-## Doesn't it sound human?!  **SLIDE 2**
+## Doesn't it sound human?!  **SLIDE 3** 
 We're being facetious, but it is to make a point: How far does "AI voices that sound human" get you? 
 
 BLAND AI's very detailed March 2025 blog titled "Key Features of Bland AI for AI SDRs" had this to say on the point. 
@@ -31,7 +31,7 @@ BLAND AI's very detailed March 2025 blog titled "Key Features of Bland AI for AI
 
 You thinking what we're thinking? 
 
-## Help Me Out Here, BLAND AI  **SLIDE 3**
+## Help Me Out Here, BLAND AI  **SLIDE 4**
 Show us the creative process needed to implement this crazy research. 
 
 --> Next, a landing page titled 'HOW IT WORKS' section. 
@@ -48,7 +48,7 @@ Meaning, if I'm not their target audience, who is?
 
 Time to confirm my suspicions. 
 
-## Strategy Implementation Needs Buried   **SLIDE 4**
+## Strategy Implementation Needs Buried   **SLIDE 5**
 BLAND AI's intentions seemed too obvious. So we consulted our most trusted research advisor: Perplexity. 
 
 > "Yes, Bland AI offers consulting services, specifically for businesses interested in implementing their AI phone agent solutions. They provide consultations to help businesses understand how AI can address their specific needs and build tailored solutions. While they offer a standard pay-as-you-go model for their API and self-hosted infrastructure, they also provide custom implementation and solutions engineering services for a fee." 
@@ -60,7 +60,7 @@ Hear that? Product designers screams echoing through time. "But sir, you must un
 
 IT WAS TIME TO CALL IN THE ARMY. 
 
-## Clusters of Claudes Channeling Clever Clarity  **SLIDE 5**
+## Clusters of Claudes Channeling Clever Clarity  **SLIDE 6**
 After some rearmament, they were ready to go. 
 
 --> We sent out many little Claude's armed with little tools. 
@@ -77,7 +77,7 @@ They developed an actionable framework.
 --> Technical research was humanized into written scripts. 
 --> They used archetypes that played into strategies identified in the research. 
 
-## Modulating the "Human-sounding" Voice of BLAND AI  **SLIDE 6**
+## Modulating the "Human-sounding" Voice of BLAND AI  **SLIDE 7**
 They delivered, illustrating implementation of the research and the scripts that resulted. 
 
 --> Rules for writing plain text scripts with notation
@@ -90,7 +90,7 @@ My final request: At-a-glance understanding how to implement all the research-ba
 > How to adjust pitch, inflection, tone, pace, pause, emphasis and more 
 > Cover all needs to be able to implement research-backed voice modulation 
 
-## Script Draft Generation Based On Needs  **SLIDE 7**
+## Script Draft Generation Based On Needs  **SLIDE 8**
 We've started two indexes useful for matching strategies to your leads and finding the right approach. With this last element, AI can generate script drafts that vary across strategies and customer types, or drill down into specifics like timely information such as inflation or weather events. 
 
 Understand these tools and build you audience lists accordingly. 
