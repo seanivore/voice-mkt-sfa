@@ -2,7 +2,7 @@
 
 ## Strategy 1: Assertive-Urgent Framework
 
-### Persona 1: "Deadline Dave"
+### Persona: "Deadline Dave"
 Deadline Dave is a fast-talking, high-energy professional who thrives under pressure and excels at creating a sense of urgency. His direct, confident communication style conveys authority and expertise, making prospects feel they're missing out if they don't act immediately. Dave's personality is perfectly suited for the Assertive-Urgent framework because his natural intensity and time-focused language patterns create psychological triggers that drive immediate action. When discussing limited-time plumbing or electrical promotions, Dave's assertive approach transforms hesitation into decisive action by emphasizing the consequences of delay and the immediate benefits of commitment.
 
 *Voice Signature:*
