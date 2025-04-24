@@ -1,11 +1,37 @@
+Users/seanivore/Development/voice-mkt-sfa/
+├── ai-voice-marketing
+│   ├── index
+│   │   ├── influence-lead-type.md
+│   │   ├── outcome-result-strategy.md
+│   │   ├── strategy-name.md
+│   │   ├── tactic-types.md
+│   │   └── vocal-characteristics.md
 # Index of Voice Marketing Strategies Site Map
 
+# Pages Note Indexed, Please Index Them? 
 
+ai-voice-marketing/bland-ai-guides/app-ui-guide.md
+ai-voice-marketing/deep-research/analysis-optimizing-voice-ai-mkt.md
+ai-voice-marketing/research-implementation/persona-strategy/annotated-vo-scripts.md
+ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting.md
+
+# *OLD* --> **NEW** 
+
+Users/seanivore/Development/voice-mkt-sfa/
 ├── ai-voice-marketing
 │   ├── bland-ai-guides
+## DIRECTORY OLD *ai-voice-telemarketing/bland-ai-guides/*
+## DIRECTORY NEW **ai-voice-marketing/bland-ai-guides/**
 │   │   ├── api-documentation.md
 │   │   └── app-ui-guide.md
+OLD *ai-voice-telemarketing/bland-ai-guides/api-documentation.md*
+NEW **ai-voice-marketing/bland-ai-guides/api-documentation.md**
+
+Users/seanivore/Development/voice-mkt-sfa/
+├── ai-voice-marketing
 │   ├── deep-research
+## DIRECTORY OLD *ai-voice-telemarketing/full-research/*
+## DIRECTORY NEW **ai-voice-marketing/deep-research/**
 │   │   ├── analysis-optimizing-voice-ai-mkt.md
 │   │   ├── analysis-voice-mkt-home-services.md
 │   │   ├── bland-ai-pro-tips.md
@@ -15,104 +41,71 @@
 │   │   ├── strategy-curiosity-gap.md
 │   │   ├── strategy-empathy-objection.md
 │   │   └── strategy-strongest-combos.md
-│   ├── implement-bland-modulation-research.html
-│   ├── index
-│   │   ├── influence-lead-type.md
-│   │   ├── outcome-result-strategy.md
-│   │   ├── strategy-name.md
-│   │   ├── tactic-types.md
-│   │   └── vocal-characteristics.md
+OLD *ai-voice-telemarketing/full-research/analysis-voice-mkt-home-services.md*
+NEW **ai-voice-marketing/deep-research/analysis-voice-mkt-home-services.md**
+OLD *ai-voice-telemarketing/full-research/bland-ai-pro-tips.md*
+NEW **ai-voice-marketing/deep-research/bland-ai-pro-tips.md**
+OLD *ai-voice-telemarketing/full-research/bland-ai-voice-modulation.md*
+NEW **ai-voice-marketing/deep-research/bland-ai-voice-modulation.md**
+OLD *ai-voice-telemarketing/full-research/strategy-assertive-urgent.md*
+NEW **ai-voice-marketing/deep-research/strategy-assertive-urgent.md**
+OLD *ai-voice-telemarketing/full-research/strategy-combinations.md*
+NEW **ai-voice-marketing/deep-research/strategy-combinations.md**
+OLD *ai-voice-telemarketing/full-research/strategy-curiosity-gap.md*
+NEW **ai-voice-marketing/deep-research/strategy-curiosity-gap.md**
+OLD *ai-voice-telemarketing/full-research/strategy-empathy-objection.md*
+NEW **ai-voice-marketing/deep-research/strategy-empathy-objection.md**
+OLD *ai-voice-telemarketing/full-research/strategy-strongest-combos.md*
+NEW **ai-voice-marketing/deep-research/strategy-strongest-combos.md**
+
+Users/seanivore/Development/voice-mkt-sfa/
+├── ai-voice-marketing
 │   ├── research-implementation
 │   │   ├── persona-strategy
+## DIRECTORY OLD *ai-voice-telemarketing/actionable-implementation/persona-with-strategy/*
+## DIRECTORY NEW **ai-voice-marketing/research-implementation/persona-strategy/**
 │   │   │   ├── annotated-vo-scripts.md
 │   │   │   ├── identifying-archetypes.md
 │   │   │   └── tailored-tactical-frameworks.md
+OLD *ai-voice-telemarketing/actionable-implementation/persona-with-strategy/persona-development.md*
+NEW **ai-voice-marketing/research-implementation/persona-strategy/identifying-archetypes.md**
+OLD *ai-voice-telemarketing/actionable-implementation/persona-with-strategy/voice-persona-strategy.md*
+NEW **ai-voice-marketing/research-implementation/persona-strategy/tailored-tactical-frameworks.md**
+
+Users/seanivore/Development/voice-mkt-sfa/
+├── ai-voice-marketing
+│   ├── research-implementation
 │   │   └── writing-guide
+# DIRECTORY OLD *ai-voice-telemarketing/actionable-implementation/writing-voice/*
+# DIRECTORY NEW **ai-voice-marketing/research-implementation/writing-guide/**
 │   │       ├── emotion-driven-copywriting.md
 │   │       ├── modulation-sound-patterns.md
 │   │       ├── notation-cheat-sheet.md
 │   │       └── script-voice-indicators.md
-│   ├── sales-development-ai-secrets.html
+OLD *ai-voice-telemarketing/actionable-implementation/writing-voice/modulation-guide.md*
+NEW **ai-voice-marketing/research-implementation/writing-guide/modulation-sound-patterns.md**
+OLD *ai-voice-telemarketing/actionable-implementation/writing-voice/cheat-sheet.md*
+NEW **ai-voice-marketing/research-implementation/writing-guide/notation-cheat-sheet.md**
+OLD *ai-voice-telemarketing/actionable-implementation/writing-voice/script-voice-indicators.md*
+NEW **ai-voice-marketing/research-implementation/writing-guide/script-voice-indicators.md**
+
+Users/seanivore/Development/voice-mkt-sfa/
+├── ai-voice-marketing
 │   └── top-conversion-strategy
+# DIRECTORY OLD *ai-voice-telemarketing/top-voice-strategy/* 
+# DIRECTORY NEW **ai-voice-marketing/top-conversion-strategy/** 
 │       ├── assertive-urgent-emotional.md
 │       ├── combine-optimize-tactics.md
 │       ├── creating-curiosity-gap.md
 │       ├── empathy-objection-handling.md
 │       └── target-audience-groups.md
-├── assets
-│   ├── audio
-│   │   ├── 130-hz-trust-frequency-ai-voice-mkt
-│   │   │   ├── 130-hz-trust-frequency-ai-voice-mkt.sesx
-│   │   │   ├── Backup
-│   │   │   │   ├── 130-hz-trust-frequency-ai-voice-mkt_20250423T102545.107706.sesx
-│   │   │   │   └── 130-hz-trust-frequency-ai-voice-mkt_20250423T102750.175025.sesx
-│   │   │   └── Conformed Files
-│   │   │       ├── 130 Hz clean pure sine wave TEST TONE frequency 48000 1.pkf
-│   │   │       └── 130 Hz clean pure sine wave TEST TONE frequency 48000 1.wav
-│   │   └── 130-hz-trust-frequency-ai-voice-mkt.mp3
-│   ├── css
-│   │   ├── alt-slides.css
-│   │   ├── main.css
-│   │   └── pixel-animation.css
-│   ├── docs
-│   │   ├── CUBE-LOGO-TEXT-2.ai
-│   │   ├── CUBE-LOGO-TEXT-LOWERCCASE.ai
-│   │   ├── DEV_PLAN.md
-│   │   ├── geometric-logo-text-art.ai
-│   │   └── ribbons-block-letters.ai
-│   ├── favicon
-│   │   ├── apple-touch-icon.png
-│   │   ├── favicon-96x96.png
-│   │   ├── favicon.ico
-│   │   ├── favicon.svg
-│   │   ├── site.webmanifest
-│   │   ├── web-app-manifest-192x192.png
-│   │   └── web-app-manifest-512x512.png
-│   ├── images
-│   │   ├── avatar-black.png
-│   │   ├── avatar-colored.png
-│   │   ├── block-logo-1.svg
-│   │   ├── block-logo-2.svg
-│   │   ├── brand-logo-art-inspo.png
-│   │   ├── brand-logo-cubed-2.svg
-│   │   ├── brand-logo-cubed-3.svg
-│   │   ├── brand-logo-cubed.svg
-│   │   ├── brand-text-logo.svg
-│   │   ├── character-styles.png
-│   │   ├── raining-giant-pixels.png
-│   │   ├── terminal-blurred-glass-ui-inspiration.png
-│   │   ├── thumbnail-presentation-1.webp
-│   │   └── vscode-blurred-glass-inspiration.png
-│   └── js
-│       ├── pixel-animation.js
-│       └── slideshow.js
-├── CLAUDE.md
-├── CNAME
-├── content-production-case-study
-│   ├── brand-identity-briefings.md
-│   ├── content-plan
-│   │   ├── glossier-content-plan.md
-│   │   ├── hydro-flask-content-plan.md
-│   │   ├── jungalow-content-plan.md
-│   │   └── production-flow-content-plan.md
-│   ├── email-blast
-│   │   ├── glossier-email-campaign.md
-│   │   ├── hydro-flask-email-campaign.md
-│   │   └── production-flow-email-blast.md
-│   └── instagram-post
-│       ├── glossier-instagram-posts.md
-│       ├── hydro-flask-instagram-posts.md
-│       └── production-flow-instagram-posts.md
-├── cost-benefit.md
-└── README.md
-
-23 directories, 82 files
-
-Hidden project directories:
-./.cursor
-./.vscode
-
-Hidden project files:
-./.example.env
-./.gitignore
-./.sample.aider.conf.yml
+OLD *ai-voice-telemarketing/top-voice-strategy/assertive-urgent.md*
+NEW **ai-voice-marketing/top-conversion-strategy/assertive-urgent-emotional.md**
+OLD *ai-voice-telemarketing/top-voice-strategy/strategy-combo.md*
+NEW **ai-voice-marketing/top-conversion-strategy/combine-optimize-tactics.md**
+OLD *ai-voice-telemarketing/top-voice-strategy/curiosity-gap.md*
+NEW **ai-voice-marketing/top-conversion-strategy/creating-curiosity-gap.md**
+OLD *ai-voice-telemarketing/top-voice-strategy/empathy-objection.md*
+NEW **ai-voice-marketing/top-conversion-strategy/empathy-objection-handling.md**
+OLD *ai-voice-telemarketing/top-voice-strategy/strongest.md*
+NEW **ai-voice-marketing/top-conversion-strategy/target-audience-groups.md**
