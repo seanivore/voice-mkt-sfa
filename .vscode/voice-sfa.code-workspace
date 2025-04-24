@@ -21,7 +21,7 @@
         "cursor.terminal.usePreviewBox": true,
         "cursor.general.enableShadowWorkspace": true,
         "cursor.chat.terminalShowHoverHint": true,
-        "cursor.composer.shouldShowMarkdownHoverParticipantActions2": false,
+        "cursor.composer.shouldShowMarkdownHoverParticipantActions2": true,
         "cursor.general.disableHttp2": false,
         "cursor.general.gitGraphIndexing": "default",
         "cursor.preferNotificationsSameAsChat": false,
@@ -330,7 +330,7 @@
                         "meta.paragraph.list.markdown"
                     ],
                     "settings": {
-                        "foreground": "#a6f7cd"
+                        "foreground": "#71edef"
                     }
                 },
                 {
