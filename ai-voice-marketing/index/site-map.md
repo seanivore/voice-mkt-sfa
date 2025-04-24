@@ -10,10 +10,7 @@ Users/seanivore/Development/voice-mkt-sfa/
 
 # Pages Note Indexed, Please Index Them? 
 
-ai-voice-marketing/bland-ai-guides/app-ui-guide.md
-ai-voice-marketing/deep-research/analysis-optimizing-voice-ai-mkt.md
-ai-voice-marketing/research-implementation/persona-strategy/annotated-vo-scripts.md
-ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting.md
+
 
 # *OLD* --> **NEW** 
 

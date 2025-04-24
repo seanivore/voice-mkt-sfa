@@ -1,64 +1,55 @@
-# Index of Voice Marketing Strategies By Tactical Similarity 
+# Index of Voice Marketing Strategies by Tactic Type
 
-## Persona Development
-- Voice Marketing Personas Development Brief (ai-voice-telemarketing/actionable-implementation/persona-with-strategy/persona-development.md)
+```
+├── ai-voice-marketing
+│   ├── index
+│   │   ├── influence-lead-type.md
+│   │   ├── outcome-result-strategy.md
+│   │   ├── strategy-name.md
+│   │   ├── tactic-types.md
+│   │   └── vocal-characteristics.md
+```
 
-## Voice Signatures
-- Voice Marketing Personas Development Brief (ai-voice-telemarketing/actionable-implementation/persona-with-strategy/persona-development.md)
+## Assertive Tactics
 
-## Voice Modulation Techniques
-- Bland AI Voice Marketing Cheat Sheet (ai-voice-telemarketing/actionable-implementation/writing-voice/cheat-sheet.md)
-- Voice Modulation Guide (ai-voice-telemarketing/actionable-implementation/writing-voice/modulation-guide.md)
-- Bland AI Pro Tips (ai-voice-telemarketing/full-research/bland-ai-pro-tips.md)
-- Bland AI Voice Modulation Cheat Sheet (ai-voice-telemarketing/full-research/bland-ai-voice-modulation.md)
-- Assertive & Aggressive Tactics (ai-voice-telemarketing/full-research/strategy-assertive-urgent.md)
-- 5 Highly Effective Marketing Strategy Combinations Organized by Socioeconomic Status (ai-voice-telemarketing/full-research/strategy-combinations.md)
-- Empathy-Based Objection Handling For Each SES Group and Strategy (ai-voice-telemarketing/full-research/strategy-empathy-objection.md)
-- Scripts for SES Groups and Strategies Using Technical and Topical Cues (ai-voice-telemarketing/full-research/strategy-strongest-combos.md)
-- Assertive-Urgent Voice Marketing Strategies (ai-voice-telemarketing/top-voice-strategy/assertive-urgent.md)
-- Empathy-Based Objection Handling in Voice Marketing (ai-voice-telemarketing/top-voice-strategy/empathy-objection.md)
-- Optimized Marketing Strategy Combinations (ai-voice-telemarketing/top-voice-strategy/strategy-combo.md)
-- Voice Marketing Strategies: Strongest Approaches by Demographic (ai-voice-telemarketing/top-voice-strategy/strongest.md)
+[Analysis: Voice Marketing for Home Services](../deep-research/analysis-voice-mkt-home-services.md)
 
-## Script Writing
-- Bland AI Voice Marketing Cheat Sheet (ai-voice-telemarketing/actionable-implementation/writing-voice/cheat-sheet.md)
-- Voice Script Writing (ai-voice-telemarketing/actionable-implementation/writing-voice/script-voice-indicators.md)
-- Bland AI Voice Modulation Cheat Sheet (ai-voice-telemarketing/full-research/bland-ai-voice-modulation.md)
-- Assertive & Aggressive Tactics (ai-voice-telemarketing/full-research/strategy-assertive-urgent.md)
-- The Curiosity Gap Approach in Voice Marketing (ai-voice-telemarketing/top-voice-strategy/curiosity-gap.md)
-- 5 Highly Effective Marketing Strategy Combinations Organized by Socioeconomic Status (ai-voice-telemarketing/full-research/strategy-combinations.md)
-- The 'Curiosity Gap' and 'Micro-Commitment' Approach (ai-voice-telemarketing/full-research/strategy-curiosity-gap.md)
-- Empathy-Based Objection Handling For Each SES Group and Strategy (ai-voice-telemarketing/full-research/strategy-empathy-objection.md)
-- Scripts for SES Groups and Strategies Using Technical and Topical Cues (ai-voice-telemarketing/full-research/strategy-strongest-combos.md)
-- Assertive-Urgent Voice Marketing Strategies (ai-voice-telemarketing/top-voice-strategy/assertive-urgent.md)
-- Empathy-Based Objection Handling in Voice Marketing (ai-voice-telemarketing/top-voice-strategy/empathy-objection.md)
-- Optimized Marketing Strategy Combinations (ai-voice-telemarketing/top-voice-strategy/strategy-combo.md)
-- Voice Marketing Strategies: Strongest Approaches by Demographic (ai-voice-telemarketing/top-voice-strategy/strongest.md)
+[Assertive Marketing Strategies by Demographic](../deep-research/strategy-assertive-urgent.md)
 
-## Platform Optimization
-- Bland AI Voice Marketing Cheat Sheet (ai-voice-telemarketing/actionable-implementation/writing-voice/cheat-sheet.md)
-- Bland AI API Documentation (ai-voice-telemarketing/bland-ai-guides/api-documentation.md)
-- Bland AI Voice Modulation Cheat Sheet (ai-voice-telemarketing/full-research/bland-ai-voice-modulation.md)
+[Assertive-Urgent Emotional Marketing](../top-conversion-strategy/assertive-urgent-emotional.md)
 
-## Technical Implementation
-- Bland AI Voice Modulation Cheat Sheet (ai-voice-telemarketing/full-research/bland-ai-voice-modulation.md)
-- Bland AI API Documentation (ai-voice-telemarketing/bland-ai-guides/api-documentation.md)
+[Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
 
-## Socioeconomic Targeting Strategies
-- 5 Highly Effective Marketing Strategy Combinations Organized by Socioeconomic Status (ai-voice-telemarketing/full-research/strategy-combinations.md)
-- Empathy-Based Objection Handling For Each SES Group and Strategy (ai-voice-telemarketing/full-research/strategy-empathy-objection.md)
-- Scripts for SES Groups and Strategies Using Technical and Topical Cues (ai-voice-telemarketing/full-research/strategy-strongest-combos.md)
-- Assertive-Urgent Voice Marketing Strategies (ai-voice-telemarketing/top-voice-strategy/assertive-urgent.md)
-- Optimized Marketing Strategy Combinations (ai-voice-telemarketing/top-voice-strategy/strategy-combo.md)
-- Voice Marketing Strategies: Strongest Approaches by Demographic (ai-voice-telemarketing/top-voice-strategy/strongest.md)
+## Curiosity-Building Tactics
 
-## Micro-Commitment Techniques
-- The 'Curiosity Gap' and 'Micro-Commitment' Approach (ai-voice-telemarketing/full-research/strategy-curiosity-gap.md)
+[Creating the Curiosity Gap](../top-conversion-strategy/creating-curiosity-gap.md)
 
-## Engagement Enhancement
-- The 'Curiosity Gap' and 'Micro-Commitment' Approach (ai-voice-telemarketing/full-research/strategy-curiosity-gap.md)
-- Empathy-Based Objection Handling in Voice Marketing (ai-voice-telemarketing/top-voice-strategy/empathy-objection.md)
+[The Curiosity Gap and Micro-Commitment Marketing Approach](../deep-research/strategy-curiosity-gap.md)
 
-## Customer Retention
-- Empathy-Based Objection Handling For Each SES Group and Strategy (ai-voice-telemarketing/full-research/strategy-empathy-objection.md)
-- Empathy-Based Objection Handling in Voice Marketing (ai-voice-telemarketing/top-voice-strategy/empathy-objection.md)
+[Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
+
+## Empathy-Based Tactics
+
+[Empathy and Objection Handling in Voice Marketing](../top-conversion-strategy/empathy-objection-handling.md)
+
+[Empathy-Based Objection Handling Strategies](../deep-research/strategy-empathy-objection.md)
+
+[Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
+
+## Combination Tactics
+
+[Combine and Optimize Marketing Tactics](../top-conversion-strategy/combine-optimize-tactics.md)
+
+[Marketing Strategy Combinations by Socioeconomic Status](../deep-research/strategy-combinations.md)
+
+[Strongest Marketing Strategy Combinations by SES Group](../deep-research/strategy-strongest-combos.md)
+
+[Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
+
+## Persona-Based Tactics
+
+[Target Audience Groups: Voice Marketing Strategies](../top-conversion-strategy/target-audience-groups.md)
+
+[Voice Marketing Personas: Identifying Archetypes](../research-implementation/persona-strategy/identifying-archetypes.md)
+
+[Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
