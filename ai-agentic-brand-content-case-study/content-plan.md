@@ -75,3 +75,14 @@ Each document builds upon the previous one, creating a complete content planning
 ## Notes
 
 The results are impressive for the ~200-some words of the brand identity documentation. The workflow is able to create a comprehensive content plan that is both strategic and emotionally engaging. The marketing plan is particularly impressive, detailed, and thoughtful. We also rather enjoyed the Instagram post ideas as they were spot on for the brand voice and tone, and the content was rather trendy and fun. 
+
+## Directory Content 
+
+**[Content Plan for Jungalow](../ai-agentic-brand-content-case-study/content-plan/jungalow-content-plan.md)**
+
+**[Content Plan for Glossier](../ai-agentic-brand-content-case-study/content-plan/glossier-content-plan.md)**
+
+**[Content Plan for Hydro Flask](../ai-agentic-brand-content-case-study/content-plan/hydro-flask-content-plan.md)**
+
+**[Content Plan Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/content-plan/production-flow-content-plan.md)**
+

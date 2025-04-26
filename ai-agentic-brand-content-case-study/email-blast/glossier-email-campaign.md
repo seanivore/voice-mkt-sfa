@@ -38,3 +38,22 @@ P.S. Already loving your simplified Glossier routine? Share it with #GlossierSim
 - *"Three products. Five minutes. All-day glow." should appear as a secondary line below the CTA button in slightly smaller text*
 - *Ensure adequate white space between paragraphs for mobile readability*
 - *Email width should be optimized for mobile viewing (max 600px)*
+
+----
+
+## Directory Content 
+
+- [Content Plans](../content-plan.md)
+  - [Glossier Content Plan](../content-plan/glossier-content-plan.md)
+  - [Jungalow Content Plan](../content-plan/jungalow-content-plan.md)
+  - [Content Plan Draft & Feedback All Brands](../content-plan/production-flow-content-plan.md)
+  - [Agentic Configuration File](../content-plan/agent-configuration-prompt-input.md)
+- [Email Campaign](../email-blast.md)
+  - [Hydro Flask Email Campaign](./hydro-flask-email-campaign.md)
+  - [Email Campaign Draft & Feedback All Brands](./production-flow-email-blast.md)
+  - [Agentic Configuration File](./ai-prompt-configuration-agent.md)
+- [Instagram Posts](../instagram-post.md)
+  - [Glossier Instagram Posts](../instagram-post/glossier-instagram-posts.md)
+  - [Hydro Flask Instagram Posts](../instagram-post/hydro-flask-instagram-posts.md)
+  - [Instagram Post Draft & Feedback All Brands](../instagram-post/production-flow-instagram-posts.md)
+  - [Agentic Configuration File](../instagram-post/instagram-post-agentic-configuration.md) 

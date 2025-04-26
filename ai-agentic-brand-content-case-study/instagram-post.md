@@ -55,3 +55,11 @@ The workflow generates the following files:
    - `BRAND_SOCIAL_FINAL.md`
 
 Each output builds upon the previous phase, culminating in a client-ready presentation document that includes refined Instagram posts aligned with the brand's content strategy.
+
+## Directory Content 
+
+**[Instagram Post for Glossier](../ai-agentic-brand-content-case-study/instagram-post/glossier-instagram-posts.md)**
+
+**[Instagram Post for Hydro Flask](../ai-agentic-brand-content-case-study/instagram-post/hydro-flask-instagram-posts.md)**
+
+**[Instagram Post Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/instagram-post/production-flow-instagram-posts.md)**

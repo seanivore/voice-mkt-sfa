@@ -63,3 +63,20 @@ As unique as your journey, as recognizable as your community. Show us how you've
 
 ### Hashtag Strategy
 #MyHydro #PersonalExpression #HydroFlaskCommunity #BottleArt #HydroFlaskDesign #CustomHydro #ExpressYourself #OutdoorStyle #AdventureAccessories #YourHydroStory
+
+## Directory Content 
+
+- [Content Plans](../content-plan.md)
+  - [Glossier Content Plan](../content-plan/glossier-content-plan.md)
+  - [Hydro Flask Content Plan](../content-plan/hydro-flask-content-plan.md)
+  - [Jungalow Content Plan](../content-plan/jungalow-content-plan.md)
+  - [Content Plan Draft & Feedback All Brands](../content-plan/production-flow-content-plan.md)
+  - [Agentic Configuration File](../content-plan/agent-configuration-prompt-input.md)
+- [Email Campaign](../email-blast.md)
+  - [Glossier Email Campaign](../email-blast/glossier-email-campaign.md)
+  - [Email Campaign Draft & Feedback All Brands](../email-blast/production-flow-email-blast.md)
+  - [Agentic Configuration File](../email-blast/ai-prompt-configuration-agent.md)
+- [Instagram Posts](../instagram-post.md)
+  - [Glossier Instagram Posts](./glossier-instagram-posts.md)
+  - [Instagram Post Draft & Feedback All Brands](./production-flow-instagram-posts.md)
+  - [Agentic Configuration File](./instagram-post-agentic-configuration.md) 

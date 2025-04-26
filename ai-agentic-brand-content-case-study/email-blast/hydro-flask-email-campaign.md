@@ -44,3 +44,23 @@ Share your perfect temperature moment with us using #StillCold or #StillHot
 ---
 
 *Formatting Notes: Email should be designed with clear visual hierarchy and adequate white space between sections. The PRIMARY CTA button should be large enough for easy tapping on mobile devices, with high color contrast. All paragraphs are intentionally kept short (2-3 sentences maximum) for optimal mobile readability.*
+
+----
+
+## Directory Content 
+
+- [Content Plans](../content-plan.md)
+  - [Glossier Content Plan](../content-plan/glossier-content-plan.md)
+  - [Hydro Flask Content Plan](../content-plan/hydro-flask-content-plan.md)
+  - [Jungalow Content Plan](../content-plan/jungalow-content-plan.md)
+  - [Content Plan Draft & Feedback All Brands](../content-plan/production-flow-content-plan.md)
+  - [Agentic Configuration File](../content-plan/agent-configuration-prompt-input.md)
+- [Email Campaign](../email-blast.md)
+  - [Glossier Email Campaign](./glossier-email-campaign.md)
+  - [Email Campaign Draft & Feedback All Brands](./production-flow-email-blast.md)
+  - [Agentic Configuration File](./ai-prompt-configuration-agent.md)
+- [Instagram Posts](../instagram-post.md)
+  - [Glossier Instagram Posts](../instagram-post/glossier-instagram-posts.md)
+  - [Hydro Flask Instagram Posts](../instagram-post/hydro-flask-instagram-posts.md)
+  - [Instagram Post Draft & Feedback All Brands](../instagram-post/production-flow-instagram-posts.md)
+  - [Agentic Configuration File](../instagram-post/instagram-post-agentic-configuration.md) 

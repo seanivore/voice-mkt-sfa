@@ -425,3 +425,21 @@ Focuses specifically on creating distinctive outdoor living spaces using Jungalo
 ---
 
 This content plan provides a framework for creating emotionally resonant content that authentically represents Jungalow's brand identity while connecting with target audiences on a deeper level. By consistently applying these emotional gut checks across channels and adapting the approach based on performance data, Jungalow can strengthen customer relationships and reinforce their position as a purpose-driven lifestyle brand that brings distinctive style to both indoor and outdoor living spaces.
+
+## Directory Content 
+
+- [Content Plans](../content-plan.md)
+  - [Glossier Content Plan](./glossier-content-plan.md)
+  - [Hydro Flask Content Plan](./hydro-flask-content-plan.md)
+  - [Content Plan Draft & Feedback All Brands](./production-flow-content-plan.md)
+  - [Agentic Configuration File](./agent-configuration-prompt-input.md)
+- [Email Campaign](../email-blast.md)
+  - [Glossier Email Campaign](../email-blast/glossier-email-campaign.md)
+  - [Hydro Flask Email Campaign](../email-blast/hydro-flask-email-campaign.md)
+  - [Email Campaign Draft & Feedback All Brands](../email-blast/production-flow-email-blast.md)
+  - [Agentic Configuration File](../email-blast/ai-prompt-configuration-agent.md)
+- [Instagram Posts](../instagram-post.md)
+  - [Glossier Instagram Posts](../instagram-post/glossier-instagram-posts.md)
+  - [Hydro Flask Instagram Posts](../instagram-post/hydro-flask-instagram-posts.md)
+  - [Instagram Post Draft & Feedback All Brands](../instagram-post/production-flow-instagram-posts.md)
+  - [Agentic Configuration File](../instagram-post/instagram-post-agentic-configuration.md) 

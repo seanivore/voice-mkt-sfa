@@ -458,3 +458,21 @@ This comprehensive content plan leverages Hydro Flask's unique brand identity to
 The implementation strategy provides clear, actionable guidance for content creators while maintaining the brand's commitment to simplicity and authenticity. By expanding channel coverage, enhancing inclusivity, and creating more specific production guidelines, this plan addresses the improvement opportunities identified in the review while building on the strengths of the original draft.
 
 With its strategic progression of emotional themes, detailed channel-specific approaches, and clear measurement framework, this plan will support Hydro Flask's continued success in connecting with both existing fans and potential new customers across all identified segments.
+
+## Directory Content 
+
+- [Content Plans](../content-plan.md)
+  - [Glossier Content Plan](./glossier-content-plan.md)
+  - [Jungalow Content Plan](./jungalow-content-plan.md)
+  - [Content Plan Draft & Feedback All Brands](./production-flow-content-plan.md)
+  - [Agentic Configuration File](./agent-configuration-prompt-input.md)
+- [Email Campaign](../email-blast.md)
+  - [Glossier Email Campaign](../email-blast/glossier-email-campaign.md)
+  - [Hydro Flask Email Campaign](../email-blast/hydro-flask-email-campaign.md)
+  - [Email Campaign Draft & Feedback All Brands](../email-blast/production-flow-email-blast.md)
+  - [Agentic Configuration File](../email-blast/ai-prompt-configuration-agent.md)
+- [Instagram Posts](../instagram-post.md)
+  - [Glossier Instagram Posts](../instagram-post/glossier-instagram-posts.md)
+  - [Hydro Flask Instagram Posts](../instagram-post/hydro-flask-instagram-posts.md)
+  - [Instagram Post Draft & Feedback All Brands](../instagram-post/production-flow-instagram-posts.md)
+  - [Agentic Configuration File](../instagram-post/instagram-post-agentic-configuration.md) 

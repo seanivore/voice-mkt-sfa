@@ -70,3 +70,11 @@ The workflow generates the following files:
 ```
 
 The final output combines all components into a single, formatted document ready for client review, with clear section headers and formatting guidelines for implementation.
+
+## Directory Content 
+
+**[Email Campaign for Glossier](../ai-agentic-brand-content-case-study/email-blast/glossier-email-campaign.md)**
+
+**[Email Campaign for Hydro Flask](../ai-agentic-brand-content-case-study/email-blast/hydro-flask-email-campaign.md)**
+
+**[Email Campaign Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/email-blast/production-flow-email-blast.md)**

@@ -44,29 +44,23 @@ The plan for the workflow and what content to produce was placed into a configur
 
 In this case, in part because of the time crunch, the human did not even provide details. As a case study this made things particularly interesting because we were surprised by the results ourselves. The chat AI planned the following workflows. The setup command uses the configuration files and first creates a 'README' file for each workflow before setting everything else up. Those are included with each below. 
 
-1. Content Plan
+1. **[Content Plan](./ai-agentic-brand-content-case-study/content-plan.md)**
 
 The content plan was the first workflow to be produced. It is a comprehensive plan that includes a 30-day content calendar, target audience segments, and a brand voice guide. Again, none of that was provided by the human. It was all produced by the chat AI. 
 
 - [Content Planning Configuration File](./ai-agentic-brand-content-case-study/content-plan/agent-configuration-prompt-input.md)
-  
-- [Content Planning Workflow README](./ai-agentic-brand-content-case-study/content-plan.md)
 
-1. Email Campaign 
+2. **[Email Campaign](./ai-agentic-brand-content-case-study/email-blast.md)**
 
 In the content plan the chat AI decided that the agent workflow would use the content plan to produce subsequent pieces of content. This was quite an elegant surprise. The first it detailed to have produced was the email campaign. 
 
 - [Email Campaign Configuration File](./ai-agentic-brand-content-case-study/email-blast/ai-prompt-configuration-agent.md)
 
-- [Email Campaign Workflow README](./ai-agent-content-production/ai-agentic-brand-content-case-study/email-blast.md)
-
-1. Instagram Post 
+3. **[Instagram Post](./ai-agentic-brand-content-case-study/instagram-post.md)**
 
 The final piece of content to be produced was an Instagram post. These were probably the most interesting results because we didn't know what to expect for the visual component. As with the content plan, the result was a plan describing exactly what visual imagery should be captured. 
 
 - [Instagram Post Configuration File](./ai-agentic-brand-content-case-study/instagram-post/instagram-post-agentic-configuration.md)
-
-- [Instagram Post Workflow README](./ai-agentic-brand-content-case-study/instagram-post.md)
 
 ## Agentic Workflow 
 
