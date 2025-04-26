@@ -72,3 +72,12 @@ I'm calling because you recently requested information about our [emphasis] DRAI
 3. **Vary sentence structure** to create natural rhythm
 4. **Use questions** strategically to create engagement
 5. **Include breathing room** with appropriate pauses 
+
+----
+
+## Directory Content 
+
+- [Writing Guide](../writing-guide.md)
+  - [Emotion-Driven Marketing Copywriting Guide](./emotion-driven-copywriting.md)
+  - [Voice Modulation Guide With Notation & Examples](./modulation-sound-patterns.md)
+  - [Bland AI Voice Marketing Cheat Sheet](./notation-cheat-sheet.md)

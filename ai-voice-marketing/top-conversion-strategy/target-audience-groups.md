@@ -205,3 +205,13 @@ For maximum effectiveness, voice marketing teams should integrate these strategi
 ---
 
 *This document synthesizes voice marketing script examples that demonstrate how to effectively combine voice modulation techniques with demographic-specific messaging to create emotionally resonant home service marketing.*
+
+----
+
+## Directory Content 
+
+- [Top Conversion Strategy](../top-conversion-strategy.md)
+  - [Assertive-Urgent Voice Marketing Strategies](./assertive-urgent-emotional.md)
+  - [Optimized Marketing Strategy Combinations](./combine-optimize-tactics.md)
+  - [The Curiosity Gap Approach in Voice Marketing](./creating-curiosity-gap.md)
+  - [Empathy-Based Objection Handling in Voice Marketing](./empathy-objection-handling.md)

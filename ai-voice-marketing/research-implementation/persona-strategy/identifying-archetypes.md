@@ -89,3 +89,11 @@ Value Victoria is an insightful, future-focused advisor who connects immediate d
 - Tone: Warm, forward-looking, medium pitch with optimistic resonance
 - Pace: Thoughtful with meaningful pauses after future-benefit statements
 - Modulation: Subtle emphasis on emotionally resonant terms, rising inflection when describing positive outcomes
+
+----
+
+## Directory Content 
+
+- [Voice Marketing Persona Strategy](../persona-strategy.md)
+  - [Strategic Voice Marketing Personas with Scripts](./annotated-vo-scripts.md)
+  - [Unified Voice Marketing Strategy Framework](./tailored-tactical-frameworks.md)

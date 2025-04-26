@@ -155,3 +155,14 @@
 > 5. Develop segment-specific KPIs to evaluate success across different socioeconomic groups
 > 6. Conduct quarterly reviews to adjust strategies based on economic indicator shifts
 > 7. Create a feedback loop with sales teams to continuously refine voice scripts based on customer interactions
+
+----
+
+
+## Directory Content 
+
+- [Top Conversion Strategy](../top-conversion-strategy.md)
+  - [The Curiosity Gap Approach in Voice Marketing](./creating-curiosity-gap.md)
+  - [Empathy-Based Objection Handling in Voice Marketing](./empathy-objection-handling.md)
+  - [Strongest Strategic Approaches by Demographic](./target-audience-groups.md)
+  - [Assertive-Urgent Voice Marketing Strategies](./assertive-urgent-emotional.md)

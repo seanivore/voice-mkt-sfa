@@ -336,3 +336,11 @@ Customer: "Actually, yes. Our shower has been draining slowly, but I've been put
 > Customer: "That does sound useful for planning purposes."
 
 > [enthusiastic] Exactly! [pause] Many homeowners tell us this assessment completely changed how they view home improvements - from seeing them as expenses to recognizing them as *investments* with measurable returns. [warm] They appreciate having a clear roadmap that helps them make confident decisions about where to allocate their home improvement budget for maximum financial benefit. [rising] Would you prefer a weekday or weekend appointment for your assessment?
+
+----
+
+## Directory Content 
+
+- [Voice Marketing Persona Strategy](../persona-strategy.md)
+  - [Voice Marketing Personas Development Brief](./identifying-archetypes.md)
+  - [Unified Voice Marketing Strategy Framework](./tailored-tactical-frameworks.md)

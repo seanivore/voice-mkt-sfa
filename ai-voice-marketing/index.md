@@ -250,7 +250,7 @@ The following documents are the very first synthesis of accumulated research on 
 
 ## Directory Content 
 
-- About Section 
+- [About Section](../about-our-agents.md)
   - [Technical Specifications](../about-our-agents/technical-specifications.md)
   - [What Is A Single-File Agent](../about-our-agents/what-is-sfa-single-file-agent.md)
   - [Workflow Feedback Job Resume Case Study](../about-our-agents/workflow-feedback-job-resume-case-study.md)
@@ -263,7 +263,8 @@ The following documents are the very first synthesis of accumulated research on 
   - [AI Voice Marketing Research Implementation](../ai-voice-marketing/research-implementation.md)
   - [AI Voice Marketing Writing Guide](../ai-voice-marketing/research-implementation/writing-guide.md)
   - [AI Voice Marketing Persona Strategy](../ai-voice-marketing/research-implementation/persona-strategy.md)
-- Index Pages 
+  - [Top Conversion Strategies for AI Voice Marketing](../ai-voice-marketing/top-conversion-strategy.md)
+- [Index Pages](./index.md)
   - [AI Voice Marketing Strategies by Tactic Type Index](./index/tactic-types.md)
   - [AI Voice Marketing Strategies by Name Index](./index/strategy-name.md)
   - [AI Voice Marketing Strategies by Vocal Characteristic Index](./index/vocal-characteristics.md)

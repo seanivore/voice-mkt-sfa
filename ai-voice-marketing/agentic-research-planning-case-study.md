@@ -86,3 +86,26 @@ So there is a lot more value to be found and the bulk of the hard work is done. 
 - The same agents are put in workflows that work with the features in the tool, making the calls, gathering the information on leads, etc. 
 - Ever looking for next steps you just have one of them analyze everything and come up with best next steps for X goal 
 
+----
+
+## Directory Content 
+
+- About Section 
+  - [About Our Agents](../about-our-agents.md)
+  - [Technical Specifications](../about-our-agents/technical-specifications.md)
+  - [What Is A Single-File Agent](../about-our-agents/what-is-sfa-single-file-agent.md)
+  - [Workflow Feedback Job Resume Case Study](../about-our-agents/workflow-feedback-job-resume-case-study.md)
+- Case Studies 
+  - [AI Agentic Brand Content Case Study](../ai-agentic-brand-content-case-study.md)
+- Section Pages 
+  - [AI Voice Marketing Research & Implementation Guide](../ai-voice-marketing.md)
+  - [AI Voice Marketing Deep Research](../ai-voice-marketing/deep-research.md)
+  - [AI Voice Marketing Research Implementation](../ai-voice-marketing/research-implementation.md)
+  - [AI Voice Marketing Writing Guide](../ai-voice-marketing/research-implementation/writing-guide.md)
+  - [AI Voice Marketing Persona Strategy](../ai-voice-marketing/research-implementation/persona-strategy.md)
+- [Index Pages](./index.md)
+  - [AI Voice Marketing Strategies by Tactic Type Index](./index/tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](./index/strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./index/vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./index/influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](./index/outcome-result-strategy.md)
