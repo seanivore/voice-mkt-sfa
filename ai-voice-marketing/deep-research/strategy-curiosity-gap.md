@@ -1,4 +1,4 @@
-# The Curiosity Gap and Micro-Commitment Marketing Approach
+# Curiosity Gap and Micro-Commitment Marketing Approach
 
 ## 1. Rural Lower SES (Agriculture-Dependent)
 
@@ -68,5 +68,3 @@
 - Run this "curiosity/micro-commitment" style against both empathetic and aggressive scripts
 - Track not just conversion, but also follow-up engagement and opt-out rates
 - Use A/B/C testing to see which style best fits each SES group and scenario
-
-Let me know if you want to see this style adapted for other touchpoints (SMS, email, voicemail) or want more script variations for your next round of testing!

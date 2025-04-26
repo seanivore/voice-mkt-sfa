@@ -1,4 +1,4 @@
-# Voice Modulation Guide 
+# Voice Modulation Guide With Notation & Examples
 
 ## QUICK REFERENCE
 

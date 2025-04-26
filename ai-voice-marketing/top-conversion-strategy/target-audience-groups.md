@@ -1,4 +1,4 @@
-# Voice Marketing Strategies: Strongest Approaches by Demographic
+# Strongest Strategic Approaches by Demographic
 
 ## Executive Summary
 

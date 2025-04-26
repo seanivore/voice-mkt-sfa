@@ -1,4 +1,4 @@
-# Voice Script Writing
+# Voice Script Writing For Bland AI
 
 ## Basic Formatting Elements
 
@@ -71,4 +71,4 @@ I'm calling because you recently requested information about our [emphasis] DRAI
 2. **Front-load** important information in sentences
 3. **Vary sentence structure** to create natural rhythm
 4. **Use questions** strategically to create engagement
-5. **Include breathing room** with appropriate pauses
+5. **Include breathing room** with appropriate pauses 

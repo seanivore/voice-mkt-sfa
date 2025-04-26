@@ -1,4 +1,4 @@
-# Bland AI Voice Modulation Cheat Sheet
+# Bland AI Voice Modulation Concise Guide 
 
 ## 1. **Notation for Modulation in Scripts**
 
@@ -21,7 +21,7 @@ Use clear, bracketed cues or ALL CAPS to direct the AI's delivery:
 
 ---
 
-## 2. **Common Modulation Cues \& When to Use Them**
+## 2. **Common Modulation Cues and When to Use Them**
 
 | Cue                   | Use Case Example                    | Effect                       |
 | :-------------------- | :---------------------------------- | :--------------------------- |
@@ -39,28 +39,28 @@ Use clear, bracketed cues or ALL CAPS to direct the AI's delivery:
 
 ---
 
-## 3. **Technical Parameters \& API Tips**
+## 3. **Technical Parameters and API Tips**
 
 - **Response Timing**:
-    - Adjust "patience" (API: 50–200) for how long AI waits before responding[^2].
+    - Adjust "patience" (API: 50–200) for how long AI waits before responding.
         - 50: Fast, back-and-forth
         - 100: Natural pace (default)
         - 200: Patient, allows for long pauses
 - **Model Selection**:
     - `base`: Best for custom scripting and modulation
-    - `turbo`: Fastest, most natural, but fewer custom features[^2]
+    - `turbo`: Fastest, most natural, but fewer custom features
 - **Randomness (Temperature)**:
-    - 0 = Deterministic, 1 = More varied/creative[^2]
+    - 0 = Deterministic, 1 = More varied/creative
 - **Pathways**:
-    - Use Pathway Generation to quickly build and test different modulation strategies[^4][^7]
+    - Use Pathway Generation to quickly build and test different modulation strategies
 
 ---
 
 ## 4. **Pro Tips for Scripting in Bland AI**
 
-- **Always notate modulation cues in your script**—Bland's engine interprets these for more human-like delivery[^8].
-- **Test and iterate**: Use Bland's testing tool to hear how your cues sound and adjust for naturalness[^6].
-- **A/B test**: Create multiple script versions (e.g., [cheerful] vs. [authoritative]) and compare conversion rates[^4].
+- **Always notate modulation cues in your script**—Bland's engine interprets these for more human-like delivery.
+- **Test and iterate**: Use Bland's testing tool to hear how your cues sound and adjust for naturalness.
+- **A/B test**: Create multiple script versions (e.g., [cheerful] vs. [authoritative]) and compare conversion rates.
 - **Combine cues**:
     - "You're all set! [cheerful][pause 0.5s] Your appointment is confirmed for Friday [downward inflection]."
 - **Emotional context**:
@@ -95,6 +95,5 @@ Use clear, bracketed cues or ALL CAPS to direct the AI's delivery:
 
 ---
 
-**Keep this cheat sheet handy when scripting in Bland AI.**
-Test, listen, and iterate—modulation cues are your secret weapon for making AI sound truly human and persuasive!
-
+**Keep this sheet handy when scripting in Bland AI.**
+Test, listen, and iterate—modulation cues are your secret weapon for making AI sound truly human and persuasive! 

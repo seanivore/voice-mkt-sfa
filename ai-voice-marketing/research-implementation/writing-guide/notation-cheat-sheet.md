@@ -145,6 +145,4 @@ Great! [cheerful] Let me confirm your details [slower].
 | Unnatural transitions          | Abrupt topic changes without verbal bridges | Add transition phrases with appropriate modulation         |
 | Inconsistent voice quality     | Mixing too many emotional states            | Limit emotional shifts within single conversation segments |
 
----
-
 **Remember**: The right voice modulation can dramatically improve engagement and conversion rates. Test, listen, and refine your approach based on real results.

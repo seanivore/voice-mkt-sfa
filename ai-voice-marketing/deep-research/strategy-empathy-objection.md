@@ -76,5 +76,3 @@
 - **Open-ended follow-up:** "May I ask...?" "Could I ask...?"
 - **Reframing:** Connects to a benefit or future value, not just the current offer
 - **Gentle next step:** Offers info, a future check-in, or a no-pressure resource
-
-Let me know if you'd like to see these expanded for other scenarios or with more technical voice notation!

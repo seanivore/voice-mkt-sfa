@@ -18,10 +18,10 @@
 - **Intro Topic:** "Beat inflation with our price-lock program"
 - **Modulation:** 8% pitch drop on "no hidden fees"
 - **Channel:** SMS blasts during shift change hours (7AM/3PM)
-- **Incentive:** Free energy audit showing \$147+/month savings
+- **Incentive:** Free energy audit showing $147+ month savings
 
 **3. Suburban Middle SES (Homeowners)**
-*Economic Context:** 2025 material tariffs (+22% HVAC parts)
+*Economic Context:* 2025 material tariffs (+22% HVAC parts)
 **Strategy:**
 
 - **Voice:** 130Hz authoritative tone with technical term emphasis
@@ -31,7 +31,7 @@
 - **Incentive:** Free LEED certification consultation
 
 **4. Cross-Group Emergency Service**
-*Economic Context:** Increased extreme weather events
+*Economic Context:* Increased extreme weather events
 **Strategy:**
 
 - **Voice:** 180Hz urgent pitch + 0.5s pause post-ETA
@@ -41,7 +41,7 @@
 - **Incentive:** Insurance documentation assistance
 
 **5. Digital Inclusion Upgrade**
-*Economic Context:** FCC rural broadband expansion
+*Economic Context:* FCC rural broadband expansion
 **Strategy:**
 
 - **Voice:** 155WPM instructional pace

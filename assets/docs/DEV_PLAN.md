@@ -46,9 +46,9 @@ Continue working on the slide show until it is finished. It is the most importan
 ~~- Address feedback about MP3 player instead of video player~~
 ~~- Add final copy for presentation 2~~
 ~~- Presentation 2 review~~
-- Clean up markdown documents
-- update slugs 
-- Put to gether index 
+~~- Clean up markdown documents~~
+~~- update slugs~~
+~~- Put to gether index~~
 ~~- Create groupings for index~~
 - Markdown > HTML Jekyll Template
 - Prepare for GitHub Pages deployment

@@ -1,8 +1,9 @@
-# Assertive Marketing Strategies by Demographic
+# Assertive Strategies Grouped by Demographic 
+AI Voice Marketing
 
-## 1. Rural Lower SES (Agriculture-Dependent)
+### Rural, Agriculture-Dependent, Lower Socioeconomic Status 
 
-**Strategy:** Farm Bill subsidies, rising fertilizer costs
+**Topic:** Farm Bill subsidies, rising fertilizer costs, etc. 
 **Voice:** Mid-high pitch, firm, 0.5s pause after urgency, upward inflection on "miss out"
 
 **VO Script:**
@@ -79,6 +80,3 @@
 - Use these assertive scripts for A/B testing against the empathetic set
 - Track conversion, hang-up, and complaint rates by SES group and scenario
 - Adjust voice modulation (pace, pitch, emphasis) to fine-tune for each audience
-
-Let me know if you want to see even more variations or want to test "soft close" versus "hard close" approaches!
-
