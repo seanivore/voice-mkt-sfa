@@ -41,3 +41,9 @@ The brand’s visual identity is unmistakably their own, featuring an earthy gre
 Create a standout brand identity with the Wixel color palette generator today.
 
 Best of all, their products holistically embody the brand. Customers can easily replicate the Jungalow’s visionary aesthetic in their own homes with the brand’s decor. From rattan and macramé pieces to natural fiber rugs and bright accent walls, the beauty is in the details. Customers feel proud purchasing Jungalow pieces as their commitments to sustainability and community show they practice what they preach.
+
+----
+
+[Glossier Brand](#glossier-brand)
+[Hydro Flask Brand](#hydro-flask-brand)
+[Jungalow Brand](#jungalow-brand)

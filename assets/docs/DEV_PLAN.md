@@ -18,6 +18,7 @@ We are at [PHASE 2: Build Slideshow](#phase-2-build-slideshow)
 1. Home page with overall navigation 
 2. Presentation style deck section 
 3. Document pages are markdown converted to HTML
+4. Search and filtering system
 
 ## Development 
 
@@ -75,17 +76,50 @@ Continue working on the slide show until it is finished. It is the most importan
 - New modular tiles link to pages (reference Portfolio's modular tiles and update after)
 - Breadcrumb tracking 
 - Make sure it is responsive 
+- Add search functionality:
+  - Jekyll-based search implementation
+  - Tag-based filtering system
+  - Category quick-links
 - Prepare for updated website GitHub Pages deployment 
 - Launch entire site this time  
 
-### Phase 4: Improvements 
+### Phase 4: Content Organization & Search
+- Implement Jekyll front matter for all markdown files:
+  ```yaml
+  ---
+  title: "Document Title"
+  categories: ["scripts", "guides", "strategies"]
+  tags: ["bland-ai", "voice-modulation", "example-scripts"]
+  content_types: ["implementation", "research", "technical"]
+  ---
+  ```
+- Create category-specific landing pages:
+  - Scripts Collection
+  - Implementation Guides
+  - Strategy Documents
+  - Technical References
+- Add quick-filters on search page:
+  - Content Type
+  - Category
+  - Tags
+- Implement search features:
+  - Full-text search
+  - Category/tag filtering
+  - Sort by relevance
+  - Search result previews
+
+### Phase 5: Enhanced Features
 - Make homepage interactive 
-- Add search functionality 
 - Research section facelift 
 - Quick-copy UI on script examples
 - Quick-jump to sections
 - Open in Google Docs UI option 
 - Filtered viewing options
+- Advanced search features:
+  - Save searches
+  - Search history
+  - Related content suggestions
+  - Popular searches
 
 ## Technical Stack
 
@@ -94,12 +128,91 @@ Continue working on the slide show until it is finished. It is the most importan
 - Responsive design system
 - Animation library
 - State management
+- Search UI components
 
 ### Content Management
-- Markdown processing
+- Jekyll for static site generation
+- Markdown processing with front matter
 - Dynamic routing
-- Search functionality
+- Search functionality:
+  - Jekyll search plugin
+  - Tag-based filtering
+  - Category organization
 - Reference system
+
+### Search Implementation
+1. Add Jekyll search plugin
+2. Implement front matter for all content
+3. Create search index
+4. Build search UI components
+5. Add filtering system
+6. Implement results display
+7. Add search analytics
+
+## Content Organization
+
+### Categories
+- Scripts
+- Guides
+- Strategies
+- Technical
+- Research
+- Implementation
+
+### Content Types
+- Example Scripts
+- Implementation Guides
+- Strategy Documents
+- Technical References
+- Research Findings
+- Case Studies
+
+### Tags
+- bland-ai
+- voice-modulation
+- example-scripts
+- strategy
+- implementation
+- technical
+- research
+- case-study
+
+## Search Features
+
+### Basic Search
+- Full-text search
+- Category filters
+- Tag filters
+- Sort options
+- Result previews
+
+### Advanced Features
+- Save searches
+- Search history
+- Related content
+- Popular searches
+- Quick filters
+
+## Implementation Guidelines
+
+### Front Matter
+- Required fields
+- Optional fields
+- Category rules
+- Tag conventions
+
+### Search UI
+- Search bar
+- Filter sidebar
+- Results display
+- Sort controls
+- Preview cards
+
+### Content Display
+- Category pages
+- Tag pages
+- Search results
+- Related content
 
 ----
 
@@ -135,7 +248,7 @@ I'd like to explore a more visual motion art background for the home page, also 
 
 My logic is that, this is a presentation-centric site, that initially was only planned as it seemed the simplest way to showcase the agent work I could do for my friend Cliff's project for a client. I want to keep that mentality by not over-complicating the home page. This is one of those very rare occasions where it doesn't need to be marketing focused, so let's revel in that. 
 
-Note that there are two main labor-intensive sections of this site. All the secondary pages will just be cleaned-up, simplified markdown files that jekyll can convert to HTML. That leaves design for the slides, proposed below; which I don't think will be complicated. The background is a simple 'fixed' versus sticky background dual layer art. Otherwise it is static — just the motion of scrolling creates the interactive feel. It also  proposes a very effect UX feel for side scrolling inspired by Mac OS, but I found implementation directions so easily I don't think that will be difficult either. Then the rest is just adding the text we composed. 
+Note that there are two main labor-intensive sections of this site. All the secondary pages will just be cleaned-up, simplified markdown files that jekyll can convert to HTML. That leaves design for the slides, proposed below; which I don't think will be complicated. The background is a simple 'fixed' versus sticky background dual layer art. Otherwise it is static — just the motion of scrolling creates the interactive feel. It also  proposes a very effect UX feel for side scrolling inspired by Mac OS, but I found implementation directions so easily I don't think that will be difficult either. Then the rest is just adding the text we composed. 
 
 The home page is the only other section that requires some design work, other than a simple frame CSS/HTML theme edit for the Jekyll conversion. I've yet to really figure out the rest of the home page design and layout other than those raining pixels. Adn I'm thinking we'll make them motion but not interactive at first then double back if we have time to give some cursor interaction fun. I started planning the 'sections' or tiles or however we present the links to the secondary pages and the deck, but am not sure how to mix it up with the fun raining art idea yet. 
 

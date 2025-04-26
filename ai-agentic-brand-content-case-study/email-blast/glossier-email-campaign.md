@@ -1,10 +1,10 @@
-# GLOSSIER EMAIL CAMPAIGN - FINAL VERSION
+# Glossier Email Campaign - Final Version
 
-## SUBJECT LINE
+## Subject Line
 
 **Skincare simplified: Your morning routine deserves better**
 
-## EMAIL BODY
+## Email Body
 
 Hey there,
 
@@ -20,7 +20,7 @@ No complicated instructions, no overwhelming choices—just clean, effective for
 
 The best part? Our community tells us they've cut their morning routines in half while getting better results. As Emma from Portland shared, "I used to spend 20 minutes on my morning routine. Now it's 5 minutes and my skin has never looked better." That's the beauty of simplicity.
 
-## CALL-TO-ACTION
+## Call-To-Action
 
 **Get your Essentials Set today →**
 
