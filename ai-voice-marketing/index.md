@@ -34,6 +34,7 @@ Table of Contents:
       - [*"Curiosity Gap and Micro-Commitment Marketing Approach"*](#curiosity-gap-and-micro-commitment-marketing-approach)
       - [*"Empathy-Based Objection Handling Strategies"*](#empathy-based-objection-handling-strategies)
       - [*"Strongest Marketing Strategy Combinations by Social Economic Status Group"*](#strongest-marketing-strategy-combinations-by-social-economic-status-group)
+  - [Directory Content](#directory-content)
 
 ----
 
@@ -247,38 +248,24 @@ The following documents are the very first synthesis of accumulated research on 
 
 ---
 
-While this completes the current documents pulled from the research, it is by no means the entirety of possible topics that could be explored and synthesized by the agent AI tools. 
+## Directory Content 
 
-- [Exploring the AI Voice Marketing Content](#exploring-the-ai-voice-marketing-content)
-  - [**Index**](#index)
-    - [*"Strategy Name Index"*](#strategy-name-index)
-    - [*"Influence and Types of Leads Index"*](#influence-and-types-of-leads-index)
-    - [*"Outcome and Result Index"*](#outcome-and-result-index)
-    - [*"Tactic Types Index"*](#tactic-types-index)
-    - [*"Vocal Characteristics Index"*](#vocal-characteristics-index)
-  - [**Sub-Sections Organized by Content Focus**](#sub-sections-organized-by-content-focus)
-    - [Bland AI Guides](#bland-ai-guides)
-    - [Top Conversion Strategies](#top-conversion-strategies)
-    - [Implementing the Research](#implementing-the-research)
-      - [**Writing Guides**](#writing-guides)
-        - [*"Bland AI Voice Marketing Cheat Sheet"*](#bland-ai-voice-marketing-cheat-sheet)
-        - [*"Voice Script Writing For Bland AI"*](#voice-script-writing-for-bland-ai)
-        - [*"Voice Modulation Guide With Notation \& Examples"*](#voice-modulation-guide-with-notation--examples)
-        - [*"Emotion-Driven Marketing Copywriting Guide"*](#emotion-driven-marketing-copywriting-guide)
-      - [**Persona-Based Voice Marketing**](#persona-based-voice-marketing)
-        - [*"1. Unified Voice Marketing Strategy Framework"*](#1-unified-voice-marketing-strategy-framework)
-        - [*"2. Voice Marketing Personas Development Brief"*](#2-voice-marketing-personas-development-brief)
-        - [*"3. Strategic Voice Marketing Personas with Scripts"*](#3-strategic-voice-marketing-personas-with-scripts)
-  - [**Deep Research**](#deep-research)
-    - [Analysis of Overall Findings](#analysis-of-overall-findings)
-      - [*"Optimizing Voice AI Technical Implementation and Economic Adaptation"*](#optimizing-voice-ai-technical-implementation-and-economic-adaptation)
-      - [*"A Comprehensive Analysis of Voice Call and SMS Marketing Best Practices"*](#a-comprehensive-analysis-of-voice-call-and-sms-marketing-best-practices)
-    - [Findings Specifically For Using Bland AI](#findings-specifically-for-using-bland-ai)
-      - [*"Bland AI Usage Professional Tips"*](#bland-ai-usage-professional-tips)
-      - [*"Bland AI Voice Modulation Concise Guide"*](#bland-ai-voice-modulation-concise-guide)
-    - [Synthesized Strategy-Specific Findings](#synthesized-strategy-specific-findings)
-      - [*"Assertive Strategies Grouped by Demographic"*](#assertive-strategies-grouped-by-demographic)
-      - [*"Marketing Strategy Combinations by Socioeconomic Status"*](#marketing-strategy-combinations-by-socioeconomic-status)
-      - [*"Curiosity Gap and Micro-Commitment Marketing Approach"*](#curiosity-gap-and-micro-commitment-marketing-approach)
-      - [*"Empathy-Based Objection Handling Strategies"*](#empathy-based-objection-handling-strategies)
-      - [*"Strongest Marketing Strategy Combinations by Social Economic Status Group"*](#strongest-marketing-strategy-combinations-by-social-economic-status-group)
+- About Section 
+  - [Technical Specifications](../about-our-agents/technical-specifications.md)
+  - [What Is A Single-File Agent](../about-our-agents/what-is-sfa-single-file-agent.md)
+  - [Workflow Feedback Job Resume Case Study](../about-our-agents/workflow-feedback-job-resume-case-study.md)
+- Case Studies 
+  - [AI Agentic Brand Content Case Study](../ai-agentic-brand-content-case-study.md)
+  - [Agentic Research Case Study](../ai-voice-marketing/agentic-research-planning-case-study.md)
+- Section Pages 
+  - [AI Voice Marketing Research & Implementation Guide](../ai-voice-marketing.md)
+  - [AI Voice Marketing Deep Research](../ai-voice-marketing/deep-research.md)
+  - [AI Voice Marketing Research Implementation](../ai-voice-marketing/research-implementation.md)
+  - [AI Voice Marketing Writing Guide](../ai-voice-marketing/research-implementation/writing-guide.md)
+  - [AI Voice Marketing Persona Strategy](../ai-voice-marketing/research-implementation/persona-strategy.md)
+- Index Pages 
+  - [AI Voice Marketing Strategies by Tactic Type Index](./index/tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](./index/strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./index/vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./index/influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](./index/outcome-result-strategy.md)

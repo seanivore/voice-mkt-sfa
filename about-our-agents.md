@@ -292,11 +292,11 @@ Some recent additions or tools that Claude would probably use if they were reall
 
 ## Setting Up A SFA Use-Case 
 
-Here's how easy it is to get started with an agent. Since all agent workflows use the same 'SFA', we call the customized tasks 'use-cases'. Recently we had agents put together the [Index of AI Voice Marketing Strategies](/Users/seanivore/Development/voice-mkt-sfa/ai-voice-marketing/index/section-map.md). They also did all of the research at the pages in that index, as well as synthesized the results into the many reports and example scripts. Our very first use-case was writing targeted resumes and cover letters. Claude had some [thoughts when reading results from the agents work for the very first time](/Users/seanivore/Development/voice-mkt-sfa/about-our-agents/workflow-feedback-job-resume-case-study.md). 
+Here's how easy it is to get started with an agent. Since all agent workflows use the same 'SFA', we call the customized tasks 'use-cases'. Recently we had agents put together the [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index.md). They also did all of the research at the pages in that index, as well as synthesized the results into the many reports and example scripts. Our very first use-case was writing targeted resumes and cover letters. Claude had some [thoughts when reading results from the agents work for the very first time](./about-our-agents/workflow-feedback-job-resume-case-study.md). 
 
 ### Step 1: Define the Use-Case Variables
 
-The easiest way to do this? Tell Claude over chat what you want to do. Even if you're not very specific, they can generate the JSON for you that has impressive results. Claude came up with this entire case study for using agents to write marketing plans, content, branding, and campaign strategies. It has some [amazing results](/Users/seanivore/Development/voice-mkt-sfa/ai-agent-content-production/case-study-brand-marketing.md). 
+The easiest way to do this? Tell Claude over chat what you want to do. Even if you're not very specific, they can generate the JSON for you that has impressive results. Claude came up with this entire case study for using agents to write marketing plans, content, branding, and campaign strategies. It has some [amazing results](./ai-agent-content-production/case-study-brand-marketing.md). 
 
 Just explain. And they'll give you a JSON that you take to the next step. 
 
@@ -357,3 +357,28 @@ SFAs can be applied to a wide range of tasks, including:
 - Decision support and ideation 
 
 When you see a video online saying agents are all hype, think of SFA. We'll be here. 
+
+----
+
+## Directory Content 
+
+- About Section 
+  - [Technical Specifications](./about-our-agents/technical-specifications.md)
+  - [What Is A Single-File Agent](./about-our-agents/what-is-sfa-single-file-agent.md)
+  - [Workflow Feedback Job Resume Case Study](./about-our-agents/workflow-feedback-job-resume-case-study.md)
+- Case Studies 
+  - [AI Agentic Brand Content Case Study](./ai-agentic-brand-content-case-study.md)
+  - [Agentic Research Case Study](./ai-voice-marketing/agentic-research-planning-case-study.md)
+- Section Pages 
+  - [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index.md)
+  - [AI Voice Marketing Research & Implementation Guide](./ai-voice-marketing.md)
+  - [AI Voice Marketing Deep Research](./ai-voice-marketing/deep-research.md)
+  - [AI Voice Marketing Research Implementation](./ai-voice-marketing/research-implementation.md)
+  - [AI Voice Marketing Writing Guide](./ai-voice-marketing/research-implementation/writing-guide.md)
+  - [AI Voice Marketing Persona Strategy](./ai-voice-marketing/research-implementation/persona-strategy.md)
+- Index Pages 
+  - [AI Voice Marketing Strategies by Tactic Type Index](./ai-voice-marketing/index/tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](./ai-voice-marketing/index/strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./ai-voice-marketing/index/vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./ai-voice-marketing/index/influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](./ai-voice-marketing/index/outcome-result-strategy.md)
