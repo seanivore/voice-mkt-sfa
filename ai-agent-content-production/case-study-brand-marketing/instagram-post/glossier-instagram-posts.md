@@ -1,4 +1,4 @@
-# GLOSSIER INSTAGRAM CAMPAIGN: FINAL CONTENT
+# Glossier Instagram Campaign: Final Content
 
 ## Introduction
 

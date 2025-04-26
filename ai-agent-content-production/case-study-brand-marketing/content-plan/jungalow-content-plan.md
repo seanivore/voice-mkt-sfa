@@ -1,10 +1,10 @@
-# JUNGALOW COMPREHENSIVE BRAND CONTENT PLAN
+# Jungalow - Comprehensive Brand Content Plan
 
-## EXECUTIVE SUMMARY
+## Executive Summary
 
 Jungalow is a lifestyle brand and design inspiration source created by Justina Blakeney that sells bold wallpapers, indoor and outdoor decor, rugs, and art prints designed to "bring good vibes home." The brand stands out for its commitment to sustainability, community building, inclusion of international artists, and ethical business practices. This content plan leverages emotion-driven copywriting to create authentic connections with Jungalow's target audience, emphasizing the transformative power of their products while reinforcing their core brand values. With a strategic focus on both indoor and outdoor living spaces, this plan provides a framework for emotionally resonant content that drives engagement across all channels while remaining true to Jungalow's distinctive aesthetic and mission.
 
-## 1. PRIMARY EMOTIONAL GUT CHECKS
+## 1. Primary Emotional Gut Checks
 
 ### 1.1 "Your Home Is Waiting To Exhale"
 *Emotional trigger: Relief/Liberation*
@@ -31,43 +31,43 @@ This gut check suggests that transforming your living space with vibrant, confid
 
 This gut check connects home decor choices to personal identity, positioning Jungalow products as tools for authentic self-expression rather than mere decorative items. Unlike mass-produced, generic decor, Jungalow's artist-designed pieces reflect a global perspective and individual creativity that helps customers express their unique journeys, values, and personalities through their living spaces.
 
-## 2. 30-DAY CONTENT CALENDAR
+## 2. 30-Day Content Calendar
 
-### EMAIL CAMPAIGNS
+### Email Campaigns
 
-#### WEEK 1: "Breathe Life Into Your Space" Campaign (Spring Launch)
+#### Week 1: "Breathe Life Into Your Space" Campaign (Spring Launch)
 *Primary emotional hook: Relief/Liberation*
 
 Email 1: Subject line: "Is Your Home Holding Its Breath?"
 Focus on how Jungalow's natural elements and bold designs can transform stagnant spaces into vibrant, breathing environments. Feature customer before/after transformations with spring-inspired refreshes using Jungalow's newest patterns and textures.
 
-#### WEEK 2: "Global Artistry At Your Fingertips" Campaign
+#### Week 2: "Global Artistry At Your Fingertips" Campaign
 *Primary emotional hook: Connection/Discovery*
 
 Email 2: Subject line: "The World's Creativity Is Knocking At Your Door"
 Highlight international artists behind Jungalow designs, sharing their stories and inspirations. Emphasize how each purchase supports a global creative community, with specific spotlights on artists from different regions and their unique techniques and influences.
 
-#### WEEK 3: "Outdoor Sanctuary" Campaign
+#### Week 3: "Outdoor Sanctuary" Campaign
 *Primary emotional hook: Escape/Rejuvenation*
 
 Email 3: Subject line: "Your Wild Retreat Is Just Steps Away"
 Focus exclusively on outdoor products, showcasing how Jungalow's distinctive patterns and natural materials can transform any outdoor space—from tiny balconies to spacious backyards—into personal sanctuaries. Include practical tips for creating outdoor spaces that feel like natural extensions of the home, with seasonal styling advice for spring/summer entertaining.
 
-#### WEEK 4: "Your Home, Your Impact" Campaign
+#### Week 4: "Your Home, Your Impact" Campaign
 *Primary emotional hook: Pride/Purpose*
 
 Email 4: Subject line: "Two Trees With Your Name On Them"
 Focus on Jungalow's sustainability commitment, featuring stories and images from Trees for the Future partnership. Include a counter showing total trees planted to date, testimonials from communities benefiting from the program, and information about sustainable materials used in Jungalow products.
 
-#### WEEK 5: "Design Your Life" Campaign
+#### Week 5: "Design Your Life" Campaign
 *Primary emotional hook: Transformation/Empowerment*
 
 Email 5: Subject line: "Bold Walls Lead To Bold Lives"
 Explore how customers' lives have changed after transforming their spaces with Jungalow products. Include testimonials and lifestyle imagery showing the emotional impact of vibrant living spaces, with a call for customers to share their own transformation stories for a chance to be featured.
 
-### INSTAGRAM POSTS
+### Instagram Posts
 
-#### WEEK 1
+#### Week 1
 
 Post 1: "Monday Exhale"
 *Primary emotional hook: Relief/Liberation*
@@ -79,7 +79,7 @@ Post 2: "Creator Spotlight"
 Image: International artist in their studio working on Jungalow designs
 Caption: "Every pattern tells a story. Meet Amara, the hands and heart behind our newest collection. Her childhood in Marrakech inspires these intricate patterns that now bring joy to homes worldwide. 🌍✨ #GlobalArtistry #JungalowCreators"
 
-#### WEEK 2
+#### Week 2
 
 Post 3: "Outdoor Oasis"
 *Primary emotional hook: Escape/Rejuvenation*
@@ -91,7 +91,7 @@ Post 4: "Growth Report"
 Image: Visual representation of trees planted through purchases
 Caption: "This month alone, your purchases have planted 1,500 trees. Your walls are changing the world, one beautiful room at a time. 🌱 #GrowthBeyondWalls #JungalowImpact"
 
-#### WEEK 3
+#### Week 3
 
 Post 5: "Bold Choice, Bold Life"
 *Primary emotional hook: Transformation/Empowerment*
@@ -103,7 +103,7 @@ Post 6: "Outdoor Entertaining"
 Image: Beautifully styled outdoor dining space with Jungalow tableware and textiles
 Caption: "Set a table that starts conversations. Our new outdoor collection turns simple gatherings into memorable experiences. Tag someone you'd invite to this table. 🍽️🌿 #OutdoorGatherings #JungalowEntertaining"
 
-#### WEEK 4
+#### Week 4
 
 Post 7: "Wall Stories"
 *Primary emotional hook: Self-expression/Authenticity*
@@ -115,7 +115,7 @@ Post 8: "Breathe In, Breathe Out"
 Image: Before/after of a transformed space using Jungalow products
 Caption: "From holding its breath to exhaling joy. Feel the difference in energy between these spaces. The textures, the colors, the life! Swipe to see the before. ↔️ #RoomToBreath #JungalowMagic"
 
-#### WEEK 5
+#### Week 5
 
 Post 9: "Global Threads"
 *Primary emotional hook: Connection/Discovery*
@@ -127,7 +127,7 @@ Post 10: "Roots & Branches"
 Image: Beautiful visualization of customer impact through tree planting
 Caption: "Your Jungalow home extends far beyond your walls. Two trees at a time, you're growing a forest of change. Together we've planted 75,000 trees and counting. 🌳🌳 #RootsAndBranches #JungalowForest"
 
-### USER-GENERATED CONTENT OPPORTUNITIES
+### User-Generated Content Opportunities
 
 #### "My Jungalow Sanctuary" Monthly Feature
 Invite customers to share photos of their Jungalow-styled spaces (both indoor and outdoor) using #MyJungalowSanctuary. Select one indoor and one outdoor space each month to feature on Instagram and in email newsletters, with a $100 gift card for the winners.
@@ -138,7 +138,7 @@ Encourage customers to share before/after photos of spaces transformed with Jung
 #### "Global Jungalow Community" Map
 Create an interactive map on the website where customers can pin their Jungalow spaces, creating a visual representation of the global community. Feature selected spaces from different regions in social media posts and email content.
 
-## 3. TARGET AUDIENCE SEGMENTS & EMOTIONAL TRIGGERS
+## 3. Target Audience Segments & Emotional Triggers
 
 ### 3.1 Conscious Decorators
 *Demographics:* 25-65, environmentally conscious, middle to upper-middle income
@@ -200,7 +200,7 @@ Create an interactive map on the website where customers can pin their Jungalow 
 
 *Content approach:* Provide practical advice for outdoor styling across different space sizes, showcase seasonal outdoor entertaining ideas, and emphasize how Jungalow's distinctive aesthetic can transform any outdoor area into a personal retreat.
 
-## 4. BRAND VOICE GUIDELINES
+## 4. Brand Voice Guidelines
 
 ### 4.1 Core Voice Attributes
 
@@ -311,7 +311,7 @@ Create an interactive map on the website where customers can pin their Jungalow 
 - Incorporate concepts of biophilia and nature connection
   - Example: "Our outdoor collection helps you create the perfect setting for reconnecting with the natural world, even in urban environments"
 
-## 5. CONTENT THEMES & SERIES
+## 5. Content Themes & Series
 
 ### 5.1 "Breathing Spaces" Series
 Content focused on the transformative power of bringing nature indoors through Jungalow designs. Features before/after transformations, tips for incorporating natural elements, and the psychological benefits of biophilic design.
@@ -363,7 +363,7 @@ Focuses specifically on creating distinctive outdoor living spaces using Jungalo
 - Blog posts on "Bringing the Jungalow Vibe Outdoors" with specific product recommendations and styling tips
 - Email features on outdoor entertaining with Jungalow products, including table settings and ambiance creation
 
-## 6. IMPLEMENTATION & MEASUREMENT
+## 6. Implementation & Measurement
 
 ### 6.1 Content Success Metrics
 - Engagement rates on emotional gut check headlines vs. standard product announcements
