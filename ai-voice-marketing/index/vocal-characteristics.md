@@ -11,6 +11,7 @@
 ```
 
 ## Assertive Voice
+
 *Strong, confident vocal delivery with higher pitch (180-200Hz) and faster pacing (170-180 wpm). Particularly effective for emergency services and time-sensitive offers, creating a sense of urgency and authority.*
 
 [Analysis: Voice Marketing for Home Services](../deep-research/analysis-voice-mkt-home-services.md)
@@ -22,6 +23,7 @@
 [Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
 
 ## Empathetic Voice
+
 *Warm, understanding tone with moderate pitch (140-160Hz) and measured pacing (145-155 wpm). Uses strategic pauses and gentle inflections to build trust and demonstrate genuine concern.*
 
 [Empathy and Objection Handling in Voice Marketing](../top-conversion-strategy/empathy-objection-handling.md)
@@ -31,6 +33,7 @@
 [Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
 
 ## Engaging Voice
+
 *Dynamic, varied delivery that maintains interest through strategic pitch modulation and pacing changes. Incorporates curiosity-building pauses and emphasis patterns to drive continued engagement.*
 
 [Creating the Curiosity Gap](../top-conversion-strategy/creating-curiosity-gap.md)
@@ -40,6 +43,7 @@
 [Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
 
 ## Professional Voice
+
 *Balanced, authoritative tone with lower pitch (130-140Hz) and moderate pacing (150-160 wpm). Projects expertise and credibility while maintaining approachability through controlled modulation.*
 
 [Target Audience Groups: Voice Marketing Strategies](../top-conversion-strategy/target-audience-groups.md)
@@ -49,6 +53,7 @@
 [Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
 
 ## Voice Modulation
+
 *Technical control of vocal parameters including pitch, pace, tone, and inflection patterns. Enables precise emotional and psychological impact through scientific application of voice characteristics.*
 
 [Combine and Optimize Marketing Tactics](../top-conversion-strategy/combine-optimize-tactics.md)

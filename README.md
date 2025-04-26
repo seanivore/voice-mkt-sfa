@@ -51,25 +51,25 @@ This meant I needed to know:
 First we pulled from the research a combination of variables that make up five different voice strategies. 
 
 1. Assertive-Urgent Voice Marketing 
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/assertive-urgent.md`
+`./ai-voice-marketing/top-conversion-strategy/assertive-urgent-emotional.md`
 
 2. The Curiosity Gap Approach in Voice Marketing
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/curiosity-gap.md`
+`./ai-voice-marketing/top-conversion-strategy/creating-curiosity-gap.md`
 
-3. Empathy-Based Objection Handling in Voice Marketing
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/empathy-objection.md` 
+1. Empathy-Based Objection Handling in Voice Marketing
+`./ai-voice-marketing/top-conversion-strategy/empathy-objection-handling.md` 
 
-4. Demographic-Tailored, Topical Combinations Framework
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/strategy-combo.md`
+1. Demographic-Tailored, Topical Combinations Framework
+`./ai-voice-marketing/top-conversion-strategy/target-audience-groups.md`
 
-5. Emotional Trigger Optimization Framework
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/top-voice-strategy/strongest.md`
+1. Emotional Trigger Optimization Framework
+`./ai-voice-marketing/top-conversion-strategy/combine-optimize-tactics.md`
 
 There is a lot of cross-over between the documents. They were analyzed all together and then main strategies were pulled out. It was synthesized into the following framework. 
 
 *Unified Voice Marketing Strategy Framework*
 
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/persona-with-strategy/voice-persona-strategy.md`
+`./ai-voice-marketing/research-implementation/persona-strategy/tailored-tactical-frameworks.md`
 
 ### 4. **Communicating The Strategy** 
 
@@ -86,7 +86,7 @@ The framework was then used to create a persona.
 
 *Strategic Voice Marketing Personas with Scripts*
 
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/persona-with-strategy/voice-persona-scripts.md`
+`./ai-voice-marketing/research-implementation/persona-strategy/annotated-vo-scripts.md`
 
 ## Technical Application of Strategies
 
@@ -97,11 +97,15 @@ The research covered a lot of ground. I needed to know how to apply the strategi
 ### 1.**Voice Modulation Script Writing Notation**
 
 Voice Modulation Guide
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/writing-voice/modulation-guide.md`
+`./ai-voice-marketing/research-implementation/writing-guide/modulation-sound-patterns.md`
 
 Voice Script Writing 
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/writing-voice/script-voice-indicators.md`
+`./ai-voice-marketing/research-implementation/writing-guide/script-voice-indicators.md`
+
+### 2. Emotion Driven Marketing Copywriting Guide 
+
+`./ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting.md`
 
 ### 2. **Comprehensive AI Voice Scripting Cheat Sheet**
 
-`/Users/seanivore/Development/voice-mkt-sfa/ai-voice-telemarketing/marketing-findings/writing-voice/cheat-sheet.md`
+`./ai-voice-marketing/research-implementation/writing-guide/notation-cheat-sheet.md`

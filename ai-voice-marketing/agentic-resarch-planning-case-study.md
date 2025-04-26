@@ -1,4 +1,4 @@
-# AI Voice Telemarketing Research & Implementation 
+# Agentic Research and Planning Case Study 
 
 ## Research Haul 
 
@@ -85,3 +85,4 @@ So there is a lot more value to be found and the bulk of the hard work is done. 
 - Agents write endless scripts 
 - The same agents are put in workflows that work with the features in the tool, making the calls, gathering the information on leads, etc. 
 - Ever looking for next steps you just have one of them analyze everything and come up with best next steps for X goal 
+
