@@ -457,17 +457,5 @@ body {
 
 .audio-reaction.visible {
     opacity: 1;
-    animation: fadeInDelay 3s forwards;
-}
-
-@keyframes fadeInDelay {
-
-    0%,
-    66% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+    transition-delay: 2s;
 }
