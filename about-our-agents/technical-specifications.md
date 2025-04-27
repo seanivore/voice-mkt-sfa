@@ -1,3 +1,11 @@
+```yaml
+title: "Single-File Agent Technical Specifications"
+categories: ["Technical", "Implementation", "Research"]
+tags: ["technical", "implementation", "research"]
+content_types: ["Technical References", "Implementation Guides", "Research Findings"]
+description: "Detailed technical documentation of Single-File Agent tools, implementations, and performance optimizations including code examples and integration methods."
+```
+
 # Single-File Agent Technical Specifications
 
 ## Tool Implementations

@@ -1,3 +1,11 @@
+---
+title: "Our AI Agentic System Is Called a Single-File Agent (SFA)"
+categories: ["Technical", "Guides", "Implementation"]
+tags: ["technical", "implementation", "case-study"]
+content_types: ["Technical References", "Implementation Guides", "Research Findings"]
+description: "Comprehensive overview of Single-File Agent (SFA) architecture, explaining how these AI agents work with variable-input design, workflow management, and tool integration capabilities."
+---
+
 # Our AI Agentic System Is Called a Single-File Agent (SFA)
 
 ## Agentic Basics 

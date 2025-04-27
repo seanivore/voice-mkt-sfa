@@ -1,3 +1,11 @@
+---
+title: "Variable-Input Single File Agents (SFA)"
+categories: ["Technical", "Guides", "Implementation"]
+tags: ["technical", "implementation", "research"]
+content_types: ["Technical References", "Implementation Guides", "Strategy Documents"]
+description: "Overview of Variable-Input Single File Agents (SFA), explaining their architecture, capabilities, and how to set up and run these dynamic AI workflows."
+---
+
 # Variable-Input Single File Agents (SFA)
 
 ## What is a SFA?

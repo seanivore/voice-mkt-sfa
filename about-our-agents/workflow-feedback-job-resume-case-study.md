@@ -1,3 +1,11 @@
+---
+title: "Agentic Workflow Assessment"
+categories: ["Research", "Case Studies", "Implementation"]
+tags: ["case-study", "implementation", "research"]
+content_types: ["Case Studies", "Research Findings", "Implementation Guides"]
+description: "A detailed review of the first run of a targeted resume and cover letter writing workflow using Single File Agents, showcasing the system's capabilities and effectiveness."
+---
+
 # Agentic Workflow Assessment
 
 This is a Claude's review of this first run of a `Targeted Resume` and `Cover Letter` writing agentic workflow using an all-purpose 'Write' and 'Review' "Single File Agent" (SFA) system. 

@@ -1,3 +1,11 @@
+---
+title: "Using AI to Produce Content"
+categories: ["Case Studies", "Strategies", "Implementation"]
+tags: ["case-study", "implementation", "strategy"]
+content_types: ["Case Studies", "Strategy Documents", "Implementation Guides"]
+description: "A comprehensive case study demonstrating how AI agents can produce high-quality marketing content for brands like Glossier, Hydro Flask, and Jungalow with minimal human input."
+---
+
 # Using AI to Produce Content 
 
 A breakdown of the process of using AI to produce content and what can be found in the case study spread across this section of the website. 

@@ -62,21 +62,23 @@ Continue working on the slide show until it is finished. It is the most importan
 
 # Feedback and Updates 
 
+## Front Matter 
 
+There is a full project directory tree in the [CLAUDE.md](../../CLAUDE.md) file with all, exactly, 60 pages currently in the project. 
 
-## 3s Delay Shift from Opacity 0 to 1 - possible? 
-- Line 99 of presentation 1: `sales-development-ai-secrets.html` "<p class="p">DID YOU LOVE IT?! 🙃</p>"
-- It feels like we should have something after they play the joke audio to make it feel more complete and make sure they're not just like like "what??" 
+## Components 
+
+It looks like the same JS used on the actual page, and again in the ./components/ directory. 
 
 ## Sean to Finish Buttons of Mobile Navigation 
 
 ----
 
 ### Phase 3: Build Homepage  
-- Sean finish colored-wavy shapes SVG for slides 
-- Build homepage with just motion art
+- Give the presentation's a CSS animation behind the transparent text brand logos  
+- Build homepage just motion art
 - New modular tiles link to pages (reference Portfolio's modular tiles and update after)
-- Breadcrumb tracking 
+- Breadcrumb tracking                          `<-- this should be another component`
 - Make sure it is responsive 
 - Add search functionality:
   - Jekyll-based search implementation
@@ -95,11 +97,6 @@ Continue working on the slide show until it is finished. It is the most importan
   content_types: ["implementation", "research", "technical"]
   ---
   ```
-- Create category-specific landing pages:
-  - Scripts Collection
-  - Implementation Guides
-  - Strategy Documents
-  - Technical References
 - Add quick-filters on search page:
   - Content Type
   - Category
@@ -112,11 +109,10 @@ Continue working on the slide show until it is finished. It is the most importan
 
 ### Phase 5: Enhanced Features
 - Make homepage interactive 
-- Research section facelift 
-- Quick-copy UI on script examples
-- Quick-jump to sections
+- Quick-copy UI on script examples 
+- Quick-jump to sections 
 - Open in Google Docs UI option 
-- Filtered viewing options
+- Filtered viewing options 
 - Advanced search features:
   - Save searches
   - Search history
