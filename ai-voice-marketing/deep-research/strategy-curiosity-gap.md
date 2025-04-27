@@ -1,3 +1,11 @@
+---
+title: "Curiosity Gap and Micro-Commitment Marketing Approach"
+categories: ["Strategies", "Research", "Guides"]
+tags: ["strategy", "voice-modulation", "example-scripts"]
+content_types: ["Strategy Documents", "Example Scripts", "Research Findings"]
+description: "Detailed exploration of curiosity gap and micro-commitment marketing techniques for AI voice marketing, with tailored scripts for different demographic groups and practical implementation guidance."
+---
+
 # Curiosity Gap and Micro-Commitment Marketing Approach
 
 ## 1. Rural Lower SES (Agriculture-Dependent)

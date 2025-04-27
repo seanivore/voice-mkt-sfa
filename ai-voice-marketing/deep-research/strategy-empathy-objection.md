@@ -1,3 +1,11 @@
+---
+title: "Empathy-Based Objection Handling Strategies"
+categories: ["Strategies", "Research", "Guides"]
+tags: ["strategy", "voice-modulation", "example-scripts"]
+content_types: ["Strategy Documents", "Example Scripts", "Research Findings"]
+description: "Comprehensive guide to empathy-based objection handling for AI voice marketing, featuring demographic-specific approaches, voice modulation techniques, and example scripts for various scenarios."
+---
+
 # Empathy-Based Objection Handling Strategies
 
 ## 1. Rural Lower SES (Agriculture-Dependent)

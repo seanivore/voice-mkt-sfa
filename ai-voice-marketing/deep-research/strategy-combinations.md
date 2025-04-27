@@ -1,3 +1,11 @@
+---
+title: "Marketing Strategy Combinations by Socioeconomic Status"
+categories: ["Research", "Strategies", "Technical"]
+tags: ["strategy", "voice-modulation", "example-scripts"]
+content_types: ["Research Findings", "Strategy Documents", "Technical References"]
+description: "Comprehensive analysis of AI voice marketing strategies optimized for different socioeconomic groups, featuring voice modulation techniques, economic context considerations, and implementation guidance."
+---
+
 # Marketing Strategy Combinations by Socioeconomic Status
 
 **1. Rural Lower SES (Agriculture-Dependent Communities)**

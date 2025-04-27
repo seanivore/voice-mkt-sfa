@@ -1,3 +1,11 @@
+---
+title: "Assertive-Urgent Voice Marketing Strategies"
+categories: ["Strategies", "Research", "Implementation"]
+tags: ["strategy", "voice-modulation", "example-scripts"]
+content_types: ["Strategy Documents", "Research Findings", "Example Scripts"]
+description: "Comprehensive framework for assertive and urgency-driven voice marketing strategies across different socioeconomic segments, featuring psychological tactics, implementation guidelines, and ethical considerations."
+---
+
 # Assertive-Urgent Voice Marketing Strategies
 
 ## Executive Summary

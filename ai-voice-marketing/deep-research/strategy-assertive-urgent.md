@@ -1,3 +1,11 @@
+---
+title: "Assertive Strategies Grouped by Demographic"
+categories: ["Research", "Strategies", "Technical"]
+tags: ["strategy", "voice-modulation", "example-scripts"]
+content_types: ["Research Findings", "Example Scripts", "Strategy Documents"]
+description: "Detailed analysis of assertive voice marketing strategies tailored to different demographic groups, including example scripts, voice modulation techniques, and tactical approaches."
+---
+
 # Assertive Strategies Grouped by Demographic 
 AI Voice Marketing
 

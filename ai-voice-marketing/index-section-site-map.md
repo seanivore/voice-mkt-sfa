@@ -1,3 +1,11 @@
+---
+title: "Exploring the AI Voice Marketing Content"
+categories: ["Guides", "Technical", "Research"]
+tags: ["strategy", "bland-ai", "voice-modulation"]
+content_types: ["Technical References", "Implementation Guides", "Research Findings"]
+description: "Comprehensive site map and content index for AI voice marketing research, featuring categorized resources on strategies, implementation guides, demographic targeting, and Bland AI integration."
+---
+
 # Exploring the AI Voice Marketing Content
 
 Table of Contents: 
