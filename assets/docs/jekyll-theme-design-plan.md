@@ -96,4 +96,4 @@ Sidebar file that will generate a dynamic sidebar based on the current page:
 
 `/Users/seanivore/Development/voice-mkt-sfa/_includes/sidebar.html` <-- *you were cut off by max message context length while writing this* 
 
-So we should check if it is complete, however I did go through it and update for more "quick links" and organized a bit. I might be just about done. 
+So we should check if it is complete, however I did go through it and update for more "quick links" and organized a bit. I might be just about done. Oh and just added a section for the two presentations, too. 
