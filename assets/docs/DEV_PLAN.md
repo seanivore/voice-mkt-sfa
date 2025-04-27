@@ -51,6 +51,7 @@ Continue working on the slide show until it is finished. It is the most importan
 ~~- update slugs~~
 ~~- Put to gether index~~
 ~~- Create groupings for index~~
+~~- Implement Jekyll front matter for all markdown files~~
 - Markdown > HTML Jekyll Template
 ~~- Prepare for GitHub Pages deployment~~
 - Add URLs for these resources where needed
@@ -59,6 +60,26 @@ Continue working on the slide show until it is finished. It is the most importan
 - Launch now so that the two slide shows can be presented if they need to be 
 
 ---- 
+
+# Markdown > HTML Jekyll Template 
+
+I can look at exactly how we did this for the AI Philosophy [Blog](https://ai-philosophy.august.style). But before we roll out with it I'd love to check out the footer. 
+
+### Non-Bio-Life Implementation 
+
+The config file: /Users/seanivore/Development/non-bio-life/_config.yml
+
+Layouts: 
+/Users/seanivore/Development/non-bio-life/_layouts/default.html 
+/Users/seanivore/Development/non-bio-life/_layouts/page.html 
+/Users/seanivore/Development/non-bio-life/_layouts/post.html
+
+Hah — I guess we added our front matter using a script that time. 
+/Users/seanivore/Development/non-bio-life/add_frontmatter.sh
+
+The CSS: /Users/seanivore/Development/non-bio-life/assets/css/main.css
+
+Though note that we should look at the CSS for this website and I'll provide images of the design and the typeface URL. 
 
 # Feedback and Updates 
 
@@ -88,15 +109,6 @@ It looks like the same JS used on the actual page, and again in the ./components
 - Launch entire site this time  
 
 ### Phase 4: Content Organization & Search
-- Implement Jekyll front matter for all markdown files:
-  ```yaml
-  ---
-  title: "Document Title"
-  categories: ["scripts", "guides", "strategies"]
-  tags: ["bland-ai", "voice-modulation", "example-scripts"]
-  content_types: ["implementation", "research", "technical"]
-  ---
-  ```
 - Add quick-filters on search page:
   - Content Type
   - Category

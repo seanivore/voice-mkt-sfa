@@ -1,3 +1,11 @@
+---
+title: "Bland AI Voice Marketing Cheat Sheet"
+categories: ["Guides", "Implementation", "Technical"]
+tags: ["bland-ai", "voice-modulation", "example-scripts"]
+content_types: ["Implementation Guides", "Technical References", "Example Scripts"]
+description: "Comprehensive cheat sheet for Bland AI voice marketing implementation, featuring notation systems, strategic applications, platform strategies, and troubleshooting guidance for maximizing campaign effectiveness."
+---
+
 # Bland AI Voice Marketing Cheat Sheet
 
 ## How to Use This Cheat Sheet

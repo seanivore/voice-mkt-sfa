@@ -1,3 +1,11 @@
+---
+title: "Content Planning Production Flow"
+categories: ["Research", "Implementation", "Case Studies"]
+tags: ["implementation", "research", "case-study"]
+content_types: ["Case Studies", "Research Findings", "Implementation Guides"]
+description: "Complete production workflow documentation showing the content planning process for Glossier, Hydro Flask, and Jungalow, including initial drafts and detailed review feedback."
+---
+
 Content Planning Production Flow Draft & Review Documents 
 
 [Glossier Content Plan Draft](#glossier-content-plan-draft)

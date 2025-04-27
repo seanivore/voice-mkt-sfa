@@ -1,3 +1,11 @@
+---
+title: "Voice Script Writing For Bland AI"
+categories: ["Guides", "Implementation", "Technical"]
+tags: ["bland-ai", "voice-modulation", "example-scripts"]
+content_types: ["Implementation Guides", "Example Scripts", "Technical References"]
+description: "Practical guide to formatting voice scripts for Bland AI, featuring basic notation elements, tone and pace indicators, pitch control techniques, and before/after examples for effective implementation."
+---
+
 # Voice Script Writing For Bland AI
 
 ## Basic Formatting Elements

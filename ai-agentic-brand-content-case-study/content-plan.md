@@ -1,3 +1,11 @@
+---
+title: "Document Content Planning Workflow"
+categories: ["Implementation", "Strategies", "Case Studies"]
+tags: ["implementation", "strategy", "case-study"]
+content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
+description: "Detailed workflow documentation for an AI-powered content planning system that develops, reviews, and refines brand content strategies through a three-phase agency simulation process."
+---
+
 # Document Content Planning Workflow
 
 ## Overview

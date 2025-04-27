@@ -1,3 +1,11 @@
+---
+title: "Agentic Research and Planning Case Study"
+categories: ["Case Studies", "Research", "Implementation"]
+tags: ["case-study", "implementation", "research"]
+content_types: ["Case Studies", "Research Findings", "Implementation Guides"]
+description: "Detailed case study documenting the agentic research and planning process for AI voice marketing, including workflow steps, resource requirements, and implementation insights."
+---
+
 # Agentic Research and Planning Case Study 
 
 ## Research Haul 

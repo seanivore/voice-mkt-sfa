@@ -1,3 +1,11 @@
+---
+title: "Home Services Industry Top Strategies by Name"
+categories: ["Strategies", "Guides", "Research"]
+tags: ["strategy", "voice-modulation", "implementation"]
+content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
+description: "Comprehensive index of AI voice marketing strategies organized by framework type, including assertive-urgent, curiosity gap, empathy-based, demographic-tailored, and emotional trigger optimization approaches."
+---
+
 # Home Services Industry Top Strategies by Name 
 AI Voice Marketing Strategies
 

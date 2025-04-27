@@ -1,3 +1,11 @@
+---
+title: "Glossier Content Plan"
+categories: ["Strategies", "Implementation", "Case Studies"]
+tags: ["strategy", "implementation", "case-study"]
+content_types: ["Strategy Documents", "Implementation Guides", "Case Studies"]
+description: "Comprehensive content marketing strategy for Glossier, featuring brand essence analysis, emotional gut checks, target audience segmentation, brand voice guidelines, and a 60-day content calendar."
+---
+
 # Glossier Content Plan 
 
 ## Brand Essence Summary

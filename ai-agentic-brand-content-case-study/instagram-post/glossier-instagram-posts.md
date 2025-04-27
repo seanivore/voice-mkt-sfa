@@ -1,3 +1,11 @@
+---
+title: "Glossier Instagram Campaign: Final Content"
+categories: ["Implementation", "Strategies", "Case Studies"]
+tags: ["implementation", "strategy", "case-study"]
+content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
+description: "Finalized Instagram campaign for Glossier featuring three strategic posts that showcase morning routine simplicity, product versatility, and clean ingredients with detailed image descriptions and caption strategy."
+---
+
 # Glossier Instagram Campaign: Final Content
 
 ## Introduction

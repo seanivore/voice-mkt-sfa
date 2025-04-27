@@ -1,3 +1,11 @@
+---
+title: "Jungalow - Comprehensive Brand Content Plan"
+categories: ["Strategies", "Implementation", "Case Studies"]
+tags: ["strategy", "implementation", "case-study"]
+content_types: ["Strategy Documents", "Implementation Guides", "Case Studies"]
+description: "Comprehensive content marketing strategy for Jungalow, featuring emotional gut checks, audience segmentation, brand voice guidelines, and detailed content themes for both indoor and outdoor product lines."
+---
+
 # Jungalow - Comprehensive Brand Content Plan
 
 ## Executive Summary

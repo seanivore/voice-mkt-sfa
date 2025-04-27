@@ -1,3 +1,11 @@
+---
+title: "Content Plan Agent Configuration"
+categories: ["Technical", "Implementation", "Strategies"]
+tags: ["implementation", "technical", "strategy"]
+content_types: ["Technical References", "Implementation Guides", "Strategy Documents"]
+description: "Technical configuration file for the AI content planning agent, defining the workflow roles, inputs, and outputs for developing brand marketing strategies."
+---
+
 ```JSON
 {
     "doc-content-plan.sh": [

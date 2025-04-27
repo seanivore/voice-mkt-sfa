@@ -1,3 +1,11 @@
+---
+title: "Production Flow for Instagram Posts"
+categories: ["Research", "Implementation", "Case Studies"]
+tags: ["implementation", "research", "case-study"]
+content_types: ["Case Studies", "Research Findings", "Implementation Guides"]
+description: "Complete production workflow documentation showing the Instagram campaign development process for Glossier and Hydro Flask, including initial drafts and detailed review feedback."
+---
+
 Production Flow for Instagram Posts
 
 [Glossier Instagram Content Drafts](#glossier-instagram-content-drafts)

@@ -1,3 +1,11 @@
+---
+title: "Glossier Email Campaign - Final Version"
+categories: ["Implementation", "Strategies", "Case Studies"]
+tags: ["implementation", "strategy", "case-study"]
+content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
+description: "Finalized email marketing campaign for Glossier, featuring subject line, body copy, and call-to-action that align with the brand's minimalist aesthetic and simplified approach to beauty."
+---
+
 # Glossier Email Campaign - Final Version
 
 ## Subject Line

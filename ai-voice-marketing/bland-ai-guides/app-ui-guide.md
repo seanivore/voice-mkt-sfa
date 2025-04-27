@@ -1,3 +1,11 @@
+---
+title: "Bland AI User Interface Guide"
+categories: ["Guides", "Implementation", "Technical"]
+tags: ["bland-ai", "implementation", "technical"]
+content_types: ["Implementation Guides", "Technical References", "User Guides"]
+description: "Comprehensive guide to navigating and utilizing the Bland AI user interface, featuring detailed walkthroughs of dashboard functions, campaign creation, workflow building, and analytics features."
+---
+
 # Bland AI User Interface Guide
 
 ## Introduction

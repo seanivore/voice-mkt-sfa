@@ -1,3 +1,11 @@
+---
+title: "Social Media Content Development Workflow"
+categories: ["Implementation", "Strategies", "Case Studies"]
+tags: ["implementation", "strategy", "case-study"]
+content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
+description: "Detailed workflow documentation for an AI-powered Instagram content development system that creates, reviews, and finalizes brand-aligned social media posts through a three-phase agency process."
+---
+
 # Social Media Content Development Workflow
 
 ## Overview

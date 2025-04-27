@@ -1,3 +1,11 @@
+---
+title: "Brand Identity Documents"
+categories: ["Research", "Implementation", "Case Studies"]
+tags: ["implementation", "research", "case-study"]
+content_types: ["Research Findings", "Case Studies", "Strategy Documents"]
+description: "Collection of brand identity briefings for Glossier, Hydro Flask, and Jungalow, providing foundational information for AI-generated marketing content campaigns."
+---
+
 # Brand Identity Documents 
 
 [Glossier Brand](#glossier-brand)

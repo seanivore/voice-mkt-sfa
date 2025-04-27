@@ -1,3 +1,11 @@
+---
+title: "Home Services Industry Strategies by Desired Outcome"
+categories: ["Strategies", "Guides", "Research"]
+tags: ["strategy", "implementation", "research"]
+content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
+description: "Comprehensive index of AI voice marketing strategies organized by business objectives, including brand awareness, customer retention, lead generation, and sales conversion approaches."
+---
+
 # Home Services Industry Strategies by Desired Outcome 
 AI Voice Marketing Strategies
 

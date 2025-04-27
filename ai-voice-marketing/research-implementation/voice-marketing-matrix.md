@@ -1,3 +1,11 @@
+---
+title: "Home Services Voice Marketing Matrix, 2025 Edition"
+categories: ["Research", "Implementation", "Technical"]
+tags: ["bland-ai", "voice-modulation", "strategy"]
+content_types: ["Research Findings", "Implementation Guides", "Technical References"]
+description: "Comprehensive voice marketing matrix for home services industry, featuring detailed correlations between voice variables, demographic segments, and economic contexts to maximize conversion rates."
+---
+
 # Home Services Voice Marketing Matrix, 2025 Edition
 
 ## Key Voice Variables Matrix

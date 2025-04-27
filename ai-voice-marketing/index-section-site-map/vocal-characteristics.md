@@ -1,3 +1,11 @@
+---
+title: "Home Services Industry Voice Characteristics"
+categories: ["Technical", "Implementation", "Guides"]
+tags: ["voice-modulation", "bland-ai", "implementation"]
+content_types: ["Technical References", "Implementation Guides", "Strategy Documents"]
+description: "Comprehensive index of AI voice marketing approaches organized by vocal characteristics, including assertive, empathetic, engaging, and professional voice types with technical implementation guidance."
+---
+
 # Home Services Industry Voice Characteristics
 AI Voice Marketing Strategies
 

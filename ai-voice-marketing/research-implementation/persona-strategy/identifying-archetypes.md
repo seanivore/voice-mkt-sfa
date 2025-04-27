@@ -1,3 +1,11 @@
+---
+title: "Voice Marketing Personas Development Brief"
+categories: ["Strategies", "Implementation", "Research"]
+tags: ["strategy", "voice-modulation", "implementation"]
+content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
+description: "Comprehensive development guide for AI voice marketing personas across five strategic frameworks, featuring detailed character profiles, voice signatures, and implementation guidance for effective customer engagement."
+---
+
 # Voice Marketing Personas Development Brief
 
 ## Strategy 1: Assertive-Urgent Framework

@@ -1,3 +1,11 @@
+---
+title: "Brand Email Campaign Workflow"
+categories: ["Implementation", "Strategies", "Case Studies"]
+tags: ["implementation", "strategy", "case-study"]
+content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
+description: "Detailed workflow documentation for an AI-powered email marketing campaign system that creates, reviews, and finalizes brand-aligned email content through a three-phase process."
+---
+
 # Brand Email Campaign Workflow
 
 ## Overview
