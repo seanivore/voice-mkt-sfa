@@ -1,11 +1,10 @@
-# 3. Technical Documentation
-
-```markdown
 ---
 layout: research
 title: SFA Technical Documentation
 description: Comprehensive documentation standards and practices for Single-File Agents, ensuring clarity, consistency, and usability across all SFA projects.
 ---
+
+# Technical Documentation
 
 ## Documentation Philosophy
 
