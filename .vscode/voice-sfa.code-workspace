@@ -1,12 +1,15 @@
 {
 	"folders": [
-		{
-			"path": ".."
-		},
-		{
-			"path": "../../_resources/ai-dev-docs"
-		}
-	],
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../_resources/ai-dev-docs"
+        },
+        {
+            "path": "../../_resources/fonts"
+        }
+    ],
     "settings": {
         "chat.commandCenter.enabled": true,
         "chat.detectParticipant.enabled": true,
