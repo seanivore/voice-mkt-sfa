@@ -61,31 +61,8 @@ Continue working on the slide show until it is finished. It is the most importan
 
 ---- 
 
-# Markdown > HTML Jekyll Template 
-
-I can look at exactly how we did this for the AI Philosophy [Blog](https://ai-philosophy.august.style). But before we roll out with it I'd love to check out the footer. 
-
-### Non-Bio-Life Implementation 
-
-The config file: /Users/seanivore/Development/non-bio-life/_config.yml
-
-Layouts: 
-/Users/seanivore/Development/non-bio-life/_layouts/default.html 
-/Users/seanivore/Development/non-bio-life/_layouts/page.html 
-/Users/seanivore/Development/non-bio-life/_layouts/post.html
-
-Hah — I guess we added our front matter using a script that time. 
-/Users/seanivore/Development/non-bio-life/add_frontmatter.sh
-
-The CSS: /Users/seanivore/Development/non-bio-life/assets/css/main.css
-
-Though note that we should look at the CSS for this website and I'll provide images of the design and the typeface URL. 
 
 # Feedback and Updates 
-
-## Front Matter 
-
-There is a full project directory tree in the [CLAUDE.md](../../CLAUDE.md) file with all, exactly, 60 pages currently in the project. 
 
 ## Components 
 
@@ -99,7 +76,7 @@ It looks like the same JS used on the actual page, and again in the ./components
 - Give the presentation's a CSS animation behind the transparent text brand logos  
 - Build homepage just motion art
 - New modular tiles link to pages (reference Portfolio's modular tiles and update after)
-- Breadcrumb tracking                          `<-- this should be another component`
+- Breadcrumb tracking
 - Make sure it is responsive 
 - Add search functionality:
   - Jekyll-based search implementation

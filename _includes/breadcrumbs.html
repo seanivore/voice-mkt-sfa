@@ -1,0 +1,23 @@
+{% if page.url != "/" %}
+<div class="breadcrumbs">
+    <div class="breadcrumbs-item">
+        <a href="{{ site.baseurl }}/">Home</a>
+    </div>
+
+    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+    {% assign breadcrumb_path = '' %}
+
+    {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+    <div class="breadcrumbs-item breadcrumbs-current">
+        {{ page.title | default: crumb | replace:'-',' ' | capitalize }}
+    </div>
+    {% else %}
+    {% assign breadcrumb_path = breadcrumb_path | append: '/' | append: crumb %}
+    <div class="breadcrumbs-item">
+        <a href="{{ site.baseurl }}{{ breadcrumb_path }}">{{ crumb | replace:'-',' ' | capitalize }}</a>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

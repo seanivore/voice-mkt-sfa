@@ -1,0 +1,69 @@
+{% assign current_url = page.url | remove: 'index.html' %}
+
+<div class="sidebar-section">
+    <h3>Quick Links</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/writing-guide/notation-cheat-sheet/">Vocal Engineering Cheat Sheet</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting/">Emotion Driven Copywriting</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/persona-strategy/annotated-vo-scripts/">Persona Scripts for Top AI Marketing Strategies</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/index-section-site-map/">Strategy Index & Sitemap</a></li>
+    </ul>
+</div>
+
+{% if current_url contains '/about-our-agents/' %}
+<div class="sidebar-section">
+    <h3>About Our Agents</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/about-our-agents/">Overview</a></li>
+        <li><a href="{{ site.baseurl }}/about-our-agents/technical-specifications/">Technical Specifications</a></li>
+        <li><a href="{{ site.baseurl }}/about-our-agents/what-is-sfa-single-file-agent/">What Is SFA?</a></li>
+        <li><a href="{{ site.baseurl }}/about-our-agents/workflow-feedback-job-resume-case-study/">Workflow Case Study</a></li>
+    </ul>
+</div>
+
+{% elsif current_url contains '/ai-voice-marketing/' %}
+<div class="sidebar-section">
+    <h3>AI Voice Marketing</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/">Overview</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/agentic-research-planning-case-study/">Research Planning</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/bland-ai-guides/">Bland AI Guides</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/persona-strategy/identifying-archetypes/">Making Strategy Archetypal</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/writing-guide/script-voice-indicators/">Comprehensive Brand AI Voice Engineering Notation</a></li>
+    </ul>
+</div>
+
+<div class="sidebar-section">
+    <h3>Research & Implementation</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/writing-guide/modulation-sound-patterns/">Voice Modulation Guide</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/">Implementation</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/research-implementation/voice-marketing-matrix/">Marketing Matrix</a></li>
+    </ul>
+</div>
+
+<div class="sidebar-section">
+    <h3>Brand Content Production</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/ai-agentic-brand-content-case-study/">Cross-Channel Campaign Planning</a></li>
+        <li><a href="{{ site.baseurl }}/ai-agentic-brand-content-case-study/content-plan/production-flow-content-plan/">Agentic Production Flow</a></li>
+    </ul>
+</div>
+
+{% if current_url contains '/ai-voice-marketing/deep-research/' %}
+<div class="sidebar-section">
+    <h3>Deep Research</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/strategy-assertive-urgent/">Assertive Urgent</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/strategy-combinations/">Combinations</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/strategy-curiosity-gap/">Curiosity Gap</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/strategy-empathy-objection/">Empathy Objection</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/strategy-strongest-combos/">Strongest Combos</a></li>
+    </ul>
+</div>
+
+<div class="sidebar-section">
+    <h3>Analysis</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/analysis-optimizing-voice-ai-mkt/">Optimizing Voice AI</a></li>
+        <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/analysis-voice-mkt-home-services/">Home Services</a></li>
