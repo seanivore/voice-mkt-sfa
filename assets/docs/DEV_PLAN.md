@@ -52,9 +52,9 @@ Continue working on the slide show until it is finished. It is the most importan
 ~~- Put to gether index~~
 ~~- Create groupings for index~~
 - Markdown > HTML Jekyll Template
-- Prepare for GitHub Pages deployment
+~~- Prepare for GitHub Pages deployment~~
 - Add URLs for these resources where needed
-  - Referenced on slides 
+  - Referenced on slides
   - Referenced in Navigation 
 - Launch now so that the two slide shows can be presented if they need to be 
 
