@@ -12,6 +12,30 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileNavToggle = document.getElementById("mobileNavToggle");
   const mobileNav = document.getElementById("mobileNav");
 
+  // Audio reaction handler
+  const trustAudio = document.getElementById("trustAudio");
+  const audioReaction = document.querySelector(".audio-reaction");
+  
+  if (trustAudio && audioReaction) {
+    let reactionTimeout;
+    
+    trustAudio.addEventListener("play", () => {
+      // Clear any existing timeout
+      if (reactionTimeout) clearTimeout(reactionTimeout);
+      
+      // Set new timeout to show reaction after 2 seconds
+      reactionTimeout = setTimeout(() => {
+        audioReaction.classList.add("visible");
+        audioReaction.classList.remove("hidden");
+      }, 2000);
+    });
+    
+    trustAudio.addEventListener("pause", () => {
+      // Clear timeout if audio is paused before reaction shows
+      if (reactionTimeout) clearTimeout(reactionTimeout);
+    });
+  }
+
   // Only proceed if we found the slides container
   if (!scrollableContainer) return;
 

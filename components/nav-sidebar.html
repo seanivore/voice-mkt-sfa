@@ -2,9 +2,7 @@
 <template id="nav-sidebar-template">
     <div class="nav-sidebar">
         <h3 class="nav-title"></h3>
-        <div class="nav-links">
-            <!-- Links will be injected here -->
-        </div>
+        <div class="nav-links"></div>
     </div>
 </template>
 
@@ -31,10 +29,15 @@
                 a.href = link.href;
                 a.className = 'nav-link';
                 a.textContent = link.text;
+                // Add click handler for active state
+                a.addEventListener('click', (e) => {
+                    document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                    a.classList.add('active');
+                });
                 navLinks.appendChild(a);
             });
 
-            // Append to DOM (not using shadow DOM anymore)
+            // Append to DOM
             this.appendChild(content);
         }
 

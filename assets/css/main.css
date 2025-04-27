@@ -452,3 +452,17 @@ body {
         opacity: 0.3;
     }
 }
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.audio-reaction {
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+.audio-reaction.visible {
+    opacity: 1;
+    visibility: visible;
+}
