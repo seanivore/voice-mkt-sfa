@@ -154,12 +154,3 @@ Great! [cheerful] Let me confirm your details [slower].
 | Inconsistent voice quality     | Mixing too many emotional states            | Limit emotional shifts within single conversation segments |
 
 **Remember**: The right voice modulation can dramatically improve engagement and conversion rates. Test, listen, and refine your approach based on real results.
-
-----
-
-## Directory Content 
-
-- [Writing Guide](../writing-guide.md)
-  - [Emotion-Driven Marketing Copywriting Guide](./emotion-driven-copywriting.md)
-  - [Voice Modulation Guide With Notation & Examples](./modulation-sound-patterns.md)
-  - [Voice Script Writing For Bland AI](./script-voice-indicators.md)

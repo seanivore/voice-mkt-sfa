@@ -171,35 +171,3 @@ The curiosity gap approach represents a sophisticated middle path in voice marke
 In voice marketing specifically, the curiosity gap approach leverages the intimate nature of voice communication to create personal connection while respecting prospect boundaries. The natural conversational flow of voice interactions provides ideal opportunities to introduce knowledge gaps and secure micro-commitments that would feel more forced in written formats. Voice marketers can capitalize on subtle tone variations and strategic pauses to heighten curiosity in ways impossible through text-based communication.
 
 When properly tailored to demographic characteristics and implemented with authentic value delivery, this approach can significantly improve conversion rates among prospects who typically reject traditional marketing approaches, making it an essential strategy for voice marketing teams seeking both immediate engagement and long-term relationship building.
-
-----
-
-## Directory Content
-
-- The Top AI Voice Marketing Strategies for Conversions
-  - [Top Conversion Strategy](../top-conversion-strategy.md)
-  - [Optimized Marketing Strategy Combinations](./combine-optimize-tactics.md)
-  - [The Curiosity Gap Approach in Voice Marketing](./creating-curiosity-gap.md)
-  - [Empathy-Based Objection Handling in Voice Marketing](./empathy-objection-handling.md)
-  - [Strongest Strategic Approaches by Demographic](./target-audience-groups.md)
-- Section Pages
-  - [AI Voice Marketing Research & Implementation Guide](../../ai-voice-marketing.md)
-  - [AI Voice Marketing Deep Research](../deep-research.md)
-  - [AI Voice Marketing Research Implementation](../research-implementation.md)
-  - [AI Voice Marketing Writing Guides](../research-implementation/writing-guide.md)
-  - [AI Voice Marketing Persona Strategy](../research-implementation/persona-strategy.md)
-- Case Studies 
-  - [AI Agentic Brand Content Case Study](../../ai-agentic-brand-content-case-study.md)
-  - [Agentic Research Case Study](../agentic-research-planning-case-study.md)
-- About Section 
-  - [About Our AI Agent Research & Production](../../about-our-agents.md)
-  - [Technical Specifications](../../about-our-agents/technical-specifications.md)
-  - [What Is A Single-File Agent](../../about-our-agents/what-is-sfa-single-file-agent.md)
-  - [Workflow Feedback Job Resume Case Study](../../about-our-agents/workflow-feedback-job-resume-case-study.md)
-- Index Pages
-  - [Index of AI Voice Marketing Strategy Section Content](../index-section-site-map.md)
-  - [AI Voice Marketing Strategies by Tactic Type Index](../index-section-site-map/tactic-types.md)
-  - [AI Voice Marketing Strategies by Name Index](../index-section-site-map/strategy-name.md)
-  - [AI Voice Marketing Strategies by Vocal Characteristic Index](../index-section-site-map/vocal-characteristics.md)
-  - [AI Voice Marketing Strategies by Influence and Lead Type Index](../index-section-site-map/influence-lead-type.md)
-  - [AI Voice Marketing Strategies by Outcome Results Index](../index-section-site-map/outcome-result-strategy.md)

@@ -199,12 +199,3 @@ I'm calling because you recently requested information about our [emphasis] DRAI
 
 **Breathing Room:** Include appropriate pauses between key points
 > EXAMPLE: "That covers the pricing. [pause] Now let's talk about implementation."
-
-----
-
-## Directory Content 
-
-- [Writing Guide](../writing-guide.md)
-  - [Emotion-Driven Marketing Copywriting Guide](./emotion-driven-copywriting.md)
-  - [Bland AI Voice Marketing Cheat Sheet](./notation-cheat-sheet.md)
-  - [Voice Script Writing For Bland AI](./script-voice-indicators.md)

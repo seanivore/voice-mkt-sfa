@@ -71,22 +71,3 @@ Each post includes a specific question designed to generate authentic comments. 
 
 ### Visual Cohesion
 While each post offers a different format (Boomerang, carousel, and single image), they maintain visual consistency through Glossier's signature color palette, natural lighting, and minimalist composition. This creates a recognizable campaign aesthetic while providing visual variety in the feed.
-
-----
-
-## Directory Content 
-
-- [Content Plans](../content-plan.md)
-  - [Glossier Content Plan](../content-plan/glossier-content-plan.md)
-  - [Hydro Flask Content Plan](../content-plan/hydro-flask-content-plan.md)
-  - [Jungalow Content Plan](../content-plan/jungalow-content-plan.md)
-  - [Content Plan Draft & Feedback All Brands](../content-plan/production-flow-content-plan.md)
-  - [Agentic Configuration File](../content-plan/agent-configuration-prompt-input.md)
-- [Email Campaign](../email-blast.md)
-  - [Glossier Email Campaign](../email-blast/glossier-email-campaign.md)
-  - [Email Campaign Draft & Feedback All Brands](../email-blast/production-flow-email-blast.md)
-  - [Agentic Configuration File](../email-blast/ai-prompt-configuration-agent.md)
-- [Instagram Posts](../instagram-post.md)
-  - [Hydro Flask Instagram Posts](./hydro-flask-instagram-posts.md)
-  - [Instagram Post Draft & Feedback All Brands](./production-flow-instagram-posts.md)
-  - [Agentic Configuration File](./instagram-post-agentic-configuration.md) 

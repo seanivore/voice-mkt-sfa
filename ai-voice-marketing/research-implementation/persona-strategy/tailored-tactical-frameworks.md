@@ -37,11 +37,3 @@ For AI voice implementation, create personas that can adjust voice characteristi
 The Emotional Trigger Optimization framework combines voice modulation techniques with demographic-specific concerns to create emotionally resonant marketing. It recognizes that customers make decisions based on emotional responses first, followed by rational justification, and tailors messaging accordingly.
 
 For AI voice implementation, develop personas that can deliver emotional triggers specific to each demographic. Train the AI to recognize and leverage triggers like financial security for rural audiences, inflation protection for lower-income suburban customers, and long-term value for middle-income homeowners. Example: "With new tariffs raising HVAC costs, we're offering a tariff-proof upgrade—installed now, with a full 10-year warranty. That's right—no surprise costs for a decade, even if prices keep climbing."
-
-----
-
-## Directory Content 
-
-- [Voice Marketing Persona Strategy](../persona-strategy.md)
-  - [Strategic Voice Marketing Personas with Scripts](./annotated-vo-scripts.md)
-  - [Voice Marketing Personas Development Brief](./identifying-archetypes.md)

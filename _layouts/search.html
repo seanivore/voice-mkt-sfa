@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="search-page">
+    <h1>Search Results</h1>
+
+    <form class="search-form" action="/search/" method="get">
+        <input type="text" id="search-page-input" class="search-input" name="q" placeholder="Search the site..." value="{{ page.query }}" />
+        <button type="submit" class="search-button">
+            <span class="search-icon">🔍</span>
+        </button>
+    </form>
+
+    <div id="search-results">
+        <p>Search functionality coming soon. We're preparing to implement a robust search system that will leverage the tags, categories, and content types in our front matter.</p>
+
+        <h2>In the meantime, you might find these useful:</h2>
+        <ul>
+            <li><a href="/getting-started/">Getting Started Guide</a></li>
+            <li><a href="/examples/">Example Agents</a></li>
+            <li><a href="/docs/architecture/">Architecture Documentation</a></li>
+        </ul>
+    </div>
+</div>

@@ -116,13 +116,3 @@ Table of Contents:
 ### [Voice Modulation Guide With Notation & Examples](../research-implementation/writing-guide/modulation-sound-patterns.md)
 
 ### [Voice Marketing Strategy Framework](../research-implementation/persona-strategy/tailored-tactical-frameworks.md)
-
-----
-
-- Index Pages
-  - [Index of AI Voice Marketing Strategy Section Content](../index-section-site-map.md)
-  - [AI Voice Marketing Strategies by Tactic Type Index](./tactic-types.md)
-  - [AI Voice Marketing Strategies by Name Index](./strategy-name.md)
-  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./vocal-characteristics.md)
-  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./influence-lead-type.md)
-  - [AI Voice Marketing Strategies by Outcome Results Index](./outcome-result-strategy.md)

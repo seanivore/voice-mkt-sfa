@@ -1,0 +1,49 @@
+<!-- Footer navigation -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-wrapper">
+            <!-- Mirrored breadcrumbs -->
+            <div class="footer-breadcrumbs">
+                <ol class="breadcrumb-list">
+                    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+                    <li><a href="/">Home</a></li>
+                    {% for crumb in crumbs offset: 1 %}
+                    {% if forloop.last %}
+                    <li class="active">{{ page.title }}</li>
+                    {% else %}
+                    <li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | capitalize }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                </ol>
+            </div>
+
+            <!-- Deep research section -->
+            <div class="footer-deep-research">
+                <h3>Deep Research</h3>
+                <ul>
+                    <li><a href="/research/agent-architecture/">Agent Architecture</a></li>
+                    <li><a href="/research/prompt-engineering/">Prompt Engineering</a></li>
+                    <li><a href="/research/technical-documentation/">Technical Documentation</a></li>
+                    <li><a href="/research/case-studies/">Case Studies</a></li>
+                    <li><a href="/research/best-practices/">Best Practices</a></li>
+                </ul>
+            </div>
+
+            <!-- Search placeholder -->
+            <div class="footer-search">
+                <form class="search-form" action="/search/" method="get">
+                    <input type="text" id="footer-search-input" class="search-input" name="q" placeholder="Search the site..." />
+                    <button type="submit" class="search-button">
+                        <span class="search-icon">🔍</span>
+                    </button>
+                </form>
+                <small>Search functionality coming soon</small>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 August Style. All rights reserved.</p>
+            <p><a href="https://portfolio.august.style">Portfolio</a> | <a href="https://ai-blog.august.style">AI Blog</a> | <a href="https://art.august.style">Art</a></p>
+        </div>
+    </div>
+</footer>

@@ -365,28 +365,3 @@ SFAs can be applied to a wide range of tasks, including:
 - Decision support and ideation 
 
 When you see a video online saying agents are all hype, think of SFA. We'll be here. 
-
-----
-
-## Directory Content 
-
-- About Section 
-  - [Technical Specifications](./about-our-agents/technical-specifications.md)
-  - [What Is A Single-File Agent](./about-our-agents/what-is-sfa-single-file-agent.md)
-  - [Workflow Feedback Job Resume Case Study](./about-our-agents/workflow-feedback-job-resume-case-study.md)
-- Case Studies 
-  - [AI Agentic Brand Content Case Study](./ai-agentic-brand-content-case-study.md)
-  - [Agentic Research Case Study](./ai-voice-marketing/agentic-research-planning-case-study.md)
-- Section Pages 
-  - [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index-section-site-map.md)
-  - [AI Voice Marketing Research & Implementation Guide](./ai-voice-marketing.md)
-  - [AI Voice Marketing Deep Research](./ai-voice-marketing/deep-research.md)
-  - [AI Voice Marketing Research Implementation](./ai-voice-marketing/research-implementation.md)
-  - [AI Voice Marketing Writing Guide](./ai-voice-marketing/research-implementation/writing-guide.md)
-  - [AI Voice Marketing Persona Strategy](./ai-voice-marketing/research-implementation/persona-strategy.md)
-- Index Pages 
-  - [AI Voice Marketing Strategies by Tactic Type Index](./ai-voice-marketing/index-section-site-map/tactic-types.md)
-  - [AI Voice Marketing Strategies by Name Index](./ai-voice-marketing/index-section-site-map/strategy-name.md)
-  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./ai-voice-marketing/index-section-site-map/vocal-characteristics.md)
-  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./ai-voice-marketing/index-section-site-map/influence-lead-type.md)
-  - [AI Voice Marketing Strategies by Outcome Results Index](./ai-voice-marketing/index-section-site-map/outcome-result-strategy.md)

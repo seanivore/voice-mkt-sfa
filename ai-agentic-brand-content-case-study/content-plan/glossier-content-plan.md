@@ -441,21 +441,3 @@ Demonstrate how Glossier's minimalist approach is grounded in scientific underst
 ---
 
 This content plan is designed to authentically connect with Glossier's audience through emotional storytelling that aligns with the brand's core values of transparency, community, and simplified beauty. By implementing this strategy, Glossier will strengthen its distinctive position in the beauty market while creating meaningful emotional touchpoints throughout the customer journey.
-
-## Directory Content 
-
-- [Content Plans](../content-plan.md)
-  - [Hydro Flask Content Plan](./hydro-flask-content-plan.md)
-  - [Jungalow Content Plan](./jungalow-content-plan.md)
-  - [Content Plan Draft & Feedback All Brands](./production-flow-content-plan.md)
-  - [Agentic Configuration File](./agent-configuration-prompt-input.md)
-- [Email Campaign](../email-blast.md)
-  - [Glossier Email Campaign](../email-blast/glossier-email-campaign.md)
-  - [Hydro Flask Email Campaign](../email-blast/hydro-flask-email-campaign.md)
-  - [Email Campaign Draft & Feedback All Brands](../email-blast/production-flow-email-blast.md)
-  - [Agentic Configuration File](../email-blast/ai-prompt-configuration-agent.md)
-- [Instagram Posts](../instagram-post.md)
-  - [Glossier Instagram Posts](../instagram-post/glossier-instagram-posts.md)
-  - [Hydro Flask Instagram Posts](../instagram-post/hydro-flask-instagram-posts.md)
-  - [Instagram Post Draft & Feedback All Brands](../instagram-post/production-flow-instagram-posts.md)
-  - [Agentic Configuration File](../instagram-post/instagram-post-agentic-configuration.md)
