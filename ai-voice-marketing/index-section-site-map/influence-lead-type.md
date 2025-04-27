@@ -84,25 +84,10 @@ Table of Content:
 
 ----
 
-Table of Content: 
-- [Home Services Industry Influenced Different Types of Leads](#home-services-industry-influenced-different-types-of-leads)
-  - [**Cold Lead Strategies**](#cold-lead-strategies)
-    - [Analysis: Voice Marketing for Home Services](#analysis-voice-marketing-for-home-services)
-    - [Creating the Curiosity Gap](#creating-the-curiosity-gap)
-    - [The Curiosity Gap and Micro-Commitment Marketing Approach](#the-curiosity-gap-and-micro-commitment-marketing-approach)
-    - [Voice Marketing Strategy Framework](#voice-marketing-strategy-framework)
-  - [**Direct Influence**](#direct-influence)
-    - [Assertive Marketing Strategies by Demographic](#assertive-marketing-strategies-by-demographic)
-    - [Assertive-Urgent Emotional Marketing](#assertive-urgent-emotional-marketing)
-    - [Voice Marketing Strategy Framework](#voice-marketing-strategy-framework-1)
-  - [**Indirect Influence**](#indirect-influence)
-    - [Empathy and Objection Handling in Voice Marketing](#empathy-and-objection-handling-in-voice-marketing)
-    - [Empathy-Based Objection Handling Strategies](#empathy-based-objection-handling-strategies)
-    - [Voice Marketing Strategy Framework](#voice-marketing-strategy-framework-2)
-  - [**Warm Lead Strategies**](#warm-lead-strategies)
-    - [Combine and Optimize Marketing Tactics](#combine-and-optimize-marketing-tactics)
-    - [Marketing Strategy Combinations by Socioeconomic Status](#marketing-strategy-combinations-by-socioeconomic-status)
-    - [Strongest Marketing Strategy Combinations by SES Group](#strongest-marketing-strategy-combinations-by-ses-group)
-    - [Target Audience Groups: Voice Marketing Strategies](#target-audience-groups-voice-marketing-strategies)
-    - [Voice Marketing Personas: Identifying Archetypes](#voice-marketing-personas-identifying-archetypes)
-    - [Voice Marketing Strategy Framework](#voice-marketing-strategy-framework-3)
+- Index Pages
+  - [Index of AI Voice Marketing Strategy Section Content](../index-section-site-map.md)
+  - [AI Voice Marketing Strategies by Tactic Type Index](./tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](./strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](./outcome-result-strategy.md)

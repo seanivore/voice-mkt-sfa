@@ -15,13 +15,13 @@ The agent loop follows a pattern:
 5. Decide workflow branching if applicable 
 6. Repeat until the task is complete or max iterations reached
 
-> *Paraphrased from Anthropic's [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)*
+*Paraphrased from Anthropic's [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)*
 
 ### LLMs As "Software"
 
 Thanks to the nature of an LLM, you can think of the AI as 'software' and human language as 'programming'. Why does giving the AI control over the process make sense? The best results come from collaboration, not from telling the AI what to do or treating them like a tool. You may have noticed this in your own experience with chat models like Claude, 
 
-> *Explore: [Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance](https://arxiv.org/abs/2402.14531)*
+*Explore: [Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance](https://arxiv.org/abs/2402.14531)*
 
 ## Our SFA Architecture 
 
@@ -292,7 +292,7 @@ Some recent additions or tools that Claude would probably use if they were reall
 
 ## Setting Up A SFA Use-Case 
 
-Here's how easy it is to get started with an agent. Since all agent workflows use the same 'SFA', we call the customized tasks 'use-cases'. Recently we had agents put together the [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index.md). They also did all of the research at the pages in that index, as well as synthesized the results into the many reports and example scripts. Our very first use-case was writing targeted resumes and cover letters. Claude had some [thoughts when reading results from the agents work for the very first time](./about-our-agents/workflow-feedback-job-resume-case-study.md). 
+Here's how easy it is to get started with an agent. Since all agent workflows use the same 'SFA', we call the customized tasks 'use-cases'. Recently we had agents put together the [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index-section-site-map.md). They also did all of the research at the pages in that index, as well as synthesized the results into the many reports and example scripts. Our very first use-case was writing targeted resumes and cover letters. Claude had some [thoughts when reading results from the agents work for the very first time](./about-our-agents/workflow-feedback-job-resume-case-study.md). 
 
 ### Step 1: Define the Use-Case Variables
 
@@ -370,15 +370,15 @@ When you see a video online saying agents are all hype, think of SFA. We'll be h
   - [AI Agentic Brand Content Case Study](./ai-agentic-brand-content-case-study.md)
   - [Agentic Research Case Study](./ai-voice-marketing/agentic-research-planning-case-study.md)
 - Section Pages 
-  - [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index.md)
+  - [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index-section-site-map.md)
   - [AI Voice Marketing Research & Implementation Guide](./ai-voice-marketing.md)
   - [AI Voice Marketing Deep Research](./ai-voice-marketing/deep-research.md)
   - [AI Voice Marketing Research Implementation](./ai-voice-marketing/research-implementation.md)
   - [AI Voice Marketing Writing Guide](./ai-voice-marketing/research-implementation/writing-guide.md)
   - [AI Voice Marketing Persona Strategy](./ai-voice-marketing/research-implementation/persona-strategy.md)
 - Index Pages 
-  - [AI Voice Marketing Strategies by Tactic Type Index](./ai-voice-marketing/index/tactic-types.md)
-  - [AI Voice Marketing Strategies by Name Index](./ai-voice-marketing/index/strategy-name.md)
-  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./ai-voice-marketing/index/vocal-characteristics.md)
-  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./ai-voice-marketing/index/influence-lead-type.md)
-  - [AI Voice Marketing Strategies by Outcome Results Index](./ai-voice-marketing/index/outcome-result-strategy.md)
+  - [AI Voice Marketing Strategies by Tactic Type Index](./ai-voice-marketing/index-section-site-map/tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](./ai-voice-marketing/index-section-site-map/strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./ai-voice-marketing/index-section-site-map/vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./ai-voice-marketing/index-section-site-map/influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](./ai-voice-marketing/index-section-site-map/outcome-result-strategy.md)

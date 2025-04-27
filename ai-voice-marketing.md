@@ -34,14 +34,14 @@ This comprehensive collection of research, strategies, and implementation guides
 ## Quick Navigation
 
 ### For Strategy Planning
-- [Strategy Name Index](./ai-voice-marketing/index/strategy-name.md)
-- [Outcome & Result Index](./ai-voice-marketing/index/outcome-result-strategy.md)
-- [Influence & Lead Type Index](./ai-voice-marketing/index/influence-lead-type.md)
+- [Strategy Name Index](./ai-voice-marketing/index-section-site-map/strategy-name.md)
+- [Outcome & Result Index](./ai-voice-marketing/index-section-site-map/outcome-result-strategy.md)
+- [Influence & Lead Type Index](./ai-voice-marketing/index-section-site-map/influence-lead-type.md)
 
 ### For Implementation
-- [Tactic Types Index](./ai-voice-marketing/index/tactic-types.md)
-- [Vocal Characteristics Index](./ai-voice-marketing/index/vocal-characteristics.md)
-- [Section Map](./ai-voice-marketing/index.md)
+- [Tactic Types Index](./ai-voice-marketing/index-section-site-map/tactic-types.md)
+- [Vocal Characteristics Index](./ai-voice-marketing/index-section-site-map/vocal-characteristics.md)
+- [Section Map](./ai-voice-marketing/index-section-site-map.md)
 
 ## Key Features
 
@@ -67,16 +67,16 @@ This comprehensive collection of research, strategies, and implementation guides
 
 ## Getting Started
 
-1. Review the [Section Map](./ai-voice-marketing/index.md) for a complete content overview
+1. Review the [Section Map](./ai-voice-marketing/index-section-site-map.md) for a complete content overview
 2. Choose your entry point based on your needs:
-   - Strategy planning? Start with [Strategy Name Index](./ai-voice-marketing/index/strategy-name.md)
-   - Implementation focus? Begin with [Tactic Types Index](./ai-voice-marketing/index/tactic-types.md)
-   - Technical setup? Check [Vocal Characteristics Index](./ai-voice-marketing/index/vocal-characteristics.md)
+   - Strategy planning? Start with [Strategy Name Index](./ai-voice-marketing/index-section-site-map/strategy-name.md)
+   - Implementation focus? Begin with [Tactic Types Index](./ai-voice-marketing/index-section-site-map/tactic-types.md)
+   - Technical setup? Check [Vocal Characteristics Index](./ai-voice-marketing/index-section-site-map/vocal-characteristics.md)
 
 ## Directory Structure
 
 - [ai-voice-marketing/](./ai-voice-marketing.md)
-  - [index](./ai-voice-marketing/index.md)/  # Navigation and content organization
+  - [index](./ai-voice-marketing/index-section-site-map.md)/  # Navigation and content organization
     - [deep-research](./ai-voice-marketing/deep-research.md)/ # Comprehensive research findings
     - [top-conversion-strategy](./ai-voice-marketing/top-conversion-strategy.md)/ # Proven strategic approaches
     - [research-implementation](./ai-voice-marketing/research-implementation.md)/ # Practical implementation guides

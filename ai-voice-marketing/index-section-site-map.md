@@ -45,13 +45,13 @@ Table of Contents:
 
 ----
 
-## **[Index](./index.md)**
+## **[Index](./index-section-site-map-section-site-map.md)**
 
 Each index is grouped by leading strategies from 2025 research of AI Voice Marketing in the Home Services Industry.
 
 Within each you'll find the original deep research, synthesized explorations based on the type of lead you have or outcome you need, and practical applications such as how to write vocal changes and patterns for BLAND AI as well as examples of scripts with breakdowns of the fitting archetypal characters who'd be a strong fit for each. 
 
-### *[Home Services Industry Top Strategies by Name](./index/strategy-name.md)*
+### *[Home Services Industry Top Strategies by Name](./index-section-site-map/strategy-name.md)*
 Do you know what strategy you want to use? 
 - Assertive-Urgent Framework
 - Curiosity Gap Framework
@@ -59,21 +59,21 @@ Do you know what strategy you want to use?
 - Demographic-Tailored Combinations Framework
 - Emotional Trigger Optimization Framework
 
-### *[Influence and Types of Leads Index](./index/influence-lead-type.md)* 
+### *[Influence and Types of Leads Index](./index-section-site-map/influence-lead-type.md)* 
 What kind of lead or audience group are you targeting? 
 - Cold Lead Strategies: Initial contact strategies for prospects with no prior relationship
 - Direct Influence: Assertive and urgent marketing approaches for immediate action
 - Indirect Influence: Subtle persuasion techniques using empathy and relationship building
 - Warm Lead Strategies: Tactics for prospects who have shown previous interest or engagement
 
-### *[Outcome and Result Index](./index/outcome-result-strategy.md)*
+### *[Outcome and Result Index](./index-section-site-map/outcome-result-strategy.md)*
 Do you have a specific KPI that you need to meet? 
 - **Brand Awareness**: Strategies focused on increasing visibility and recognition
 - **Customer Retention**: Approaches to maintain and strengthen existing relationships
 - **Lead Generation**: Methods to attract and qualify new prospects
 - **Sales Conversion**: Techniques to transform interest into action
 
-### *[Tactic Types Index](./index/tactic-types.md)*
+### *[Tactic Types Index](./index-section-site-map/tactic-types.md)*
 Do you already know what tactic will influence your lead or audience group? 
 - Assertive Tactics
 - Curiosity-Building Tactics
@@ -81,7 +81,7 @@ Do you already know what tactic will influence your lead or audience group?
 - Combination Tactics
 - Persona-Based Tactics
 
-### *[Vocal Characteristics Index](./index/vocal-characteristics.md)* 
+### *[Vocal Characteristics Index](./index-section-site-map/vocal-characteristics.md)* 
 Are you preparing for a specific AI persona? 
 - Assertive Voice
 - Empathetic Voice
@@ -257,23 +257,25 @@ The following documents are the very first synthesis of accumulated research on 
 
 ## Directory Content 
 
-- [About Section](../about-our-agents.md)
+- About Section
+  - [About Our AI Agent Research & Production](../about-our-agents.md)
   - [Technical Specifications](../about-our-agents/technical-specifications.md)
   - [What Is A Single-File Agent](../about-our-agents/what-is-sfa-single-file-agent.md)
   - [Workflow Feedback Job Resume Case Study](../about-our-agents/workflow-feedback-job-resume-case-study.md)
 - Case Studies 
   - [AI Agentic Brand Content Case Study](../ai-agentic-brand-content-case-study.md)
-  - [Agentic Research Case Study](../ai-voice-marketing/agentic-research-planning-case-study.md)
+  - [Agentic Research Case Study](./agentic-research-planning-case-study.md)
 - Section Pages 
   - [AI Voice Marketing Research & Implementation Guide](../ai-voice-marketing.md)
-  - [AI Voice Marketing Deep Research](../ai-voice-marketing/deep-research.md)
-  - [AI Voice Marketing Research Implementation](../ai-voice-marketing/research-implementation.md)
-  - [AI Voice Marketing Writing Guide](../ai-voice-marketing/research-implementation/writing-guide.md)
-  - [AI Voice Marketing Persona Strategy](../ai-voice-marketing/research-implementation/persona-strategy.md)
-  - [Top Conversion Strategies for AI Voice Marketing](../ai-voice-marketing/top-conversion-strategy.md)
-- [Index Pages](./index.md)
-  - [AI Voice Marketing Strategies by Tactic Type Index](./index/tactic-types.md)
-  - [AI Voice Marketing Strategies by Name Index](./index/strategy-name.md)
-  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./index/vocal-characteristics.md)
-  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./index/influence-lead-type.md)
-  - [AI Voice Marketing Strategies by Outcome Results Index](./index/outcome-result-strategy.md)
+  - [AI Voice Marketing Deep Research](./deep-research.md)
+  - [AI Voice Marketing Research Implementation](./research-implementation.md)
+  - [AI Voice Marketing Writing Guides](./research-implementation/writing-guide.md)
+  - [AI Voice Marketing Persona Strategy](./research-implementation/persona-strategy.md)
+  - [Top Conversion Strategies for AI Voice Marketing](./top-conversion-strategy.md)
+- Index Pages
+  - [Index of AI Voice Marketing Strategy Section Content](./index-section-site-map.md)
+  - [AI Voice Marketing Strategies by Tactic Type Index](./index-section-site-map/tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](./index-section-site-map/strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./index-section-site-map/vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./index-section-site-map/influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](./index-section-site-map/outcome-result-strategy.md)

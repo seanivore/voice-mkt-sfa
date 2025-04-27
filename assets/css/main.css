@@ -61,7 +61,7 @@ body {
     font-family: "gimlet-text-narrow", serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1rem;
 }
@@ -189,11 +189,11 @@ body {
 }
 
 .nav-title {
-    font-family: "vinyl", sans-serif;
-    font-weight: 400;
-    font-size: 1.75rem;
-    font-style: italic;
-    margin-bottom: 1rem;
+    font-family: "system-ui", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    margin-bottom: 0.25rem;
     color: #eaeaea;
 }
 
@@ -209,7 +209,7 @@ body {
 
 .nav-link {
     background: linear-gradient(100deg, #1698b5a3, #34a7c1b6);
-    padding: 0.5rem;
+    padding: 0.33rem;
     border-left: 1px solid #2d869ab6;
     border-top: 1px solid #2d869a8c;
     border-right: 1px solid #45b3ccc3;

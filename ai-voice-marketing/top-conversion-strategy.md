@@ -131,22 +131,25 @@ This collection presents the most effective voice marketing strategies, backed b
 
 ## Directory Content 
 
-- **[About Section](../about-our-agents.md)**
+- About Section
+  - [About Our AI Agent Research & Production](../about-our-agents.md)
   - [Technical Specifications](../about-our-agents/technical-specifications.md)
   - [What Is A Single-File Agent](../about-our-agents/what-is-sfa-single-file-agent.md)
   - [Workflow Feedback Job Resume Case Study](../about-our-agents/workflow-feedback-job-resume-case-study.md)
-- **Case Studies**
+- Case Studies 
   - [AI Agentic Brand Content Case Study](../ai-agentic-brand-content-case-study.md)
-  - [Agentic Research Case Study](../ai-voice-marketing/agentic-research-planning-case-study.md)
-- **Section Pages**
+  - [Agentic Research Case Study](./agentic-research-planning-case-study.md)
+- Section Pages 
   - [AI Voice Marketing Research & Implementation Guide](../ai-voice-marketing.md)
-  - [AI Voice Marketing Deep Research](../ai-voice-marketing/deep-research.md)
-  - [AI Voice Marketing Writing Guide](../ai-voice-marketing/research-implementation/writing-guide.md)
-  - [AI Voice Marketing Persona Strategy](../ai-voice-marketing/research-implementation/persona-strategy.md)
-  - [Research Implementation: Voice Marketing Guides & Strategies](../ai-voice-marketing/research-implementation.md)
-- **[Index Pages](./index.md)**
-  - [AI Voice Marketing Strategies by Tactic Type Index](./index/tactic-types.md)
-  - [AI Voice Marketing Strategies by Name Index](./index/strategy-name.md)
-  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./index/vocal-characteristics.md)
-  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./index/influence-lead-type.md)
-  - [AI Voice Marketing Strategies by Outcome Results Index](./index/outcome-result-strategy.md)
+  - [AI Voice Marketing Deep Research](./deep-research.md)
+  - [AI Voice Marketing Research Implementation](./research-implementation.md)
+  - [AI Voice Marketing Writing Guides](./research-implementation/writing-guide.md)
+  - [AI Voice Marketing Persona Strategy](./research-implementation/persona-strategy.md)
+  - [Top Conversion Strategies for AI Voice Marketing](./top-conversion-strategy.md)
+- Index Pages
+  - [Index of AI Voice Marketing Strategy Section Content](./index-section-site-map.md)
+  - [AI Voice Marketing Strategies by Tactic Type Index](./index-section-site-map/tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](./index-section-site-map/strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](./index-section-site-map/vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](./index-section-site-map/influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](./index-section-site-map/outcome-result-strategy.md)

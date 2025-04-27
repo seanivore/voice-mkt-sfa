@@ -62,6 +62,8 @@ Continue working on the slide show until it is finished. It is the most importan
 
 # Feedback and Updates 
 
+
+
 ## 3s Delay Shift from Opacity 0 to 1 - possible? 
 - Line 99 of presentation 1: `sales-development-ai-secrets.html` "<p class="p">DID YOU LOVE IT?! 🙃</p>"
 - It feels like we should have something after they play the joke audio to make it feel more complete and make sure they're not just like like "what??" 

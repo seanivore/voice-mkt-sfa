@@ -52,7 +52,7 @@ The SFA supports dynamic workflow execution through labeled tasks in your config
 }
 ```
 
-> **Tip**: Always use `sfa -s` when setting up a new workflow - it creates a helpful README and a convenient activation command in your use-case directory.
+**Tip**: Always use `sfa -s` when setting up a new workflow - it creates a helpful README and a convenient activation command in your use-case directory.
 
 ## Core Capabilities
 
@@ -102,15 +102,15 @@ The SFA supports dynamic workflow execution through labeled tasks in your config
 
 ## Documentation
 
-- [SFA Basics](./SFA_BASICS.md): Core concepts and architecture
-- [Technical Specifications](./SPECIFICATIONS.md): Detailed implementation guide
-- [Setup Protocol](./agent-workbench/protocol-guide/SETUP_PROTOCOL.md): Workflow creation guide
+- [SFA Basics](../../single-file-agents/SFA_BASICS.md): Core concepts and architecture
+- [Technical Specifications](../../single-file-agents/SPECIFICATIONS.md): Detailed implementation guide
+- [Setup Protocol](../../single-file-agents/agent-workbench/protocol-guide/SETUP_PROTOCOL.md): Workflow creation guide
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/single-file-agents.git
+git clone https://github.com/seanivore/single-file-agents.git
 cd single-file-agents
 
 # Set up your environment
@@ -127,14 +127,10 @@ echo "PERPLEXITY_API_KEY=your_api_key_here" > .env
 ```plaintext
 single-file-agents/
 ├── agent-workbench/          # Development resources
-├── sfa_main.py              # Core agent implementation
-├── setup-sfa-workflow.sh    # Workflow setup script
-└── use-case/                # Example workflows
+├── sfa_main.py               # Core agent implementation
+├── setup-sfa-workflow.sh     # Workflow setup script
+└── use-case/                 # Example workflows
 ```
-
-## Contributing
-
-See [SPECIFICATIONS.md](./SPECIFICATIONS.md) for development guidelines.
 
 ## License
 
@@ -144,21 +140,25 @@ MIT License
 
 ## Directory Content 
 
-- **[About Section](../about-our-agents.md)**
+- About Section
+  - [About Our AI Agent Research & Production](../about-our-agents.md)
   - [Technical Specifications](../about-our-agents/technical-specifications.md)
   - [What Is A Single-File Agent](../about-our-agents/what-is-sfa-single-file-agent.md)
   - [Workflow Feedback Job Resume Case Study](../about-our-agents/workflow-feedback-job-resume-case-study.md)
-- **Case Studies**
+- Case Studies 
   - [AI Agentic Brand Content Case Study](../ai-agentic-brand-content-case-study.md)
   - [Agentic Research Case Study](../ai-voice-marketing/agentic-research-planning-case-study.md)
-- **Section Pages**
+- Section Pages 
   - [AI Voice Marketing Research & Implementation Guide](../ai-voice-marketing.md)
   - [AI Voice Marketing Deep Research](../ai-voice-marketing/deep-research.md)
-  - [AI Voice Marketing Writing Guide](../ai-voice-marketing/research-implementation/writing-guide.md)
+  - [AI Voice Marketing Research Implementation](../ai-voice-marketing/research-implementation.md)
+  - [AI Voice Marketing Writing Guides](../ai-voice-marketing/research-implementation/writing-guide.md)
+  - [AI Voice Marketing Persona Strategy](../ai-voice-marketing/research-implementation/persona-strategy.md)
   - [Top Conversion Strategies for AI Voice Marketing](../ai-voice-marketing/top-conversion-strategy.md)
-- **[Index Pages](../ai-voice-marketing/index.md)**
-  - [AI Voice Marketing Strategies by Tactic Type Index](../ai-voice-marketing/index/tactic-types.md)
-  - [AI Voice Marketing Strategies by Name Index](../ai-voice-marketing/index/strategy-name.md)
-  - [AI Voice Marketing Strategies by Vocal Characteristic Index](../ai-voice-marketing/index/vocal-characteristics.md)
-  - [AI Voice Marketing Strategies by Influence and Lead Type Index](../ai-voice-marketing/index/influence-lead-type.md)
-  - [AI Voice Marketing Strategies by Outcome Results Index](../ai-voice-marketing/index/outcome-result-strategy.md)
+- Index Pages
+  - [Index of AI Voice Marketing Strategy Section Content](../ai-voice-marketing/index-section-site-map.md)
+  - [AI Voice Marketing Strategies by Tactic Type Index](../ai-voice-marketing/index-section-site-map/tactic-types.md)
+  - [AI Voice Marketing Strategies by Name Index](../ai-voice-marketing/index-section-site-map/strategy-name.md)
+  - [AI Voice Marketing Strategies by Vocal Characteristic Index](../ai-voice-marketing/index-section-site-map/vocal-characteristics.md)
+  - [AI Voice Marketing Strategies by Influence and Lead Type Index](../ai-voice-marketing/index-section-site-map/influence-lead-type.md)
+  - [AI Voice Marketing Strategies by Outcome Results Index](../ai-voice-marketing/index-section-site-map/outcome-result-strategy.md)
