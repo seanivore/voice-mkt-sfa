@@ -1,0 +1,39 @@
+{% if current_url contains '/research/' %}
+<div class="sidebar-section">
+    <h3>SFA Documentation</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/research/">Overview</a></li>
+        <li><a href="{{ site.baseurl }}/research/getting-started/">Getting Started</a></li>
+        <li><a href="{{ site.baseurl }}/research/best-practices/">Best Practices</a></li>
+    </ul>
+</div>
+
+<div class="sidebar-section">
+    <h3>Agent Architecture</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/research/agent-architecture/basics/">SFA Basics</a></li>
+        <li><a href="{{ site.baseurl }}/research/agent-architecture/core-principles/">Core Principles</a></li>
+        <li><a href="{{ site.baseurl }}/research/agent-architecture/specifications/">Technical Specifications</a></li>
+        <li><a href="{{ site.baseurl }}/research/agent-architecture/implementation/">Implementation Guide</a></li>
+    </ul>
+</div>
+
+<div class="sidebar-section">
+    <h3>Development Resources</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/research/technical-documentation/setup-protocol/">Setup Protocol</a></li>
+        <li><a href="{{ site.baseurl }}/research/technical-documentation/standardization/">Standardization Guide</a></li>
+        <li><a href="{{ site.baseurl }}/research/technical-documentation/json-structure/">JSON Structure</a></li>
+        <li><a href="{{ site.baseurl }}/research/technical-documentation/main-script/">Main Python Script</a></li>
+    </ul>
+</div>
+
+<div class="sidebar-section">
+    <h3>Case Studies</h3>
+    <ul>
+        <li><a href="{{ site.baseurl }}/research/case-studies/voice-marketing/">Voice Marketing</a></li>
+        <li><a href="{{ site.baseurl }}/research/case-studies/brand-content/">Brand Content Production</a></li>
+        <li><a href="{{ site.baseurl }}/research/case-studies/workflow-optimization/">Workflow Optimization</a></li>
+    </ul>
+</div>
+{% endif %}

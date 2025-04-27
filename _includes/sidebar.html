@@ -39,6 +39,8 @@
     </ul>
 </div>
 
+{% include sidebar-research.html %}
+
 {% elsif current_url contains '/ai-voice-marketing/' %}
 <div class="sidebar-section">
     <h3>AI Voice Marketing</h3>
@@ -85,3 +87,7 @@
     <ul>
         <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/analysis-optimizing-voice-ai-mkt/">Optimizing Voice AI</a></li>
         <li><a href="{{ site.baseurl }}/ai-voice-marketing/deep-research/analysis-voice-mkt-home-services/">Home Services</a></li>
+    </ul>
+</div>
+{% endif %}
+{% endif %}

@@ -1,5 +1,5 @@
 ---
-title: "Content Plan Agent Configuration"
+title: "Agentic Flow Configuration for Production of a Marketing Content Plan"
 categories: ["Technical", "Implementation", "Strategies"]
 tags: ["implementation", "technical", "strategy"]
 content_types: ["Technical References", "Implementation Guides", "Strategy Documents"]
