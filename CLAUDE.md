@@ -16,6 +16,16 @@ This is a multi-layered development plan, being produced for multiple purposes, 
   - The information preparation is easy and fast thanks to markdown 
   - The presentation is priceless; easily duplicated, designed, and filled with new information 
 
+### **FWIW MY CURRENT IDEA FOR MY DESPERATE JOB HUNT**
+
+I really suck at the client getting and communication side of things. I'm really good at the project like really really good. 
+
+So like, how do I find a partner to work with who had opposite skills? God if I could find someone who rocked at getting clients we could be a freaking powerhouse. BUT I have no idea where to start to find someone. Further, finding someone is in the same wheelhouse as finding clients. Catch-22. 
+
+Regardless, I think our next task has to be getting better set up on freelance platforms. 
+
+I also need to update my portfolio so that it is more about VISUALS. Plus now I have 5 local webflow sites to show off and one in the works. Plus my current portfolio is great to keep as more of a catalog of work. But for a new portfolio, visual only and SUPER SELECTIVE. That's after we get this project out. 
+
 ## Project Overview 
 
 Showcase impressive work, in an impressive way, using a framework that can easily be repurposed and grown. 
@@ -66,8 +76,6 @@ Showcase impressive work, in an impressive way, using a framework that can easil
 
 ## Categories, Tags, and Content Types 
 
-I completely agree with your refinements!
-
 **CATEGORIES** (2 per document):
 1. Vocal Engineering
 2. Copywriting
@@ -82,13 +90,13 @@ I completely agree with your refinements!
 4. overview
 5. platform
 
-**CONTENT_TYPE** (1 per document):
+**CONTENT_TYPE** (1-2 per document):
 1. Research
 2. Case Study
 3. Technical
 4. Framework
 5. Reference
-
+6. Guide 
 
 ----
 
@@ -244,7 +252,7 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   └── pixel-animation.css
 │   ├── docs
 │   │   ├── brand-text-art.ai
-│   │   ├── **DESIGN_BRIEF.md**
+│   │   ├── **DESIGN_BRIEF.md**         <-- $This now contains only the breakdown for building the home page$
 │   │   └── jekyll-theme-design-plan.md
 │   ├── favicon
 ├   ├── components

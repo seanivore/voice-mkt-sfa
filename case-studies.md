@@ -1,6 +1,6 @@
 ---
 layout: research
-title: SFA Case Studies
+title: Our Agentic System Case Studies
 description: Real-world applications of Single-File Agents demonstrating their versatility, efficiency, and impact across different domains.
 ---
 
