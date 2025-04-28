@@ -171,31 +171,31 @@ Each directory has a Markdown "Section Page" to be converted into HTML at the sa
 
 ```
 Users/seanivore/Development/voice-mkt-sfa/
-├── CLAUDE.md                                                       <- You are here
-├── _config.yaml                                                    <- GitHub Pages Jekyll Configuration
-├── _includes                                                       <- Markdown > HTML Components
+├── CLAUDE.md                             <- You are here
+├── _config.yaml                          <- GitHub Pages Jekyll Configuration
+├── _includes                             <- Markdown > HTML Components
 │   ├── breadcrumbs.html
 │   ├── footer.html
 │   ├── sidebar-research.html
 │   └── sidebar.html
-├── _layouts                                                        <- Markdown > HTML Layouts
+├── _layouts                              <- Markdown > HTML Layouts
 │   ├── default.html
 │   ├── page.html
 │   ├── research.html
 │   └── search.html
-├── CNAME                                                 <- Defining Custom Domain
-├── ./.example.env                                        <- Anthropic, OpenAI, Gemini, Brave, and Perplexity API Keys
-├── ./.gitignore                                          <- Store your API keys in an .env file BEFORE running `git init` 
+├── CNAME                        <- Defining Custom Domain
+├── ./.example.env               <- Anthropic, Brave, Perplexity API Keys
+├── ./.gitignore                 <- Store API keys BEFORE running `git init` 
 ├── ./.vscode
-├── `case-studies --> case-studies.md`                    <- Case Studies Using Agents to Produce Impressive Work
-│   ├── marketing-content-case-study.md                   <- Give agent a brand identity and they write amazing marketing plans 
-│   ├── strategy-research-case-study.md                   <- AI voice marketing deep research and findings 
-│   └── testimonial-job-case-study.md                     <- Write's resumes and cover letters targeted for job postings 
-├── `ai-voice-marketing --> ai-voice-marketing.md`
-│   ├── `bland-ai-guides --> bland-ai-guides.md`          <- Agents researched using BLAND AI for a client 
-│   │   ├── api-documentation.md                          <- Need API docs? Just send out an agent to gather them 
+├── case-studies.md                          <- Case Studies Using Agents 
+│   ├── marketing-content-case-study.md      <- Give agent a brand identity  
+│   ├── strategy-research-case-study.md      <- AI voice marketing deep research 
+│   └── testimonial-job-case-study.md        <- Write's resumes and cover letters 
+├── ai-voice-marketing.md
+│   ├── bland-ai-guides.md                         <- Agents research BLAND AI 
+│   │   ├── api-documentation.md                   <- Agents gather API docs  
 │   │   └── app-ui-guide.md
-│   ├── `deep-research --> deep-research.md`              <- Research after AI cleaned it up one time 
+│   ├── deep-research.md                           <- Research draft 1  
 │   │   ├── analysis-optimizing-voice-ai-mkt.md
 │   │   ├── analysis-voice-mkt-home-services.md
 │   │   ├── bland-ai-pro-tips.md
@@ -205,36 +205,36 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   ├── strategy-curiosity-gap.md
 │   │   ├── strategy-empathy-objection.md
 │   │   └── strategy-strongest-combos.md
-│   ├── `index-section-site-map --> index-section-site-map.md`   <- AI also produced the details for an index section 
+│   ├── index-section-site-map.md                 <- Agent created index  
 │   │   ├── influence-lead-type.md
 │   │   ├── outcome-result-strategy.md
 │   │   ├── strategy-name.md
 │   │   ├── tactic-types.md
 │   │   └── vocal-characteristics.md
-│   ├── `research-implementation --> research-implementation.md`
-│   │   ├── `persona-strategy --> persona-strategy.md`
-│   │   │   ├── tailored-tactical-frameworks.md             <- Step 1 agents defined strategic frameworks 
-│   │   │   ├── identifying-archetypes.md                   <- Step 2 agents came up with archetypes that fit the framework voice 
-│   │   │   └── annotated-vo-scripts.md                     <- Step 3 agents used the archetypes to write scripts for each strategy 
-│   │   ├── `writing-guide --> writing-guide.md`
-│   │   │   ├── emotion-driven-copywriting.md                     <- The key to marketing conversions is emotional gut checks 
+│   ├── research-implementation.md
+│   │   ├── persona-strategy.md
+│   │   │   ├── tailored-tactical-frameworks.md    <- Step 1 agents define frameworks 
+│   │   │   ├── identifying-archetypes.md          <- Step 2 agents define archetypes 
+│   │   │   └── annotated-vo-scripts.md            <- Step 3 agents write scripts  
+│   │   ├── writing-guide.md
+│   │   │   ├── emotion-driven-copywriting.md      <- Gut checks = conversions 
 │   │   │   ├── modulation-sound-patterns.md
-│   │   │   ├── notation-cheat-sheet.md                     <- One-sheet guide for creative production of AI voice
+│   │   │   ├── notation-cheat-sheet.md            <- One-sheet guide 
 │   │   │   └── script-voice-indicators.md
 │   │   └── vocal-engineering-strategy-matrix.md
-│   ├── `top-conversion-strategy --> top-conversion-strategy.md`
+│   ├── top-conversion-strategy.md
 │   │   ├── assertive-urgent-emotional.md
 │   │   ├── combine-optimize-tactics.md
 │   │   ├── creating-curiosity-gap.md
 │   │   ├── empathy-objection-handling.md
 │   │   └── target-audience-groups.md 
-│   ├── **sales-development-ai-secrets.html**                          <- Presentation Deck
-│   └── **implement-bland-modulation-research.html**                   <- Presentation Deck
+│   ├── **sales-development-ai-secrets.html**            <- Presentation Deck
+│   └── **implement-bland-modulation-research.html**     <- Presentation Deck
 ├── assets
 │   ├── audio
 │   │   ├── 130-hz-trust-frequency-ai-voice-mkt.mp3
 │   │   └── 130-hz-trust-frequency-ai-voice-mkt.sesx
-│   ├── components                          <- Webflow/Framer vibes but self-coded because who wants to create a nav on every page
+│   ├── components                        <- Design it once!
 │   │   ├── footer.html
 │   │   └── nav-sidebar.html
 │   ├── css
@@ -244,7 +244,7 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   └── pixel-animation.css           <- CSS animations are my new favorite thing 
 │   ├── docs
 │   │   ├── brand-text-art.ai
-│   │   ├── DESIGN_BRIEF.md              <- When AI codes, most of the work is in designing the prompts, including design briefs 
+│   │   ├── DESIGN_BRIEF.md              <- When AI codes, majority of the work is planning 
 │   │   └── jekyll-theme-design.md
 │   ├── favicon
 │   │   ├── apple-touch-icon.png
@@ -265,9 +265,10 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   └── thumbnail-presentation-1.webp
 │   └── js
 │       ├── pixel-animation.js
-│       └── slideshow.js                      <- I requested it 'Slide with Gestures like using MacOS workspaces
-├── `building-successful-agents --> building-successful-agents.md`
-│   ├── agent-python-architecture.md
+│       └── slideshow.js                 <- I requested 'Slide like MacOS workspaces
+├── building-successful-agents.md
+│   ├── agent-python-architecture.md 
+│   ├── recent-agentic-workflow-feature-upgrades.md           <- Newest Agent upgrades 
 │   ├── best-practice-design-philosophy.md
 │   ├── prompt-writing-professional.md
 │   ├── technical-specifications.md
@@ -275,26 +276,26 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   ├── use-case-workflow-standardization.md
 │   ├── use-case-workflow-variable-configuration.md
 │   └── what-is-an-sfa.md
-├── `marketing-content-case-study --> marketing-content-case-study.md`
-│   ├── `content-plan --> content-plan.md`
+├── marketing-content-case-study.md
+│   ├── content-plan.md
 │   │   ├── agent-configuration-prompt-input.md
 │   │   ├── glossier-content-plan.md
 │   │   ├── hydro-flask-content-plan.md
 │   │   ├── jungalow-content-plan.md
 │   │   └── production-flow-content-plan.md
-│   ├── `email-blast --> email-blast.md`
+│   ├── email-blast.md
 │   │   ├── ai-prompt-configuration-agent.md
 │   │   ├── glossier-email-campaign.md
 │   │   ├── hydro-flask-email-campaign.md
 │   │   └── production-flow-email-blast.md
-│   ├── `"instagram-post --> instagram-post.md"`
+│   ├── instagram-post.md
 │   │   ├── glossier-instagram-posts.md
 │   │   ├── hydro-flask-instagram-posts.md
 │   │   ├── instagram-post-agentic-configuration.md
 │   │   └── production-flow-instagram-posts.md
 │   └── brand-identity-briefings.md
-├── **implement-bland-modulation-research.html**                      <- Custom Designed Presentation Deck
-└── **sales-development-ai-secrets.html**                             <- Custom Designed Presentation Deck  
+├── **implement-bland-modulation-research.html**            <- Custom Designed Presentation Deck
+└── **sales-development-ai-secrets.html**                   <- Custom Designed Presentation Deck  
 ```
 
 ## Custom SFA Tool Ideas 

@@ -1,4 +1,3 @@
-```yaml
 ---
 layout: research
 title: SFA Best Practices
@@ -7,7 +6,6 @@ categories: ["Coding", "Planning"]
 tags: ["conceptual"]
 content_types: ["Technical", "Guide"]
 ---
-```
 
 # Best Practices
 
