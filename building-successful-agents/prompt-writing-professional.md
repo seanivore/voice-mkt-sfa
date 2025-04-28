@@ -7,12 +7,6 @@ tags: ["prompt-engineering", "single-file-agents", "llm"]
 content_types: ["Implementation Guides", "Pro-Tips", "Strategy Documents"]
 ---
 
-Cat2: Vocal Engineering • Copywriting • Planning • Coding • Designing
-
-Tag1: conceptual • applied • specific • overview • platform
-
-Con1-2: Research • Case Study • Technical • Framework • Reference • Guide 
-
 ## The Art and Science of SFA Prompting
 
 Prompt engineering is a critical discipline for maximizing the effectiveness of Single-File Agents. Unlike traditional software engineering where inputs and functions are precisely defined, prompt engineering requires understanding the nuances of how LLMs interpret and respond to language. 

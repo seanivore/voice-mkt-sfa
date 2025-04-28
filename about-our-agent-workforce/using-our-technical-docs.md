@@ -4,7 +4,7 @@ title: SFA Technical Documentation
 description: Comprehensive documentation standards and practices for Single-File Agents, ensuring clarity, consistency, and usability across all SFA projects.
 ---
 
-# Technical Documentation
+# Using Our Technical Docs
 
 ## Documentation Philosophy
 

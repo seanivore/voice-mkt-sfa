@@ -1,10 +1,12 @@
+```yaml 
 ---
 title: "AI Voice Marketing Research & Implementation Guide"
-categories: ["Research", "Implementation", "Guides"]
-tags: ["voice-modulation", "bland-ai", "strategy"]
-content_types: ["Research Findings", "Implementation Guides", "Strategy Documents"]
 description: "Comprehensive guide to AI voice marketing for the home services industry, featuring research-backed strategies, implementation guidelines, and technical frameworks for optimizing voice marketing campaigns."
+categories: ["copywriting", "planning"]
+tags: ["conceptual", "applied"]
+content_types: ["Research", "Guides"]
 ---
+```
 
 # AI Voice Marketing Research & Implementation Guide
 

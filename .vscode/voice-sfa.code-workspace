@@ -832,7 +832,7 @@
         "workbench.activityBar.orientation": "horizontal",
         "workbench.cloudChanges.autoResume": "onReload",
         "workbench.cloudChanges.continueOn": "prompt",
-        "workbench.colorTheme": "Visual Studio Dark",
+        "workbench.colorTheme": "Cursor Dark",
         "workbench.commandPalette.experimental.askChatLocation": "chatView",
         "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
         "workbench.commandPalette.experimental.suggestCommands": false,

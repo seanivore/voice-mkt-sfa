@@ -1,10 +1,12 @@
+```yaml
 ---
-title: "Our AI Agentic System Is Called a Single-File Agent (SFA)"
-categories: ["Technical", "Guides", "Implementation"]
-tags: ["technical", "implementation", "case-study"]
-content_types: ["Technical References", "Implementation Guides", "Research Findings"]
+title: "Our AI Agentic System Is Called A Single-File Agent (SFA)"
 description: "Comprehensive overview of Single-File Agent (SFA) architecture, explaining how these AI agents work with variable-input design, workflow management, and tool integration capabilities."
+categories: ["coding", "designing"]
+tags: ["platform", "applied"]
+content_types: ["technical"]
 ---
+```
 
 # Our AI Agentic System Is Called a Single-File Agent (SFA)
 
@@ -300,7 +302,7 @@ Some recent additions or tools that Claude would probably use if they were reall
 
 ## Setting Up A SFA Use-Case 
 
-Here's how easy it is to get started with an agent. Since all agent workflows use the same 'SFA', we call the customized tasks 'use-cases'. Recently we had agents put together the [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index-section-site-map.md). They also did all of the research at the pages in that index, as well as synthesized the results into the many reports and example scripts. Our very first use-case was writing targeted resumes and cover letters. Claude had some [thoughts when reading results from the agents work for the very first time](./agentic-workforce/workflow-feedback-job-resume-case-study.md). 
+Here's how easy it is to get started with an agent. Since all agent workflows use the same 'SFA', we call the customized tasks 'use-cases'. Recently we had agents put together the [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index-section-site-map.md). They also did all of the research at the pages in that index, as well as synthesized the results into the many reports and example scripts. Our very first use-case was writing targeted resumes and cover letters. Claude had some [thoughts when reading results from the agents work for the very first time](./agentic-workforce/case-studies/review-ai-testimonial-job-case-study.md). 
 
 ### Step 1: Define the Use-Case Variables
 
