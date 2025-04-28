@@ -1,12 +1,16 @@
+```yaml
 ---
 title: "Document Content Planning Workflow"
-categories: ["Implementation", "Strategies", "Case Studies"]
-tags: ["implementation", "strategy", "case-study"]
-content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
 description: "Detailed workflow documentation for an AI-powered content planning system that develops, reviews, and refines brand content strategies through a three-phase agency simulation process."
+categories: ["Coding"]
+tags: ["applied", "platform"]
+content_types: ["Framework"]
 ---
+```
 
 # Document Content Planning Workflow
+
+*Note: This is an example of of the automatically generated README created when setting up a new workflow. It is not a part of the workflow itself.*
 
 ## Overview
 This Single-File Agent workflow automates the process of creating a comprehensive content strategy for a brand. The workflow simulates a professional marketing agency's content planning process, from initial strategy development through review and final refinement.
@@ -86,11 +90,11 @@ The results are impressive for the ~200-some words of the brand identity documen
 
 ## Directory Content 
 
-**[Content Plan for Jungalow](../ai-agentic-brand-content-case-study/content-plan/jungalow-content-plan.md)**
+**[Content Plan for Jungalow](../marketing-content-case-study/content-plan/jungalow-content-plan.md)**
 
-**[Content Plan for Glossier](../ai-agentic-brand-content-case-study/content-plan/glossier-content-plan.md)**
+**[Content Plan for Glossier](../marketing-content-case-study/content-plan/glossier-content-plan.md)**
 
-**[Content Plan for Hydro Flask](../ai-agentic-brand-content-case-study/content-plan/hydro-flask-content-plan.md)**
+**[Content Plan for Hydro Flask](../marketing-content-case-study/content-plan/hydro-flask-content-plan.md)**
 
-**[Content Plan Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/content-plan/production-flow-content-plan.md)**
+**[Content Plan Draft & Feedback All Brands](../marketing-content-case-study/content-plan/production-flow-content-plan.md)**
 

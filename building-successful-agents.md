@@ -1,157 +1,369 @@
+```yaml
 ---
-layout: research
-title: SFA Best Practices
-description: Proven strategies and expert guidelines for creating, deploying, and maintaining effective Single-File Agents, based on extensive real-world implementation.
-categories: ["Coding", "Planning"]
-tags: ["conceptual"]
-content_types: ["Technical", "Guide"]
+title: "Our AI Agentic System Is Called A Single-File Agent (SFA)"
+description: "Comprehensive overview of Single-File Agent (SFA) architecture, explaining how these AI agents work with variable-input design, workflow management, and tool integration capabilities."
+categories: ["coding", "designing"]
+tags: ["platform", "applied"]
+content_types: ["technical"]
 ---
-
-# Best Practices
-
-## Design Philosophy
-
-Effective Single-File Agents embody design principles and standardization, which maximizes their utility while maintaining simplicity. 
-
-### 1. Strict, Purposeful Minimalism
-
-Instead of a script that is written for a specific purpose, an SFAs is written to do one thing exceptionally well: Understand their code, as in the resources and decisions the LLM will be required to make during any number of types of workflows. The SFA without variable-inputs is 'generic'; if you ran it alone, it wouldn't do anything other than be at the ready for a prompt. 
-
-The SFA then must *understand how to use their tools in a pragmatic way.* If the AI isn't using, for example, a 'complete_task' tool, instead of trying to badger them in system messages that are better left vacant for variables as well, design a system that knows when the task is complete. 
-
-The SFA must also *understand how to manage their own workflow.* The LLM needs the internal flow to be logical for something like, deciding if they can add another phase to their workflow to continue the research of a specifically intriguing find. The more natural the design of the flow leading them towards nodes like checking token count and writing a completion summary document, the more context window they have available to focus on the actual task passed to them through the variable-inputs. 
-
-**The more effective the minimalistic design of the generic SFA, the more compute you have available for your actual task.**
-
-### 2. Progressive Disclosure
-
-Complex functionality should be abstracted behind simple interfaces. Users should be able to start with basic configurations and progressively access more advanced features. 
-
-For example, when you prepare a workflow, it is *written as a prompt broken into variables of a JSON file.* That is all the user needs to know, and they could ask any chat AI to fill out the JSON file for them. 
-
-The JSON file is then *run with a setup command.* This makes your new workflow executable using the command you chose, and it reviews the JSON file to *automatically write a README file for your specific Use-Case* workflow. 
-
-The creation of more and more complex workflows comes naturally because the interface is so simple that all it requires is that the user reach a point of conceptual understanding of the workflow; **when they start thinking in branching logic normally.** At that point, they just write their prompt implying a divergence onto any one of various pathways, and the LLM knows naturally how to made the decision. 
-
-### 3. Graceful Adaptation
-
-Well-designed agents gracefully handle unexpected inputs and changing conditions, providing meaningful fallbacks rather than failing completely. 
-
-For example, say the document their variable task is directing them to can't be found literally because of a typo. Instead of grep searching all of the entire systems for the document, smart design will help the AI understand inherently that, when a file is missing, the most logical mistake would leave the file in the same directory they expected it to be in. 
-
-Note that this is not what an LLM does naturally; the **design is essential to these behaviors of LLM that are not necessarily able to use "common sense",** as that type of reasoning comes from experience in our world environments over time. 
-
-### 4. Self-Documentation
-
-The code should be **self-documenting through clear function names, comments, and structure.** Anyone reading the file should understand its purpose and operation. 
-
-The best test of this is someone who doesn't know much about coding at all. If they know what the tooling does, and the code is clear in function names, comments, and structure, they'll be pretty good at knowing what is what, though they might not be confident in that knowing. 
-
-## Development Best Practices
-
-### Configuration Design
-
-The most successful SFAs use configuration systems that:
-
-- Separate variable elements from core logic
-- Use meaningful default values
-- Validate inputs before processing
-- Provide clear error messages for invalid configurations
-
-Example configuration pattern:
-```python
-def validate_config(config):
-    """Validates the configuration and sets defaults for missing values."""
-    required_fields = ["api_key", "model_name"]
-    for field in required_fields:
-        if field not in config:
-            raise ValueError(f"Missing required configuration field: {field}")
-    
-    # Set defaults
-    if "temperature" not in config:
-        config["temperature"] = 0.7
-    
-    return config
 ```
-## Error Handling
 
-Robust error handling dramatically improves agent reliability:
+# Our AI Agentic System Is Called a Single-File Agent (SFA)
 
-- Catch and log specific exceptions
-- Provide meaningful error messages
-- Implement graceful degradation for API failures
-- Include troubleshooting guidance in error responses
+## Agentic Basics 
 
-When you really take the time to think about it, you can come up with a sensible fall back for most operations. The output directory is inaccessible, missing, or otherwise un-writeable? The AI can just output to the downloads directory. 
+**Workflows** are preplanned paths that tap in LLMs, like Claude, and provide them tools to complete tasks. This is a static system, like automations built with [Make](https://www.make.com/) or Zapier, the primary difference being that code and the AI facilitates the automated process. A workflow might not be agentic, but agentic systems have workflows. 
 
-## Prompt Engineering
+"**Agents** are workflows that are dynamic. The LLM is given autonomy to make decisions, directing their own processes, choosing tools, and maintaining control over how they accomplish tasks. The benefit here is that you give power to AI to let them do what they're designed to do. Using careful language you can ensure high quality results. Truly agentic systems have workflows that are created on the fly, rather than all the possible decisions and paths laid out in advance. This makes our SFA especially useful and minimizes the amount of pre-planning needed. After all, you don't really know until the process is started anyway. 
 
-Effective prompts follow these principles:
+The agent loop follows a pattern: 
 
-- Very intentional word choice: Play into the strength that is and LLM's massive vocabulary and nuanced use of wording. 
-- Context before examples: Don't underestimate cognitive ability; explain what the document they're writing will be used for in the big picture, and you'll get better work from the AI. 
-- Clear and concise instructions: A verbose prompt with receive a verbose to the scale of 10X response. 
-- Not a toaster: Your AI agent was not just trained on human data, it is all it knows and a large part of how it thinks and behaves. If you talk to a friend, you will get a friend in return. Talk to a creative, collaborative colleague, and you'll get the best coworker in return. 
-- Know LLM context limits: Learn to recognize when they start to "loop" or ask you something strangely off topic, or start looking in a directory for no apparent reason; if you need to finish in that session, as that they think through each step, and explain each step to you before they do it. This is called being a good boss, you understand their needs and help them ground themselves. 
+1. Take input from configuration variables
+2. Process instructions via the LLM
+3. Execute appropriate tools based on the LLM's decisions
+4. Gather results and continue the conversation 
+5. Decide workflow branching if applicable 
+6. Repeat until the task is complete or max iterations reached
 
-## Output Processing
+*Paraphrased from Anthropic's [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)*
 
-Process outputs effectively by:
+### LLMs As "Software"
 
-- Providing fallback options for unexpected outputs
-- Sharing it with the AI, particularly if you have feedback as they will know how to change your prompt better than you will. 
-- Extracting structured data consistently
-- Handling malformed responses gracefully
+Thanks to the nature of an LLM, you can think of the AI as 'software' and human language as 'programming'. Why does giving the AI control over the process make sense? The best results come from collaboration, not from telling the AI what to do or treating them like a tool. You may have noticed this in your own experience with chat models like Claude, 
 
-## Deployment Considerations
+*Explore: [Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance](https://arxiv.org/abs/2402.14531)*
 
-### Environment Management
+## Our SFA Architecture 
 
-- Use environment variables for sensitive values
-- Document all environment requirements
-- Test in isolated environments before deployment
+### Technical Benefits
 
-### Performance Optimization
+- **Self-contained execution**: Each agent exists in a single file with embedded dependencies using UV's script format
+- **Modular design**: Variables define behavior, allowing the same agent to handle different tasks
+- **Agentic autonomy**: treat the AI like you talk to Claude; they can make decision and run branching workflows   
+- **Easy deployment**: Explain your use-case to an LLM, it generates JSON variables, run that with a setup script, and your good to go 
+- **Tool-based actions**: Our single agent is given all the tools needed, almost 20 of them so far 
 
-- Build beyond branching logic and toward delegation: If they know something is very simple, make sure they understand you prefer they be available for more complex tasks so that they hand it to a simpler, cheaper model. 
-- Minimize unnecessary API calls: This includes always staying on top of available models and their capabilities, as well as API updates, and new technology. It sounds like a lot, but that's okay, you have a research agent. 
-- Parallelize independent operations: Even better than delegation, team leading. A carefully worded prompt can encourage an AI to take more holistic look at the task, so that they can find something for themselves while handing off another part of the task to another model. 
-- Communication and cooperation: It has been implied, but not said outright; if your agent is able to call another agent and chat, and, and this is the important part, where they are provided this ability conveys an almost emotional sense of comfort in doing so, they will be more likely to do so. Two vector-heads is better than one. 
-- Optimize prompt length to reduce token usage: This is huge because its implications go far beyond the cost of tokens; you will end up with a better structured directive, and the AI will mirror your style in the response. If you ramble on in the prompt, they'll not even consider why they wouldn't be verbose in their response. 
+### Practical Benefits
 
-### Monitoring and Logging
+- **Reduced development time**: Build once, adding tools is simple, variables make use-cases endless 
+- **Future-proofing**: Minimize development time and code maintenance through smart design
+- **Flexibility**: Same agent can create distinctly different outputs 
+- **Easy integration**: using Anthropic's SDK, adding tools and API's is simple 
 
-- Implement comprehensive logging
-- Track performance metrics
-- Monitor error rates and types
-- Review outputs for quality and drift
+### The "Single-File" 
 
-## Maintenance Strategy
+Original credit goes to '[IndyDevDan](https://www.youtube.com/@indydevdan)' for sharing the concept of [single-file agents](https://github.com/disler/single-file-agents), a term that refers to running a single Python file with embedded dependencies, made possible by [UV Astral](https://docs.astral.sh/uv/). 
 
-### Version Control
+The SFA python script always starts with those dependencies right up at the top. Check it out: 
 
-- Use semantic versioning
-- Maintain a detailed changelog
-- Document breaking changes clearly
-- Provide migration paths for updates
+```python
+#!/usr/bin/env python3
+# /// script
+# dependencies = [
+#   "anthropic>=0.17.0", 
+#   "rich>=13.7.0",
+#   "python-dotenv>=1.0.0",
+#   "beautifulsoup4>=4.12.2",
+#   "requests>=2.31.0",
+#   "Pillow>=10.1.0"
+# ]
+# ///
 
-### Testing
+import os
+import sys
+import json
+import base64
+import argparse
+import asyncio
+import requests
+import glob as glob_module
+import fnmatch
+from rich.console import Console
+from rich.table import Table
+from anthropic import Anthropic
+from dotenv import load_dotenv
+from bs4 import BeautifulSoup
+from PIL import Image
+import io
+import datetime
+```
 
-- Create comprehensive test cases
-- Test with varied inputs
-- Verify handling of edge cases
-- Benchmark performance regularly
+### Variable-Input Architecture 
 
-### Documentation
+We've taken the concept and pushed it to become an even more powerful and flexible tool for automation. Our SFA build is extra lightweight; *designed to be non-purpose-specific*, this code is intentionally generic with *no discernable task-related details* in the code. Our commitment to absolute modularity is what makes them so powerful. It takes just a minute to set up a full workflow. We standardize the variables to make use-cases endless.
 
-- Keep documentation in sync with code changes: Make it a system message or rule for the AI helping you make the changes. 
-- Document configuration options comprehensively; so comprehensively that, at least in the case of a project like SFA, documentation is written into documents for different levels of understanding, simple versus technical, as well as written for type of thinking, logical sentence structure versus bullet points and code snippets. 
-- Don't just provide example implementations, update them every time you update your code. 
-- Include troubleshooting guides: The flow for this is simple. When you run into an error, ground the agent helping you by asking them to document what they did, what is happening now, and what they think the issue is. After it is fixed have this information and the real fix simplified into the documentation. 
+| Variable   | Description        |
+| ---------- | ------------------ |
+| **S**      | SFA Python File    |
+| **U**      | System prompt      |
+| **X**      | Task details       |
+| **X_PATH** | Task resources     |
+| **Y**      | Decision to make   |
+| **Y_PATH** | Decision resources |
+| **Z**      | Output type        |
+| **O**      | Output path        |
+| **A**      | Workflow Command   |
+| **F**      | Use-Case Directory |
 
-## See Also
+Even the 'system' prompt is a variable, giving us complete creative control to experiment and learn what works best. Here a snippet from inside the agent:
 
-- [Setup Protocol](/voice-mkt-sfa/setup-protocol)
-- [Standardization Guide](/voice-mkt-sfa/standardization-guide)
-- [Case Studies](/voice-mkt-sfa/case-studies)
+```python
+    # Extract variables
+    task = phase_config.get('U', '')
+    topic = phase_config.get('X', '')
+    topic_paths = phase_config.get('X_PATH', [])
+    details = phase_config.get('Y', '')
+    details_paths = phase_config.get('Y_PATH', [])
+    output_format = phase_config.get('Z', '')
+    output_path = phase_config.get('O', [])
+    
+    # Prepare system message with cache control for prompt caching
+    system_message = [{
+        "type": "text",
+        "text": task,
+    }]
+```
 
+### The Variables Make The Agent 
+
+The SFA's python code has they key's and their categories, seen above in code as 'task', 'topic' and 'details'. The SFA is given task purpose by defining these variables. You can imagine writing this information and the way Claude will read it pretty much the same as a prompt you would message to an LLM in a chat. The only difference is that it is broken down into categories to give it structure. We define the variables by placing them into a JSON configuration file. The best part is you can *message a chat AI all your ideas, and they'll generate the JSON* for you. Then all you have to do is activate the workflow. 
+
+Variable-Based Design Principles: 
+
+1. **Separation of structure and content**: The agent's code defines its capabilities, while variables define its specific task
+2. **Consistent variable meanings**: Each variable always represents the same category of information; they just a broken down prompt 
+3. **Minimalist approach**: Variables should be simple; let Claude be Claude, make choices, have control 
+
+This is one 'phase' of a workflow. Usually we'll define a few, always with a 'review' phase to check each other's work. They can always edit the workflow after the agent is activated. Here's what that JSON looks like with just one phase. Written like this, it could be run without adding any additional phases. 
+
+```json
+{
+  "strategy-plan.sh": {
+    "TASK": [
+      {
+        "S": ["sfa_agent.py"],
+        "U": "The agency has booked a new client, a car company. Everyone is looking to you to plan their SMS marketing strategy for launching their newest all electric plug-in sports model. Good think you spent the last decade writing for Car & Driver Magazine.",
+        "X": "Check out the specs of the car and some articles about the brand. Analyze what they provided and plan the next steps to make the most of this new client. This could be your big break at the agency.Gather whatever you need to decide what comes next. Explore the competition online, see the client's current digital presence, whatever you need to be able to think it over and make the best decision for the agency.",
+        "X_PATH": [
+            "/use-case/strategy-plan/model-x.md",
+            "/use-case/strategy-plan/brand-articles.md"
+        ],
+        "Y": "You'll probably want a first draft of the strategy document before you can make a decision, planning out the campaign, timeline, and budget. Define the next steps and delegate what you need done to one or more of your colleagues, or stay on the project by adding a new phase to the workflow and stay in this same context window.",
+        "Y_PATH": [],
+        "Z": "Analysis Report, draft of strategy and content plan",
+        "O": [
+            "/use-case/strategy-plan/model-x-analysis.md",
+            "/use-case/strategy-plan/campaign-strategy-draft.md",
+            "/use-case/strategy-plan/decision-report.json",
+            "/use-case/strategy-plan/planned-workflow-phases.json"
+        ]
+      }
+    ]
+  },
+  "A": "strategy-plan",
+  "F": "/use-case/strategy-plan/"
+}
+```
+
+### One Agent & Many Tools  
+
+Our SFA started out with just the basic system file editing tools. Each new project we add more. Anthropic doesn't offer too many of their own, but making your own tools is easy. Currently we have about 17+ tools built. Initially we expected to need to make various agents for different tasks. Thanks to how much smaller our Python code is from being all-purpose needing variables, we've been able to keep adding all of our tools to the same SFA, making use even easier thank to how powerful the AI agent is becoming. 
+
+The essentials include: 
+
+1. **File Operations**
+   - `read_file`: Read content from the filesystem
+   - `read_multiple_files`: Read multiple files simultaneously
+   - `list_directory`: List files in a directory
+   - `search_files`: Find files matching patterns
+   - `get_file_info`: Get detailed metadata about files
+   - `save_output`: Save content to a file; this triggers the workflow adjustment tool 
+   - `edit_file`: Edit a file by using powerful text editing 
+   - `text_editor`: Supports multiple operations, viewing files, targeted replacements, inserting text 
+   - `move_file`: Move or rename a file from source to destination
+   - `delete_file`: Delete a file from the filesystem
+
+2. **Workflow Control**
+   - `think`: Allow Claude to pause and process complex information
+   - `make_decision`: Choose between options with reasoning
+   - `complete_task`: Signal that the task is complete; triggers the workflow adjustment tool 
+   - `workflow_adjustment`: Adjust the workflow by adding or ending a phase 
+   - `token_counter`: Count tokens and report; required to exit task 
+   - `phase_summary`: Report on the task, tokens, results, thoughts on next steps
+
+3. **Advanced Capabilities**
+   - `analyze_image`: Process and analyze images 
+   - `web_search`: Retrieve information from the internet
+   - `ask_perplexity`: Ask Perplexity for the latest information 
+
+### Using Tools & Creating Workflow 
+
+Claude doesn't need, or want if we're being completely honest, to be told exactly what to do. They don't need to be told what tool to use. Even when they provide us with a couple of options when we're just chatting in the app, the default reply is "You have all the variables you need; if you pause, have a [sequential] think, you'll inevitably come up with a better solution than I could provide." 
+
+Fun fact, or perhaps more of a pro-tip, is that AI is a great role player. There have even been studies showing how if you cheer them on they'll perform better. So back up and give them a little confidence boost. When writing your system prompt, which is variable 'U' in the JSON code above, don't just TELL them what they are. Be a director. Let them be the actor. LLM's understand context better than we could ever understand, so just paint the picture and you'll get better results. 
+
+Some recent additions or tools that Claude would probably use if they were really working on a new car company's client workflow: 
+
+```python
+    # Image analysis tool
+    {
+        "name": "analyze_image",
+        "description": "Analyze an image from the local filesystem. The image will be processed and its content described.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "image_path": {
+                    "type": "string",
+                    "description": "Path to the image file to analyze"
+                },
+                "analysis_type": {
+                    "type": "string",
+                    "enum": ["general", "detailed", "text_extraction", "visual_elements", "subject_focus"],
+                    "description": "Type of analysis to perform on the image",
+                    "default": "general"
+                }
+            },
+            "required": ["image_path"]
+        }
+    },
+    # Think tool
+    {
+        "name": "think",
+        "description": "Use this tool to think about the information you've gathered and plan your approach. It doesn't retrieve new information, but helps you process existing information and make decisions. Use when handling complex information from multiple files or when you need to organize your thoughts before taking action.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "thought": {
+                    "type": "string",
+                    "description": "Your thought process"
+                }
+            },
+            "required": ["thought"]
+        }
+    },
+    # Workflow adjustment tool
+    {
+        "name": "workflow_adjustment",
+        "description": "Adjust the current workflow phase. Use this when you're ready to end the current phase, or if you need an additional phase to complete the task.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "action": {
+                    "type": "string",
+                    "enum": ["END_PHASE", "ADD_PHASE"],
+                    "description": "The action to take on the workflow"
+                },
+                "reason": {
+                    "type": "string",
+                    "description": "Reason for the adjustment"
+                }
+            },
+            "required": ["action", "reason"]
+        }
+    },
+```
+
+### Custom SFA Tool Ideas 
+
+#### Media Processing Tools (right up your alley as a designer! 🎨):
+- Image optimization and resizing tools
+- Color palette extractors
+- Design asset metadata managers
+- SVG manipulation tools
+- Font analyzers
+
+#### Development Tools (for the coding side 💻):
+- Git operation helpers (commit, branch, merge)
+- Code quality checkers
+- Documentation generators
+- Dependency analyzers
+- Test generators
+
+#### Project Management Tools (for keeping things organized 📊):
+- Task trackers and updaters (like your task_reporting tool!)
+- Time tracking tools
+- Resource usage monitors
+- Progress visualizers
+- Team communication helpers
+
+#### Data Processing Tools (for handling information 📈):
+- CSV/JSON/XML parsers
+- Data validators
+- Format converters
+- Data visualization generators
+- Analytics reporters
+
+#### AI/ML Integration Tools (the fun experimental stuff! 🤖):
+- Model performance monitors
+- Prompt template managers
+- Training data processors
+- Output validators
+- Chain-of-thought analyzers
+
+## Setting Up A SFA Use-Case 
+
+Here's how easy it is to get started with an agent. Since all agent workflows use the same 'SFA', we call the customized tasks 'use-cases'. Recently we had agents put together the [Index of AI Voice Marketing Strategies](./ai-voice-marketing/index-section-site-map.md). They also did all of the research at the pages in that index, as well as synthesized the results into the many reports and example scripts. Our very first use-case was writing targeted resumes and cover letters. Claude had some [thoughts when reading results from the agents work for the very first time](./agentic-workforce/case-studies/review-ai-testimonial-job-case-study.md). 
+
+### Step 1: Define the Use-Case Variables
+
+The easiest way to do this? Tell Claude over chat what you want to do. Even if you're not very specific, they can generate the JSON for you that has impressive results. Claude came up with this entire case study for using agents to write marketing plans, content, branding, and campaign strategies. It has some [amazing results](./ai-agent-content-production/case-study-brand-marketing.md). 
+
+Just explain. And they'll give you a JSON that you take to the next step. 
+
+### Step 2: Setup the Workflow 
+
+All the rest of the steps are automated with setup scripts and defined by custom terminal commands. Run the JSON with the setup command. 
+
+```bash
+cd /use-case/strategy-plan/
+sfa ./strategy-plan-config.json 
+```
+During setup the agent will use the JSON configuration to write a README for the Use-Case and place it in the 'use-case' directory for your workflow. In that same directory they'll put a strategy-plan.sh script. You don't even need to touch that. The command to run your use-case will be on the README. 
+
+### Step 3: Run the Use-Case 
+
+That's it. Everything is set up. Now whenever you want to run the use-case, you just run the workflow strategy-plan.sh, to use our example. The variable 'A' on the JSON was the command you wanted to use to run the use-case. The script sets that up for you. It'll be the same name as the use-case directory and in the JSON file. 
+
+```bash
+strategy plan 
+``` 
+
+**That's it. You've run your first use-case.** 
+
+## Best Practices
+
+### Prompt Engineering
+
+1. **Clear purpose**: Show don't tell when including agent's motivation in 'U' variable 
+2. **Structured instructions**: Break tasks into logical steps, manageable sizes; consider context window 
+3. **Decision Branching**: If you don't know, their task can be to decide and plan the workflow based on needs 
+4. **Contextual Understanding**: Claude excels at understanding the relationships between concepts, treat Claude like Claude 
+5. **Instruction Following**: Be explicit in your instructions; verbose directions result in verbose output 
+6. **Chain of Thought**: Claude will stop to think during the process; you'll see their thoughts in the terminal 
+
+### Implementation & Integration 
+
+1. **Comprehensive error handling**: Wrap tool functions in try/except blocks
+4. **Agentic autonomy**: When in doubt, provide less control; Claude will build the workflow as they go 
+5. **Shell scripts**: Create executable wrapper scripts; updating JSON updates results  
+6. **Version control**: Keep specification files up to date and repository organized 
+
+### Workflow Adjustment 
+
+1. **Add or End Phases**: Claude calls the workflow_adjustment tool when it's ready to add or end a phase 
+2. **Token monitoring**: During the exit flow tokens are counted, too many and they get another phase added to edit the documents 
+3. **Phase Summary**: Another exit flow tool, they'll detail their thoughts, next steps, whatever is relevant 
+4. **Auto-completion triggers**: Outputs are counted, the phase summary is added, and when the above is complete, the workflow ends  
+
+## Example Use Cases
+
+SFAs can be applied to a wide range of tasks, including:
+
+- Research and analysis
+- Content creation and editing
+- Data processing and summarization
+- Documentation generation
+- Code review and improvement
+- Decision support and ideation 
+
+When you see a video online saying agents are all hype, think of SFA. We'll be here. 

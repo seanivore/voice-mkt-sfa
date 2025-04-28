@@ -1,12 +1,16 @@
+```yaml 
 ---
 title: "Brand Email Campaign Workflow"
-categories: ["Implementation", "Strategies", "Case Studies"]
-tags: ["implementation", "strategy", "case-study"]
-content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
 description: "Detailed workflow documentation for an AI-powered email marketing campaign system that creates, reviews, and finalizes brand-aligned email content through a three-phase process."
+categories: ["Coding"]
+tags: ["Specific"]
+content_types: ["Case Study"]
 ---
+```
 
 # Brand Email Campaign Workflow
+
+*Note: This is an example of of the automatically generated README created when setting up a new workflow. It is not a part of the workflow itself.*
 
 ## Overview
 This Single-File Agent (SFA) workflow automates the process of creating, reviewing, and finalizing an email marketing campaign based on brand identity documents and content plans. The workflow is specifically designed for crafting emotionally resonant, brand-aligned email campaigns that drive engagement while maintaining authentic voice and messaging.
@@ -81,8 +85,8 @@ The final output combines all components into a single, formatted document ready
 
 ## Directory Content 
 
-**[Email Campaign for Glossier](../ai-agentic-brand-content-case-study/email-blast/glossier-email-campaign.md)**
+**[Email Campaign for Glossier](../marketing-content-case-study/email-blast/glossier-email-campaign.md)**
 
-**[Email Campaign for Hydro Flask](../ai-agentic-brand-content-case-study/email-blast/hydro-flask-email-campaign.md)**
+**[Email Campaign for Hydro Flask](../marketing-content-case-study/email-blast/hydro-flask-email-campaign.md)**
 
-**[Email Campaign Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/email-blast/production-flow-email-blast.md)**
+**[Email Campaign Draft & Feedback All Brands](../marketing-content-case-study/email-blast/production-flow-email-blast.md)**

@@ -1,8 +1,13 @@
+``` yaml
 ---
 layout: research
 title: Our Agentic System Case Studies
 description: Real-world applications of Single-File Agents demonstrating their versatility, efficiency, and impact across different domains.
+categories: ["Coding"]
+tags: ["overview"]
+content_types: ["Case Study"]
 ---
+```
 
 # Case Studies
 

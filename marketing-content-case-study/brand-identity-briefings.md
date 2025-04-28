@@ -1,22 +1,21 @@
+```yaml 
 ---
 title: "Brand Identity Documents"
-categories: ["Research", "Implementation", "Case Studies"]
-tags: ["implementation", "research", "case-study"]
-content_types: ["Research Findings", "Case Studies", "Strategy Documents"]
 description: "Collection of brand identity briefings for Glossier, Hydro Flask, and Jungalow, providing foundational information for AI-generated marketing content campaigns."
+categories: ["Coding"]
+tags: ["Specific"]
+content_types: ["Case Study"]
 ---
+```
 
 # Brand Identity Documents 
+
+This is the entirety of the information that we provided the agents to produce the marketing content for these three brands. The only document provided was the [Emotion Driven Copywriting](../ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting.md) guide. 
+
 
 [Glossier Brand](#glossier-brand)
 [Hydro Flask Brand](#hydro-flask-brand)
 [Jungalow Brand](#jungalow-brand)
-
-[Content Plan Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/content-plan/production-flow-content-plan.md)
-
-[Email Campaign Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/email-blast/production-flow-email-blast.md)
-
-[Instagram Post Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/instagram-post/production-flow-instagram-posts.md)
 
 ----
 
@@ -32,11 +31,17 @@ Glossier uses minimal packaging and is committed to other sustainable business p
 
 Not only has the brand marked the beauty scene, they’ve extended their product line into hoodies, mugs and even a collector’s cookie cutter—launching themselves even further into the heart of the beauty community they’ve worked so hard to build.
 
-**[Glossier Content Plan](../ai-agentic-brand-content-case-study/content-plan/glossier-content-plan.md)**
+## Marketing Agent Flow 
 
-**[Glossier Email Campaign](../ai-agentic-brand-content-case-study/email-blast/glossier-email-campaign.md)**
+Using the text above the agent first created the content plan covering months, proving fine details for the campaign, and otherwise truly setting the content platform managers up for success with the level of detail. 
 
-**[Glossier Instagram Posts](../ai-agentic-brand-content-case-study/instagram-post/glossier-instagram-posts.md)**
+**[Glossier Content Plan](../marketing-content-case-study/content-plan/glossier-content-plan.md)**
+
+In the marketing plan the explain the email strategy, and then the Instagram post strategy. Both of which are detailed in the next two sections. Both of which were also impressive. 
+
+**[Glossier Email Campaign](../marketing-content-case-study/email-blast/glossier-email-campaign.md)**
+
+**[Glossier Instagram Posts](../marketing-content-case-study/instagram-post/glossier-instagram-posts.md)**
 
 ----
 
@@ -48,11 +53,17 @@ Hydro Flask’s logo has gone through just a handful of iterations, which today 
 
 Part of what makes the Hydro Flask brand identity so appealing is the option to customize the bottles. From custom colors and straps, to engraving, customers can personalize their bottles to suit their style. However, regardless of the color, a Hydro flask owner can always spot another out in the wild. This is a testament to the cultivated brand loyalty and ever-growing community.
 
-**[Hydro Flask Content Plan](../ai-agentic-brand-content-case-study/content-plan/hydro-flask-content-plan.md)**
+## Marketing Agent Flow 
 
-**[Hydro Flask Email Campaign](../ai-agentic-brand-content-case-study/email-blast/hydro-flask-email-campaign.md)**
+Using the text above the agent first created the content plan covering months, proving fine details for the campaign, and otherwise truly setting the content platform managers up for success with the level of detail. 
 
-**[Hydro Flask Instagram Posts](../ai-agentic-brand-content-case-study/instagram-post/hydro-flask-instagram-posts.md)**
+**[Hydro Flask Content Plan](../marketing-content-case-study/content-plan/hydro-flask-content-plan.md)**
+
+In the marketing plan the explain the email strategy, and then the Instagram post strategy. Both of which are detailed in the next two sections. Both of which were also impressive. 
+
+**[Hydro Flask Email Campaign](../marketing-content-case-study/email-blast/hydro-flask-email-campaign.md)**
+
+**[Hydro Flask Instagram Posts](../marketing-content-case-study/instagram-post/hydro-flask-instagram-posts.md)**
 
 
 ----
@@ -69,7 +80,23 @@ Create a standout brand identity with the Wixel color palette generator today.
 
 Best of all, their products holistically embody the brand. Customers can easily replicate the Jungalow’s visionary aesthetic in their own homes with the brand’s decor. From rattan and macramé pieces to natural fiber rugs and bright accent walls, the beauty is in the details. Customers feel proud purchasing Jungalow pieces as their commitments to sustainability and community show they practice what they preach.
 
-**[Jungalow Content Plan](../ai-agentic-brand-content-case-study/content-plan/jungalow-content-plan.md)**
+## Marketing Agent Flow 
+
+Using the text above the agent first created the content plan covering months, proving fine details for the campaign, and otherwise truly setting the content platform managers up for success with the level of detail. 
+
+**[Jungalow Content Plan](../marketing-content-case-study/content-plan/jungalow-content-plan.md)**
+
+----
+
+## Workflow Drafts & Feedback Documents 
+
+If you're interested in seeing the process better, you can dig into the drafts that the agents first wrote, and review the meticulous feedback that was provided. 
+
+[Content Plan Draft & Feedback All Brands](../marketing-content-case-study/content-plan/production-flow-content-plan.md)
+
+[Email Campaign Draft & Feedback All Brands](../marketing-content-case-study/email-blast/production-flow-email-blast.md)
+
+[Instagram Post Draft & Feedback All Brands](../marketing-content-case-study/instagram-post/production-flow-instagram-posts.md)
 
 ----
 

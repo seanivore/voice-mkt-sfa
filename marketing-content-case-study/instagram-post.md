@@ -1,12 +1,16 @@
+```yaml 
 ---
 title: "Social Media Content Development Workflow"
-categories: ["Implementation", "Strategies", "Case Studies"]
-tags: ["implementation", "strategy", "case-study"]
-content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
 description: "Detailed workflow documentation for an AI-powered Instagram content development system that creates, reviews, and finalizes brand-aligned social media posts through a three-phase agency process."
+categories: ["Coding"]
+tags: ["Specific"]
+content_types: ["Case Study"]
 ---
+```
 
 # Social Media Content Development Workflow
+
+*Note: This is an example of of the automatically generated README created when setting up a new workflow. It is not a part of the workflow itself.*
 
 ## Overview
 This Single-File Agent (SFA) workflow automates the development of social media content for brands, specifically focusing on creating, reviewing, and finalizing Instagram posts. The workflow simulates a professional agency process, moving from initial content creation through review to final client-ready deliverables.
@@ -66,8 +70,8 @@ Each output builds upon the previous phase, culminating in a client-ready presen
 
 ## Directory Content 
 
-**[Instagram Post for Glossier](../ai-agentic-brand-content-case-study/instagram-post/glossier-instagram-posts.md)**
+**[Instagram Post for Glossier](../marketing-content-case-study/instagram-post/glossier-instagram-posts.md)**
 
-**[Instagram Post for Hydro Flask](../ai-agentic-brand-content-case-study/instagram-post/hydro-flask-instagram-posts.md)**
+**[Instagram Post for Hydro Flask](../marketing-content-case-study/instagram-post/hydro-flask-instagram-posts.md)**
 
-**[Instagram Post Draft & Feedback All Brands](../ai-agentic-brand-content-case-study/instagram-post/production-flow-instagram-posts.md)**
+**[Instagram Post Draft & Feedback All Brands](../marketing-content-case-study/instagram-post/production-flow-instagram-posts.md)**

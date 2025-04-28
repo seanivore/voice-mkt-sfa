@@ -59,8 +59,24 @@ The SFA supports dynamic workflow execution through labeled tasks in your config
   }
 }
 ```
-
 **Tip**: Always use `sfa -s` when setting up a new workflow - it creates a helpful README and a convenient activation command in your use-case directory.
+
+#### Example Token Usage Display After Every Task 
+
+```bash 
+───────────────────────
+               Token Usage                
+┏━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Tokens         ┃ Count   ┃ Cost        ┃
+┡━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ Input          │ 889,729 │ – $2.669187 │
+│ Output         │ 5,050   │ – $0.075750 │
+│ Cached Savings │ 52,820  │ + $0.142614 │
+│ Phase          │ 894,779 │ – $2.602323 │
+│ Workflow       │ 841,959 │ – $2.405877 │
+└────────────────┴─────────┴─────────────┘
+Phase 1 completed
+```
 
 ## Core Capabilities
 
