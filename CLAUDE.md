@@ -1,22 +1,3 @@
-## Production Phase Tracking 
-
-### Ready For Production 
-  - Front matter added to all markdown files 
-  - Foundation for search, filtering, and tags built 
-  - Pages ready for category quick-links 
-  - Search layout Jekyll theme ready 
-  - It is responsive 
-
-### Questions 
-  - Similarly, it seems like the footer can just be the copy right. 
-
-----
-
-# Sidebar Updates 
-
-  - Let's reorganize to the following below
-  - Add in a "Also See" section right below the "Quick Resource Links" that just shows links to the rest of the pages in that same section  
-
 
 
 ### Phase: Presentation with Resources 
