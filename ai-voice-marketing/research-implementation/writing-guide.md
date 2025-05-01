@@ -1,9 +1,9 @@
 ---
 title: "Voice Marketing Writing Guides"
-category: "implementation"
-tags: ["writing", "voice-modulation", "script-writing", "notation", "guides"]
-content_types: ["guide", "template", "reference"]
 description: "Technical writing guides and templates for AI voice marketing implementation"
+categories: ["Copywriting"]
+tags: ["overview"]
+content_types: ["Reference"]
 ---
 
 # Voice Marketing Writing Guides

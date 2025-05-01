@@ -1,9 +1,9 @@
 ---
 title: "Voice Modulation Guide With Notation & Examples"
-categories: ["Guides", "Implementation", "Technical"]
-tags: ["bland-ai", "voice-modulation", "example-scripts"]
-content_types: ["Implementation Guides", "Technical References", "Example Scripts"]
 description: "Comprehensive guide to voice modulation techniques for AI voice marketing, featuring detailed formatting techniques, voice quality indicators, rhythm and pace methods, and practical before/after examples."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["overview", "conceptual", "applied"]
+content_types: ["Technical", "Reference"]
 ---
 
 # Voice Modulation Guide With Notation & Examples

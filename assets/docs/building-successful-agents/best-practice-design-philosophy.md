@@ -45,7 +45,7 @@ The code should be **self-documenting through clear function names, comments, an
 
 ### Configuration Design
 
-The most successful SFAs use configuration systems that:
+The most successful SFA use configuration systems that:
 
 - Separate variable elements from core logic
 - Use meaningful default values
@@ -147,5 +147,5 @@ Process outputs effectively by:
 
 - [Setup Protocol](./use-case-workflow-setup-protocol)
 - [Standardization Guide](./use-case-workflow-standardization)
-- [Case Studies](../case-studies)
+- [Case Studies](./case-studies)
 

@@ -1,12 +1,10 @@
-```yaml 
 ---
 title: "AI Voice Marketing Research & Implementation Guide"
 description: "Comprehensive guide to AI voice marketing for the home services industry, featuring research-backed strategies, implementation guidelines, and technical frameworks for optimizing voice marketing campaigns."
-categories: ["copywriting", "planning"]
-tags: ["conceptual", "applied"]
-content_types: ["Research", "Guides"]
+categories: ["Copywriting"]
+tags: ["overview"]
+content_types: ["Reference"]
 ---
-```
 
 # AI Voice Marketing Research & Implementation Guide
 
@@ -92,4 +90,4 @@ This comprehensive collection of research, strategies, and implementation guides
     - [research-implementation](./ai-voice-marketing/research-implementation.md)/ # Practical implementation guides
       - [writing-guide](./ai-voice-marketing/research-implementation/writing-guide.md)/ # Script writing and notation
       - [persona-strategy](./ai-voice-marketing/research-implementation/persona-strategy.md)/ # Voice persona development
-    - [bland-ai-guides](./ai-voice-marketing/bland-ai-guides.md)/ # Platform-specific documentation
+    - [bland-ai-guides](./ai-voice-marketing/bland-ai-guides.md)/ # Platform-specific documentation 

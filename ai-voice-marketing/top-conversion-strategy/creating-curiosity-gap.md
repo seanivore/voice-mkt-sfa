@@ -1,9 +1,9 @@
 ---
 title: "The Curiosity Gap Approach in Voice Marketing"
-categories: ["Strategies", "Research", "Implementation"]
-tags: ["strategy", "voice-modulation", "example-scripts"]
-content_types: ["Strategy Documents", "Research Findings", "Implementation Guides"]
 description: "Comprehensive guide to implementing the curiosity gap marketing approach for voice communications, featuring demographic-specific strategies, psychological foundations, and implementation guidelines."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["conceptual"]
+content_types: ["Framework", "Research"]
 ---
 
 # The Curiosity Gap Approach in Voice Marketing

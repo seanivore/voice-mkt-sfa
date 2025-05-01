@@ -1,4 +1,3 @@
-```yaml 
 ---
 title: "Brand Email Campaign Workflow"
 description: "Detailed workflow documentation for an AI-powered email marketing campaign system that creates, reviews, and finalizes brand-aligned email content through a three-phase process."
@@ -6,7 +5,6 @@ categories: ["Coding"]
 tags: ["Specific"]
 content_types: ["Case Study"]
 ---
-```
 
 # Brand Email Campaign Workflow
 

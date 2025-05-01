@@ -1,9 +1,9 @@
 ---
 title: "Deep Research: AI Voice Marketing Analysis"
-category: "research"
-tags: ["analysis", "strategy", "voice-marketing", "home-services", "research-findings"]
-content_types: ["research", "analysis", "strategy"]
 description: "Comprehensive research findings and analysis of AI voice marketing strategies in the home services industry"
+categories: ["Planning"]
+tags: ["overview"]
+content_types: ["Reference"]
 ---
 
 # Deep Research: AI Voice Marketing Analysis

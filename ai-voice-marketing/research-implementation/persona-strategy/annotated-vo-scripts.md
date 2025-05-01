@@ -1,9 +1,9 @@
 ---
 title: "Strategic Voice Marketing Personas with Scripts"
-categories: ["Implementation", "Strategies", "Guides"]
-tags: ["voice-modulation", "example-scripts", "strategy"]
-content_types: ["Example Scripts", "Implementation Guides", "Strategy Documents"]
 description: "Comprehensive collection of AI voice marketing scripts for ten distinct character personas across five strategic frameworks, featuring opening, mid-conversation, and closing dialogue examples with voice modulation annotations."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["applied", "platform"]
+content_types: ["Framework", "Guide"]
 ---
 
 # Strategic Voice Marketing Personas with Scripts

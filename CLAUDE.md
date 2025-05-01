@@ -1,31 +1,5 @@
 # Showcasing SFA Use-Cases 
 
-This is a multi-layered development plan, being produced for multiple purposes, and shipping in phases. 
-
-## Cliff Has An AI Voice Marketing Client In The Home Service Industry
-
-  - The idea came from my conversation with Cliff 
-  - I didn't tell him I was doing this. 
-  - I've held off to make dropping this bomb more of a gut check. 
-  - We'll see if he is divergent-friendly enough to be chill with that. 
-
-## Finding Future Freelance Clients Myself 
-
-  - I need to show off my creative work 
-  - We've design with intention towards growth and longevity 
-  - The information preparation is easy and fast thanks to markdown 
-  - The presentation is priceless; easily duplicated, designed, and filled with new information 
-
-### **FWIW MY CURRENT IDEA FOR MY DESPERATE JOB HUNT**
-
-I really suck at the client getting and communication side of things. I'm really good at the project like really really good. 
-
-So like, how do I find a partner to work with who had opposite skills? God if I could find someone who rocked at getting clients we could be a freaking powerhouse. BUT I have no idea where to start to find someone. Further, finding someone is in the same wheelhouse as finding clients. Catch-22. 
-
-Regardless, I think our next task has to be getting better set up on freelance platforms. 
-
-I also need to update my portfolio so that it is more about VISUALS. Plus now I have 5 local webflow sites to show off and one in the works. Plus my current portfolio is great to keep as more of a catalog of work. But for a new portfolio, visual only and SUPER SELECTIVE. That's after we get this project out. 
-
 ## Project Overview 
 
 Showcase impressive work, in an impressive way, using a framework that can easily be repurposed and grown. 
@@ -74,7 +48,7 @@ Showcase impressive work, in an impressive way, using a framework that can easil
   6. Implement results display
   7. Add search analytics
 
-## Categories, Tags, and Content Types 
+#### Categories, Tags, and Content Types 
 
 **CATEGORIES** (2 per document):
 1. Vocal Engineering
@@ -111,6 +85,10 @@ Showcase impressive work, in an impressive way, using a framework that can easil
   - Search layout Jekyll theme ready 
   - It is responsive 
 
+### Questions 
+  - I noticed that the markdown.css file has nav bar styling. Is there a nav bar? I didn't see one. Asking because it seems like the side bar is enough and that the nav bar is not needed. 
+  - Similarly, it seems like the footer can just be the copy right. 
+
 ### Phase: Presentation with Resources 
 
 DELIVERABLE --> PUBLISH 
@@ -123,7 +101,6 @@ DELIVERABLE --> PUBLISH
   - **Jekyll Theme**
     - Polish side bar 
     - Polish footer 
-    - Go through chat and add missing CSS 
 
   - **Component Navigation** 
     - JS is on page and JS directory 

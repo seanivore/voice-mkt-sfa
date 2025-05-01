@@ -1,9 +1,9 @@
 ---
 title: "Voice Marketing Personas Development Brief"
-categories: ["Strategies", "Implementation", "Research"]
-tags: ["strategy", "voice-modulation", "implementation"]
-content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
 description: "Comprehensive development guide for AI voice marketing personas across five strategic frameworks, featuring detailed character profiles, voice signatures, and implementation guidance for effective customer engagement."
+categories: ["Vocal Engineering", "Planning"]
+tags: ["overview", "conceptual"]
+content_types: ["Framework", "Research"]
 ---
 
 # Voice Marketing Personas Development Brief

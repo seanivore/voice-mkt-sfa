@@ -1,4 +1,3 @@
-```yaml 
 ---
 title: "Social Media Content Development Workflow"
 description: "Detailed workflow documentation for an AI-powered Instagram content development system that creates, reviews, and finalizes brand-aligned social media posts through a three-phase agency process."
@@ -6,7 +5,6 @@ categories: ["Coding"]
 tags: ["Specific"]
 content_types: ["Case Study"]
 ---
-```
 
 # Social Media Content Development Workflow
 

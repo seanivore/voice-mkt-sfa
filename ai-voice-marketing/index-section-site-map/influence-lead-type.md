@@ -1,9 +1,9 @@
 ---
 title: "Home Services Industry Influenced Different Types of Leads"
-categories: ["Strategies", "Guides", "Research"]
-tags: ["strategy", "implementation", "research"]
-content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
 description: "Comprehensive index of AI voice marketing strategies organized by lead types and influence methods, including cold lead approaches, direct and indirect influence techniques, and warm lead conversion strategies."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["overview", "platform"]
+content_types: ["Framework", "Research"]
 ---
 
 # Home Services Industry Influenced Different Types of Leads 

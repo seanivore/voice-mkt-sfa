@@ -1,9 +1,9 @@
 ---
 title: "Top Conversion Strategies for AI Voice Marketing"
-category: "strategy"
-tags: ["conversion", "strategy", "voice-marketing", "best-practices", "optimization"]
-content_types: ["strategy", "framework", "case-study"]
 description: "Proven high-conversion strategies for AI voice marketing in the home services industry"
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["overview"]
+content_types: ["Framework", "Reference"]
 ---
 
 # Top Conversion Strategies for AI Voice Marketing
@@ -126,4 +126,3 @@ This collection presents the most effective voice marketing strategies, backed b
 1. Review [Target Audience Groups](./top-conversion-strategy/target-audience-groups.md)
 2. Select appropriate [Strategy Combinations](./top-conversion-strategy/combine-optimize-tactics.md)
 3. Implement with [Empathy-Based Handling](./top-conversion-strategy/empathy-objection-handling.md) 
-../agentic-workforce/technical-specifications.md../agentic-workforce/what-is-sfa-single-file-agent.md../agentic-workforce/workflow-feedback-job-resume-case-study.md

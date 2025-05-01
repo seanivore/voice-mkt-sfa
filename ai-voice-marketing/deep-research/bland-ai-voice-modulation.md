@@ -1,9 +1,9 @@
 ---
 title: "Bland AI Voice Modulation Concise Guide"
-categories: ["Guides", "Technical", "Implementation"]
-tags: ["bland-ai", "voice-modulation", "example-scripts"]
-content_types: ["Technical References", "Implementation Guides", "Example Scripts"]
 description: "Comprehensive guide to voice modulation in Bland AI, featuring notation systems, technical parameters, and practical examples for creating more natural and persuasive AI voice interactions."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["applied", "platform"]
+content_types: ["Technical", "Guide]
 ---
 
 # Bland AI Voice Modulation Concise Guide 

@@ -1,12 +1,10 @@
-```yaml
 ---
 title: "Document Content Planning Workflow"
 description: "Detailed workflow documentation for an AI-powered content planning system that develops, reviews, and refines brand content strategies through a three-phase agency simulation process."
 categories: ["Coding"]
-tags: ["applied", "platform"]
-content_types: ["Framework"]
+tags: ["specific"]
+content_types: ["Case Study"]
 ---
-```
 
 # Document Content Planning Workflow
 

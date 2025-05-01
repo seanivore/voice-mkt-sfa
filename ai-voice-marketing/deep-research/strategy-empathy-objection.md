@@ -1,9 +1,9 @@
 ---
 title: "Empathy-Based Objection Handling Strategies"
-categories: ["Strategies", "Research", "Guides"]
-tags: ["strategy", "voice-modulation", "example-scripts"]
-content_types: ["Strategy Documents", "Example Scripts", "Research Findings"]
 description: "Comprehensive guide to empathy-based objection handling for AI voice marketing, featuring demographic-specific approaches, voice modulation techniques, and example scripts for various scenarios."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["overview", "platform"]
+content_types: ["Framework", "Research"]
 ---
 
 # Empathy-Based Objection Handling Strategies

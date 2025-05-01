@@ -1,9 +1,9 @@
 ---
 title: "Unified Voice Marketing Strategy Framework"
-categories: ["Strategies", "Implementation", "Research"]
-tags: ["strategy", "implementation", "voice-modulation"]
-content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
 description: "Comprehensive framework of five distinct voice marketing strategies, including assertive-urgent, curiosity gap, empathy-based, demographic-tailored, and emotional trigger approaches with AI implementation guidance."
+categories: ["Planning", "Copywriting"]
+tags: ["overview", "platform"]
+content_types: ["Framework", "Guide"]
 ---
 
 # Unified Voice Marketing Strategy Framework

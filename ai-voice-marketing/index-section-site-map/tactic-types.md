@@ -1,13 +1,15 @@
 ---
 title: "Home Services Industry Strategies by Tactic Type"
-categories: ["Strategies", "Guides", "Research"]
-tags: ["strategy", "implementation", "research"]
-content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
 description: "Comprehensive index of AI voice marketing strategies organized by tactical approach, including assertive, curiosity-building, empathy-based, combination, and persona-based methodologies."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["overview", "platform"]
+content_types: ["Framework", "Research"]
 ---
 
 # Home Services Industry Strategies by Tactic Type 
 AI Voice Marketing Strategies 
+
+----
 
 Table of Contents: 
 - [Home Services Industry Strategies by Tactic Type](#home-services-industry-strategies-by-tactic-type)

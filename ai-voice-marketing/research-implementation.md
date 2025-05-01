@@ -1,9 +1,9 @@
 ---
 title: "Research Implementation: Voice Marketing Guides & Strategies"
-category: "implementation"
-tags: ["guides", "persona-strategy", "voice-modulation", "script-writing", "implementation"]
-content_types: ["guide", "framework", "template", "strategy"]
 description: "Practical implementation guides and strategic frameworks for AI voice marketing"
+categories: ["Copywriting"]
+tags: ["overview"]
+content_types: ["Reference"]
 ---
 
 # Research Implementation: Voice Marketing Guides & Strategies

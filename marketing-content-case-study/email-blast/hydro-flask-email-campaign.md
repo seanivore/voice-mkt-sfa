@@ -1,9 +1,9 @@
 ---
 title: "Hydro Flask Email Campaign Final"
-categories: ["Implementation", "Strategies", "Case Studies"]
-tags: ["implementation", "strategy", "case-study"]
-content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
 description: "Finalized email marketing campaign for Hydro Flask, highlighting temperature retention capabilities and community connection through authentic outdoor scenarios and Pacific Northwest values."
+categories: ["Copywriting"]
+tags: ["applied", "platform"]
+content_types: ["Case Study"]
 ---
 
 # Hydro Flask Email Campaign Final

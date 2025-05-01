@@ -1,9 +1,9 @@
 ---
 title: "Bland AI Implementation Guides"
-category: "implementation"
-tags: ["bland-ai", "guides", "technical", "api", "ui"]
-content_types: ["technical-guide", "documentation"]
 description: "Comprehensive guides for implementing and optimizing Bland AI for voice marketing"
+categories: ["Copywriting"]
+tags: ["overview"]
+content_types: ["Reference"]
 ---
 
 # Bland AI Implementation Guides

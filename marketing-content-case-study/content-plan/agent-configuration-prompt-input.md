@@ -1,9 +1,9 @@
 ---
 title: "Agentic Flow Configuration for Production of a Marketing Content Plan"
-categories: ["Technical", "Implementation", "Strategies"]
-tags: ["implementation", "technical", "strategy"]
-content_types: ["Technical References", "Implementation Guides", "Strategy Documents"]
 description: "Technical configuration file for the AI content planning agent, defining the workflow roles, inputs, and outputs for developing brand marketing strategies."
+categories: ["Coding", "Planning"]
+tags: ["specific", "platform"]
+content_types: ["Technical"]
 ---
 
 ```JSON

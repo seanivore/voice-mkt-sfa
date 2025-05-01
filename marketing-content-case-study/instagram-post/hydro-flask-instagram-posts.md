@@ -1,9 +1,9 @@
 ---
 title: "HYDRO FLASK INSTAGRAM CAMPAIGN: FINAL CONTENT"
-categories: ["Implementation", "Strategies", "Case Studies"]
-tags: ["implementation", "strategy", "case-study"]
-content_types: ["Implementation Guides", "Strategy Documents", "Case Studies"]
 description: "Finalized Instagram campaign for Hydro Flask featuring three strategic posts that showcase wild recognition, temperature certainty, and personal expression with detailed image descriptions and caption strategy."
+categories: ["Copywriting"]
+tags: ["applied", "platform"]
+content_types: ["Case Study"]
 ---
 
 # HYDRO FLASK INSTAGRAM CAMPAIGN: FINAL CONTENT

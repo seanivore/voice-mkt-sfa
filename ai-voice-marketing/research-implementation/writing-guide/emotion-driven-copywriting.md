@@ -1,9 +1,9 @@
 ---
 title: "Emotion-Driven Marketing Copywriting Guide"
-categories: ["Guides", "Strategies", "Implementation"]
-tags: ["strategy", "implementation", "research"]
-content_types: ["Strategy Documents", "Implementation Guides", "Research Findings"]
 description: "Comprehensive guide to emotion-driven marketing copywriting, featuring techniques for creating emotional gut checks, structured content development, channel-specific adaptations, and performance testing methodologies."
+categories: ["Copywriting"]
+tags: ["conceptual", "applied"]
+content_types: ["Reference", "Guide"]
 ---
 
 # Emotion-Driven Marketing Copywriting Guide

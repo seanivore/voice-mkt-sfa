@@ -1,9 +1,9 @@
 ---
 title: "Voice Marketing Persona Strategy"
-category: "strategy"
-tags: ["persona", "strategy", "archetypes", "voice-marketing", "frameworks"]
-content_types: ["framework", "guide", "example"]
 description: "Strategic frameworks and implementation guides for voice marketing personas"
+categories: ["Copywriting"]
+tags: ["overview"]
+content_types: ["Reference"]
 ---
 
 # Voice Marketing Persona Strategy

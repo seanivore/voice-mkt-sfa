@@ -1,9 +1,9 @@
 ---
 title: "Strongest Marketing Strategy Combinations by Social Economic Status Group"
-categories: ["Strategies", "Research", "Technical"]
-tags: ["strategy", "voice-modulation", "example-scripts"]
-content_types: ["Strategy Documents", "Example Scripts", "Research Findings"]
 description: "Expert analysis of the most effective AI voice marketing strategies categorized by socioeconomic status, featuring optimized voice modulation techniques, demographic-specific approaches, and proven conversion scripts."
+categories: ["Vocal Engineering", "Copywriting"]
+tags: ["overview", "platform"]
+content_types: ["Framework", "Research"]
 ---
 
 # Strongest Marketing Strategy Combinations by Social Economic Status Group

@@ -1,5 +1,30 @@
 # Markdown > HTML Jekyll Template 
 
+## Updates 
+
+### Sidebar 
+
+#### Quick Links 
+
+##### To Show When /ai-voice-marketing/ Is In Active Page URL 
+
+Persona, Strategy, Script 
+/ai-voice-marketing/research-implementation/persona-strategy/annotated-vo-scripts.md
+
+Emotion-Driven Writing Guide 
+/ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting.md
+
+Applied Notation Cheat Sheet 
+/ai-voice-marketing/research-implementation/writing-guide/notation-cheat-sheet.md
+
+Voice Marketing Strategy Matrix 
+/ai-voice-marketing/research-implementation/vocal-engineering-strategy-matrix.md
+
+Index Section Map 
+/ai-voice-marketing/index-section-site-map.md
+
+
+
 ## Project Overview 
 
 ### Style Guides 

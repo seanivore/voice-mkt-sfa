@@ -1,9 +1,9 @@
 ---
 title: "Email Campaign Agent Configuration"
-categories: ["Technical", "Implementation", "Strategies"]
-tags: ["implementation", "technical", "strategy"]
-content_types: ["Technical References", "Implementation Guides", "Strategy Documents"]
 description: "Technical configuration file for the AI email marketing agent, defining the workflow roles, inputs, and outputs for creating brand-aligned email campaigns."
+categories: ["Coding", "Planning"]
+tags: ["specific", "platform"]
+content_types: ["Technical"]
 ---
 
 ```JSON

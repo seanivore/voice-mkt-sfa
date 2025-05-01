@@ -1,7 +1,7 @@
 ---
 layout: research
 title: Single-File Agent Architecture
-description: A comprehensive overview of how Single-File Agents (SFAs) are structured and function, explaining their core design principles and technical implementation.
+description: A comprehensive overview of how Single-File Agents (SFA) are structured and function, explaining their core design principles and technical implementation.
 categories: ["Coding", "Designing"]
 tags: ["Specific"]
 content_types: ["Technical", "Framework"]
@@ -9,7 +9,7 @@ content_types: ["Technical", "Framework"]
 
 ## What Makes SFA Architecture Unique
 
-Single-File Agents (SFAs) represent a approach to AI tool development that prioritizes simplicity, portability, and functionality in a single Python file. Unlike traditional multi-file applications that require complex dependencies and configuration, SFAs encapsulate everything needed for operation in one coherent unit. 
+Single-File Agents (SFA) represent a approach to AI tool development that prioritizes simplicity, portability, and functionality in a single Python file. Unlike traditional multi-file applications that require complex dependencies and configuration, SFAs encapsulate everything needed for operation in one coherent unit. 
 
 ## Core Architectural Principles
 

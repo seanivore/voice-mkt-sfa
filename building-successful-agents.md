@@ -1,12 +1,10 @@
-```yaml
 ---
 title: "Our AI Agentic System Is Called A Single-File Agent (SFA)"
 description: "Comprehensive overview of Single-File Agent (SFA) architecture, explaining how these AI agents work with variable-input design, workflow management, and tool integration capabilities."
-categories: ["coding", "designing"]
-tags: ["platform", "applied"]
-content_types: ["technical"]
+categories: ["Coding"]
+tags: ["overview"]
+content_types: ["Reference", "Technical"]
 ---
-```
 
 # Our AI Agentic System Is Called a Single-File Agent (SFA)
 

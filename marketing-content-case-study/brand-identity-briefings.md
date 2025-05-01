@@ -1,12 +1,10 @@
-```yaml 
 ---
 title: "Brand Identity Documents"
 description: "Collection of brand identity briefings for Glossier, Hydro Flask, and Jungalow, providing foundational information for AI-generated marketing content campaigns."
-categories: ["Coding"]
+categories: ["Coding", "Planning", "Copywriting"]
 tags: ["Specific"]
 content_types: ["Case Study"]
 ---
-```
 
 # Brand Identity Documents 
 

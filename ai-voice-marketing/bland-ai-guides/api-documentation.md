@@ -1,9 +1,9 @@
 ---
 title: "Bland AI API Documentation"
-categories: ["Technical", "Guides", "Implementation"]
-tags: ["bland-ai", "technical", "implementation"]
-content_types: ["Technical References", "Implementation Guides", "Research Findings"]
 description: "Comprehensive technical documentation for the Bland AI API, including authentication, endpoints, parameters, and code examples for voice call automation."
+categories: ["Vocal Engineering", "Coding"]
+tags: ["applied", "platform"]
+content_types: ["Technical"]
 ---
 
 # Bland AI API Documentation

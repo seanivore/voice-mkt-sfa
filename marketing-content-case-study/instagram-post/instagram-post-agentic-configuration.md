@@ -1,9 +1,9 @@
 ---
 title: "Instagram Post Agent Configuration"
-categories: ["Technical", "Implementation", "Strategies"]
-tags: ["implementation", "technical", "strategy"]
-content_types: ["Technical References", "Implementation Guides", "Strategy Documents"]
 description: "Technical configuration file for the AI Instagram post agent, defining the workflow roles, inputs, and outputs for creating brand-aligned social media content."
+categories: ["Coding", "Copywriting"]
+tags: ["specific", "platform"]
+content_types: ["Technical"]
 ---
 
 ```JSON
