@@ -4,497 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Voice Marketing & Research | Case Studies</title>
+    <title>Building Successful Agents | SFA Case Studies</title>
     <meta name="description"
-        content="Comprehensive research, strategies, and implementation guides for AI voice marketing.">
+        content="Comprehensive overview of variable-input single-file agents (SFA), from case studies to technical architecture, explaining how these AI agents work.">
     <!-- Base URL for relative paths -->
     <base href="/">
     <!-- Typekit Font -->
     <link rel="stylesheet" href="https://use.typekit.net/yrt0pwo.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Reset & Base Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: "neue-haas-grotesk-text", sans-serif;
-            background-color: #000;
-            color: #fff;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        /* Wave Container & Animation */
-        .wave-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            overflow: hidden;
-        }
-
-        .wave-band {
-            position: absolute;
-            width: 100%;
-            height: var(--band-height, 14%);
-            background-color: var(--wave-color);
-            transform-origin: center center;
-            will-change: height;
-            transition: height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-
-        /* Wave colors and positions based on the Bland AI visual */
-        .wave-band:nth-child(1) {
-            --wave-color: #000000;
-            bottom: 0;
-            height: 16%;
-        }
-
-        .wave-band:nth-child(2) {
-            --wave-color: #141B4D;
-            --band-height: 14%;
-            bottom: 16%;
-        }
-
-        .wave-band:nth-child(3) {
-            --wave-color: #3F1A61;
-            --band-height: 14%;
-            bottom: 30%;
-        }
-
-        .wave-band:nth-child(4) {
-            --wave-color: #93173E;
-            --band-height: 14%;
-            bottom: 44%;
-        }
-
-        .wave-band:nth-child(5) {
-            --wave-color: #D8471D;
-            --band-height: 14%;
-            bottom: 58%;
-        }
-
-        .wave-band:nth-child(6) {
-            --wave-color: #F89E35;
-            --band-height: 14%;
-            bottom: 72%;
-        }
-
-        .wave-band:nth-child(7) {
-            --wave-color: #FEE761;
-            --band-height: 14%;
-            bottom: 86%;
-        }
-
-        .wave-band:nth-child(8) {
-            --wave-color: #000000;
-            bottom: 100%;
-            height: 16%;
-        }
-
-        /* Wave animations */
-        @keyframes wave1 {
-            0% {
-                height: 14%;
-            }
-
-            25% {
-                height: 6%;
-            }
-
-            50% {
-                height: 16%;
-            }
-
-            75% {
-                height: 8%;
-            }
-
-            100% {
-                height: 14%;
-            }
-        }
-
-        @keyframes wave2 {
-            0% {
-                height: 10%;
-            }
-
-            30% {
-                height: 16%;
-            }
-
-            60% {
-                height: 5%;
-            }
-
-            100% {
-                height: 10%;
-            }
-        }
-
-        @keyframes wave3 {
-            0% {
-                height: 12%;
-            }
-
-            40% {
-                height: 4%;
-            }
-
-            70% {
-                height: 18%;
-            }
-
-            100% {
-                height: 12%;
-            }
-        }
-
-        .wave-band:nth-child(2) {
-            animation: wave2 6s ease-in-out infinite;
-        }
-
-        .wave-band:nth-child(3) {
-            animation: wave3 7s ease-in-out infinite;
-        }
-
-        .wave-band:nth-child(4) {
-            animation: wave1 8s ease-in-out infinite;
-        }
-
-        .wave-band:nth-child(5) {
-            animation: wave3 6.5s ease-in-out infinite;
-            animation-delay: -2s;
-        }
-
-        .wave-band:nth-child(6) {
-            animation: wave1 7.5s ease-in-out infinite;
-            animation-delay: -3s;
-        }
-
-        .wave-band:nth-child(7) {
-            animation: wave2 5.5s ease-in-out infinite;
-            animation-delay: -1s;
-        }
-
-        /* Scroll-triggered animation modifications */
-        .wave-band {
-            transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-
-        /* Layout */
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Header */
-        header {
-            padding: 30px 0;
-            position: relative;
-            z-index: 10;
-        }
-
-        .header-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: 700;
-            color: #fff;
-            text-decoration: none;
-        }
-
-        /* Navigation */
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
-
-        nav li {
-            margin-left: 30px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 16px;
-            transition: opacity 0.3s;
-        }
-
-        nav a:hover {
-            opacity: 0.8;
-        }
-
-        /* Hero Section */
-        .hero {
-            padding: 100px 0 80px;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 4.5rem;
-            font-weight: 900;
-            margin-bottom: 20px;
-            line-height: 1.1;
-            font-family: "neue-haas-grotesk-display", sans-serif;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            max-width: 800px;
-            margin: 0 auto 40px;
-            opacity: 0.9;
-        }
-
-        /* Glass Cards */
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 30px;
-            padding: 20px 0 100px;
-        }
-
-        .glass-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 16px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 30px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .glass-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-            border-color: rgba(255, 255, 255, 0.3);
-        }
-
-        .glass-card h2 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            font-weight: 700;
-            color: #fff;
-        }
-
-        .glass-card p {
-            margin-bottom: 25px;
-            font-size: 1.1rem;
-            opacity: 0.9;
-            flex-grow: 1;
-        }
-
-        .glass-card i {
-            font-size: 1.4rem;
-            margin-right: 8px;
-            opacity: 0.9;
-        }
-
-        /* Button */
-        .btn {
-            display: inline-block;
-            background: linear-gradient(90deg, #D8471D, #F89E35);
-            color: #fff;
-            padding: 12px 24px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: transform 0.3s, box-shadow 0.3s;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Featured Section */
-        .featured-section {
-            padding: 40px 0;
-        }
-
-        .section-heading {
-            font-size: 2.5rem;
-            margin-bottom: 40px;
-            text-align: center;
-            font-weight: 800;
-        }
-
-        /* Presentation Showcase */
-        .showcase {
-            margin-top: 80px;
-            padding: 60px 0;
-            text-align: center;
-        }
-
-        .showcase-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 40px;
-            margin-top: 40px;
-        }
-
-        .showcase-item {
-            position: relative;
-            border-radius: 16px;
-            overflow: hidden;
-            aspect-ratio: 16/9;
-            background-color: rgba(255, 255, 255, 0.05);
-        }
-
-        .showcase-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s;
-        }
-
-        .showcase-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.7);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            transition: opacity 0.3s;
-            padding: 20px;
-        }
-
-        .showcase-item:hover .showcase-overlay {
-            opacity: 1;
-        }
-
-        .showcase-item:hover img {
-            transform: scale(1.05);
-        }
-
-        .showcase-overlay h3 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-        }
-
-        .showcase-overlay p {
-            margin-bottom: 20px;
-            max-width: 80%;
-        }
-
-        /* Footer */
-        footer {
-            padding: 60px 0 30px;
-            position: relative;
-            z-index: 10;
-            margin-top: 60px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-
-        .footer-section h3 {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-            font-weight: 600;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section li {
-            margin-bottom: 10px;
-        }
-
-        .footer-section a {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .footer-section a:hover {
-            color: #fff;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 30px;
-            margin-top: 30px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            font-size: 0.9rem;
-            opacity: 0.7;
-        }
-
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .hero h1 {
-                font-size: 3.5rem;
-            }
-
-            .showcase-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .header-container {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            nav ul {
-                margin-top: 20px;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            nav li {
-                margin: 10px;
-            }
-
-            .hero h1 {
-                font-size: 2.8rem;
-            }
-
-            .hero p {
-                font-size: 1.2rem;
-            }
-
-            .cards-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .section-heading {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/home.css">
 </head>
 
 <body>
@@ -504,12 +24,12 @@
     <header>
         <div class="container">
             <div class="header-container">
-                <a href="/" class="logo">AI Voice Marketing Research</a>
+                <a href="/" class="logo">Agentic Workflow Case Studies</a>
                 <nav>
                     <ul>
-                        <li><a href="/ai-voice-marketing/">Voice Marketing</a></li>
-                        <li><a href="/about-our-agents/">About Our Agents</a></li>
-                        <li><a href="/ai-agentic-brand-content-case-study/">Case Studies</a></li>
+                        <li><a href="/building-successful-agents.md">About Our Agents</a></li>
+                        <li><a href="/building-successful-agents/testimonial-job-case-study.md">Workflow Assessment</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -519,92 +39,138 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1>AI Voice Marketing Solutions</h1>
-                <p>Comprehensive research, strategies, and implementation guides for creating effective conversational
-                    AI experiences</p>
+                <h1>Building Successful Agents</h1>
+                <p>Comprehensive overview of the variable-input single-file agent (SFA), from case studies to technical
+                    architecture, explaining how these AI agents work with variable-input design, workflow management,
+                    and tool integration capabilities.</p>
             </div>
         </section>
 
+        <!-- Presentations Section -->
         <section class="container">
-            <div class="cards-grid">
-                <div class="glass-card">
-                    <h2><i class="fas fa-microphone-alt"></i> AI Voice Marketing</h2>
-                    <p>Explore our in-depth research on AI voice technologies, including Bland AI implementation guides
-                        and conversion strategies for voice-based customer interactions.</p>
-                    <a href="/ai-voice-marketing/" class="btn">Learn More</a>
+            <h2 class="section-heading">AI Voice Marketing Decks</h2>
+
+            <!-- First Presentation Row -->
+            <div class="presentation-row">
+                <div class="resource-column">
+                    <div class="glass-card small-card">
+                        <h2><i class="fas fa-file-alt"></i> Voice Marketing Cheat Sheet</h2>
+                        <p>Quick reference for notation and terminology used in Bland AI voice marketing.</p>
+                        <a href="./ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet.md"
+                            class="btn">View Guide</a>
+                    </div>
+                    <div class="glass-card small-card">
+                        <h2><i class="fas fa-sitemap"></i> Content Map</h2>
+                        <p>A comprehensive map of the AI voice marketing resources and materials.</p>
+                        <a href="./ai-voice-marketing-case-study/index-section-site-map.md" class="btn">Explore Map</a>
+                    </div>
                 </div>
 
-                <div class="glass-card">
-                    <h2><i class="fas fa-robot"></i> About Our Agents</h2>
-                    <p>Discover how our Single-File Agents (SFAs) are revolutionizing AI development and implementation
-                        for marketing and research purposes.</p>
-                    <a href="/about-our-agents/" class="btn">Explore Agents</a>
+                <div class="glass-card presentation-feature">
+                    <h2><i class="fas fa-microphone-alt"></i> Secrets of Bland AI Voice Service Representatives</h2>
+                    <p>Learn the insider techniques and strategies for creating effective AI voice representatives that
+                        drive customer engagement and conversion through carefully crafted scripts and voice modulation
+                        techniques.</p>
+                    <p>This presentation covers the key principles of voice marketing, effective communication patterns,
+                        and proven strategies for service-focused voice interactions.</p>
+                    <a href="./ai-voice-marketing-case-study/sales-development-ai-secrets.html" class="btn">View
+                        Presentation</a>
+                </div>
+            </div>
+
+            <!-- Second Presentation Row (Reversed) -->
+            <div class="presentation-row-reverse">
+                <div class="glass-card presentation-feature">
+                    <h2><i class="fas fa-cogs"></i> Making Bland AI Technical Strategies Practical</h2>
+                    <p>Dive deep into the technical implementation of Bland AI voice modulation strategies with
+                        practical examples and actionable techniques for real-world marketing scenarios.</p>
+                    <p>This technical deep-dive explores voice modulation parameters, emotional resonance techniques,
+                        and implementation strategies for creating compelling AI voice marketing content.</p>
+                    <a href="./ai-voice-marketing-case-study/implement-bland-modulation-research.html" class="btn">View
+                        Presentation</a>
                 </div>
 
-                <div class="glass-card">
-                    <h2><i class="fas fa-chart-line"></i> Marketing Case Studies</h2>
-                    <p>Real-world examples of how AI voice technologies are transforming customer engagement and
-                        marketing outcomes.</p>
-                    <a href="/ai-agentic-brand-content-case-study/" class="btn">View Case Studies</a>
-                </div>
-
-                <div class="glass-card">
-                    <h2><i class="fas fa-brain"></i> Research & Strategy</h2>
-                    <p>Deep research into voice AI technologies, market trends, and strategic implementations for modern
-                        marketing.</p>
-                    <a href="/ai-voice-marketing/deep-research/" class="btn">Browse Research</a>
+                <div class="resource-column">
+                    <div class="glass-card small-card">
+                        <h2><i class="fas fa-user-alt"></i> Voice Marketing Personas</h2>
+                        <p>Strategic persona frameworks with annotated voice scripts for different marketing scenarios.
+                        </p>
+                        <a href="./ai-voice-marketing-case-study/research-implementation/persona-strategy/annotated-vo-scripts.md"
+                            class="btn">View Scripts</a>
+                    </div>
+                    <div class="glass-card small-card">
+                        <h2><i class="fas fa-heart"></i> Emotion-Driven Copywriting</h2>
+                        <p>Guidelines for creating emotionally resonant voice marketing copy.</p>
+                        <a href="./ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting.md"
+                            class="btn">Read Guide</a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="featured-section container">
-            <h2 class="section-heading">Implementation Guides</h2>
-            <div class="cards-grid">
+        <!-- Case Studies Section -->
+        <section class="case-studies-section container">
+            <h2 class="section-heading">Case Studies on SFA Use-Cases</h2>
+
+            <div class="case-studies-grid">
                 <div class="glass-card">
-                    <h2><i class="fas fa-book"></i> Bland AI Guides</h2>
-                    <p>Step-by-step guides for implementing AI voice marketing solutions with Bland AI for your
-                        business.</p>
-                    <a href="/ai-voice-marketing/bland-ai-guides/" class="btn">View Guides</a>
+                    <h2><i class="fas fa-search"></i> Agentic Research & Implementation</h2>
+                    <p>How SFA agents were used to conduct comprehensive research, develop strategic frameworks, and
+                        create implementation guides for AI voice marketing.</p>
+                    <a href="./ai-voice-marketing-case-study.md" class="btn">Read Case Study</a>
                 </div>
 
                 <div class="glass-card">
-                    <h2><i class="fas fa-code"></i> Technical Specs</h2>
-                    <p>Technical details and specifications for our AI agents and implementation strategies.</p>
-                    <a href="/about-our-agents/technical-specifications/" class="btn">View Specs</a>
-                </div>
-
-                <div class="glass-card">
-                    <h2><i class="fas fa-lightbulb"></i> Voice Marketing Strategy</h2>
-                    <p>Expert strategies to maximize your marketing impact with AI voice technologies.</p>
-                    <a href="/ai-voice-marketing/research-implementation/persona-strategy/" class="btn">Explore
-                        Strategies</a>
+                    <h2><i class="fas fa-bullhorn"></i> Automating Marketing Plan Creation</h2>
+                    <p>How SFA agents were utilized to automate the process of creating a comprehensive marketing plan
+                        with content strategies across multiple channels.</p>
+                    <a href="./marketing-content-case-study.md" class="btn">Read Case Study</a>
                 </div>
             </div>
-        </section>
 
-        <section class="showcase container">
-            <h2 class="section-heading">Featured Presentations</h2>
-            <div class="showcase-grid">
-                <div class="showcase-item">
-                    <img src="/assets/images/presentation-preview-1.jpg" alt="AI Voice Marketing Presentation"
-                        onerror="this.src='https://via.placeholder.com/800x450/141B4D/ffffff?text=AI+Voice+Marketing';this.onerror='';">
-                    <div class="showcase-overlay">
-                        <h3>Sales Development AI Secrets</h3>
-                        <p>Learn the insider techniques for effective AI voice marketing in sales development.</p>
-                        <a href="/ai-voice-marketing/sales-development-ai-secrets.html" class="btn">View
-                            Presentation</a>
-                    </div>
+            <h2 class="section-heading">All About SFA</h2>
+
+            <!-- First Row of SFA Cards -->
+            <div class="sfa-grid">
+                <div class="glass-card">
+                    <h2><i class="fas fa-clipboard-check"></i> Workflow Assessment</h2>
+                    <p>Evaluation framework for assessing and optimizing agentic workflows with SFA.</p>
+                    <a href="./building-successful-agents/testimonial-job-case-study.md" class="btn">View Assessment</a>
                 </div>
 
-                <div class="showcase-item">
-                    <img src="/assets/images/presentation-preview-2.jpg" alt="Bland AI Implementation"
-                        onerror="this.src='https://via.placeholder.com/800x450/3F1A61/ffffff?text=Bland+AI+Implementation';this.onerror='';">
-                    <div class="showcase-overlay">
-                        <h3>Bland AI Modulation Research</h3>
-                        <p>Dive deep into the modulation techniques that make Bland AI marketing effective.</p>
-                        <a href="/ai-voice-marketing/implement-bland-modulation-research.html" class="btn">View
-                            Presentation</a>
-                    </div>
+                <div class="glass-card">
+                    <h2><i class="fas fa-compass"></i> Design Philosophy</h2>
+                    <p>Core design principles and philosophy behind effective Single-File Agent development.</p>
+                    <a href="./building-successful-agents/best-practice-design-philosophy.md" class="btn">Learn More</a>
+                </div>
+
+                <div class="glass-card">
+                    <h2><i class="fas fa-comment-alt"></i> Art of SFA Prompting</h2>
+                    <p>Best practices and techniques for writing effective prompts for Single-File Agents.</p>
+                    <a href="./building-successful-agents/prompt-writing-professional.md" class="btn">Explore
+                        Techniques</a>
+                </div>
+            </div>
+
+            <!-- Second Row of SFA Cards -->
+            <div class="sfa-grid">
+                <div class="glass-card">
+                    <h2><i class="fas fa-rocket"></i> Feature Upgrades</h2>
+                    <p>Recent enhancements and feature upgrades to the Agentic Workflow system.</p>
+                    <a href="./building-successful-agents/recent-agentic-workflow-feature-upgrades.md" class="btn">View
+                        Updates</a>
+                </div>
+
+                <div class="glass-card">
+                    <h2><i class="fas fa-puzzle-piece"></i> SFA Architecture</h2>
+                    <p>Technical architecture and components that make SFA implementation unique.</p>
+                    <a href="./building-successful-agents/sfa-python-architecture.md" class="btn">View Architecture</a>
+                </div>
+
+                <div class="glass-card">
+                    <h2><i class="fas fa-file-code"></i> Technical Specifications</h2>
+                    <p>Detailed technical specifications and requirements for implementing SFA.</p>
+                    <a href="./building-successful-agents/technical-specifications.md" class="btn">View Specs</a>
                 </div>
             </div>
         </section>
@@ -612,46 +178,6 @@
 
     <footer>
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>Research & Implementation</h3>
-                    <ul>
-                        <li><a href="/ai-voice-marketing/">AI Voice Marketing</a></li>
-                        <li><a href="/ai-voice-marketing/deep-research/">Deep Research</a></li>
-                        <li><a href="/ai-voice-marketing/bland-ai-guides/">Bland AI Guides</a></li>
-                        <li><a href="/ai-voice-marketing/top-conversion-strategy/">Conversion Strategies</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Case Studies</h3>
-                    <ul>
-                        <li><a href="/ai-agentic-brand-content-case-study/">AI Brand Content</a></li>
-                        <li><a href="/ai-voice-marketing/strategy-research-case-study/">Research Planning</a></li>
-                        <li><a href="/building-successful-agents/testimonial-job-case-study/">Workflow Feedback</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h3>About SFA</h3>
-                    <ul>
-                        <li><a href="/building-successful-agents/">About Our Agents</a></li>
-                        <li><a href="/building-successful-agents/sfa-python-architecture/">What is SFA?</a></li>
-                        <li><a href="/building-successful-agents/technical-specifications/">Technical Specs</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h3>AI Voice Marketing</h3>
-                    <ul>
-                        <li><a href="/ai-voice-marketing/research-implementation/">Implementation Guides</a></li>
-                        <li><a href="/ai-voice-marketing/index-section-site-map/">Content Index</a></li>
-                        <li><a href="/ai-voice-marketing/deep-research/strategy-combinations/">Strategy Combinations</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
             <div class="footer-bottom">
                 <p>&copy; 2025 Sean August Horvath | Created with SFA (Single-File Agents)</p>
             </div>

@@ -6,7 +6,7 @@ Can we move the CSS in the index.html file to a new CSS file called home.css? It
 
 So the framing of the website, and homepage, is that it is a presentation of the case studies using SFA. The AI voice marketing is just one of the case studies. It just so happens that we also have two presentations for that case study. 
 
-So we just need to update the band link, the title, description, etc. so that it makes sense for SFA presentations. 
+So we just need to update the brand link, the title, description, etc. so that it makes sense for SFA case studies. 
 
 Then we do want to highlight the presentations first. One per row, two rows. No image for the presentation homepage tile. And we'll put two 'quick resource' type links next to each. I'll break down the sections below. 
 
