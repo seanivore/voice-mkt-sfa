@@ -1,26 +1,26 @@
 :root {
     /* Color scheme based on your presentation styles */
-    --bg-color: #2a2e31;
+    --bg-color: #232323;
     /* Simpler charcoal background */
-    --text-color: #f4efcc;
+    --text-color: #eaeaea;
     /* Light cream text */
-    --accent-1: #91b2b1;
+    --accent-1: #c0d6df;
     /* Teal accent */
-    --accent-2: #1c8097;
+    --accent-2: #560c78;
     /* Bright blue accent */
-    --accent-3: #edac3c;
+    --accent-3: #b92826;
     /* Gold accent */
-    --accent-4: #f23d50;
+    --accent-4: #ec652b;
     /* Red accent */
-    --accent-5: #dd5742;
+    --accent-5: #edac3c;
     /* Orange accent */
-    --accent-6: #560c78;
+    --accent-6: #1c8097;
     /* Purple accent */
-    --accent-7: #b92826;
+    --accent-7: #f23d50;
     /* Apple Red accent */
-    --code-bg: #232323;
+    --code-bg: #787878;
     /* Dark code background */
-    --sidebar-bg: rgba(28, 28, 28, 0.3);
+    --sidebar-bg: #1c1c1c4d;
     /* Simple dark sidebar */
     --border-color: rgba(150, 150, 150, 0.2);
     /* Subtle borders */
@@ -51,11 +51,8 @@ body {
     color: var(--text-color);
     font-family: "gimlet-text-narrow", serif;
     line-height: 1.6;
-    background-image: none;
-    /* Remove the dotted background */
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .container {
@@ -279,78 +276,6 @@ tr:nth-child(even) {
     color: var(--accent-3);
 }
 
-/* Research section styling */
-.research-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.research-description {
-    font-size: 1.1rem;
-    color: var(--text-color-muted);
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border-color-light);
-}
-
-.research-content {
-    margin-bottom: 2rem;
-}
-
-.research-content h2 {
-    margin-top: 2rem;
-    color: var(--heading-color);
-}
-
-.research-content pre,
-.research-content code {
-    background-color: var(--code-bg-color);
-    border-radius: 3px;
-}
-
-.research-content pre {
-    padding: 1rem;
-    overflow-x: auto;
-}
-
-.research-content code {
-    padding: 0.2rem 0.4rem;
-}
-
-.research-tags ul,
-.research-next-steps ul {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.research-tags li a {
-    display: inline-block;
-    padding: 0.3rem 0.6rem;
-    background-color: var(--accent-color-light);
-    color: var(--accent-color-dark);
-    border-radius: 3px;
-    font-size: 0.9rem;
-    text-decoration: none;
-}
-
-.research-tags li a:hover {
-    background-color: var(--accent-color);
-    color: white;
-}
-
-.research-next-steps {
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--border-color-light);
-}
-
-.research-next-steps li {
-    margin-bottom: 0.5rem;
-}
-
 /* Sidebar */
 .sidebar {
     width: 280px;
@@ -373,6 +298,7 @@ tr:nth-child(even) {
     list-style-type: none;
     margin: 0 0 1.5rem 0;
     padding: 0;
+    font-family: system-ui, sans-serif;
 }
 
 .sidebar li {
