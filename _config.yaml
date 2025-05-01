@@ -1,5 +1,5 @@
 permalink: pretty
-title: Agentic Workflow Case Studies
+title: Case Studies in Research and Marketing Content Production AI Voice Marketing Research
 description: Comprehensive research, strategies, and implementation guides. Wait until you see that marketing plan they wrote. 
 baseurl: ""
 url: "https://presenting.august.style"
@@ -34,6 +34,11 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  -
+    scope:
+      path: "*.md"
+    values:
+      permalink: /:path/:basename/
 
 # Exclude files from being included in the build
 exclude:

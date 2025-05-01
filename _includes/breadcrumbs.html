@@ -10,12 +10,13 @@
     {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
     <div class="breadcrumbs-item breadcrumbs-current">
-        {{ page.title | default: crumb | replace:'-',' ' | capitalize }}
+        {{ page.title | default: crumb | replace:'-',' ' | split:' ' | map: 'capitalize' | join:' ' }}
     </div>
     {% else %}
     {% assign breadcrumb_path = breadcrumb_path | append: '/' | append: crumb %}
     <div class="breadcrumbs-item">
-        <a href="{{ site.baseurl }}{{ breadcrumb_path }}">{{ crumb | replace:'-',' ' | capitalize }}</a>
+        <a href="{{ site.baseurl }}{{ breadcrumb_path }}">{{ crumb | replace:'-',' ' | split:' ' | map: 'capitalize' |
+            join:' ' }}</a>
     </div>
     {% endif %}
     {% endfor %}

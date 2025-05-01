@@ -1,7 +1,7 @@
 :root {
   /* Color scheme based on your presentation styles */
-  --bg-color: #1d2c38;
-  /* Dark blue background */
+  --bg-color: #2d3339;
+  /* Darker charcoal background */
   --text-color: #f4efcc;
   /* Light cream text */
   --accent-1: #91b2b1;
@@ -20,10 +20,10 @@
   /* Apple Red accent */
   --code-bg: #232323;
   /* Dark code background */
-  --sidebar-bg: rgba(28, 128, 151, 0.1);
-  /* Transparent teal for sidebar */
-  --border-color: rgba(227, 181, 71, 0.3);
-  /* Transparent gold for borders */
+  --sidebar-bg: rgba(28, 128, 151, 0.05);
+  /* More subtle transparent teal for sidebar */
+  --border-color: rgba(227, 181, 71, 0.2);
+  /* More subtle transparent gold for borders */
   --footer-bg: rgba(13, 31, 45, 0.8);
   /* Darker blue for footer */
 }
@@ -86,7 +86,7 @@ h6 {
 h1 {
   font-family: "agency-fb", sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: var(--accent-1);
   margin-top: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -98,7 +98,7 @@ h2 {
   font-family: "vinyl", sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--accent-4);
   margin-top: 2rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -108,7 +108,7 @@ h3 {
   font-family: "vinyl", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--accent-1);
   margin-top: 1.5rem;
 }
@@ -116,14 +116,14 @@ h3 {
 h4 {
   font-family: "vista-sans", sans-serif;
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   color: var(--accent-2);
 }
 
 h5 {
   font-family: "vista-sans", sans-serif;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--accent-6);
 }
 
@@ -132,7 +132,7 @@ p {
   font-style: normal;
   font-weight: 400;
   margin-bottom: 1.2rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 a {
