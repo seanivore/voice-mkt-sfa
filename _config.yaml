@@ -1,6 +1,6 @@
-permalink: /:path/:basename/
+permalink: pretty
 title: Agentic Workflow Case Studies
-description: Comprehensive research, strategies, and implementation guides. Wait until you see that marketing plan they wrote. 
+description: Comprehensive research, strategies, and implementation guides. Wait until you see that marketing plan they wrote.
 baseurl: ""
 url: "https://presenting.august.style"
 
@@ -15,6 +15,7 @@ plugins:
 collections:
   posts:
     output: true
+    permalink: /:basename/
 
 # Default front matter
 defaults:
