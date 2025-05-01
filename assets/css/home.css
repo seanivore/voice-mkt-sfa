@@ -72,7 +72,7 @@ body {
 }
 
 .wave-band:nth-child(7) {
-    --wave-color: #FEE761;
+    --wave-color: #ffd632;
     --band-height: 14%;
     bottom: 86%;
 }
@@ -209,6 +209,33 @@ header {
     text-decoration: none;
 }
 
+.text-link-button-1 {
+    font-family: "sizmo-line", sans-serif;
+    text-shadow: -3px -3px 7px #0d0d0cd1;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #ec652b;
+    text-align: center;
+}
+
+.text-link-button-1:hover {
+    color: #edac3c;
+}
+
+.text-link-button-2 {
+    font-family: "utopian", sans-serif;
+    text-shadow: -3px -3px 7px #0d0d0cd1;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.1rem;
+    color: #f23d50;
+    text-align: center;
+}
+
+.text-link-button-2:hover {
+    color: #edac3c;
+}
+
 /* Navigation */
 nav ul {
     display: flex;
@@ -271,6 +298,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     height: 100%;
+    align-items: center;
 }
 
 .glass-card:hover {
@@ -312,6 +340,7 @@ nav a:hover {
     border: none;
     cursor: pointer;
     text-align: center;
+    min-width: 11rem;
 }
 
 .btn:hover {
