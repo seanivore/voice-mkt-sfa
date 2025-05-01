@@ -18,7 +18,7 @@
     /* Purple accent */
     --accent-7: #f23d50;
     /* Apple Red accent */
-    --code-bg: #787878;
+    --code-bg: #2f2f2f;
     /* Dark code background */
     --sidebar-bg: #1c1c1c4d;
     /* Simple dark sidebar */
@@ -164,7 +164,7 @@ blockquote p {
     font-family: "vista-sans-narrow", sans-serif;
     letter-spacing: 0.05rem;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 code {
@@ -221,7 +221,7 @@ tr:nth-child(even) {
 
 /* Header */
 .header {
-    background-color: rgba(13, 31, 45, 0.8);
+    background-color: #0d1f2dcc;
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -249,6 +249,7 @@ tr:nth-child(even) {
 .brand a {
     font-weight: bold;
     text-decoration: none;
+    color: #263f53;
 }
 
 .brand a:hover {
@@ -291,9 +292,9 @@ tr:nth-child(even) {
 }
 
 .sidebar h3 {
-    color: #ed3c4e;
+    color: #1c8097;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .sidebar ul {
@@ -304,13 +305,9 @@ tr:nth-child(even) {
     font-size: 0.8rem;
 }
 
-.sidebar li {
-    margin-bottom: 0.5rem;
-}
-
 .sidebar a {
     display: block;
-    padding: 0.5rem;
+    padding: 0.25rem;
     color: var(--text-color);
     text-decoration: none;
     border-radius: 4px;
@@ -323,10 +320,6 @@ tr:nth-child(even) {
 
 .sidebar a.active {
     color: var(--accent-3);
-}
-
-.sidebar-section {
-    margin-bottom: 2rem;
 }
 
 /* Main content */
