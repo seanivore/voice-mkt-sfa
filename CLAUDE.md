@@ -89,9 +89,51 @@ Showcase impressive work, in an impressive way, using a framework that can easil
   - I noticed that the markdown.css file has nav bar styling. Is there a nav bar? I didn't see one. Asking because it seems like the side bar is enough and that the nav bar is not needed. 
   - Similarly, it seems like the footer can just be the copy right. 
 
-### Sidebar 
+----
 
-  - Any type of "Also see" section on the bottom of a page would make more sense in the side bar 
+# Sidebar Updates 
+
+  - Let's reorganize to the following below
+  - Add in a "Also See" section right below the "Quick Resource Links" that just shows links to the rest of the pages in that same section  
+
+**Quick Resource Links**
+- Vocal Engineering Cheat Sheet
+- Emotion Driven Copywriting
+- Persona Scripts for Top AI Marketing Strategies
+- Key Voice Variables Matrix 
+
+**See Also**
+
+**Home Services Telemarketing Presentations**
+- Secrets of AI Voice Service Representatives & Bland AI
+- Making Technical Strategies Practical for Bland AI 
+
+**AI Voice Marketing Sections**
+- Research Implementation
+  - Voice Marketing Persona Strategy
+  - Voice Marketing Writing Guides
+- Bland AI Implementation Guides
+- Top Conversion Strategies 
+- Deep Research Analysis 
+- Strategy Index & Section Map
+  - Lead & Influence-Type
+  - Outcome & Results
+  - Name & Framework 
+  - Types of Tactics
+  - Voice Characteristics
+
+**Case Study**
+- Automating AI to Create A Comprehensive Marketing Plan
+- Agentic Research and Planning for AI Voice Marketing 
+
+**Building Successful Agents**
+- Our AI Agentic System Is Called A Single-File Agent (SFA)
+- Agentic Workflow Assessment
+- Best Practice Design Philosophy 
+- The Art and Science of SFA Prompting 
+- Recent Agentic Workflow Feature Upgrades 
+- What Makes SFA Architecture Unique 
+- Single-File Agent Technical Specifications
 
 ### Phase: Presentation with Resources 
 
@@ -101,10 +143,6 @@ DELIVERABLE --> PUBLISH
     - Add some resource URLs into the presentations 
     - Add more links to nav 
     - Update mobile nav button coloring 
-
-  - **Jekyll Theme**
-    - Polish side bar 
-    - Polish footer 
 
   - **Component Navigation** 
     - JS is on page and JS directory 
@@ -150,33 +188,27 @@ DELIVERABLE --> PUBLISH
 
 Each directory has a Markdown "Section Page" to be converted into HTML at the same url name as the directly would have been. 
 
-```
-Users/seanivore/Development/voice-mkt-sfa/
-├── CLAUDE.md                             <- You are here
-├── _config.yaml                          <- GitHub Pages Jekyll Configuration
-├── _includes                             <- Markdown > HTML Components
+```plaintext
+/Users/seanivore/Development/voice-mkt-sfa/
+├── CLAUDE.md
+├── README.md
+├── _config.yaml
+├── CNAME
+├── _includes
 │   ├── breadcrumbs.html
 │   ├── footer.html
 │   ├── sidebar-research.html
 │   └── sidebar.html
-├── _layouts                              <- Markdown > HTML Layouts
+├── _layouts
 │   ├── default.html
 │   ├── page.html
 │   ├── research.html
 │   └── search.html
-├── CNAME                        <- Defining Custom Domain
-├── ./.example.env               <- Anthropic, Brave, Perplexity API Keys
-├── ./.gitignore                 <- Store API keys BEFORE running `git init` 
-├── ./.vscode
-├── case-studies.md                          <- Case Studies Using Agents 
-│   ├── marketing-content-case-study.md      <- Give agent a brand identity  
-│   ├── strategy-research-case-study.md      <- AI voice marketing deep research 
-│   └── testimonial-job-case-study.md        <- Write's resumes and cover letters 
-├── ai-voice-marketing.md
-│   ├── bland-ai-guides.md                         <- Agents research BLAND AI 
-│   │   ├── api-documentation.md                   <- Agents gather API docs  
+├── ai-voice-marketing.md 
+│   ├── bland-ai-guides.md
+│   │   ├── api-documentation.md
 │   │   └── app-ui-guide.md
-│   ├── deep-research.md                           <- Research draft 1  
+│   ├── deep-research.md
 │   │   ├── analysis-optimizing-voice-ai-mkt.md
 │   │   ├── analysis-voice-mkt-home-services.md
 │   │   ├── bland-ai-pro-tips.md
@@ -186,7 +218,7 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   ├── strategy-curiosity-gap.md
 │   │   ├── strategy-empathy-objection.md
 │   │   └── strategy-strongest-combos.md
-│   ├── index-section-site-map.md                 <- Agent created index  
+│   ├── index-section-site-map.md
 │   │   ├── influence-lead-type.md
 │   │   ├── outcome-result-strategy.md
 │   │   ├── strategy-name.md
@@ -194,13 +226,13 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   └── vocal-characteristics.md
 │   ├── research-implementation.md
 │   │   ├── persona-strategy.md
-│   │   │   ├── tailored-tactical-frameworks.md    <- Step 1 agents define frameworks 
-│   │   │   ├── identifying-archetypes.md          <- Step 2 agents define archetypes 
-│   │   │   └── annotated-vo-scripts.md            <- Step 3 agents write scripts  
+│   │   │   ├── annotated-vo-scripts.md
+│   │   │   ├── identifying-archetypes.md
+│   │   │   └── tailored-tactical-frameworks.md
 │   │   ├── writing-guide.md
-│   │   │   ├── emotion-driven-copywriting.md      <- Gut checks = conversions 
+│   │   │   ├── emotion-driven-copywriting.md
 │   │   │   ├── modulation-sound-patterns.md
-│   │   │   ├── notation-cheat-sheet.md            <- One-sheet guide 
+│   │   │   ├── notation-cheat-sheet.md
 │   │   │   └── script-voice-indicators.md
 │   │   └── vocal-engineering-strategy-matrix.md
 │   ├── top-conversion-strategy.md
@@ -208,55 +240,17 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   ├── combine-optimize-tactics.md
 │   │   ├── creating-curiosity-gap.md
 │   │   ├── empathy-objection-handling.md
-│   │   └── target-audience-groups.md 
-│   ├── **sales-development-ai-secrets.html**            <- Presentation Deck
-│   └── **implement-bland-modulation-research.html**     <- Presentation Deck
-├── assets
-│   ├── audio
-│   │   ├── 130-hz-trust-frequency-ai-voice-mkt.mp3
-│   │   └── 130-hz-trust-frequency-ai-voice-mkt.sesx
-│   ├── components                        <- Design it once!
-│   │   ├── footer.html
-│   │   └── nav-sidebar.html
-│   ├── css
-│   │   ├── alt-slides.css                <- Presentation deck number 2 
-│   │   ├── main.css                      <- Presentation deck number 1 
-│   │   ├── markdown.css                  <- Jekyll converts markdown to HTML using our CSS 
-│   │   └── pixel-animation.css           <- CSS animations are my new favorite thing 
-│   ├── docs
-│   │   ├── brand-text-art.ai
-│   │   ├── DESIGN_BRIEF.md              <- When AI codes, majority of the work is planning 
-│   │   └── jekyll-theme-design.md
-│   ├── favicon
-│   │   ├── apple-touch-icon.png
-│   │   ├── favicon-96x96.png
-│   │   ├── favicon.ico
-│   │   ├── favicon.svg
-│   │   ├── site.webmanifest
-│   │   ├── web-app-manifest-192x192.png
-│   │   └── web-app-manifest-512x512.png
-│   ├── images
-│   │   ├── avatar-black.png
-│   │   ├── avatar-colored.png
-│   │   ├── brand-text-art-1.svg
-│   │   ├── brand-text-art-2.svg
-│   │   ├── character-styles.png
-│   │   ├── inspo-bland-ai-raining-giant-pixels.png
-│   │   ├── inspo-bland-ai-web-design.png
-│   │   └── thumbnail-presentation-1.webp
-│   └── js
-│       ├── pixel-animation.js
-│       └── slideshow.js                 <- I requested 'Slide like MacOS workspaces
+│   │   └── target-audience-groups.md
+│   ├── strategy-research-case-study.md
+│   ├── sales-development-ai-secrets.html
+│   └── implement-bland-modulation-research.html
 ├── building-successful-agents.md
-│   ├── agent-python-architecture.md 
-│   ├── recent-agentic-workflow-feature-upgrades.md           <- Newest Agent upgrades 
 │   ├── best-practice-design-philosophy.md
 │   ├── prompt-writing-professional.md
+│   ├── recent-agentic-workflow-feature-upgrades.md
+│   ├── sfa-python-architecture.md
 │   ├── technical-specifications.md
-│   ├── use-case-workflow-setup-protocol.md
-│   ├── use-case-workflow-standardization.md
-│   ├── use-case-workflow-variable-configuration.md
-│   └── what-is-an-sfa.md
+│   └── testimonial-job-case-study.md
 ├── marketing-content-case-study.md
 │   ├── content-plan.md
 │   │   ├── agent-configuration-prompt-input.md
@@ -275,8 +269,25 @@ Users/seanivore/Development/voice-mkt-sfa/
 │   │   ├── instagram-post-agentic-configuration.md
 │   │   └── production-flow-instagram-posts.md
 │   └── brand-identity-briefings.md
-├── **implement-bland-modulation-research.html**            <- Custom Designed Presentation Deck
-└── **sales-development-ai-secrets.html**                   <- Custom Designed Presentation Deck  
+└── assets
+    ├── audio
+    ├── components
+    │   ├── footer.html
+    │   └── nav-sidebar.html
+    ├── css
+    │   ├── alt-slides.css
+    │   ├── main.css
+    │   ├── markdown.css
+    │   └── pixel-animation.css
+    ├── docs
+    │   ├── brand-text-art.ai
+    │   ├── DESIGN_BRIEF.md
+    │   └── jekyll-theme-design.md
+    ├── favicon
+    ├── images
+    └── js
+        ├── pixel-animation.js
+        └── slideshow.js
 ```
 
 ## Custom SFA Tool Ideas 

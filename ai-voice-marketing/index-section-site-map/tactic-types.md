@@ -6,13 +6,13 @@ tags: ["overview", "platform"]
 content_types: ["Framework", "Research"]
 ---
 
-# Home Services Industry Strategies by Tactic Type 
+# Home Services Industry Tactic Type 
 AI Voice Marketing Strategies 
 
 ----
 
 Table of Contents: 
-- [Home Services Industry Strategies by Tactic Type](#home-services-industry-strategies-by-tactic-type)
+- [Home Services Industry Tactic Type](#home-services-industry-tactic-type)
   - [**Assertive Tactics**](#assertive-tactics)
     - [Analysis: Voice Marketing for Home Services](#analysis-voice-marketing-for-home-services)
     - [Assertive Marketing Strategies by Demographic](#assertive-marketing-strategies-by-demographic)
