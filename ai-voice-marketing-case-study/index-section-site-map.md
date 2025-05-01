@@ -52,7 +52,7 @@ Table of Contents:
 
 ----
 
-## **[Index](./index-section-site-map-section-site-map.md)**
+## **Index**
 
 Each index is grouped by leading strategies from 2025 research of AI Voice Marketing in the Home Services Industry.
 

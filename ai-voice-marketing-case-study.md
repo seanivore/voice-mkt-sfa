@@ -36,11 +36,11 @@ This phase was also left to the agents. They were to identify what commonalities
 
 This resulted in a handful of overviews of strategies that were paired with various demographic groups. They followed some particularly interesting patters such as how to handle objections and how to use topical information like the current economic climate. 
 
-- [Assertive Strategies Grouped by Demographic](./ai-voice-marketing/top-conversion-strategy/assertive-urgent-emotional.md)
-- [Marketing Strategy Combinations by Socioeconomic Status](./ai-voice-marketing/deep-research/strategy-combinations.md)
-- [Curiosity Gap and Micro-Commitment Marketing Approach](./ai-voice-marketing/deep-research/strategy-curiosity-gap.md)
-- [Empathy-Based Objection Handling Strategies](./ai-voice-marketing/top-conversion-strategy/empathy-objection-handling.md)
-- [Strongest Strategic Approaches by Demographic](./ai-voice-marketing/deep-research/strategy-strongest-combos.md)
+- [Assertive Strategies Grouped by Demographic](./ai-voice-marketing-case-study/top-conversion-strategy/assertive-urgent-emotional.md)
+- [Marketing Strategy Combinations by Socioeconomic Status](./ai-voice-marketing-case-study/deep-research/strategy-combinations.md)
+- [Curiosity Gap and Micro-Commitment Marketing Approach](./ai-voice-marketing-case-study/deep-research/strategy-curiosity-gap.md)
+- [Empathy-Based Objection Handling Strategies](./ai-voice-marketing-case-study/top-conversion-strategy/empathy-objection-handling.md)
+- [Strongest Strategic Approaches by Demographic](./ai-voice-marketing-case-study/deep-research/strategy-strongest-combos.md)
 
 ## 3. Targeted Research Agents: Voice Engineering & Bland AI Implementation 
 
@@ -59,13 +59,13 @@ Armed with this information, the agents were tasked doing some more digging and 
 
 First, on the degree of voice control we'd need to achieve: 
 
-- [Optimizing Voice AI Technical Implementation and Economic Adaptation](./ai-voice-marketing/deep-research/analysis-optimizing-voice-ai-mkt.md)
-- [A Comprehensive Analysis of Voice Call and SMS Marketing Best Practices](./ai-voice-marketing/deep-research/analysis-voice-mkt-home-services.md)
+- [Optimizing Voice AI Technical Implementation and Economic Adaptation](./ai-voice-marketing-case-study/deep-research/analysis-optimizing-voice-ai-mkt.md)
+- [A Comprehensive Analysis of Voice Call and SMS Marketing Best Practices](./ai-voice-marketing-case-study/deep-research/analysis-voice-mkt-home-services.md)
 
 Second, on the technical implementation of the voice in the Bland AI platform: 
 
-- [Bland AI Usage Professional Tips](./ai-voice-marketing/deep-research/bland-ai-pro-tips.md)
-- [Bland AI Voice Modulation Concise Guide](./ai-voice-marketing/deep-research/bland-ai-voice-modulation.md)
+- [Bland AI Usage Professional Tips](./ai-voice-marketing-case-study/deep-research/bland-ai-pro-tips.md)
+- [Bland AI Voice Modulation Concise Guide](./ai-voice-marketing-case-study/deep-research/bland-ai-voice-modulation.md)
 
 ## 4. Framework Defining Agents: Detailed Voice Marketing Strategy
 
@@ -73,39 +73,39 @@ Now that it seemed like we had what we'd need, we needed to break down the findi
 
 Top Five Conversion Strategies: 
 
-1. [Assertive-Urgent Voice Marketing](./ai-voice-marketing/top-conversion-strategy/assertive-urgent-emotional.md)
-2. [The Curiosity Gap Approach in Voice Marketing](./ai-voice-marketing/top-conversion-strategy/creating-curiosity-gap.md)
-3. [Empathy-Based Objection Handling in Voice Marketing](./ai-voice-marketing/top-conversion-strategy/empathy-objection-handling.md)
-4. [Demographic-Tailored, Topical Combinations Framework](./ai-voice-marketing/top-conversion-strategy/target-audience-groups.md)
-5. [Emotional Trigger Optimization Framework](./ai-voice-marketing/top-conversion-strategy/combine-optimize-tactics.md)
+1. [Assertive-Urgent Voice Marketing](./ai-voice-marketing-case-study/top-conversion-strategy/assertive-urgent-emotional.md)
+2. [The Curiosity Gap Approach in Voice Marketing](./ai-voice-marketing-case-study/top-conversion-strategy/creating-curiosity-gap.md)
+3. [Empathy-Based Objection Handling in Voice Marketing](./ai-voice-marketing-case-study/top-conversion-strategy/empathy-objection-handling.md)
+4. [Demographic-Tailored, Topical Combinations Framework](./ai-voice-marketing-case-study/top-conversion-strategy/target-audience-groups.md)
+5. [Emotional Trigger Optimization Framework](./ai-voice-marketing-case-study/top-conversion-strategy/combine-optimize-tactics.md)
 
 These were then synthesized into a framework that could be used to create a persona. 
 
-- [Unified Voice Marketing Strategy Framework](./ai-voice-marketing/research-implementation/persona-strategy/tailored-tactical-frameworks.md)
+- [Unified Voice Marketing Strategy Framework](./ai-voice-marketing-case-study/research-implementation/persona-strategy/tailored-tactical-frameworks.md)
 
 ## 5. Voice Notation & Scripting Agents
 
 We had frameworks for the strategies. In the research, each strategy defined the type of voice patterns and modulation that would be used. Now we needed to know how to write that information into a script. This would allow us to further define our frameworks into personas. 
 
-- [Voice Modulation Guide With Notation & Examples](./ai-voice-marketing/research-implementation/writing-guide/modulation-sound-patterns.md)
-- [Voice Script Writing For Bland AI](./ai-voice-marketing/research-implementation/writing-guide/script-voice-indicators.md)
+- [Voice Modulation Guide With Notation & Examples](./ai-voice-marketing-case-study/research-implementation/writing-guide/modulation-sound-patterns.md)
+- [Voice Script Writing For Bland AI](./ai-voice-marketing-case-study/research-implementation/writing-guide/script-voice-indicators.md)
 
 ## 6. Persona Creation Agents
 
 Time for some creative writing. This is where we would be able to finally make all of the research finding into something tangible and actionable. First we armed the agents with our guidelines for marketing copywriting. 
 
-- [Emotion-Driven Marketing Copywriting Guide](./ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting.md)
+- [Emotion-Driven Marketing Copywriting Guide](./ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting.md)
 
 Next the created archetypes that allowed them to define personas that included description of voice including things like tone, pitch, and modulation. We had them create two personas for each strategy. 
 
-- [Voice Marketing Personas Development Brief](./ai-voice-marketing/research-implementation/persona-strategy/identifying-archetypes.md)
+- [Voice Marketing Personas Development Brief](./ai-voice-marketing-case-study/research-implementation/persona-strategy/identifying-archetypes.md)
 
 ## 7. Implementation Agents: Communicating the Strategy 
 
 We had some very actionable documents, but they could be pushed further. We wanted some kind of one-page summary that could be used to implement the notation writing strategies. And then we them to use the script writing guide and along with our crafted personas, and create actual scripts. 
 
-- [Bland AI Voice Marketing Cheat Sheet](./ai-voice-marketing/research-implementation/writing-guide/notation-cheat-sheet.md)
-- [Strategic Voice Marketing Personas with Scripts](./ai-voice-marketing/research-implementation/persona-strategy/annotated-vo-scripts.md)
+- [Bland AI Voice Marketing Cheat Sheet](./ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet.md)
+- [Strategic Voice Marketing Personas with Scripts](./ai-voice-marketing-case-study/research-implementation/persona-strategy/annotated-vo-scripts.md)
 
 Finally we had taken the strategy, pulled out what very human elements, and gave them a framework. This was done through archetypes: a persona. A character that happened to speak a certain way. Including how to make the AI talk in that certain way.
 
@@ -120,7 +120,7 @@ Finally we had taken the strategy, pulled out what very human elements, and gave
 
 All of the research and implementation findings were indexed to make as useful as possible at this stage. 
 
-- [Exploring the AI Voice Marketing Content](./ai-voice-marketing/index-section-site-map.md)
+- [Exploring the AI Voice Marketing Content](./ai-voice-marketing-case-study/index-section-site-map.md)
 
 ## Conclusions 
 
