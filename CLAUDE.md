@@ -1,76 +1,82 @@
-# Showcasing SFA Use-Cases 
+# Homepage Layout 
 
-## Project Overview 
+I love the little icons on the tiles; so cute! 
 
-Showcase impressive work, in an impressive way, using a framework that can easily be repurposed and grown. 
+Can we move the CSS in the index.html file to a new CSS file called home.css? It'll help make updating the homepage easier in the future. I love it though, just have some updates for the layout tiles. 
 
-### Current Development Focus 
+So the framing of the website, and homepage, is that it is a presentation of the case studies using SFA. The AI voice marketing is just one of the case studies. It just so happens that we also have two presentations for that case study. 
 
-  - Present the SFA via what it has made of value 
-  - Frame the story around what is produced, not the agent tool 
-  - Show my ability to use my resources, which is the SFA 
-  - Highlight my ability to work quickly and create impressive design  
+So we just need to update the band link, the title, description, etc. so that it makes sense for SFA presentations. 
 
-### Core Structure
+Then we do want to highlight the presentations first. One per row, two rows. No image for the presentation homepage tile. And we'll put two 'quick resource' type links next to each. I'll break down the sections below. 
 
-  1. Home page with overall navigation 
-  2. Presentation style deck section 
-  3. Document pages are markdown converted to HTML
-  4. Search and filtering system
+Feel free to make any wording changes you want. I just grabbed the title of each page and used it for the tile. 
 
-## Technical Stack
+----
 
-### Frontend
-   - Modern framework (React/Next.js)
-   - Responsive design system
-   - Animation library
-   - State management
-   - Search UI components
+# Header Navigation 
 
-### Content Management
+## Left Side 
+[Agentic Workflow Case Studies](./index.html)
 
-  - Jekyll for static site generation
-  - Markdown processing with front matter
-  - Dynamic routing
-  - Search functionality:
-    - Jekyll search plugin
-    - Tag-based filtering
-    - Category organization
-  - Reference system
+## Right Side 
+[About Our Agents](./building-successful-agents.md)
+[Workflow Assessment](./building-successful-agents/testimonial-job-case-study.md)
 
-### Search Implementation
+# Hero Section 
 
-  1. Add Jekyll search plugin
-  2. Implement front matter for all content
-  3. Create search index
-  4. Build search UI components
-  5. Add filtering system
-  6. Implement results display
-  7. Add search analytics
+**TITLE:** Building Successful Agents
 
-#### Categories, Tags, and Content Types 
+**DESCRIPTION:** Comprehensive overview of the variable-input single-file agent (SFA), from case studies to technical architecture, explaining how these AI agents work with variable-input design, workflow management, and tool integration capabilities.
 
-**CATEGORIES** (2 per document):
-1. Vocal Engineering
-2. Copywriting
-3. Planning
-4. Coding
-5. Designing
+# Deck Section 
 
-**TAGS** (1 per document):
-1. conceptual
-2. applied
-3. specific
-4. overview
-5. platform
+Home Services AI Voice Marketing Decks
 
-**CONTENT_TYPE** (1-2 per document):
-1. Research
-2. Case Study
-3. Technical
-4. Framework
-5. Reference
-6. Guide 
+## First Row 
+- Two half-height tiles on the left.
+- On the right, a featured tile for the first presentation. 
+
+### Left Column **Quick Resource Links**
+[Bland AI Voice Marketing Cheat Sheet](./ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet.md)
+[Exploring the AI Voice Marketing Content](./ai-voice-marketing-case-study/index-section-site-map.md)
+
+### Right Column **Presentation Tile**
+[Secrets of Bland AI Voice Service Representatives](./ai-voice-marketing-case-study/sales-development-ai-secrets.html)
+
+## Second Row 
+- Two half-height tiles on the right this time, opposite of the row above. 
+- On the left, a featured tile for the second presentation that is as high as the two stacked tiles beside it on the right. 
+
+### Left Column **Presentation Tile**
+[Making Bland AI Technical Strategies Practical](./ai-voice-marketing-case-study/implement-bland-modulation-research.html)
+
+### Right Column **Quick Resource Links**
+[Strategic Voice Marketing Personas with Scripts](./ai-voice-marketing-case-study/research-implementation/persona-strategy/annotated-vo-scripts.md)
+[Emotion-Driven Marketing Copywriting Guide](./ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting.md)
+
+# Case Study Section 
+
+Case Studies on SFA Use-Cases 
+
+## Third Row 
+- Two standard tiles in one row 
+
+[Agentic Research & Implementation Case Study](./ai-voice-marketing-case-study.md)
+[Automating AI to Create A Comprehensive Marketing Plan](./marketing-content-case-study.md)
+
+All About SFA 
+
+## Fourth & Fifth Row 
+- Two rows of three standard tiles in one row
+
+[Agentic Workflow Assessment](./building-successful-agents/testimonial-job-case-study.md)
+[SFA Design Philosophy](./building-successful-agents/best-practice-design-philosophy.md)
+[The Art and Science of SFA Prompting](./building-successful-agents/prompt-writing-professional.md)
+[Recent Agentic Workflow Feature Upgrades](./building-successful-agents/recent-agentic-workflow-feature-upgrades.md)
+[What Makes SFA Architecture Unique](./building-successful-agents/sfa-python-architecture.md)
+[Single-File Agent Technical Specifications](./building-successful-agents/technical-specifications.md)
+
 
 ----
 
@@ -97,16 +103,16 @@ Showcase impressive work, in an impressive way, using a framework that can easil
   - Add in a "Also See" section right below the "Quick Resource Links" that just shows links to the rest of the pages in that same section  
 
 **Quick Resource Links**
-- Vocal Engineering Cheat Sheet
+- Voice Engineering Cheat Sheet
 - Emotion Driven Copywriting
 - Persona Scripts for Top AI Marketing Strategies
 - Key Voice Variables Matrix 
 
 **See Also**
 
-**Home Services Telemarketing Presentations**
-- Secrets of AI Voice Service Representatives & Bland AI
-- Making Technical Strategies Practical for Bland AI 
+**Home Services AI Voice Marketing Decks**
+- Secrets of Bland AI Voice Service Representatives 
+- Making Bland AI Technical Strategies Practical  
 
 **AI Voice Marketing Sections**
 - Research Implementation
@@ -163,11 +169,6 @@ DELIVERABLE --> PUBLISH
     - Client-Side Search Implementation
       - Use a library like Lunr.js or Simple-Jekyll-Search
       - Link it to the search forms we've already created
-
-### Phase: Homepage  
-  - Build homepage just motion art
-  - New modular tiles link to pages 
-  - Make sure it is responsive 
 
 ### Phase: Build Features Out
   - Make homepage interactive 

@@ -7,7 +7,7 @@ tags: ["conceptual"]
 content_types: ["Technical", "Guide"]
 ---
 
-# Best Practices
+# Best Practices for SFA Design 
 
 ## Design Philosophy
 
