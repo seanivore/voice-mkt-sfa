@@ -1,7 +1,6 @@
 :root {
   /* Color scheme based on your presentation styles */
-  --bg-color: #2d3339;
-  /* Darker charcoal background */
+  --bg-color: #2a2e31; /* Simpler charcoal background */
   --text-color: #f4efcc;
   /* Light cream text */
   --accent-1: #91b2b1;
@@ -20,12 +19,12 @@
   /* Apple Red accent */
   --code-bg: #232323;
   /* Dark code background */
-  --sidebar-bg: rgba(28, 128, 151, 0.05);
-  /* More subtle transparent teal for sidebar */
-  --border-color: rgba(227, 181, 71, 0.2);
-  /* More subtle transparent gold for borders */
-  --footer-bg: rgba(13, 31, 45, 0.8);
-  /* Darker blue for footer */
+  --sidebar-bg: rgba(28, 28, 28, 0.3);
+  /* Simple dark sidebar */
+  --border-color: rgba(150, 150, 150, 0.2);
+  /* Subtle borders */
+  --footer-bg: rgba(20, 20, 20, 0.8);
+  /* Simple dark footer */
 }
 
 @font-face {
@@ -51,8 +50,7 @@ body {
   color: var(--text-color);
   font-family: "gimlet-text-narrow", serif;
   line-height: 1.6;
-  background-image: radial-gradient(#275e852a 2px, transparent 2px);
-  background-size: 24px 24px;
+  background-image: none; /* Remove the dotted background */
   display: flex;
   flex-direction: column;
   min-height: 100vh;

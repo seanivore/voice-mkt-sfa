@@ -1,4 +1,4 @@
-permalink: pretty
+permalink: /:path/:basename/
 title: Agentic Workflow Case Studies
 description: Comprehensive research, strategies, and implementation guides. Wait until you see that marketing plan they wrote. 
 baseurl: ""
@@ -25,7 +25,7 @@ defaults:
       layout: "default"
   -
     scope:
-      path: "index.md"
+      path: "index.html"
     values:
       permalink: /
   -
@@ -34,11 +34,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
-      path: "*.md"
-    values:
-      permalink: /:path/:basename/
 
 # Exclude files from being included in the build
 exclude:
