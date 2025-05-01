@@ -1,81 +1,142 @@
-# Homepage Layout 
+# Jekyll Theme Updates 
 
-I love the little icons on the tiles; so cute! 
+Let's go through what is set up and what we actually need because when I was working on these with Claude, they made a bunch of new pages and I scrapped a bunch of them this morning because I just want to get the most important stuff out there ASAP. 
 
-Can we move the CSS in the index.html file to a new CSS file called home.css? It'll help make updating the homepage easier in the future. I love it though, just have some updates for the layout tiles. 
+## Some thoughts on the below. 
 
-So the framing of the website, and homepage, is that it is a presentation of the case studies using SFA. The AI voice marketing is just one of the case studies. It just so happens that we also have two presentations for that case study. 
+- Will the breadcrumb work okay with the way we have "section" pages? 
+- The markdown.css file has nav bar styling. Is there a nav bar? I don't think we need a nav bar when all of these pages will display the side bar. 
+- Same with the footer; let's just use the copyright info for that just like on the home page. 
+- There was a research and a search page HTML but I deleted them for now for clarity.
+- Can we make sure that the side bar is on all the pages? I'm not sure if we have a difference between default and page. 
 
-So we just need to update the brand link, the title, description, etc. so that it makes sense for SFA case studies. 
+### _layouts
 
-Then we do want to highlight the presentations first. One per row, two rows. No image for the presentation homepage tile. And we'll put two 'quick resource' type links next to each. I'll break down the sections below. 
+_layouts/default.html 
+_layouts/page.html 
 
-Feel free to make any wording changes you want. I just grabbed the title of each page and used it for the tile. 
+### _includes
 
-----
+_includes/breadcrumbs.html 
+_includes/footer.html 
+_includes/sidebar.html 
 
-# Header Navigation 
+### Other 
 
-## Left Side 
-[Agentic Workflow Case Studies](./index.html)
+_config.yaml 
+./assets/css/markdown.css 
 
-## Right Side 
-[About Our Agents](./building-successful-agents.md)
-[Workflow Assessment](./building-successful-agents/testimonial-job-case-study.md)
+### Sidebar Updates
 
-# Hero Section 
+**Quick Resource Links**
+- Voice Engineering Cheat Sheet `./ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet.md`
+- Emotion Driven Copywriting `./ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting.md`
+- Persona Scripts for Top AI Marketing Strategies `./ai-voice-marketing-case-study/research-implementation/persona-strategy/annotated-vo-scripts.md`
+- Key Voice Variables Matrix `./ai-voice-marketing-case-study/research-implementation/vocal-engineering-strategy-matrix.md`
 
-**TITLE:** Building Successful Agents
+**See Also** 
+{% if current_url contains '/bland-ai-guides/' %}
+- API Documentation `./ai-voice-marketing-case-study/bland-ai-guides/api-documentation.md`
+- App UI Guide `./ai-voice-marketing-case-study/bland-ai-guides/app-ui-guide.md`
+{% endif %}
 
-**DESCRIPTION:** Comprehensive overview of the variable-input single-file agent (SFA), from case studies to technical architecture, explaining how these AI agents work with variable-input design, workflow management, and tool integration capabilities.
+{% if current_url contains '/deep-research/' %}
+- Analysis Optimizing Voice AI Marketing `./ai-voice-marketing-case-study/deep-research/analysis-optimizing-voice-ai-mkt.md`
+- Analysis Voice Marketing Home Services `./ai-voice-marketing-case-study/deep-research/analysis-voice-mkt-home-services.md`
+- Bland AI Pro Tips `./ai-voice-marketing-case-study/deep-research/bland-ai-pro-tips.md`
+- Bland AI Voice Modulation `./ai-voice-marketing-case-study/deep-research/bland-ai-voice-modulation.md`
+- Strategy Assertive Urgent `./ai-voice-marketing-case-study/deep-research/strategy-assertive-urgent.md`
+- Strategy Combinations `./ai-voice-marketing-case-study/deep-research/strategy-combinations.md`
+- Strategy Curiosity Gap `./ai-voice-marketing-case-study/deep-research/strategy-curiosity-gap.md`
+- Strategy Empathy Objection `./ai-voice-marketing-case-study/deep-research/strategy-empathy-objection.md`
+- Strategy Strongest Combos `./ai-voice-marketing-case-study/deep-research/strategy-strongest-combos.md`
+{% endif %}
 
-# Deck Section 
+{% if current_url contains '/index-section-site-map/' %}
+- Influence & Lead Type `./ai-voice-marketing-case-study/index-section-site-map/influence-lead-type.md`
+- Outcome & Results `./ai-voice-marketing-case-study/index-section-site-map/outcome-result-strategy.md`
+- Name & Framework `./ai-voice-marketing-case-study/index-section-site-map/strategy-name.md`
+- Types of Tactics `./ai-voice-marketing-case-study/index-section-site-map/tactic-types.md`
+- Voice Characteristics `./ai-voice-marketing-case-study/index-section-site-map/vocal-characteristics.md`
+{% endif %}
 
-Home Services AI Voice Marketing Decks
+{% if current_url contains '/research-implementation/' %}
+- Voice Marketing Persona Strategy `./ai-voice-marketing-case-study/research-implementation/persona-strategy.md`
+- Annotated VO Scripts `./ai-voice-marketing-case-study/research-implementation/persona-strategy/annotated-vo-scripts.md`
+- Identifying Archetypes `./ai-voice-marketing-case-study/research-implementation/persona-strategy/identifying-archetypes.md`
+- Tailored Tactical Frameworks `./ai-voice-marketing-case-study/research-implementation/persona-strategy/tailored-tactical-frameworks.md`
+- Voice Marketing Writing Guides `./ai-voice-marketing-case-study/research-implementation/writing-guide.md`
+- Emotion Driven Copywriting `./ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting.md`
+- Modulation Sound Patterns `./ai-voice-marketing-case-study/research-implementation/writing-guide/modulation-sound-patterns.md`
+- Notation Cheat Sheet `./ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet.md`
+- Script Voice Indicators `./ai-voice-marketing-case-study/research-implementation/writing-guide/script-voice-indicators.md`
+{% endif %}
 
-## First Row 
-- Two half-height tiles on the left.
-- On the right, a featured tile for the first presentation. 
+{% if current_url contains '/top-conversion-strategy/' %}
+- Assertive Urgent Emotional `./ai-voice-marketing-case-study/top-conversion-strategy/assertive-urgent-emotional.md`
+- Combine Optimize Tactics `./ai-voice-marketing-case-study/top-conversion-strategy/combine-optimize-tactics.md`
+- Creating Curiosity Gap `./ai-voice-marketing-case-study/top-conversion-strategy/creating-curiosity-gap.md`
+- Empathy Objection Handling `./ai-voice-marketing-case-study/top-conversion-strategy/empathy-objection-handling.md`
+- Target Audience Groups `./ai-voice-marketing-case-study/top-conversion-strategy/target-audience-groups.md`
+{% endif %}
 
-### Left Column **Quick Resource Links**
-[Bland AI Voice Marketing Cheat Sheet](./ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet.md)
-[Exploring the AI Voice Marketing Content](./ai-voice-marketing-case-study/index-section-site-map.md)
+{% if current_url contains '/building-successful-agents/' %}
+- Design Philosophy `./building-successful-agents/best-practice-design-philosophy.md`
+- Prompt Writing `./building-successful-agents/prompt-writing-professional.md`
+- Feature Upgrades `./building-successful-agents/recent-agentic-workflow-feature-upgrades.md`
+- SFA Architecture `./building-successful-agents/sfa-python-architecture.md`
+- Technical Specifications `./building-successful-agents/technical-specifications.md`
+{% endif %}
 
-### Right Column **Presentation Tile**
-[Secrets of Bland AI Voice Service Representatives](./ai-voice-marketing-case-study/sales-development-ai-secrets.html)
+{% if current_url contains '/marketing-content-case-study/content-plan/' %}
+- Agent Configuration Prompt Input `./marketing-content-case-study/content-plan/agent-configuration-prompt-input.md`
+- Glossier Content Plan `./marketing-content-case-study/content-plan/glossier-content-plan.md`
+- Hydro Flask Content Plan `./marketing-content-case-study/content-plan/hydro-flask-content-plan.md`
+- Jungalow Content Plan `./marketing-content-case-study/content-plan/jungalow-content-plan.md`
+- Production Flow Content Plan `./marketing-content-case-study/content-plan/production-flow-content-plan.md`
+{% endif %}
 
-## Second Row 
-- Two half-height tiles on the right this time, opposite of the row above. 
-- On the left, a featured tile for the second presentation that is as high as the two stacked tiles beside it on the right. 
+{% if current_url contains '/marketing-content-case-study/email-blast/' %}
+- AI Prompt Configuration Agent `./marketing-content-case-study/email-blast/ai-prompt-configuration-agent.md`
+- Glossier Email Campaign `./marketing-content-case-study/email-blast/glossier-email-campaign.md`
+- Hydro Flask Email Campaign `./marketing-content-case-study/email-blast/hydro-flask-email-campaign.md`
+- Production Flow Email Blast `./marketing-content-case-study/email-blast/production-flow-email-blast.md`
+{% endif %}
 
-### Left Column **Presentation Tile**
-[Making Bland AI Technical Strategies Practical](./ai-voice-marketing-case-study/implement-bland-modulation-research.html)
+{% if current_url contains '/marketing-content-case-study/instagram-post/' %}
+- Glossier Instagram Posts `./marketing-content-case-study/instagram-post/glossier-instagram-posts.md`
+- Hydro Flask Instagram Posts `./marketing-content-case-study/instagram-post/hydro-flask-instagram-posts.md`
+- Production Flow Instagram Posts `./marketing-content-case-study/instagram-post/production-flow-instagram-posts.md`
+{% endif %}
 
-### Right Column **Quick Resource Links**
-[Strategic Voice Marketing Personas with Scripts](./ai-voice-marketing-case-study/research-implementation/persona-strategy/annotated-vo-scripts.md)
-[Emotion-Driven Marketing Copywriting Guide](./ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting.md)
+{% if current_url contains '/marketing-content-case-study/' %}
+- Content Plan `./marketing-content-case-study/content-plan.md`
+- Email Blast `./marketing-content-case-study/email-blast.md`
+- Instagram Post `./marketing-content-case-study/instagram-post.md`
+- Brand Identity Briefings `./marketing-content-case-study/brand-identity-briefings.md`
+{% endif %}
 
-# Case Study Section 
+**Home Services AI Voice Marketing Decks**
+- Secrets of AI Voice Service Representatives `./ai-voice-marketing-case-study/sales-development-ai-secrets.html`
+- Making Technical Strategies Practical `./ai-voice-marketing-case-study/implement-bland-modulation-research.html`
 
-Case Studies on SFA Use-Cases 
+**AI Voice Marketing Sections**
+- Research Implementation `./ai-voice-marketing-case-study/research-implementation.md`
+- Bland AI Implementation Guides `./ai-voice-marketing-case-study/bland-ai-guides.md`
+- Top Conversion Strategies `./ai-voice-marketing-case-study/top-conversion-strategy.md`
+- Deep Research Analysis `./ai-voice-marketing-case-study/deep-research.md`
+- Strategy Index & Section Map `./ai-voice-marketing-case-study/index-section-site-map.md`
 
-## Third Row 
-- Two standard tiles in one row 
+**Case Study**
+- Agentic Marketing Department `./marketing-content-case-study.md`
+- Researching AI Voice Marketing `./ai-voice-marketing-case-study.md`
 
-[Agentic Research & Implementation Case Study](./ai-voice-marketing-case-study.md)
-[Automating AI to Create A Comprehensive Marketing Plan](./marketing-content-case-study.md)
+**Building Successful Agents**
+- About Our Agents `./building-successful-agents.md`
+- Workflow Assessment `./building-successful-agents/testimonial-job-case-study.md`
 
-All About SFA 
 
-## Fourth & Fifth Row 
-- Two rows of three standard tiles in one row
 
-[Agentic Workflow Assessment](./building-successful-agents/testimonial-job-case-study.md)
-[SFA Design Philosophy](./building-successful-agents/best-practice-design-philosophy.md)
-[The Art and Science of SFA Prompting](./building-successful-agents/prompt-writing-professional.md)
-[Recent Agentic Workflow Feature Upgrades](./building-successful-agents/recent-agentic-workflow-feature-upgrades.md)
-[What Makes SFA Architecture Unique](./building-successful-agents/sfa-python-architecture.md)
-[Single-File Agent Technical Specifications](./building-successful-agents/technical-specifications.md)
 
 
 ----
@@ -83,8 +144,6 @@ All About SFA
 ## Production Phase Tracking 
 
 ### Ready For Production 
-
-  - Breadcrumb tracking has been added to the Jekyll theme --> will this work okay with the way we have "section" pages? 
   - Front matter added to all markdown files 
   - Foundation for search, filtering, and tags built 
   - Pages ready for category quick-links 
@@ -92,7 +151,6 @@ All About SFA
   - It is responsive 
 
 ### Questions 
-  - I noticed that the markdown.css file has nav bar styling. Is there a nav bar? I didn't see one. Asking because it seems like the side bar is enough and that the nav bar is not needed. 
   - Similarly, it seems like the footer can just be the copy right. 
 
 ----
@@ -102,44 +160,7 @@ All About SFA
   - Let's reorganize to the following below
   - Add in a "Also See" section right below the "Quick Resource Links" that just shows links to the rest of the pages in that same section  
 
-**Quick Resource Links**
-- Voice Engineering Cheat Sheet
-- Emotion Driven Copywriting
-- Persona Scripts for Top AI Marketing Strategies
-- Key Voice Variables Matrix 
 
-**See Also**
-
-**Home Services AI Voice Marketing Decks**
-- Secrets of Bland AI Voice Service Representatives 
-- Making Bland AI Technical Strategies Practical  
-
-**AI Voice Marketing Sections**
-- Research Implementation
-  - Voice Marketing Persona Strategy
-  - Voice Marketing Writing Guides
-- Bland AI Implementation Guides
-- Top Conversion Strategies 
-- Deep Research Analysis 
-- Strategy Index & Section Map
-  - Lead & Influence-Type
-  - Outcome & Results
-  - Name & Framework 
-  - Types of Tactics
-  - Voice Characteristics
-
-**Case Study**
-- Automating AI to Create A Comprehensive Marketing Plan
-- Agentic Research and Planning for AI Voice Marketing 
-
-**Building Successful Agents**
-- Our AI Agentic System Is Called A Single-File Agent (SFA)
-- Agentic Workflow Assessment
-- Best Practice Design Philosophy 
-- The Art and Science of SFA Prompting 
-- Recent Agentic Workflow Feature Upgrades 
-- What Makes SFA Architecture Unique 
-- Single-File Agent Technical Specifications
 
 ### Phase: Presentation with Resources 
 
