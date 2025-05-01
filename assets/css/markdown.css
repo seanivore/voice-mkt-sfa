@@ -10,7 +10,7 @@
     /* Bright blue accent */
     --accent-3: #edac3c;
     /* Gold accent */
-    --accent-4: #560c78;
+    --accent-4: #ba38f6;
     /* Red accent */
     --accent-5: #b92826;
     /* Orange accent */
@@ -183,11 +183,13 @@ pre {
     border-radius: 4px;
     overflow-x: auto;
     margin-bottom: 1.5rem;
+    max-width: 100%;
 }
 
 pre code {
     padding: 0;
     background-color: transparent;
+    max-width: 100%;
 }
 
 img {

@@ -15,7 +15,6 @@ plugins:
 collections:
   posts:
     output: true
-    permalink: /:basename/
 
 # Default front matter
 defaults:
@@ -31,15 +30,20 @@ defaults:
       permalink: /
   -
     scope:
-      path: "*.html"
-    values:
-      permalink: /:basename/
-  -
-    scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
+  -
+    scope:
+      path: "sales-development-ai-secrets.html"
+    values:
+      permalink: /sales-development-ai-secrets/
+  -
+    scope:
+      path: "implement-bland-modulation-research.html"
+    values:
+      permalink: /sales-development-ai-secrets/
 
 # Exclude files from being included in the build
 exclude:
@@ -52,4 +56,3 @@ exclude:
 
 relative_links:
   enabled: true
-  collections: true
