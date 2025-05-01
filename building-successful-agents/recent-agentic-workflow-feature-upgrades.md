@@ -1,8 +1,8 @@
 ---
 layout: research
-title: Prompt Engineering for Single-File Agents
-description: Expert techniques for designing effective prompts that optimize LLM performance within the SFA framework, with practical examples and best practices.
-categories: ["coding"]
+title: Updating the SFA Main Loop
+description: An overview of the most recent changes to the SFA main loop to include a new phase adjustment workflow.
+categories: ["Coding"]
 tags: ["applied"]
 content_types: ["Guide"]
 ---
@@ -45,34 +45,6 @@ After this, the agent will have complete control over crafting the work flow liv
 - Alternatively, allows for preparing information to hand off to the next phase and a new LLM 
 
 Encourage decision making with consideration made for their context window. 
-
-## Implementation Process 
-
-1. Create a Copy of the SFA Agent
-
-```bash
-cp /Users/seanivore/Development/single-file-agents/sfa_agent.py /Users/seanivore/Development/single-file-agents/sfa-main.py
-```
-
-2. Make the Necessary Modifications to `sfa-main.py`
-
-- Add all the components from the artifact
-- Update the handler functions and main loop
-
-3. Create End Phase Summary Tool
-
-- Add the updated task_reporting.py to tools directory
-- Include required counting of tokens to include in the summary 
-
-4. Setup with "Branching Workflow" Script 
-
-- These are both the same command workflow 
-
-```bash
-./branching_workflow.sh /path/to/your/config.json sfa-main.py 
-sfa -s /path/to/your/config.json
-```
-Using -s as an argument ensures there will be a README document created about the workflow and what it accomplishes. 
 
 ## Benefits of This Approach
 

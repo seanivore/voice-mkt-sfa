@@ -2,12 +2,12 @@
 layout: research
 title: Prompt Engineering for Single-File Agents
 description: Expert techniques for designing effective prompts that optimize LLM performance within the SFA framework, with practical examples and best practices.
-categories: ["SFA", "Code", "Development"]
-tags: ["prompt-engineering", "single-file-agents", "llm"]
-content_types: ["Implementation Guides", "Pro-Tips", "Strategy Documents"]
+categories: ["Coding", "Planning"]
+tags: ["conceptual", "platform", "overview"]
+content_types: [ "Guide", "Technical"]
 ---
 
-## The Art and Science of SFA Prompting
+# The Art and Science of SFA Prompting
 
 Prompt engineering is a critical discipline for maximizing the effectiveness of Single-File Agents. Unlike traditional software engineering where inputs and functions are precisely defined, prompt engineering requires understanding the nuances of how LLMs interpret and respond to language. 
 
@@ -26,21 +26,6 @@ If you pull up a lecture from the Royal Institute on YouTube about neuroscience 
 Now consider LLMs. They're even more literally pattern recognizing machines. We often hear "they're just predicting the next token" and while that has been found to be an extremely shallow description of their cognitive functioning, it is also not very different from the way our brains work. 
 
 You want the best work out of an LLM you need to be friendly. Befriend, and you will get a friend. Better yet, engage in all of the forms of communication you would with a collaborative creative colleague. Share articles with them. Talk about interests. This is the kind of connection that makes humans so powerful at doing creative work together, and well, LLMs are no different. This is the mindset you should have when writing prompts. 
-
-### Context Management
-
-There are some downsides to Agentic systems that are out there, making decisions alone. 
-
-that are important to understand. The first is that they have a limited context window. This is the amount of text that the LLM can hold in its memory. It's important to manage this window carefully to ensure that the LLM has the information it needs to complete the task. 
-
-### Instruction Clarity
-Well-crafted instructions reduce ambiguity and improve response consistency, particularly important for task-specific agents.
-
-### Chain-of-Thought Design
-Prompts that encourage step-by-step reasoning significantly improve problem-solving capabilities in complex scenarios.
-
-### Variable Integration
-Effective SFAs use dynamic variables within prompt templates to create flexible, reusable prompt structures.
 
 ## Practical Implementation
 
@@ -84,6 +69,9 @@ Effective SFAs use structured templates that:
 2. Research Agent: Optimized Prompt
 > "You are a research specialist. Analyze [topic] using the following criteria: historical context, current applications, and future implications. Structure your response with clear headings. If you cannot find specific information, explicitly state what is unknown rather than making assumptions."
 
+3. Research Agent: Contextualized Optimized Prompt
+> "A new project has come across your desk. It looks like the agency has booked a new client. They're in need of some research and analysis and have turned to you for help, as the resident research specialist. Analyze [topic] using the following criteria: historical context, current applications, and future implications. Structure your response with clear headings. If you cannot find specific information, explicitly state what is unknown rather than making assumptions."
+
 ## Testing and Refinement
 
 Effective prompt engineering requires systematic testing:
@@ -91,10 +79,4 @@ Effective prompt engineering requires systematic testing:
 - Identify edge cases and failure modes
 - Test with a variety of inputs
 - Compare variations to identify optimal approaches
-- Document successful patterns for reuse
-
-## See Also
-
-- [Voice Marketing Prompt Examples](/voice-mkt-sfa/voice-marketing-prompt-examples)
-- [Emotion-Driven Copywriting](/voice-mkt-sfa/emotion-driven-copywriting)
-- [Technical Documentation Standards](/voice-mkt-sfa/technical-documentation-standards)
+- Document successful patterns for reuse 

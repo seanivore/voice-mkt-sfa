@@ -1,9 +1,9 @@
 ---
 title: "Agentic Workflow Assessment"
-categories: ["Research", "Case Studies", "Implementation"]
-tags: ["case-study", "implementation", "research"]
-content_types: ["Case Studies", "Research Findings", "Implementation Guides"]
 description: "A detailed review of the first run of a targeted resume and cover letter writing workflow using Single File Agents, showcasing the system's capabilities and effectiveness."
+categories: ["Planning", "Coding"]
+tags: ["overview", "platform"]
+content_types: ["Case Study"]
 ---
 
 # Agentic Workflow Assessment

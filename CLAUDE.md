@@ -78,7 +78,7 @@ Showcase impressive work, in an impressive way, using a framework that can easil
 
 ### Ready For Production 
 
-  - Breadcrumb tracking has been added to the Jekyll theme 
+  - Breadcrumb tracking has been added to the Jekyll theme --> will this work okay with the way we have "section" pages? 
   - Front matter added to all markdown files 
   - Foundation for search, filtering, and tags built 
   - Pages ready for category quick-links 
@@ -88,6 +88,10 @@ Showcase impressive work, in an impressive way, using a framework that can easil
 ### Questions 
   - I noticed that the markdown.css file has nav bar styling. Is there a nav bar? I didn't see one. Asking because it seems like the side bar is enough and that the nav bar is not needed. 
   - Similarly, it seems like the footer can just be the copy right. 
+
+### Sidebar 
+
+  - Any type of "Also see" section on the bottom of a page would make more sense in the side bar 
 
 ### Phase: Presentation with Resources 
 
