@@ -60,26 +60,40 @@
 
         /* Wave animations */
         @keyframes wave1 {
-            0%, 100% { transform: scaleX(1.05) scaleY(1); }
-            50% { transform: scaleX(1) scaleY(1.2); }
+            0% { transform: scaleX(1.02) scaleY(0.95) translateX(-2%); }
+            25% { transform: scaleX(1.05) scaleY(1.1) translateX(-1%); }
+            50% { transform: scaleX(0.98) scaleY(1.2) translateX(0%); }
+            75% { transform: scaleX(1.03) scaleY(1.05) translateX(1%); }
+            100% { transform: scaleX(1.02) scaleY(0.95) translateX(-2%); }
         }
 
         @keyframes wave2 {
-            0%, 100% { transform: scaleX(1) scaleY(1.1); }
-            50% { transform: scaleX(1.1) scaleY(0.9); }
+            0% { transform: scaleX(1.05) scaleY(0.9) translateX(2%); }
+            25% { transform: scaleX(0.97) scaleY(1.05) translateX(1%); }
+            50% { transform: scaleX(1.1) scaleY(0.95) translateX(0%); }
+            75% { transform: scaleX(0.98) scaleY(1.02) translateX(-1%); }
+            100% { transform: scaleX(1.05) scaleY(0.9) translateX(2%); }
         }
 
         @keyframes wave3 {
-            0%, 100% { transform: scaleX(1.1) scaleY(0.9); }
-            50% { transform: scaleX(0.95) scaleY(1.15); }
+            0% { transform: scaleX(0.95) scaleY(1.05) translateX(-1%); }
+            25% { transform: scaleX(1.05) scaleY(0.92) translateX(0%); }
+            50% { transform: scaleX(0.98) scaleY(1.15) translateX(2%); }
+            75% { transform: scaleX(1.03) scaleY(0.98) translateX(1%); }
+            100% { transform: scaleX(0.95) scaleY(1.05) translateX(-1%); }
         }
 
-        .wave-band:nth-child(2) { animation: wave1 8s ease-in-out infinite; }
-        .wave-band:nth-child(3) { animation: wave2 12s ease-in-out infinite; }
-        .wave-band:nth-child(4) { animation: wave3 10s ease-in-out infinite; }
-        .wave-band:nth-child(5) { animation: wave1 9s ease-in-out infinite; animation-delay: -2s; }
-        .wave-band:nth-child(6) { animation: wave2 11s ease-in-out infinite; animation-delay: -1s; }
-        .wave-band:nth-child(7) { animation: wave3 13s ease-in-out infinite; animation-delay: -3s; }
+        .wave-band:nth-child(2) { animation: wave1 15s ease-in-out infinite; }
+        .wave-band:nth-child(3) { animation: wave2 18s ease-in-out infinite; }
+        .wave-band:nth-child(4) { animation: wave3 20s ease-in-out infinite; }
+        .wave-band:nth-child(5) { animation: wave1 17s ease-in-out infinite; animation-delay: -4s; }
+        .wave-band:nth-child(6) { animation: wave2 19s ease-in-out infinite; animation-delay: -7s; }
+        .wave-band:nth-child(7) { animation: wave3 16s ease-in-out infinite; animation-delay: -2s; }
+
+        /* Scroll-triggered animation modifications */
+        .wave-band {
+            transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
 
         /* Layout */
         .container {
@@ -556,7 +570,7 @@
             function updateWaves() {
                 const scrollY = window.scrollY;
                 const scrollDirection = scrollY > lastScrollY ? 1 : -1;
-                const scrollSpeed = Math.min(Math.abs(scrollY - lastScrollY) / 10, 5);
+                const scrollSpeed = Math.min(Math.abs(scrollY - lastScrollY) / 8, 10);
                 
                 // Apply different transformations to each wave band based on scroll
                 document.querySelectorAll('.wave-band').forEach((band, index) => {
@@ -564,16 +578,17 @@
                     if (index === 0 || index === 7) return;
                     
                     // Calculate a unique scale factor for each band
-                    const scaleFactorX = 1 + ((index % 3) * 0.02 * scrollDirection * scrollSpeed);
-                    const scaleFactorY = 1 - ((index % 2) * 0.03 * scrollDirection * scrollSpeed);
+                    const scaleFactorX = 1 + ((index % 3) * 0.05 * scrollDirection * scrollSpeed * 0.01);
+                    const scaleFactorY = 1 - ((index % 2) * 0.08 * scrollDirection * scrollSpeed * 0.01);
                     
-                    // Add slight rotation for more organic movement
-                    const rotation = (index % 2 === 0 ? 0.1 : -0.1) * scrollDirection * scrollSpeed;
+                    // Add more pronounced movement
+                    const translateX = ((index % 2 === 0 ? 1 : -1) * scrollDirection * scrollSpeed * 0.3) + '%';
+                    const translateY = ((index % 3 === 0 ? 1 : -0.5) * scrollDirection * scrollSpeed * 0.1) + '%';
                     
                     // Apply the transformation with different timing for each band
                     setTimeout(() => {
-                        band.style.transform = `scaleX(${scaleFactorX}) scaleY(${scaleFactorY}) rotate(${rotation}deg)`;
-                    }, index * 50);
+                        band.style.transform = `scaleX(${scaleFactorX}) scaleY(${scaleFactorY}) translate(${translateX}, ${translateY})`;
+                    }, index * 30);
                 });
                 
                 lastScrollY = scrollY;
