@@ -291,9 +291,9 @@ tr:nth-child(even) {
 }
 
 .sidebar h3 {
-    color: #3c86ed;
+    color: #ed3c4e;
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .sidebar ul {
