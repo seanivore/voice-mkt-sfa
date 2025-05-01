@@ -133,10 +133,11 @@ p {
 a {
     text-decoration: none;
     transition: color 0.2s;
+    color: var(--accent-6);
 }
 
 a:hover {
-    color: var(--accent-6);
+    color: var(--accent-4);
     text-decoration: none;
 }
 
@@ -328,6 +329,14 @@ tr:nth-child(even) {
     flex: 1;
     padding: 2rem;
     max-width: calc(100% - 280px);
+}
+
+.main-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: "vista-sans-narrow", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
 }
 
 /* Breadcrumbs */
