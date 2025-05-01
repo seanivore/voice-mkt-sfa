@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Voice Marketing & Research | Case Studies</title>
-    <meta name="description" content="Comprehensive research, strategies, and implementation guides for AI voice marketing.">
+    <meta name="description"
+        content="Comprehensive research, strategies, and implementation guides for AI voice marketing.">
     <!-- Base URL for relative paths -->
     <base href="/">
     <!-- Typekit Font -->
@@ -50,44 +51,139 @@
         }
 
         /* Wave colors and positions based on the Bland AI visual */
-        .wave-band:nth-child(1) { --wave-color: #000000; bottom: 0; height: 16%; }
-        .wave-band:nth-child(2) { --wave-color: #141B4D; --band-height: 14%; bottom: 16%; }
-        .wave-band:nth-child(3) { --wave-color: #3F1A61; --band-height: 14%; bottom: 30%; }
-        .wave-band:nth-child(4) { --wave-color: #93173E; --band-height: 14%; bottom: 44%; }
-        .wave-band:nth-child(5) { --wave-color: #D8471D; --band-height: 14%; bottom: 58%; }
-        .wave-band:nth-child(6) { --wave-color: #F89E35; --band-height: 14%; bottom: 72%; }
-        .wave-band:nth-child(7) { --wave-color: #FEE761; --band-height: 14%; bottom: 86%; }
-        .wave-band:nth-child(8) { --wave-color: #000000; bottom: 100%; height: 16%; }
+        .wave-band:nth-child(1) {
+            --wave-color: #000000;
+            bottom: 0;
+            height: 16%;
+        }
+
+        .wave-band:nth-child(2) {
+            --wave-color: #141B4D;
+            --band-height: 14%;
+            bottom: 16%;
+        }
+
+        .wave-band:nth-child(3) {
+            --wave-color: #3F1A61;
+            --band-height: 14%;
+            bottom: 30%;
+        }
+
+        .wave-band:nth-child(4) {
+            --wave-color: #93173E;
+            --band-height: 14%;
+            bottom: 44%;
+        }
+
+        .wave-band:nth-child(5) {
+            --wave-color: #D8471D;
+            --band-height: 14%;
+            bottom: 58%;
+        }
+
+        .wave-band:nth-child(6) {
+            --wave-color: #F89E35;
+            --band-height: 14%;
+            bottom: 72%;
+        }
+
+        .wave-band:nth-child(7) {
+            --wave-color: #FEE761;
+            --band-height: 14%;
+            bottom: 86%;
+        }
+
+        .wave-band:nth-child(8) {
+            --wave-color: #000000;
+            bottom: 100%;
+            height: 16%;
+        }
 
         /* Wave animations */
         @keyframes wave1 {
-            0% { height: 14%; }
-            25% { height: 6%; }
-            50% { height: 16%; }
-            75% { height: 8%; }
-            100% { height: 14%; }
+            0% {
+                height: 14%;
+            }
+
+            25% {
+                height: 6%;
+            }
+
+            50% {
+                height: 16%;
+            }
+
+            75% {
+                height: 8%;
+            }
+
+            100% {
+                height: 14%;
+            }
         }
 
         @keyframes wave2 {
-            0% { height: 10%; }
-            30% { height: 16%; }
-            60% { height: 5%; }
-            100% { height: 10%; }
+            0% {
+                height: 10%;
+            }
+
+            30% {
+                height: 16%;
+            }
+
+            60% {
+                height: 5%;
+            }
+
+            100% {
+                height: 10%;
+            }
         }
 
         @keyframes wave3 {
-            0% { height: 12%; }
-            40% { height: 4%; }
-            70% { height: 18%; }
-            100% { height: 12%; }
+            0% {
+                height: 12%;
+            }
+
+            40% {
+                height: 4%;
+            }
+
+            70% {
+                height: 18%;
+            }
+
+            100% {
+                height: 12%;
+            }
         }
 
-        .wave-band:nth-child(2) { animation: wave2 6s ease-in-out infinite; }
-        .wave-band:nth-child(3) { animation: wave3 7s ease-in-out infinite; }
-        .wave-band:nth-child(4) { animation: wave1 8s ease-in-out infinite; }
-        .wave-band:nth-child(5) { animation: wave3 6.5s ease-in-out infinite; animation-delay: -2s; }
-        .wave-band:nth-child(6) { animation: wave1 7.5s ease-in-out infinite; animation-delay: -3s; }
-        .wave-band:nth-child(7) { animation: wave2 5.5s ease-in-out infinite; animation-delay: -1s; }
+        .wave-band:nth-child(2) {
+            animation: wave2 6s ease-in-out infinite;
+        }
+
+        .wave-band:nth-child(3) {
+            animation: wave3 7s ease-in-out infinite;
+        }
+
+        .wave-band:nth-child(4) {
+            animation: wave1 8s ease-in-out infinite;
+        }
+
+        .wave-band:nth-child(5) {
+            animation: wave3 6.5s ease-in-out infinite;
+            animation-delay: -2s;
+        }
+
+        .wave-band:nth-child(6) {
+            animation: wave1 7.5s ease-in-out infinite;
+            animation-delay: -3s;
+        }
+
+        .wave-band:nth-child(7) {
+            animation: wave2 5.5s ease-in-out infinite;
+            animation-delay: -1s;
+        }
 
         /* Scroll-triggered animation modifications */
         .wave-band {
@@ -360,7 +456,7 @@
             .hero h1 {
                 font-size: 3.5rem;
             }
-            
+
             .showcase-grid {
                 grid-template-columns: 1fr;
             }
@@ -371,29 +467,29 @@
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             nav ul {
                 margin-top: 20px;
                 flex-wrap: wrap;
                 justify-content: center;
             }
-            
+
             nav li {
                 margin: 10px;
             }
-            
+
             .hero h1 {
                 font-size: 2.8rem;
             }
-            
+
             .hero p {
                 font-size: 1.2rem;
             }
-            
+
             .cards-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .section-heading {
                 font-size: 2rem;
             }
@@ -424,7 +520,8 @@
         <section class="hero">
             <div class="container">
                 <h1>AI Voice Marketing Solutions</h1>
-                <p>Comprehensive research, strategies, and implementation guides for creating effective conversational AI experiences</p>
+                <p>Comprehensive research, strategies, and implementation guides for creating effective conversational
+                    AI experiences</p>
             </div>
         </section>
 
@@ -432,25 +529,29 @@
             <div class="cards-grid">
                 <div class="glass-card">
                     <h2><i class="fas fa-microphone-alt"></i> AI Voice Marketing</h2>
-                    <p>Explore our in-depth research on AI voice technologies, including Bland AI implementation guides and conversion strategies for voice-based customer interactions.</p>
+                    <p>Explore our in-depth research on AI voice technologies, including Bland AI implementation guides
+                        and conversion strategies for voice-based customer interactions.</p>
                     <a href="/ai-voice-marketing/" class="btn">Learn More</a>
                 </div>
 
                 <div class="glass-card">
                     <h2><i class="fas fa-robot"></i> About Our Agents</h2>
-                    <p>Discover how our Single-File Agents (SFAs) are revolutionizing AI development and implementation for marketing and research purposes.</p>
+                    <p>Discover how our Single-File Agents (SFAs) are revolutionizing AI development and implementation
+                        for marketing and research purposes.</p>
                     <a href="/about-our-agents/" class="btn">Explore Agents</a>
                 </div>
 
                 <div class="glass-card">
                     <h2><i class="fas fa-chart-line"></i> Marketing Case Studies</h2>
-                    <p>Real-world examples of how AI voice technologies are transforming customer engagement and marketing outcomes.</p>
+                    <p>Real-world examples of how AI voice technologies are transforming customer engagement and
+                        marketing outcomes.</p>
                     <a href="/ai-agentic-brand-content-case-study/" class="btn">View Case Studies</a>
                 </div>
 
                 <div class="glass-card">
                     <h2><i class="fas fa-brain"></i> Research & Strategy</h2>
-                    <p>Deep research into voice AI technologies, market trends, and strategic implementations for modern marketing.</p>
+                    <p>Deep research into voice AI technologies, market trends, and strategic implementations for modern
+                        marketing.</p>
                     <a href="/ai-voice-marketing/deep-research/" class="btn">Browse Research</a>
                 </div>
             </div>
@@ -461,7 +562,8 @@
             <div class="cards-grid">
                 <div class="glass-card">
                     <h2><i class="fas fa-book"></i> Bland AI Guides</h2>
-                    <p>Step-by-step guides for implementing AI voice marketing solutions with Bland AI for your business.</p>
+                    <p>Step-by-step guides for implementing AI voice marketing solutions with Bland AI for your
+                        business.</p>
                     <a href="/ai-voice-marketing/bland-ai-guides/" class="btn">View Guides</a>
                 </div>
 
@@ -470,11 +572,12 @@
                     <p>Technical details and specifications for our AI agents and implementation strategies.</p>
                     <a href="/about-our-agents/technical-specifications/" class="btn">View Specs</a>
                 </div>
-                
+
                 <div class="glass-card">
                     <h2><i class="fas fa-lightbulb"></i> Voice Marketing Strategy</h2>
                     <p>Expert strategies to maximize your marketing impact with AI voice technologies.</p>
-                    <a href="/ai-voice-marketing/research-implementation/persona-strategy/" class="btn">Explore Strategies</a>
+                    <a href="/ai-voice-marketing/research-implementation/persona-strategy/" class="btn">Explore
+                        Strategies</a>
                 </div>
             </div>
         </section>
@@ -483,20 +586,24 @@
             <h2 class="section-heading">Featured Presentations</h2>
             <div class="showcase-grid">
                 <div class="showcase-item">
-                    <img src="/assets/images/presentation-preview-1.jpg" alt="AI Voice Marketing Presentation" onerror="this.src='https://via.placeholder.com/800x450/141B4D/ffffff?text=AI+Voice+Marketing';this.onerror='';">
+                    <img src="/assets/images/presentation-preview-1.jpg" alt="AI Voice Marketing Presentation"
+                        onerror="this.src='https://via.placeholder.com/800x450/141B4D/ffffff?text=AI+Voice+Marketing';this.onerror='';">
                     <div class="showcase-overlay">
                         <h3>Sales Development AI Secrets</h3>
                         <p>Learn the insider techniques for effective AI voice marketing in sales development.</p>
-                        <a href="/ai-voice-marketing/sales-development-ai-secrets.html" class="btn">View Presentation</a>
+                        <a href="/ai-voice-marketing/sales-development-ai-secrets.html" class="btn">View
+                            Presentation</a>
                     </div>
                 </div>
-                
+
                 <div class="showcase-item">
-                    <img src="/assets/images/presentation-preview-2.jpg" alt="Bland AI Implementation" onerror="this.src='https://via.placeholder.com/800x450/3F1A61/ffffff?text=Bland+AI+Implementation';this.onerror='';">
+                    <img src="/assets/images/presentation-preview-2.jpg" alt="Bland AI Implementation"
+                        onerror="this.src='https://via.placeholder.com/800x450/3F1A61/ffffff?text=Bland+AI+Implementation';this.onerror='';">
                     <div class="showcase-overlay">
                         <h3>Bland AI Modulation Research</h3>
                         <p>Dive deep into the modulation techniques that make Bland AI marketing effective.</p>
-                        <a href="/ai-voice-marketing/implement-bland-modulation-research.html" class="btn">View Presentation</a>
+                        <a href="/ai-voice-marketing/implement-bland-modulation-research.html" class="btn">View
+                            Presentation</a>
                     </div>
                 </div>
             </div>
@@ -515,7 +622,7 @@
                         <li><a href="/ai-voice-marketing/top-conversion-strategy/">Conversion Strategies</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Case Studies</h3>
                     <ul>
@@ -524,7 +631,7 @@
                         <li><a href="/building-successful-agents/testimonial-job-case-study/">Workflow Feedback</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>About SFA</h3>
                     <ul>
@@ -533,17 +640,18 @@
                         <li><a href="/building-successful-agents/technical-specifications/">Technical Specs</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>AI Voice Marketing</h3>
                     <ul>
                         <li><a href="/ai-voice-marketing/research-implementation/">Implementation Guides</a></li>
                         <li><a href="/ai-voice-marketing/index-section-site-map/">Content Index</a></li>
-                        <li><a href="/ai-voice-marketing/deep-research/strategy-combinations/">Strategy Combinations</a></li>
+                        <li><a href="/ai-voice-marketing/deep-research/strategy-combinations/">Strategy Combinations</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2025 Sean August Horvath | Created with SFA (Single-File Agents)</p>
             </div>
@@ -551,37 +659,37 @@
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Create wave bands dynamically
             const waveContainer = document.getElementById('waveContainer');
-            
+
             // Create 8 wave bands
             for (let i = 0; i < 8; i++) {
                 const waveBand = document.createElement('div');
                 waveBand.className = 'wave-band';
                 waveContainer.appendChild(waveBand);
             }
-            
+
             // Scroll-based animation effect
             let lastScrollY = window.scrollY;
             let ticking = false;
-            
+
             function updateWaves() {
                 const scrollY = window.scrollY;
                 const scrollDirection = scrollY > lastScrollY ? 1 : -1;
                 const scrollSpeed = Math.min(Math.abs(scrollY - lastScrollY) / 8, 10);
-                
+
                 // Apply different height changes to each wave band based on scroll
                 document.querySelectorAll('.wave-band').forEach((band, index) => {
                     // Skip first and last (black) bands
                     if (index === 0 || index === 7) return;
-                    
+
                     // Base height for each band (approx 14%)
                     const baseHeight = parseFloat(getComputedStyle(band).getPropertyValue('--band-height') || '14%');
-                    
+
                     // Calculate new height based on scroll
                     let newHeight;
-                    
+
                     if (scrollDirection > 0) {
                         // When scrolling down, compress bands
                         newHeight = Math.max(baseHeight - (scrollSpeed * 0.5), 3);
@@ -589,19 +697,19 @@
                         // When scrolling up, expand bands
                         newHeight = Math.min(baseHeight + (scrollSpeed * 0.5), 20);
                     }
-                    
+
                     // Apply with sequential timing for wave-like effect
                     setTimeout(() => {
                         band.style.height = `${newHeight}%`;
                     }, index * 30);
                 });
-                
+
                 lastScrollY = scrollY;
                 ticking = false;
             }
-            
+
             // Handle scroll events
-            window.addEventListener('scroll', function() {
+            window.addEventListener('scroll', function () {
                 if (!ticking) {
                     window.requestAnimationFrame(updateWaves);
                     ticking = true;
@@ -611,4 +719,4 @@
     </script>
 </body>
 
-</html> 
+</html>
