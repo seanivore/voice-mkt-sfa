@@ -6,11 +6,11 @@
     /* Light cream text */
     --accent-1: #c0d6df;
     /* Teal accent */
-    --accent-2: #560c78;
+    --accent-2: #ec652b;
     /* Bright blue accent */
     --accent-3: #edac3c;
     /* Gold accent */
-    --accent-4: #ec652b;
+    --accent-4: #560c78;
     /* Red accent */
     --accent-5: #b92826;
     /* Orange accent */
@@ -39,7 +39,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 html {
@@ -148,6 +148,8 @@ ol {
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: "vista-sans-narrow", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.25px;
 }
 
 li {
@@ -155,19 +157,23 @@ li {
 }
 
 blockquote {
-    font-family: "vista-sans-narrow", sans-serif;
-    letter-spacing: 0.05rem;
-    border-left: 3px solid var(--accent-4);
+    border-left: 3px solid var(--accent-6);
     padding-left: 1rem;
     margin: 1.5rem 0 1.5rem 1rem;
     font-style: italic;
-    color: var(--accent-1);
+    color: var(--accent-6);
+}
+
+blockquote p {
+    font-family: "vista-sans-narrow", sans-serif;
+    letter-spacing: 0.05rem;
+    font-style: italic;
 }
 
 code {
     font-family: "JetBrains Mono", monospace;
     background-color: var(--code-bg);
-    color: var(--accent-3);
+    color: var(--accent-4);
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     font-size: 0.9rem;
@@ -242,7 +248,7 @@ tr:nth-child(even) {
 }
 
 .brand a {
-    color: var(--accent-3);
+    color: var(--accent-7);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -298,7 +304,7 @@ tr:nth-child(even) {
     margin: 0 0 1.5rem 0;
     padding: 0;
     font-family: system-ui, sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .sidebar li {
