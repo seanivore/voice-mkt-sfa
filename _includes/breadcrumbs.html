@@ -15,7 +15,7 @@
     {% else %}
     {% assign breadcrumb_path = breadcrumb_path | append: '/' | append: crumb %}
     <div class="breadcrumbs-item">
-        <a href="{{ site.baseurl }}{{ breadcrumb_path }}">{{ page.title | default: crumb | replace:'-',' ' }}</a>
+        <a href="{{ site.baseurl }}{{ breadcrumb_path }}">{{ crumb | replace:'-',' ' }}</a>
     </div>
     {% endif %}
     {% endfor %}

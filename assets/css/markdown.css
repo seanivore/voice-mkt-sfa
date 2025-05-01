@@ -84,7 +84,6 @@ h1 {
     font-family: "agency-fb", sans-serif;
     font-weight: 700;
     font-size: 2.3rem;
-    color: var(--accent-1);
     margin-top: 0;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid var(--border-color);
@@ -95,8 +94,8 @@ h2 {
     font-family: "vinyl", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 1.8rem;
-    color: var(--accent-4);
+    font-size: 2rem;
+    color: var(--accent-1);
     margin-top: 2rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
@@ -104,9 +103,8 @@ h2 {
 h3 {
     font-family: "vinyl", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 1.3rem;
-    color: var(--accent-1);
+    font-style: italic;
+    font-size: 1.75rem;
     margin-top: 1.5rem;
 }
 
@@ -114,14 +112,14 @@ h4 {
     font-family: "vista-sans", sans-serif;
     font-style: italic;
     font-size: 1.05rem;
-    color: var(--accent-2);
+    color: var(--accent-3);
 }
 
 h5 {
     font-family: "vista-sans", sans-serif;
     font-style: italic;
     font-size: 0.8rem;
-    color: var(--accent-6);
+    color: var(--accent-3);
 }
 
 p {
@@ -133,13 +131,12 @@ p {
 }
 
 a {
-    color: var(--accent-3);
     text-decoration: none;
     transition: color 0.2s;
 }
 
 a:hover {
-    color: var(--accent-4);
+    color: var(--accent-6);
     text-decoration: none;
 }
 
@@ -157,23 +154,23 @@ li {
 }
 
 blockquote {
-    border-left: 3px solid var(--accent-6);
+    border-left: 3px solid var(--accent-2);
     padding-left: 1rem;
     margin: 1.5rem 0 1.5rem 1rem;
     font-style: italic;
-    color: var(--accent-6);
 }
 
 blockquote p {
     font-family: "vista-sans-narrow", sans-serif;
     letter-spacing: 0.05rem;
     font-style: italic;
+    font-size: 1.2rem;
 }
 
 code {
     font-family: "JetBrains Mono", monospace;
     background-color: var(--code-bg);
-    color: var(--accent-4);
+    color: var(--accent-3);
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     font-size: 0.9rem;
@@ -235,10 +232,10 @@ tr:nth-child(even) {
 
 .header-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -246,17 +243,16 @@ tr:nth-child(even) {
     display: flex;
     align-items: center;
     font-family: "agency-fb", sans-serif;
+    font-size: 2.5rem;
 }
 
 .brand a {
-    color: var(--accent-1);
-    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
 }
 
 .brand a:hover {
-    color: var(--accent-4);
+    color: #0aa0c9;
 }
 
 .main-nav {
@@ -295,7 +291,7 @@ tr:nth-child(even) {
 }
 
 .sidebar h3 {
-    color: var(--accent-3);
+    color: #3c86ed;
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
@@ -322,14 +318,11 @@ tr:nth-child(even) {
 }
 
 .sidebar a:hover {
-    background-color: rgba(28, 128, 151, 0.2);
     color: var(--accent-3);
 }
 
 .sidebar a.active {
-    background-color: rgba(227, 181, 71, 0.2);
     color: var(--accent-3);
-    font-weight: bold;
 }
 
 .sidebar-section {
