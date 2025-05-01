@@ -1,5 +1,4 @@
 ---
-layout: research
 title: Prompt Engineering for Single-File Agents
 description: Expert techniques for designing effective prompts that optimize LLM performance within the SFA framework, with practical examples and best practices.
 categories: ["Coding", "Planning"]

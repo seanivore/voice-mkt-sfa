@@ -1,5 +1,4 @@
 ---
-layout: research
 title: SFA Best Practices
 description: Proven strategies and expert guidelines for creating, deploying, and maintaining effective Single-File Agents, based on extensive real-world implementation.
 categories: ["Coding", "Planning"]

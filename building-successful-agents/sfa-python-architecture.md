@@ -1,5 +1,4 @@
 ---
-layout: research
 title: Single-File Agent Architecture
 description: A comprehensive overview of how Single-File Agents (SFA) are structured and function, explaining their core design principles and technical implementation.
 categories: ["Coding", "Designing"]

@@ -1,5 +1,4 @@
 ---
-layout: research
 title: Updating the SFA Main Loop
 description: An overview of the most recent changes to the SFA main loop to include a new phase adjustment workflow.
 categories: ["Coding"]
