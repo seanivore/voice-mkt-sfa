@@ -133,7 +133,7 @@ p {
 a {
     text-decoration: none;
     transition: color 0.2s;
-    color: var(--accent-6);
+    color: var(--text-color);
 }
 
 a:hover {
@@ -286,7 +286,7 @@ tr:nth-child(even) {
 /* Sidebar */
 .sidebar {
     width: 280px;
-    padding: 2rem 1rem;
+    padding: 1rem;
     background-color: var(--sidebar-bg);
     border-right: 1px solid var(--border-color);
     height: 100%;

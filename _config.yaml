@@ -34,16 +34,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
-      path: "sales-development-ai-secrets.html"
-    values:
-      permalink: /sales-development-ai-secrets/
-  -
-    scope:
-      path: "implement-bland-modulation-research.html"
-    values:
-      permalink: /sales-development-ai-secrets/
 
 # Exclude files from being included in the build
 exclude:
