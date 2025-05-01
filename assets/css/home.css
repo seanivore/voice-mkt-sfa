@@ -329,6 +329,7 @@ nav a:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 60px;
+    grid-auto-rows: minmax(250px, auto);
 }
 
 /* Standard Card */
@@ -353,7 +354,7 @@ nav a:hover {
 /* Presentation Background */
 .presentation-background {
     height: 100%;
-    width: 100%;
+    width: calc(100% - 1.6rem);
     padding: 2rem;
     border-radius: 12px;
     margin: 0.8rem;
@@ -380,6 +381,9 @@ nav a:hover {
     align-self: flex-start;
     background: linear-gradient(90deg, #D8471D, #F89E35);
     box-shadow: 0 5px 15px rgba(216, 71, 29, 0.3);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 14px 26px;
 }
 
 .presentation-btn:hover {
