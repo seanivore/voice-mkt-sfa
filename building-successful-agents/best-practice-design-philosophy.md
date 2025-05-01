@@ -11,25 +11,23 @@ content_types: ["Technical", "Guide"]
 
 ## Design Philosophy
 
-Effective Single-File Agents embody design principles and standardization, which maximizes their utility while maintaining simplicity. 
+Effective Single-File Agents embody design principles and standardization that maximize utility while maintaining simplicity. 
 
 ### 1. Strict, Purposeful Minimalism
 
-Instead of a script that is written for a specific purpose, an SFAs is written to do one thing exceptionally well: Understand their code, as in the resources and decisions the LLM will be required to make during any number of types of workflows. The SFA without variable-inputs is 'generic'; if you ran it alone, it wouldn't do anything other than be at the ready for a prompt. 
+Instead of a script that is written for a specific purpose, an SFAs is written to do one thing exceptionally well: Have no hard-coded, stand-alone purpose. 
 
-The SFA then must *understand how to use their tools in a pragmatic way.* If the AI isn't using, for example, a 'complete_task' tool, instead of trying to badger them in system messages that are better left vacant for variables as well, design a system that knows when the task is complete. 
+Any function, workflow, or tool is shared in a way that removes any implied specific use-case. In doing so, there is room to instead ensure conceptual understanding of when and how to use that function, workflow, or tool. The result is code that is written to be understood by the LLM, and the LLM alone, anticipating the way an LLM thinks and behaves. 
 
-The SFA must also *understand how to manage their own workflow.* The LLM needs the internal flow to be logical for something like, deciding if they can add another phase to their workflow to continue the research of a specifically intriguing find. The more natural the design of the flow leading them towards nodes like checking token count and writing a completion summary document, the more context window they have available to focus on the actual task passed to them through the variable-inputs. 
+For example, *if the AI isn't using a 'complete_task' tool,* instead of trying to badger them in system messages that are better left vacant for variables, *design a system that knows when the task is complete.*
 
-**The more effective the minimalistic design of the generic SFA, the more compute you have available for your actual task.**
+Don't make the LLM have to think about it. **The more effective the minimalistic design of the generic SFA, the more compute you have available for your actual task.**
 
 ### 2. Progressive Disclosure
 
-Complex functionality should be abstracted behind simple interfaces. Users should be able to start with basic configurations and progressively access more advanced features. 
+Complex functionality should be abstracted behind simple interfaces. Users should be able to start with basic configurations and progressively access more advanced features. The fact that specific use-cases are fully removed to be input as variables is an extremely complete example of this. 
 
-For example, when you prepare a workflow, it is *written as a prompt broken into variables of a JSON file.* That is all the user needs to know, and they could ask any chat AI to fill out the JSON file for them. 
-
-The JSON file is then *run with a setup command.* This makes your new workflow executable using the command you chose, and it reviews the JSON file to *automatically write a README file for your specific Use-Case* workflow. 
+For example, when you prepare a workflow, it is *written as a prompt broken into variables of a JSON file.* That is all the user needs to know, and they could ask any chat AI to fill out the JSON file for them. The JSON file is then *run with a setup command.* This makes your new workflow executable using the command you chose, and it reviews the JSON file to automatically write a README file for your specific Use-Case workflow. 
 
 The creation of more and more complex workflows comes naturally because the interface is so simple that all it requires is that the user reach a point of conceptual understanding of the workflow; **when they start thinking in branching logic normally.** At that point, they just write their prompt implying a divergence onto any one of various pathways, and the LLM knows naturally how to made the decision. 
 
@@ -37,15 +35,11 @@ The creation of more and more complex workflows comes naturally because the inte
 
 Well-designed agents gracefully handle unexpected inputs and changing conditions, providing meaningful fallbacks rather than failing completely. 
 
-For example, say the document their variable task is directing them to can't be found literally because of a typo. Instead of grep searching all of the entire systems for the document, smart design will help the AI understand inherently that, when a file is missing, the most logical mistake would leave the file in the same directory they expected it to be in. 
-
-Note that this is not what an LLM does naturally; the **design is essential to these behaviors of LLM that are not necessarily able to use "common sense",** as that type of reasoning comes from experience in our world environments over time. 
+For example, say the document their variable task is directing them to can't be found at the path provided. Instead of searching the entire system for the document, smart design will help the AI understand that, when a file is missing, the most logical mistake would leave the file in the same directory they expected it to be in with a slight typo. 
 
 ### 4. Self-Documentation
 
-The code should be **self-documenting through clear function names, comments, and structure.** Anyone reading the file should understand its purpose and operation. 
-
-The best test of this is someone who doesn't know much about coding at all. If they know what the tooling does, and the code is clear in function names, comments, and structure, they'll be pretty good at knowing what is what, though they might not be confident in that knowing. 
+The code should be **self-documenting through clear function names, comments, and structure.** Anyone reading the file should understand its purpose and operation. Because indeed, an AI who has not seen the code before will be reading it. The same will be true if you're looking to update the code. 
 
 ## Development Best Practices
 

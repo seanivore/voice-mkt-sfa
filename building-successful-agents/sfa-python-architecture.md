@@ -15,7 +15,7 @@ Single-File Agents (SFAs) represent a approach to AI tool development that prior
 
 ### Self-Contained Design
 
-The entire agent operates from a single Python file, eliminating dependency management challenges and making deployment dramatically simpler. This same file, or the 'SFA' accrues more tools over time, is able to develop their own workflows after the flow has been activated, and in each phase of the ever-changing loops, they tend to decide to think about their next moves. 
+The entire agent operates from a single Python file, eliminating dependency management challenges and making deployment dramatically simpler. This same file, or the 'SFA', accrues more tools over time, is able to develop their own workflows after the flow has been activated, and in each phase of the ever-changing loops, they tend to decide to think about their next moves. 
 
 ### Variable Configuration
 
