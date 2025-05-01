@@ -242,8 +242,8 @@ Each directory has a Markdown "Section Page" to be converted into HTML at the sa
 │   │   ├── empathy-objection-handling.md
 │   │   └── target-audience-groups.md
 │   ├── strategy-research-case-study.md
-│   ├── sales-development-ai-secrets.html
-│   └── implement-bland-modulation-research.html
+│   ├── sales-development-ai-secrets.html  <-- HTML DESIGNED PAGE 
+│   └── implement-bland-modulation-research.html<-- HTML DESIGNED PAGE 
 ├── building-successful-agents.md
 │   ├── best-practice-design-philosophy.md
 │   ├── prompt-writing-professional.md
