@@ -197,7 +197,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: 700;
-    color: #fff;
+    color: #eaeaea;
     text-decoration: none;
 }
 
@@ -212,7 +212,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #eaeaea;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -323,39 +323,68 @@ nav a:hover {
     font-weight: 800;
 }
 
-/* Presentation Layout */
-.presentation-row {
+/* Resources Grid - New 3-column layout */
+.resources-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 60px;
 }
 
-.presentation-feature {
-    grid-column: span 2;
+/* Standard Card */
+.standard-card {
     height: 100%;
-}
-
-.resource-column {
     display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 
-.small-card {
-    flex: 1;
+/* Presentation Card */
+.presentation-card {
+    padding: 0;
+    overflow: hidden;
+    position: relative;
 }
 
-/* Second row reverse layout */
-.presentation-row-reverse {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-bottom: 60px;
+.presentation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
 }
 
-.presentation-row-reverse .presentation-feature {
-    grid-column: 2 / span 2;
+/* Presentation Background */
+.presentation-background {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.presentation-dark {
+    background-image: linear-gradient(to right, #1ab7f515 1px, transparent 1px), 
+                     linear-gradient(to bottom, #1ab7f515 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-color: #232323;
+}
+
+.presentation-blue {
+    background-image: radial-gradient(#275e853a 3px, transparent 2px);
+    background-size: 16px 16px;
+    background-color: #00365c;
+}
+
+.presentation-btn {
+    margin-top: auto;
+    align-self: flex-start;
+    background: linear-gradient(90deg, #D8471D, #F89E35);
+    box-shadow: 0 5px 15px rgba(216, 71, 29, 0.3);
+}
+
+.presentation-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(216, 71, 29, 0.5);
 }
 
 /* Case Studies Section */
@@ -377,7 +406,7 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-/* Presentation Showcase */
+/* Showcase */
 .showcase {
     margin-top: 80px;
     padding: 60px 0;
@@ -490,6 +519,16 @@ footer {
 }
 
 /* Responsive */
+@media (max-width: 1200px) {
+    .resources-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .presentation-card {
+        grid-column: span 2;
+    }
+}
+
 @media (max-width: 1024px) {
     .hero h1 {
         font-size: 3.5rem;
@@ -499,19 +538,9 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .presentation-row,
-    .presentation-row-reverse,
     .case-studies-grid,
     .sfa-grid {
         grid-template-columns: 1fr;
-    }
-    
-    .presentation-row-reverse .presentation-feature {
-        grid-column: 1;
-    }
-    
-    .presentation-feature {
-        grid-column: 1;
     }
 }
 
@@ -539,8 +568,12 @@ footer {
         font-size: 1.2rem;
     }
     
-    .cards-grid {
+    .resources-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .presentation-card {
+        grid-column: span 1;
     }
     
     .section-heading {
