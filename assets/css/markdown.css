@@ -1,16 +1,16 @@
 :root {
-    --bg-color: #232323;
+    --bg-color: #0d1117;
     --text-color: #c9d1d9;
-    --link-color: #870f89;
-    --heading-color: #6e3377;
-    --border-color: #b92826;
-    --code-bg: #101219;
+    --link-color: #58a6ff;
+    --heading-color: #e6edf3;
+    --border-color: #30363d;
+    --code-bg: #161b22;
     --code-color: #25dec0;
     --blockquote-color: #8b949e;
-    --sidebar-bg: #23022170;
+    --sidebar-bg: #161b22;
     --sidebar-width: 280px;
-    --header-bg: #23022170;
-    --footer-bg: #232323;
+    --header-bg: #161b22;
+    --footer-bg: #161b22;
     --accent-color: #52edb9;
 }
 
@@ -22,8 +22,8 @@
 }
 
 body {
-    font-family: system-ui, sans-serif;
-    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     line-height: 1.5;
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -58,43 +58,31 @@ a {
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-family: "vinyl", sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    padding-top: 1rem;
+    font-size: 2em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3em;
 }
 
 h2 {
-    font-size: 2rem;
-    font-family: "vinyl", sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    color: var(--accent-color);
-    padding-top: 1rem;
+    font-size: 1.5em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3em;
 }
 
 h3 {
-    font-size: 1.8rem;
-    font-family: "vinyl", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    padding-top: 1rem;
+    font-size: 1.25em;
 }
 
 h4 {
-    font-size: 1.7rem;
-    padding-top: 1rem;
+    font-size: 1em;
 }
 
 h5 {
-    font-size: 1.5rem;
-    padding-top: 1rem;
+    font-size: 0.875em;
 }
 
 h6 {
-    font-size: 1.3rem;
-    padding-top: 1rem;
+    font-size: 0.85em;
 }
 
 p {
@@ -103,13 +91,12 @@ p {
 }
 
 a {
-    color: var(--text-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--link-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 ul,
@@ -139,26 +126,24 @@ blockquote {
 
 /* Code */
 code {
-    font-family: "JetBrains Mono", monospace;
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
     padding: 0.2em 0.4em;
     margin: 0;
-    font-size: 1rem;
+    font-size: 85%;
     background-color: var(--code-bg);
     color: var(--code-color);
     border-radius: 3px;
 }
 
 pre {
-    font-family: "JetBrains Mono", monospace;
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
     padding: 16px;
     overflow: auto;
-    font-size: 1rem;
+    font-size: 85%;
     line-height: 1.45;
     background-color: var(--code-bg);
-    color: var(--code-color);
     border-radius: 6px;
     margin-bottom: 16px;
-    max-width: 700px;
 }
 
 pre code {
@@ -169,7 +154,7 @@ pre code {
     word-wrap: normal;
     white-space: pre-wrap;
     overflow-wrap: break-word;
-    max-width: 700px;
+    max-width: 100%;
     display: block;
 }
 
@@ -195,7 +180,7 @@ table tr {
 }
 
 table tr:nth-child(2n) {
-    background-color: #466468;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Images */
@@ -213,6 +198,7 @@ hr {
 .header {
     background-color: var(--header-bg);
     padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header-container {
@@ -222,18 +208,13 @@ hr {
 }
 
 .brand {
-    font-size: 2.5rem;
-    font-family: "agency-fb", sans-serif;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .brand a {
-    color: #140213ff;
+    color: var(--heading-color);
     text-decoration: none;
-}
-
-.brand a:hover {
-    color: #4d042efc;
 }
 
 /* Sidebar */
@@ -242,6 +223,7 @@ hr {
     background-color: var(--sidebar-bg);
     padding: 24px 16px;
     overflow-y: auto;
+    border-right: 1px solid var(--border-color);
     position: sticky;
     top: 0;
     max-height: 100vh;
@@ -255,11 +237,10 @@ hr {
 .sidebar h3 {
     font-size: 14px;
     text-transform: uppercase;
-    font-family: "vista-sans-narrow", sans-serif;
     margin-top: 0;
     margin-bottom: 8px;
-    color: #d4b00d;
-    font-weight: 200;
+    color: var(--blockquote-color);
+    font-weight: 600;
 }
 
 .sidebar ul {
@@ -276,9 +257,8 @@ hr {
     display: block;
     padding: 4px 0;
     color: var(--text-color);
-    font-size: 0.9rem;
+    font-size: 14px;
     text-decoration: none;
-    line-height: 1.5;
 }
 
 .sidebar a:hover {
@@ -302,6 +282,7 @@ hr {
 .footer {
     background-color: var(--footer-bg);
     padding: 16px 0;
+    border-top: 1px solid var(--border-color);
     text-align: center;
     flex-shrink: 0;
 }
@@ -328,6 +309,7 @@ hr {
         width: 100%;
         max-width: 100%;
         border-right: none;
+        border-bottom: 1px solid var(--border-color);
         position: relative;
         max-height: none;
     }
@@ -349,3 +331,430 @@ hr {
         font-size: 1.1em;
     }
 }
+
+/* Rouge Syntax Highlighting - GitHub Dark Theme */
+.highlight .c {
+    color: #8b949e;
+    font-style: italic;
+}
+
+/* Comment */
+.highlight .err {
+    color: #f85149;
+}
+
+/* Error */
+.highlight .k {
+    color: #ff7b72;
+}
+
+/* Keyword */
+.highlight .o {
+    color: #ff7b72;
+}
+
+/* Operator */
+.highlight .cm {
+    color: #8b949e;
+    font-style: italic;
+}
+
+/* Comment.Multiline */
+.highlight .cp {
+    color: #8b949e;
+    font-weight: bold;
+}
+
+/* Comment.Preproc */
+.highlight .c1 {
+    color: #8b949e;
+    font-style: italic;
+}
+
+/* Comment.Single */
+.highlight .cs {
+    color: #8b949e;
+    font-style: italic;
+}
+
+/* Comment.Special */
+.highlight .gd {
+    color: #ffa198;
+    background-color: #490202;
+}
+
+/* Generic.Deleted */
+.highlight .ge {
+    font-style: italic;
+}
+
+/* Generic.Emph */
+.highlight .gr {
+    color: #f85149;
+}
+
+/* Generic.Error */
+.highlight .gh {
+    color: #79c0ff;
+    font-weight: bold;
+}
+
+/* Generic.Heading */
+.highlight .gi {
+    color: #56d364;
+    background-color: #0f5323;
+}
+
+/* Generic.Inserted */
+.highlight .go {
+    color: #8b949e;
+}
+
+/* Generic.Output */
+.highlight .gp {
+    color: #8b949e;
+}
+
+/* Generic.Prompt */
+.highlight .gs {
+    font-weight: bold;
+}
+
+/* Generic.Strong */
+.highlight .gu {
+    color: #79c0ff;
+}
+
+/* Generic.Subheading */
+.highlight .gt {
+    color: #f85149;
+}
+
+/* Generic.Traceback */
+.highlight .kc {
+    color: #ff7b72;
+}
+
+/* Keyword.Constant */
+.highlight .kd {
+    color: #ff7b72;
+}
+
+/* Keyword.Declaration */
+.highlight .kn {
+    color: #ff7b72;
+}
+
+/* Keyword.Namespace */
+.highlight .kp {
+    color: #ff7b72;
+}
+
+/* Keyword.Pseudo */
+.highlight .kr {
+    color: #ff7b72;
+}
+
+/* Keyword.Reserved */
+.highlight .kt {
+    color: #ff7b72;
+}
+
+/* Keyword.Type */
+.highlight .m {
+    color: #d2a8ff;
+}
+
+/* Literal.Number */
+.highlight .s {
+    color: #a5d6ff;
+}
+
+/* Literal.String */
+.highlight .na {
+    color: #79c0ff;
+}
+
+/* Name.Attribute */
+.highlight .nb {
+    color: #c9d1d9;
+}
+
+/* Name.Builtin */
+.highlight .nc {
+    color: #f0883e;
+    font-weight: bold;
+}
+
+/* Name.Class */
+.highlight .no {
+    color: #79c0ff;
+}
+
+/* Name.Constant */
+.highlight .nd {
+    color: #d2a8ff;
+}
+
+/* Name.Decorator */
+.highlight .ni {
+    color: #ffa657;
+}
+
+/* Name.Entity */
+.highlight .ne {
+    color: #f0883e;
+    font-weight: bold;
+}
+
+/* Name.Exception */
+.highlight .nf {
+    color: #d2a8ff;
+    font-weight: bold;
+}
+
+/* Name.Function */
+.highlight .nl {
+    color: #79c0ff;
+}
+
+/* Name.Label */
+.highlight .nn {
+    color: #ff7b72;
+}
+
+/* Name.Namespace */
+.highlight .nt {
+    color: #7ee787;
+}
+
+/* Name.Tag */
+.highlight .nv {
+    color: #79c0ff;
+}
+
+/* Name.Variable */
+.highlight .ow {
+    color: #ff7b72;
+}
+
+/* Operator.Word */
+.highlight .w {
+    color: #6e7681;
+}
+
+/* Text.Whitespace */
+.highlight .mb {
+    color: #d2a8ff;
+}
+
+/* Literal.Number.Bin */
+.highlight .mf {
+    color: #d2a8ff;
+}
+
+/* Literal.Number.Float */
+.highlight .mh {
+    color: #d2a8ff;
+}
+
+/* Literal.Number.Hex */
+.highlight .mi {
+    color: #d2a8ff;
+}
+
+/* Literal.Number.Integer */
+.highlight .mo {
+    color: #d2a8ff;
+}
+
+/* Literal.Number.Oct */
+.highlight .sa {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Affix */
+.highlight .sb {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Backtick */
+.highlight .sc {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Char */
+.highlight .dl {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Delimiter */
+.highlight .sd {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Doc */
+.highlight .s2 {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Double */
+.highlight .se {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Escape */
+.highlight .sh {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Heredoc */
+.highlight .si {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Interpol */
+.highlight .sx {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Other */
+.highlight .sr {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Regex */
+.highlight .s1 {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Single */
+.highlight .ss {
+    color: #a5d6ff;
+}
+
+/* Literal.String.Symbol */
+.highlight .bp {
+    color: #c9d1d9;
+}
+
+/* Name.Builtin.Pseudo */
+.highlight .fm {
+    color: #d2a8ff;
+    font-weight: bold;
+}
+
+/* Name.Function.Magic */
+.highlight .vc {
+    color: #79c0ff;
+}
+
+/* Name.Variable.Class */
+.highlight .vg {
+    color: #79c0ff;
+}
+
+/* Name.Variable.Global */
+.highlight .vi {
+    color: #79c0ff;
+}
+
+/* Name.Variable.Instance */
+.highlight .vm {
+    color: #79c0ff;
+}
+
+/* Name.Variable.Magic */
+.highlight .il {
+    color: #d2a8ff;
+}
+
+/* Literal.Number.Integer.Long */
+
+/* Highlighter container styles */
+.highlighter-rouge {
+    margin-bottom: 16px;
+}
+
+.highlight {
+    background-color: var(--code-bg);
+    border-radius: 6px;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+    overflow-x: auto;
+}
+
+/* JSON and Python specific styling */
+.language-json .highlight .p {
+    color: #c9d1d9;
+}
+
+/* punctuation */
+.language-json .highlight .s {
+    color: #a5d6ff;
+}
+
+/* strings/keys */
+.language-json .highlight .s2 {
+    color: #a5d6ff;
+}
+
+/* double quoted strings */
+.language-json .highlight .mi {
+    color: #d2a8ff;
+}
+
+/* integer */
+.language-json .highlight .kc {
+    color: #79c0ff;
+}
+
+/* true/false/null */
+
+.language-python .highlight .p {
+    color: #c9d1d9;
+}
+
+/* punctuation */
+.language-python .highlight .s {
+    color: #a5d6ff;
+}
+
+/* strings */
+.language-python .highlight .s2 {
+    color: #a5d6ff;
+}
+
+/* double quoted strings */
+.language-python .highlight .mi {
+    color: #d2a8ff;
+}
+
+/* integer */
+.language-python .highlight .kc {
+    color: #ff7b72;
+}
+
+/* True/False/None */
+.language-python .highlight .k {
+    color: #ff7b72;
+}
+
+/* keywords */
+.language-python .highlight .kn {
+    color: #ff7b72;
+}
+
+/* import keywords */
+.language-python .highlight .o {
+    color: #c9d1d9;
+}
+
+/* operators */
+.language-python .highlight .nb {
+    color: #79c0ff;
+}
+
+/* builtins */
