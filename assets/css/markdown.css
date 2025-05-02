@@ -4,8 +4,8 @@
     --link-color: #870f89;
     --heading-color: #6e3377;
     --border-color: #b92826;
-    --code-bg: #666971;
-    --code-color: #d4b00d;
+    --code-bg: #8d919d;
+    --code-color: #2bd40d;
     --blockquote-color: #8b949e;
     --sidebar-bg: #23022170;
     --sidebar-width: 280px;
@@ -158,6 +158,7 @@ pre {
     color: var(--code-color);
     border-radius: 6px;
     margin-bottom: 16px;
+    max-width: 700px;
 }
 
 pre code {
@@ -204,9 +205,7 @@ img {
 }
 
 hr {
-    border: 0;
     height: 1px;
-    background-color: var(--border-color);
     padding: 1rem;
 }
 
@@ -234,7 +233,7 @@ hr {
 }
 
 .brand a:hover {
-    color: #920b89;
+    color: #4d042efc;
 }
 
 /* Sidebar */
