@@ -48,7 +48,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p,
+a {
     margin-bottom: 1rem;
     line-height: 1.1;
     color: var(--text-color);
@@ -200,11 +202,11 @@ img {
     font-size: 2.5rem;
     font-family: "agency-fb", sans-serif;
     font-weight: 700;
-    color: #371125;
+    color: #140213ff;
 }
 
 .brand a {
-    color: var(--heading-color);
+    color: #920b89;
     text-decoration: none;
 }
 
@@ -228,10 +230,11 @@ img {
 .sidebar h3 {
     font-size: 14px;
     text-transform: uppercase;
+    font-family: "vista-sans-narrow", sans-serif;
     margin-top: 0;
     margin-bottom: 8px;
-    color: var(--blockquote-color);
-    font-weight: 600;
+    color: #d4b00d;
+    font-weight: 200;
 }
 
 .sidebar ul {
