@@ -5,7 +5,6 @@ categories: ["Copywriting"]
 tags: ["overview"]
 content_types: ["Reference"]
 ---
-
 # Agentic Research & Implementation Case Study 
 
 An overview of the steps taken and methods used to gather, synthesize, and then find ways to illustrate implementation of findings. 
