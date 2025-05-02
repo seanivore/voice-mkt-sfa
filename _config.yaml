@@ -1,8 +1,8 @@
 permalink: pretty
 title: Agentic Workflow Case Studies
 description: Comprehensive research, strategies, and implementation guides. Wait until you see that marketing plan they wrote.
-baseurl: ""
-url: "https://sfagent.august.style"
+baseurl: "/"
+url: "https://sfagent.august.style/"
 
 # Build settings
 markdown: kramdown
