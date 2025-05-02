@@ -1,15 +1,16 @@
 :root {
-    --bg-color: #0d1117;
+    --bg-color: #222223;
     --text-color: #c9d1d9;
-    --link-color: #58a6ff;
+    --link-color: #870f89;
     --heading-color: #e6edf3;
-    --border-color: #30363d;
-    --code-bg: #161b22;
+    --border-color: #1d1d2d6d;
+    --code-bg: #666971;
+    --code-color: #d4b00d;
     --blockquote-color: #8b949e;
-    --sidebar-bg: #161b22;
+    --sidebar-bg: #222b447d;
     --sidebar-width: 280px;
-    --header-bg: #161b22;
-    --footer-bg: #161b22;
+    --header-bg: #222b447d;
+    --footer-bg: #222b447d;
 }
 
 /* Reset & Base */
@@ -20,7 +21,7 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: system-ui, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: var(--text-color);
@@ -93,7 +94,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 ul,
@@ -115,21 +116,23 @@ blockquote {
 
 /* Code */
 code {
-    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    font-family: "JetBrains Mono", monospace;
     padding: 0.2em 0.4em;
     margin: 0;
     font-size: 85%;
     background-color: var(--code-bg);
+    color: var(--code-color);
     border-radius: 3px;
 }
 
 pre {
-    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    font-family: "JetBrains Mono", monospace;
     padding: 16px;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
     background-color: var(--code-bg);
+    color: var(--code-color);
     border-radius: 6px;
     margin-bottom: 16px;
 }
