@@ -32,18 +32,20 @@ body {
     background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Layout */
 .container {
     display: flex;
     flex: 1;
-    min-height: calc(100vh - 110px);
 }
 
 .content-wrapper {
     display: flex;
     flex: 1;
+    min-height: calc(100vh - 106px);
+    /* Adjust for header and footer */
 }
 
 /* Typography */
@@ -212,6 +214,9 @@ img {
     padding: 24px 16px;
     overflow-y: auto;
     border-right: 1px solid var(--border-color);
+    height: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .sidebar-section {
@@ -265,9 +270,10 @@ img {
 /* Footer */
 .footer {
     background-color: var(--footer-bg);
-    padding: 24px 0;
+    padding: 16px 0;
     border-top: 1px solid var(--border-color);
     text-align: center;
+    width: 100%;
 }
 
 .footer-container {
@@ -293,6 +299,8 @@ img {
         max-width: 100%;
         border-right: none;
         border-bottom: 1px solid var(--border-color);
+        position: relative;
+        height: auto;
     }
 
     .main-content {
