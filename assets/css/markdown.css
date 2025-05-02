@@ -3,7 +3,7 @@
     --text-color: #c9d1d9;
     --link-color: #870f89;
     --heading-color: #6e3377;
-    --border-color: #1d1d2d6d;
+    --border-color: #b92826;
     --code-bg: #666971;
     --code-color: #d4b00d;
     --blockquote-color: #8b949e;
@@ -104,8 +104,7 @@ a:hover {
 
 ul,
 ol {
-    margin-bottom: 16px;
-    padding-left: 2em;
+    padding: 1rem;
 }
 
 li {
@@ -185,6 +184,13 @@ img {
     box-sizing: border-box;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--border-color);
+    padding: 1rem;
+}
+
 /* Header */
 .header {
     background-color: var(--header-bg);
@@ -202,12 +208,15 @@ img {
     font-size: 2.5rem;
     font-family: "agency-fb", sans-serif;
     font-weight: 700;
-    color: #140213ff;
 }
 
 .brand a {
-    color: #920b89;
+    color: #140213ff;
     text-decoration: none;
+}
+
+.brand a:hover {
+    color: #920b89;
 }
 
 /* Sidebar */
