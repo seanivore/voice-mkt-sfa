@@ -4,6 +4,7 @@ description: "Technical configuration file for the AI email marketing agent, def
 categories: ["Coding", "Planning"]
 tags: ["specific", "platform"]
 content_types: ["Technical"]
+permalink: /marketing-content-case-study/email-blast/ai-prompt-configuration-agent/
 ---
 
 ```JSON

@@ -4,6 +4,7 @@ description: "Finalized email marketing campaign for Glossier, featuring subject
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/email-blast/glossier-email-campaign/
 ---
 
 # Glossier Email Campaign - Final Version

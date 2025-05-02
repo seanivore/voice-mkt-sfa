@@ -4,6 +4,7 @@ description: "Comprehensive index of AI voice marketing strategies organized by 
 categories: ["Vocal Engineering", "Copywriting"]
 tags: ["overview", "platform"]
 content_types: ["Framework", "Research"]
+permalink: /ai-voice-marketing-case-study/index-section-site-map/outcome-result-strategy/
 ---
 
 # Home Services Industry Strategies by Desired Outcome 

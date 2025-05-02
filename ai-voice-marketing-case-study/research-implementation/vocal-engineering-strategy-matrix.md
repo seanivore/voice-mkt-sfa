@@ -23,46 +23,46 @@ This matrix identifies the most powerful controllable variables in voice marketi
 
 ### Sentence Structure × Demographic Matrix
 
-| Demographic                 | Effective Sentence Structure                             | Example                                                                                                                                                                                  | Implementation Notes                                                  |
-| --------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| **Rural, Middle Income**    | Short, direct statements with specific examples          | "Our master plumbers fix this issue in one visit 95% of the time. That's why your neighbors in [rural area] have trusted us for 15 years."                                               | Use location-specific references; emphasize reliability and longevity |
-| **Suburban, Middle Income** | Balance of statements and questions with value focus     | "Would you prefer our morning appointments between 8-10, or our afternoon slots from 1-3? Both include our 2-year warranty that protects your investment."                               | Alternate questions and statements; emphasize home value protection   |
-| **Urban, Higher Income**    | Longer, more detailed sentences with premium positioning | "Our certified master plumbers use advanced diagnostic equipment to identify the root cause of your issue, allowing us to provide a comprehensive solution rather than a temporary fix." | Use more technical terminology; emphasize quality difference          |
+| Demographic                 | Effective Sentence Structure                             | Example                                                                                                                                                                                    | Implementation Notes                                                  |
+| --------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| **Rural, Middle Income**    | Short, direct statements with specific examples          | `"Our master plumbers fix this issue in one visit 95% of the time. That's why your neighbors in [rural area] have trusted us for 15 years."`                                               | Use location-specific references; emphasize reliability and longevity |
+| **Suburban, Middle Income** | Balance of statements and questions with value focus     | `"Would you prefer our morning appointments between 8-10, or our afternoon slots from 1-3? Both include our 2-year warranty that protects your investment."`                               | Alternate questions and statements; emphasize home value protection   |
+| **Urban, Higher Income**    | Longer, more detailed sentences with premium positioning | `"Our certified master plumbers use advanced diagnostic equipment to identify the root cause of your issue, allowing us to provide a comprehensive solution rather than a temporary fix."` | Use more technical terminology; emphasize quality difference          |
 
 ### Question vs. Statement Timing Matrix
 
-| Call Stage          | Question or Statement       | Effectiveness Reason                        | Exact Wording Example                                                                                                                  |
-| ------------------- | --------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **0-20 seconds**    | QUESTION                    | Creates engagement and permission           | "How are you today? ... Am I speaking with [Name]?"                                                                                    |
-| **20-45 seconds**   | STATEMENT                   | Establishes credibility quickly             | "We're the only plumbing company in Philadelphia with 100% master plumbers and a 2-year labor warranty."                               |
-| **45-90 seconds**   | QUESTIONS                   | Identifies needs and demonstrates expertise | "When did you first notice the issue? ... Has it gotten worse over time?"                                                              |
-| **90-120 seconds**  | STATEMENT                   | Positions solution with confidence          | "Based on what you've described, this sounds like a pressure regulator issue. Our master plumbers can resolve this in a single visit." |
-| **120-150 seconds** | ALTERNATIVE CHOICE QUESTION | Creates commitment through choice           | "We have availability Wednesday morning at 9 AM or Thursday afternoon at 2 PM. Which works better for you?"                            |
-| **150-180 seconds** | STATEMENT                   | Reinforces decision and sets expectations   | "You're confirmed for Thursday at 2 PM. You'll receive a text with your technician's photo and credentials shortly."                   |
+| Call Stage          | Question or Statement       | Effectiveness Reason                        | Exact Wording Example                                                                                                                    |
+| ------------------- | --------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **0-20 seconds**    | QUESTION                    | Creates engagement and permission           | `"How are you today? ... Am I speaking with [Name]?"`                                                                                    |
+| **20-45 seconds**   | STATEMENT                   | Establishes credibility quickly             | `"We're the only plumbing company in Philadelphia with 100% master plumbers and a 2-year labor warranty."`                               |
+| **45-90 seconds**   | QUESTIONS                   | Identifies needs and demonstrates expertise | `"When did you first notice the issue? ... Has it gotten worse over time?"`                                                              |
+| **90-120 seconds**  | STATEMENT                   | Positions solution with confidence          | `"Based on what you've described, this sounds like a pressure regulator issue. Our master plumbers can resolve this in a single visit."` |
+| **120-150 seconds** | ALTERNATIVE CHOICE QUESTION | Creates commitment through choice           | `"We have availability Wednesday morning at 9 AM or Thursday afternoon at 2 PM. Which works better for you?"`                            |
+| **150-180 seconds** | STATEMENT                   | Reinforces decision and sets expectations   | `"You're confirmed for Thursday at 2 PM. You'll receive a text with your technician's photo and credentials shortly."`                   |
 
 ### Economic Context × Messaging Matrix
 
-| Current Economic Factor | Effective Message Approach        | Example Script Element                                                                                                                                                                    | Implementation Notes                                                               |
-| ----------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| **Inflation Pressure**  | Emphasize long-term savings       | "While many plumbing parts have increased 12% this year due to inflation, our preventative maintenance actually saves you an average of $300-400 annually by avoiding emergency repairs." | Reference current inflation rates directly; use specific dollar savings            |
-| **Rising Labor Costs**  | Focus on expertise efficiency     | "Our master plumbers complete most jobs in a single visit, unlike many companies that send technicians who may need to return multiple times."                                            | Emphasize one-trip resolution; contrast with competitors without mentioning prices |
-| **Recent Tariffs**      | Address material quality concerns | "Despite new tariffs affecting plumbing materials, we continue to use only top-quality, American-made parts backed by manufacturer warranties."                                           | Mention current tariffs as context rather than focus; emphasize quality commitment |
-| **Rising Energy Costs** | Highlight efficiency upgrades     | "With energy costs up 14% this year, many homeowners are upgrading to high-efficiency systems that reduce water heating bills by up to 30%."                                              | Connect to current utility rates; provide specific percentage savings              |
+| Current Economic Factor | Effective Message Approach        | Example Script Element                                                                                                                                                                      | Implementation Notes                                                               |
+| ----------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Inflation Pressure**  | Emphasize long-term savings       | `"While many plumbing parts have increased 12% this year due to inflation, our preventative maintenance actually saves you an average of $300-400 annually by avoiding emergency repairs."` | Reference current inflation rates directly; use specific dollar savings            |
+| **Rising Labor Costs**  | Focus on expertise efficiency     | `"Our master plumbers complete most jobs in a single visit, unlike many companies that send technicians who may need to return multiple times."`                                            | Emphasize one-trip resolution; contrast with competitors without mentioning prices |
+| **Recent Tariffs**      | Address material quality concerns | `"Despite new tariffs affecting plumbing materials, we continue to use only top-quality, American-made parts backed by manufacturer warranties."`                                           | Mention current tariffs as context rather than focus; emphasize quality commitment |
+| **Rising Energy Costs** | Highlight efficiency upgrades     | `"With energy costs up 14% this year, many homeowners are upgrading to high-efficiency systems that reduce water heating bills by up to 30%."`                                              | Connect to current utility rates; provide specific percentage savings              |
 
 ### Inflection Pattern × Conversion Impact Matrix
 
-| Voice Inflection Pattern               | Best Used For                                    | Conversion Impact                                | Example With Notation                                                                                  |
-| -------------------------------------- | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| **Rising Inflection (↗️)**              | Questions, introducing options, showing interest | +27% engagement when used for questions          | "We have availability on Wednesday morning or Thursday afternoon. ↗️ Which would work better for you?"  |
-| **Falling Inflection (↘️)**             | Statements of fact, conclusions, confidence      | +18% perceived expertise when used for solutions | "Our master plumbers can resolve this issue in a single visit with parts on hand. ↘️"                   |
-| **Rise-Fall Pattern (↗️↘️)**             | Empathetic statements, creating connection       | +32% emotional resonance                         | "I understand how frustrating leaks can be ↗️, especially when they're affecting your daily routine. ↘️" |
-| **Level Tone With Strategic Emphasis** | Pricing information, warranties, guarantees      | +23% trust in value statements                   | "The diagnostic fee is **$89**, which is **fully applied** to any approved work."                      |
+| Voice Inflection Pattern               | Best Used For                                    | Conversion Impact                                | Example With Notation                                                                                    |
+| -------------------------------------- | ------------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| **Rising Inflection (↗️)**              | Questions, introducing options, showing interest | +27% engagement when used for questions          | `"We have availability on Wednesday morning or Thursday afternoon. ↗️ Which would work better for you?"`  |
+| **Falling Inflection (↘️)**             | Statements of fact, conclusions, confidence      | +18% perceived expertise when used for solutions | `"Our master plumbers can resolve this issue in a single visit with parts on hand. ↘️"`                   |
+| **Rise-Fall Pattern (↗️↘️)**             | Empathetic statements, creating connection       | +32% emotional resonance                         | `"I understand how frustrating leaks can be ↗️, especially when they're affecting your daily routine. ↘️"` |
+| **Level Tone With Strategic Emphasis** | Pricing information, warranties, guarantees      | +23% trust in value statements                   | `"The diagnostic fee is **$89**, which is **fully applied** to any approved work."`                      |
 
 ## Implementation Examples for Bland AI
 
-### 1. Emergency Call - Leak Response Script Format
+**1. Emergency Call - Leak Response Script Format**
 
-```
+```plaintext
 [EMPATHETIC AUTHORITY TONE]
 I understand that you're dealing with a water leak right now. ↗️.... [PAUSE 1 SEC]
 
@@ -82,9 +82,9 @@ With recent material cost increases due to inflation, many homeowners worry abou
 I can have [TECHNICIAN NAME] at your home by [SPECIFIC TIME]. ↘️ Would that work for your situation? ↗️
 ```
 
-### 2. Price-Sensitive Suburban Customer Script Format
+**2. Price-Sensitive Suburban Customer Script Format**
 
-```
+```plaintext
 [MATTER-OF-FACT VALUE TONE]
 I completely understand that with today's inflation affecting household budgets, getting good value is important. ↗️↘️ [PAUSE 0.5 SEC]
 

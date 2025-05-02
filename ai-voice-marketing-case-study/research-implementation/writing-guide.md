@@ -4,6 +4,7 @@ description: "Technical writing guides and templates for AI voice marketing impl
 categories: ["Copywriting"]
 tags: ["overview"]
 content_types: ["Reference"]
+permalink: /ai-voice-marketing-case-study/research-implementation/writing-guide/
 ---
 
 # Voice Marketing Writing Guides

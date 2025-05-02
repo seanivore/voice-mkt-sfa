@@ -4,6 +4,7 @@ description: An overview of the most recent changes to the SFA main loop to incl
 categories: ["Coding"]
 tags: ["applied"]
 content_types: ["Guide"]
+permalink: /building-successful-agents/recent-agentic-workflow-feature-upgrades/
 ---
 
 # SFA Main Update: Phase Adjustment Workflow
@@ -55,111 +56,122 @@ Encourage decision making with consideration made for their context window.
 
 ## Phase Adjustment Logic 
 
-```
+```plaintext
 PHASE RUNNING (CLAUDE INSTANCE ACTIVE)
            |
            ↓
-+------------------------- +
-| End phase tool triggered |     <-- "save_output" or "complete_task" or "workflow_adjustment" or "task_report" or "add_phase"
-+------------------------- +          It honestly doesn't really matter how they get here if we have all exits covered 
++---------------------+     "workflow_adjustment"
+| End phase triggered | <-- "save_output"
++---------------------+     "complete_task"
            |
            ↓
-+-------------------------+
-| End phase or add phase? |     <-- Then this is our only necessary router
-+-------------------------+
-        /              \
-       /                \
-     [END]             [ADD]
-       |                 |
-       ↓                 ↓
-       |                 |
-       ↓                 |
-+---------------+        |
-| < 7k tokens?  |        |     <-- NEW RULE: count every document to record in your phase summary about your phase 
-+---------------+        |
-   /       \             |
-  /         \            |
-[YES]       [NO]---------+
-  |           |
-  |           ↓
-  |    +-------------------------+
-  |    | RESET LOOP COUNTER      |
-  |    | MAINTAIN CLAUDE INSTANCE|
-  |    | CONTINUE SAME PHASE     |    <-- Let's build new phase type, doesn't call Claude, allows already called LLM to enter  
-  |    +-------------------------+
-  |                     \ 
-  |                      \
-  |                       \
-  |                        \
-  |                         \
-+--------------------+     [EXIT]--- -->------ --> [START NEW PHASE TYPE]
-| Write Phase Summary|
-+--------------------+
-         \
-          \
-           |
-           ↓
- +---------------------+
- | SAVE PHASE SUMMARY  |
- | SAVE OTHER OUTPUTS  |
- +---------------------+
-            |
-            ↓
-            |
-            ↓
-        [PHASE AUTO ENDS
-       SFA TRIGGERED EXIT]--- -->------ --> [WORKFLOW OR COMPLETION]
+  +----------------------+
+  | Workflow adjustment? |   <-- Primary router
+  +----------------------+
+     /         |         \
+  [NO]       [YES]       [YES]
+   /           |           \
+  ↓            ↓            ↓
+[END PHASE]    |            |
+  |            |            |
+  |   +-------------+       |
+  |   | ADD PHASE   |       |
+  |   | TO WORKFLOW |       |
+  |   |  AND END    |       |
+  |   +-------------+       |
+  |        ↓                |
+  |        |       +--------------+
+  |        |       | ADD PHASE TO |
+  |        |       | WORKFLOW AND |
+  |        |       | RESET LOOPS  | <-- Keep
+  |        |       +--------------+     working
+  |        ↓                |
+  ↓        |                ↓
++---------------+           |
+| < 7k tokens?  |           |
++---------------+           |
+   /       \                |
+  /         \               |
+[YES]       [NO]------------+
+  |                         |
+  |                         |
+  |                         |
+  |                         |
+  |                         |
++---------------------+     |
+| Write Phase Summary |     |
++---------------------+     |
+         |                  |
+         |                  |
+         ↓                  |
++--------------------+      |
+| SAVE PHASE SUMMARY |      |
+| SAVE OTHER OUTPUTS |      |
++--------------------+      |
+         |                  |
+         ↓                  ↓
+         |        +---------------------+
+         |        | START NEW PHASE     |
+         |        | SAME CONTEXT WINDOW |
+         |        +---------------------+
+         |                  |
+         |                  |
+         ↓                  ↓
+   [PHASE COMPLETE]     [NEXT PHASE]
+         |                  |
+         ↓                  ↓
+ [WORKFLOW CONTINUES     [WORKFLOW
+  OR COMPLETES]          CONTINUES]
 ```
 
 ### Comments for Each Section
 
-#### 1. End Phase Tool Triggered
+1. End Phase Triggered
 
-- Currently: `save_output` or `complete_task` 
-- Current, but needs update for this workflow: `task_report` 
-- New tools: `adjust_workflow` `add_task` `add_phase` 
+- Forwarded: `save_output` `complete_task` 
+- To new tool: `adjust_workflow`
 
-#### 2. End Phase or Add Phase?
+2. Adjust Workflow 
 
-- Weed out all the Claudes who just want to work more 
+- No: Task Phase Done 
+- Yes: Add Phase
 
-#### 3. Check Tokens (for Save Output)
+3. If Adding Phase...
 
-- Let's simplify things and say everyone with a document gets a count 
-- They should add their count to their phase summary 
-- Under 7k and SFA confirmation approves them to move forward
-- Under 7k and they'll get a phase to complete revisions 
-- Let's post a guide that shows word and paragraph count average compared to tokens   
+- Keep your context window 
+- Add to workflow and exit phase 
 
-#### 4. Reset Loop Counter (for token limit or add phase)
+4. Check Tokens 
 
-- They get special entry into an exclusive phase that retains context window 
-- There is no file-save trigger; transfer is automatic 
+- If you're exiting
+- Even if adding workflow phase and exiting 
 
-#### 5. Write Phase Summary, Decision Outputs from Phase If Needed 
+5. Over Or Under 7k Tokens 
 
-- If your task was a decision, detail your decision 
-- If you're task was anything else, detail your accomplishments 
-- If you need to provide information to the next phase, add it to the phase summary 
-- If you exited with documents, include your token count in the phase summary 
+- Under you can keep going 
+- Over, you must keep contest and add phase 
 
-#### 6. Save Outputs and Summary 
+6. Write Phase Summary 
 
-- This is the final step of the phase 
-- Creates all output files and summary 
-- Triggers the true phase completion 
+- If you're exiting, write a summary 
+- If you're adding a phase, provide info. for next agent
 
-## Implementation Steps 
+7. Save Outputs and Summary 
 
-End-of-Task Workflow Implementation for SFA
+- Saving all planned outputs  
+- Saving a summary 
+- Exit is triggered 
 
-This file contains the implementation code for adding the streamlined end-of-task workflow
-to the Single-File Agent. This focuses on implementing the simplified flow with END_PHASE and ADD_PHASE paths.
+8. Reset Loop Counter 
 
-Main Components:
+- If you were over 7k tokens 
+- If you added a same-context window phase 
+- You get your loop counter Reset
+- Continue working 
 
-1. Workflow Adjustment Tool Definition
-2. Phase Reset Function
-3. Token Checking Integration
-4. Task Report Tool Update
-5. Main Loop Modifications 
+9. Reset Phase Loops Ending Start Flow Again 
+10. Next Phases Ending Start Flow Again 
+
+### Overview of the Workflow
+
+The key is that the control of the workflow is completely in the hands of the agent. If they were just planning out other tasks, they can add a new phase to the workflow for the next agent, and then leave a guide for them in the phase summary report. If they want to keep working or need to adjust the size of their output file, they get to stay in the same content, the loop counter reset, making it a "new phase" or reset phase. And of course, if you're done, then you just need to count the tokens of our output files, then write a phase summary report; saving these items will trigger actual completion of the phase. 

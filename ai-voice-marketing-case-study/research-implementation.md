@@ -4,6 +4,7 @@ description: "Practical implementation guides and strategic frameworks for AI vo
 categories: ["Copywriting"]
 tags: ["overview"]
 content_types: ["Reference"]
+permalink: /ai-voice-marketing-case-study/research-implementation/
 ---
 
 # Research Implementation: Voice Marketing Guides & Strategies

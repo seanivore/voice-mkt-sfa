@@ -4,6 +4,7 @@ description: "Finalized Instagram campaign for Glossier featuring three strategi
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/instagram-post/glossier-instagram-posts/
 ---
 
 # Glossier Instagram Campaign: Final Content

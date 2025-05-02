@@ -4,6 +4,7 @@ description: "Complete production workflow documentation showing the Instagram c
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/instagram-post/production-flow-instagram-posts/
 ---
 
 Production Flow for Instagram Posts

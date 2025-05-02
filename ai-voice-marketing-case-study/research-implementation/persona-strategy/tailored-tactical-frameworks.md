@@ -4,6 +4,7 @@ description: "Comprehensive framework of five distinct voice marketing strategie
 categories: ["Planning", "Copywriting"]
 tags: ["overview", "platform"]
 content_types: ["Framework", "Guide"]
+permalink: /ai-voice-marketing-case-study/research-implementation/persona-strategy/tailored-tactical-frameworks/
 ---
 
 # Unified Voice Marketing Strategy Framework

@@ -4,6 +4,7 @@ description: "Comprehensive research findings and analysis of AI voice marketing
 categories: ["Planning"]
 tags: ["overview"]
 content_types: ["Reference"]
+permalink: /ai-voice-marketing-case-study/deep-research/
 ---
 
 # Deep Research: AI Voice Marketing Analysis

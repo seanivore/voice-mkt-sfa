@@ -4,6 +4,7 @@ description: "Detailed workflow documentation for an AI-powered Instagram conten
 categories: ["Coding"]
 tags: ["Specific"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/instagram-post/
 ---
 
 # Social Media Content Development Workflow

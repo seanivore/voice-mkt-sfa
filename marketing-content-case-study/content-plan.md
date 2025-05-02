@@ -4,6 +4,7 @@ description: "Detailed workflow documentation for an AI-powered content planning
 categories: ["Coding"]
 tags: ["specific"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/content-plan/
 ---
 
 # Document Content Planning Workflow

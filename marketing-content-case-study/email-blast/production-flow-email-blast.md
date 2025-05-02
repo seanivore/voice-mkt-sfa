@@ -4,6 +4,7 @@ description: "Complete production workflow documentation showing the email campa
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/email-blast/production-flow-email-blast/
 ---
 
 Production Flow Email Docs 

@@ -4,6 +4,7 @@ description: "Comprehensive technical documentation for the Bland AI API, includ
 categories: ["Vocal Engineering", "Coding"]
 tags: ["applied", "platform"]
 content_types: ["Technical"]
+permalink: /ai-voice-marketing-case-study/bland-ai-guides/api-documentation/
 ---
 
 # Bland AI API Documentation

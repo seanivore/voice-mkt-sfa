@@ -3,7 +3,8 @@ title: "Bland AI Voice Modulation Concise Guide"
 description: "Comprehensive guide to voice modulation in Bland AI, featuring notation systems, technical parameters, and practical examples for creating more natural and persuasive AI voice interactions."
 categories: ["Vocal Engineering", "Copywriting"]
 tags: ["applied", "platform"]
-content_types: ["Technical", "Guide]
+content_types: ["Technical", "Guide"]
+permalink: /ai-voice-marketing-case-study/deep-research/bland-ai-voice-modulation/
 ---
 
 # Bland AI Voice Modulation Concise Guide 
@@ -13,19 +14,46 @@ content_types: ["Technical", "Guide]
 Use clear, bracketed cues or ALL CAPS to direct the AI's delivery:
 
 - **[pause Xs]** — Insert a pause of X seconds
-    - "That's just \$29 a month [pause 0.8s]."
+
+```plaintext
+"That's just \$29 a month [pause 0.8s]."
+```
+
 - **[upward inflection]** — End with a rising tone (for questions, excitement)
-    - "Our service is GUARANTEED [upward inflection]."
+
+```plaintext
+"Our service is GUARANTEED [upward inflection]."
+```
+
 - **[downward inflection]** — End with a falling tone (for authority, finality)
-    - "This offer ends Friday [downward inflection]."
+
+```plaintext
+"This offer ends Friday [downward inflection]."
+```
+
 - **[lower pitch] / [higher pitch]** — Adjust vocal pitch for authority or urgency
-    - "We're here to help [lower pitch]."
+
+```plaintext
+"We're here to help [lower pitch]."
+```
+
 - **[slower] / [faster]** — Control pacing for clarity or urgency
-    - "Let's walk through your options [slower]."
+
+```plaintext
+"Let's walk through your options [slower]."
+```
+
 - **[cheerful] / [empathetic] / [urgent]** — Set emotional tone
-    - "Great news! [cheerful] You qualify for a discount."
+
+```plaintext
+"Great news! [cheerful] You qualify for a discount."
+```
+
 - **[emphasize: word/phrase]** — Add stress to key points
-    - "This is a LIMITED TIME offer [emphasize: limited time]."
+
+```plaintext
+"This is a LIMITED TIME offer [emphasize: limited time]."
+```
 
 ---
 
@@ -70,18 +98,32 @@ Use clear, bracketed cues or ALL CAPS to direct the AI's delivery:
 - **Test and iterate**: Use Bland's testing tool to hear how your cues sound and adjust for naturalness.
 - **A/B test**: Create multiple script versions (e.g., [cheerful] vs. [authoritative]) and compare conversion rates.
 - **Combine cues**:
-    - "You're all set! [cheerful][pause 0.5s] Your appointment is confirmed for Friday [downward inflection]."
+
+```plaintext
+"You're all set! [cheerful][pause 0.5s] Your appointment is confirmed for Friday [downward inflection]."
+```
+
 - **Emotional context**:
-    - "I understand that's frustrating [empathetic][slower]. Let's see what we can do [upward inflection]."
+
+```plaintext
+"I understand that's frustrating [empathetic][slower]. Let's see what we can do [upward inflection]."
+```
 
 ---
 
 ## 5. **Sample Script Snippets**
 
-- "Hi! This is [Company] [cheerful][faster]. I have great news about your account [pause 0.5s]."
-- "Your service is scheduled for tomorrow [downward inflection][slower]."
-- "Would you like to hear about our special offer? [upward inflection][pause 0.3s] It ends soon [urgent][emphasize: ends soon]."
-- "I completely understand your concern [empathetic][lower pitch]. Let's work through this together [slower]."
+```plaintext
+"Hi! This is [Company] [cheerful][faster]. I have great news about your account [pause 0.5s]."
+```
+
+```plaintext
+"Your service is scheduled for tomorrow [downward inflection][slower]."
+```
+
+```plaintext
+"Would you like to hear about our special offer? [upward inflection][pause 0.3s] It ends soon [urgent][emphasize: ends soon]."
+```
 
 ---
 

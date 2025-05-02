@@ -4,6 +4,7 @@ description: "Finalized Instagram campaign for Hydro Flask featuring three strat
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/instagram-post/hydro-flask-instagram-posts/
 ---
 
 # HYDRO FLASK INSTAGRAM CAMPAIGN: FINAL CONTENT

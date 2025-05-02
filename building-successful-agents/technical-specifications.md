@@ -4,6 +4,7 @@ description: "Detailed technical documentation of Single-File Agent tools, imple
 categories: ["Coding", "Planning", "Designing"]
 tags: ["specific", "applied", "platform"]
 content_types: ["Technical"]
+permalink: /building-successful-agents/technical-specifications/
 ---
 
 # Single-File Agent Technical Specifications

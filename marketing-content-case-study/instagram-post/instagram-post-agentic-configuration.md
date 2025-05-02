@@ -4,6 +4,7 @@ description: "Technical configuration file for the AI Instagram post agent, defi
 categories: ["Coding", "Copywriting"]
 tags: ["specific", "platform"]
 content_types: ["Technical"]
+permalink: /marketing-content-case-study/instagram-post/instagram-post-agentic-configuration/
 ---
 
 ```JSON

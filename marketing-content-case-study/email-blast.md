@@ -4,6 +4,7 @@ description: "Detailed workflow documentation for an AI-powered email marketing 
 categories: ["Coding"]
 tags: ["Specific"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/email-blast/
 ---
 
 # Brand Email Campaign Workflow

@@ -4,6 +4,7 @@ description: "Comprehensive guide to navigating and utilizing the Bland AI user 
 categories: ["Vocal Engineering", "Planning"]
 tags: ["applied", "platform", "specific"]
 content_types: ["Guides", "References", "Technical"]
+permalink: /ai-voice-marketing-case-study/bland-ai-guides/app-ui-guide/
 ---
 
 # Bland AI User Interface Guide

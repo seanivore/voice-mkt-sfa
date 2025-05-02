@@ -4,6 +4,7 @@ description: "Comprehensive content marketing strategy for Glossier, featuring b
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/content-plan/glossier-content-plan/
 ---
 
 # Glossier Content Plan 

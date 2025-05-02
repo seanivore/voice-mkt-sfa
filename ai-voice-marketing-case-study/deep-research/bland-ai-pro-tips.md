@@ -4,6 +4,7 @@ description: "Expert tips for optimizing Bland AI voice systems, including pathw
 categories: ["Vocal Engineering", "Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Technical", "Guide"]
+permalink: /ai-voice-marketing-case-study/deep-research/bland-ai-pro-tips/
 ---
 
 # Bland AI Usage Professional Tips 
@@ -18,13 +19,15 @@ content_types: ["Technical", "Guide"]
 ## 2. **Script for Modulation: Notate Voice Cues Directly in Prompts**
 
 - **Bland supports custom prompts and sample dialogue**. In your script, explicitly notate:
-    - **Pitch**: "Say this with a lower pitch for authority."
-    - **Pacing**: "Slow down to 120wpm for price discussion."
-    - **Pauses**: "Pause 0.5s after this sentence."
-    - **Inflection**: "Use upward inflection for questions."
+    - **Pitch**: `"Say this with a lower pitch for authority."`
+    - **Pacing**: `"Slow down to 120wpm for price discussion."`
+    - **Pauses**: `"Pause 0.5s after this sentence."`
+    - **Inflection**: `"Use upward inflection for questions."`
 - **Pro Tip**: Use brackets or all-caps for modulation cues, e.g.
-`"Our service is GUARANTEED [upward inflection]."`
-`"That's just $29 a month [pause 0.8s, lower pitch]."`
+```plaintext
+"Our service is GUARANTEED [upward inflection]."
+"That's just $29 a month [pause 0.8s, lower pitch]."
+```
 - **Why?**: Bland's engine is designed to interpret context and emotional cues, so clear notation helps the AI deliver the right tone.
 
 ---
@@ -40,9 +43,9 @@ content_types: ["Technical", "Guide"]
 ## 4. **Integrate Emotional Tone and Context Awareness**
 
 - **Emotional Modulation**: Bland's latest voices are built for emotional nuance—use this!
-    - For emergencies: "Urgent, higher pitch, faster pace."
-    - For price objections: "Lower pitch, slower, calm."
-    - For good news: "Cheerful, upward inflection, lively pace."
+    - For emergencies: `"Urgent, higher pitch, faster pace."`
+    - For price objections: `"Lower pitch, slower, calm."`
+    - For good news: `"Cheerful, upward inflection, lively pace."`
 - **Contextual Prompts**: Reference previous customer interactions or local economic news in your scripts for higher engagement.
 
 ---

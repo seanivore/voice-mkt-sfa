@@ -4,6 +4,7 @@ description: "Comprehensive content marketing strategy for Hydro Flask, featurin
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/content-plan/hydro-flask-content-plan/
 ---
 
 # Hydro Flask Content Plan

@@ -4,6 +4,7 @@ description: "A comprehensive case study demonstrating how AI agents can produce
 categories: ["Copywriting", "Planning"]
 tags: ["applied", "specific"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/
 ---
 
 # Automating AI to Create A Comprehensive Marketing Plan 
@@ -52,23 +53,23 @@ The plan for the workflow and what content to produce was placed into a configur
 
 In this case, in part because of the time crunch, the human did not even provide details. As a case study this made things particularly interesting because we were surprised by the results ourselves. The chat AI planned the following workflows. The setup command uses the configuration files and first creates a 'README' file for each workflow before setting everything else up. Those are included with each below. 
 
-1. **[Content Plan](../../marketing-agent-case-study/content-plan.md)**
+1. **[Content Plan](/marketing-content-case-study/content-plan.md)**
 
 The content plan was the first workflow to be produced. It is a comprehensive plan that includes a 30-day content calendar, target audience segments, and a brand voice guide. Again, none of that was provided by the human. It was all produced by the chat AI. 
 
-- [Content Planning Configuration File](../../marketing-agent-case-study/content-plan/agent-configuration-prompt-input.md)
+- [Content Planning Configuration File](/marketing-content-case-study/content-plan/agent-configuration-prompt-input.md)
 
-2. **[Email Campaign](../../marketing-agent-case-study/email-blast.md)**
+2. **[Email Campaign](/marketing-content-case-study/email-blast.md)**
 
 In the content plan the chat AI decided that the agent workflow would use the content plan to produce subsequent pieces of content. This was quite an elegant surprise. The first it detailed to have produced was the email campaign. 
 
-- [Email Campaign Configuration File](../../marketing-agent-case-study/email-blast/ai-prompt-configuration-agent.md)
+- [Email Campaign Configuration File](/marketing-content-case-study/email-blast/ai-prompt-configuration-agent.md)
 
-3. **[Instagram Post](../../marketing-agent-case-study/instagram-post.md)**
+3. **[Instagram Post](/marketing-content-case-study/instagram-post.md)**
 
 The final piece of content to be produced was an Instagram post. These were probably the most interesting results because we didn't know what to expect for the visual component. As with the content plan, the result was a plan describing exactly what visual imagery should be captured. 
 
-- [Instagram Post Configuration File](../../marketing-agent-case-study/instagram-post/instagram-post-agentic-configuration.md)
+- [Instagram Post Configuration File](/marketing-content-case-study/instagram-post/instagram-post-agentic-configuration.md)
 
 ## Agentic Workflow 
 
@@ -84,11 +85,11 @@ If you reviewed any of the above files you'll have noted that the AI agent was n
 
 For ease of reviewing this phase, all the drafts and review feedback have been combined into one document for each workflow. 
 
-**[Content Plan For All Brands](../../marketing-agent-case-study/content-plan/production-flow-content-plan.md)** 
+**[Content Plan For All Brands](/marketing-content-case-study/content-plan/production-flow-content-plan.md)** 
 
-**[Email Campaign For All Brands](../../marketing-agent-case-study/email-blast/production-flow-email-blast.md)**
+**[Email Campaign For All Brands](/marketing-content-case-study/email-blast/production-flow-email-blast.md)**
 
-**[Instagram Post For All Brands](../../marketing-agent-case-study/instagram-post/production-flow-instagram-posts.md)**
+**[Instagram Post For All Brands](/marketing-content-case-study/instagram-post/production-flow-instagram-posts.md)**
 
 The result is a comprehensive set of content that is ready for the client. 
 
@@ -98,7 +99,7 @@ The result is a comprehensive set of content that is ready for the client.
 
 Inside you'll find an overview of the 'brand essence', the primary emotional gut checks, the target audience segments, the brand voice guidelines, and a 60-day content calendar. The target audience's emotional triggers were quite compelling and spot-on for the brand, including 'The Minimalist Essentialist', 'The Conscious Beauty Advocate', 'The Authentic Self-Expresser', 'The Community Connector', and 'The Beauty Novice'.
 
-**[Content Plan for Glossier](../../marketing-agent-case-study/content-plan/glossier-content-plan.md)** 
+**[Content Plan for Glossier](/marketing-content-case-study/content-plan/glossier-content-plan.md)** 
 
 This was followed by the brand voice guidelines. This was filled with thoughts like 'Like talking to a knowledgeable friend' and 'Every word serves a purpose'. They expressed the importance of 'Using first-person plural ("we") to reinforce community' and 'Employ second-person ("you") to create direct connection'. The tone attributes were also quite spot-on and aligned with the brand essence. The rest of the document included "do's and don't's" which were quite helpful. 
 
@@ -108,11 +109,11 @@ If you've used AI you know that two of their most valuable skills is to help wit
 
 Frankly, I'd have loved this kind of detail provided to me when producing the content myself, or when managing content producers and strategists. It was truly impressive. 
 
-**[Email Campaign for Glossier](../../marketing-agent-case-study/email-blast/glossier-email-campaign.md)**
+**[Email Campaign for Glossier](/marketing-content-case-study/email-blast/glossier-email-campaign.md)**
 
 Honestly, I didn't expect much from the email blast example. I'm rarely impressed with brands when it comes to email marketing, and find that a lot of their success in KPIs is due to high turnover of both content and individuals on the list. Not to mention that most people don't spend the time unsubscribing, and some brands even illegally hide their unsubscribe button. But, much like the content plan, perhaps because of the content plan, the email blast was a success.
 
-**[Instagram Post for Glossier](../../marketing-agent-case-study/instagram-post/glossier-instagram-posts.md)**
+**[Instagram Post for Glossier](/marketing-content-case-study/instagram-post/glossier-instagram-posts.md)**
 
 We expect what we'd get when working in-house with producers and human strategists. Typically that would be a couple sentences at most for the image, and a pretty basic caption. What we got included an introduction, detailed image description, acceptable captions, and hashtag strategy for each post. It went further than that, the campaign implementation notes had tips for optimal engagement, visual cohesion, and even themes for the posting schedule. 
 
@@ -122,17 +123,17 @@ Truly, from years of experience, even if this was just a starting point for a hu
 
 This time they planned out TikTok and Youtube and even drafted countless posts in the actual content plan. The AI planned cross-channel integration into the strategy. Again, absolutely none of this was provided by the human. We won't completely detail everything here like we did for Glossier. Believe us, it is equally as worth clicking through and reviewing the intricate, well branded, thoughtful planning and descriptions for all parts of the entire marketing campaign. 
 
-**[Content Plan for Hydro Flask](../../marketing-agent-case-study/content-plan/hydro-flask-content-plan.md)**
+**[Content Plan for Hydro Flask](/marketing-content-case-study/content-plan/hydro-flask-content-plan.md)**
 
-**[Email Campaign for Hydro Flask](../../marketing-agent-case-study/email-blast/hydro-flask-email-campaign.md)**
+**[Email Campaign for Hydro Flask](/marketing-content-case-study/email-blast/hydro-flask-email-campaign.md)**
 
-**[Instagram Post for Hydro Flask](../../marketing-agent-case-study/instagram-post/hydro-flask-instagram-posts.md)**
+**[Instagram Post for Hydro Flask](/marketing-content-case-study/instagram-post/hydro-flask-instagram-posts.md)**
 
 #### Jungalow Marketing Campaign 
 
 It was not expected, but the Jungalow content plan was the most comprehensive of the three, and the visual details were incredible. This is incredibly valuable work and if my team had planned this, I would have been extremely impressed, and the pressure would have been on to make sure it was executed flawlessly. 
 
-**[Content Plan for Jungalow](../../marketing-agent-case-study/content-plan/jungalow-content-plan.md)**
+**[Content Plan for Jungalow](/marketing-content-case-study/content-plan/jungalow-content-plan.md)**
 
 ## Conclusion 
 

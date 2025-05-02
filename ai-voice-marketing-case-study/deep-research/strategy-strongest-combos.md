@@ -4,6 +4,7 @@ description: "Expert analysis of the most effective AI voice marketing strategie
 categories: ["Vocal Engineering", "Copywriting"]
 tags: ["overview", "platform"]
 content_types: ["Framework", "Research"]
+permalink: /ai-voice-marketing-case-study/deep-research/strategy-strongest-combos/
 ---
 
 # Strongest Marketing Strategy Combinations by Social Economic Status Group
@@ -14,11 +15,13 @@ content_types: ["Framework", "Research"]
 **Voice:** Mid-range pitch, 0.8s pause after price, upward inflection on "government-approved"
 
 **VO Script:**
-**AI:** [140Hz, warm, upward inflection on "government-approved"]
+```plaintext
+AI: [140Hz, warm, upward inflection on "government-approved"]
 "Good morning! With fertilizer prices up again this spring, did you know our well pump service keeps your farm running and your subsidy eligibility government-approved?"
-**Customer:** "Subsidy?"
-**AI:** [0.8s pause, gentle emphasis]
+Customer: "Subsidy?"
+AI: [0.8s pause, gentle emphasis]
 "Yes, we'll handle the paperwork so you keep every dollar you're owed—no extra cost."
+```
 
 ---
 
@@ -28,11 +31,13 @@ content_types: ["Framework", "Research"]
 **Voice:** 165WPM, volume spike on "guaranteed", pitch drop on "no hidden fees"
 
 **VO Script:**
-**AI:** [165WPM, friendly, volume up on "guaranteed"]
+```plaintext
+AI: [165WPM, friendly, volume up on "guaranteed"]
 "Hi there! With prices rising everywhere, our home repair plan locks in your rate for a full year—guaranteed, with no hidden fees."
-**Customer:** "How much?"
-**AI:** [Pitch drops, reassuring]
+Customer: "How much?"
+AI: [Pitch drops, reassuring]
 "Just \$29 a month, and you'll see real savings on your next energy bill."
+```
 
 ---
 
@@ -42,11 +47,13 @@ content_types: ["Framework", "Research"]
 **Voice:** 130Hz, authoritative, downward inflection on "10-year warranty"
 
 **VO Script:**
-**AI:** [130Hz, confident, technical emphasis]
+```plaintext
+AI: [130Hz, confident, technical emphasis]
 "Hello! With new tariffs raising HVAC costs, we're offering a tariff-proof upgrade—installed now, with a full 10-year warranty."
-**Customer:** "Warranty?"
-**AI:** [Downward inflection, steady]
+Customer: "Warranty?"
+AI: [Downward inflection, steady]
 "That's right—no surprise costs for a decade, even if prices keep climbing."
+```
 
 ---
 
@@ -56,11 +63,13 @@ content_types: ["Framework", "Research"]
 **Voice:** 180Hz, urgent, 0.5s pause after ETA, vibrato on "24/7 protection"
 
 **VO Script:**
-**AI:** [180Hz, urgent, vibrato on "24/7 protection"]
+```plaintext
+AI: [180Hz, urgent, vibrato on "24/7 protection"]
 "Hi, this is [Company]! With storms on the way, our FEMA-approved team can be at your home in 45 minutes—24/7 protection, always."
-**Customer:** "How soon?"
-**AI:** [0.5s pause, clear]
+Customer: "How soon?"
+AI: [0.5s pause, clear]
 "We're dispatching now. You'll get a text with your technician's name and arrival time."
+```
 
 ---
 
@@ -70,8 +79,10 @@ content_types: ["Framework", "Research"]
 **Voice:** 155WPM, instructional, pitch rise on "free installation"
 
 **VO Script:**
-**AI:** [155WPM, upbeat, pitch rise on "free installation"]
+```plaintext
+AI: [155WPM, upbeat, pitch rise on "free installation"]
 "Hi! Did you know you qualify for a free smart home starter kit with your new internet subsidy? We handle the free installation, too!"
-**Customer:** "Free?"
-**AI:** [Bright, confirming]
+Customer: "Free?"
+AI: [Bright, confirming]
 "Absolutely free—no catch, just better service and savings for your family."
+```

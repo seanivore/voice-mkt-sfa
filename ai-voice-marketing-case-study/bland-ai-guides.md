@@ -4,6 +4,7 @@ description: "Comprehensive guides for implementing and optimizing Bland AI for 
 categories: ["Copywriting"]
 tags: ["overview"]
 content_types: ["Reference"]
+permalink: /ai-voice-marketing-case-study/bland-ai-guides/
 ---
 
 # Bland AI Implementation Guides

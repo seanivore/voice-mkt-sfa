@@ -4,6 +4,7 @@ description: "Comprehensive index of AI voice marketing approaches organized by 
 categories: ["Vocal Engineering", "Copywriting"]
 tags: ["overview", "platform"]
 content_types: ["Framework", "Research"]
+permalink: /ai-voice-marketing-case-study/index-section-site-map/vocal-characteristics/
 ---
 
 # Home Services Industry Voice Characteristics

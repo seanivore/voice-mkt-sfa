@@ -4,6 +4,7 @@ description: "Proven high-conversion strategies for AI voice marketing in the ho
 categories: ["Vocal Engineering", "Copywriting"]
 tags: ["overview"]
 content_types: ["Framework", "Reference"]
+permalink: /ai-voice-marketing-case-study/top-conversion-strategy/
 ---
 
 # Top Conversion Strategies for AI Voice Marketing

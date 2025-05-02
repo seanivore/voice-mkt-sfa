@@ -4,6 +4,7 @@ description: "Comprehensive guide to AI voice marketing for the home services in
 categories: ["Copywriting"]
 tags: ["overview"]
 content_types: ["Reference"]
+permalink: /ai-voice-marketing-case-study/
 ---
 # Agentic Research & Implementation Case Study 
 

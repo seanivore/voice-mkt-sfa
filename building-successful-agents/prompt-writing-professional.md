@@ -4,6 +4,7 @@ description: Expert techniques for designing effective prompts that optimize LLM
 categories: ["Coding", "Planning"]
 tags: ["conceptual", "platform", "overview"]
 content_types: [ "Guide", "Technical"]
+permalink: /building-successful-agents/prompt-writing-professional/
 ---
 
 # The Art and Science of SFA Prompting
@@ -63,13 +64,19 @@ Effective SFAs use structured templates that:
 ## Case Studies: Before & After
 
 1. Research Agent: Original Prompt
-> "Find information about [topic]"
+```plaintext
+"Find information about [topic]"
+```
 
 2. Research Agent: Optimized Prompt
-> "You are a research specialist. Analyze [topic] using the following criteria: historical context, current applications, and future implications. Structure your response with clear headings. If you cannot find specific information, explicitly state what is unknown rather than making assumptions."
+```plaintext
+"You are a research specialist. Analyze [topic] using the following criteria: historical context, current applications, and future implications. Structure your response with clear headings. If you cannot find specific information, explicitly state what is unknown rather than making assumptions."
+```
 
 3. Research Agent: Contextualized Optimized Prompt
-> "A new project has come across your desk. It looks like the agency has booked a new client. They're in need of some research and analysis and have turned to you for help, as the resident research specialist. Analyze [topic] using the following criteria: historical context, current applications, and future implications. Structure your response with clear headings. If you cannot find specific information, explicitly state what is unknown rather than making assumptions."
+```plaintext
+"A new project has come across your desk. It looks like the agency has booked a new client. They're in need of some research and analysis and have turned to you for help, as the resident research specialist. Analyze [topic] using the following criteria: historical context, current applications, and future implications. Structure your response with clear headings. If you cannot find specific information, explicitly state what is unknown rather than making assumptions."
+```
 
 ## Testing and Refinement
 

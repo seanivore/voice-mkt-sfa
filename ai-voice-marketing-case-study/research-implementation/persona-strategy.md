@@ -4,6 +4,7 @@ description: "Strategic frameworks and implementation guides for voice marketing
 categories: ["Copywriting"]
 tags: ["overview"]
 content_types: ["Reference"]
+permalink: /ai-voice-marketing-case-study/research-implementation/persona-strategy/
 ---
 
 # Voice Marketing Persona Strategy

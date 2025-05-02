@@ -4,6 +4,7 @@ description: "Comprehensive cheat sheet for Bland AI voice marketing implementat
 categories: ["Vocal Engineering", "Copywriting"]
 tags: ["applied", "conceptual", "platform"]
 content_types: ["Guide", "Reference"]
+permalink: /ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet/
 ---
 
 # Bland AI Voice Marketing Cheat Sheet
@@ -45,14 +46,14 @@ Use these clear, bracketed cues in your scripts to direct the AI's delivery:
 
 ### Strategic Applications of Voice Modulation
 
-| Situation               | Recommended Modulation              | Example                                                                                                      |
-| :---------------------- | :---------------------------------- | :----------------------------------------------------------------------------------------------------------- |
-| **Introducing offers**  | `[cheerful][faster]`                | "Hi! This is [Company] [cheerful][faster]. I have great news about your account [pause 0.5s]."               |
-| **Presenting prices**   | `[pause 0.5s][lower pitch]`         | "That's just $29 a month [pause 0.8s, lower pitch]."                                                         |
-| **Handling objections** | `[empathetic][lower pitch][slower]` | "I completely understand your concern [empathetic][lower pitch]. Let's work through this together [slower]." |
-| **Creating urgency**    | `[urgent][emphasize: ends soon]`    | "This offer ends Friday [urgent][emphasize: ends soon][downward inflection]."                                |
-| **Asking questions**    | `[upward inflection][pause 0.3s]`   | "Would you like to hear about our special offer? [upward inflection][pause 0.3s]"                            |
-| **Confirming details**  | `[downward inflection][slower]`     | "Your service is scheduled for tomorrow [downward inflection][slower]."                                      |
+| Situation               | Recommended Modulation              | Example                                                                                                        |
+| :---------------------- | :---------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| **Introducing offers**  | `[cheerful][faster]`                | `"Hi! This is [Company] [cheerful][faster]. I have great news about your account [pause 0.5s]."`               |
+| **Presenting prices**   | `[pause 0.5s][lower pitch]`         | `"That's just $29 a month [pause 0.8s, lower pitch]."`                                                         |
+| **Handling objections** | `[empathetic][lower pitch][slower]` | `"I completely understand your concern [empathetic][lower pitch]. Let's work through this together [slower]."` |
+| **Creating urgency**    | `[urgent][emphasize: ends soon]`    | `"This offer ends Friday [urgent][emphasize: ends soon][downward inflection]."`                                |
+| **Asking questions**    | `[upward inflection][pause 0.3s]`   | `"Would you like to hear about our special offer? [upward inflection][pause 0.3s]"`                            |
+| **Confirming details**  | `[downward inflection][slower]`     | `"Your service is scheduled for tomorrow [downward inflection][slower]."`                                      |
 
 ## Bland AI Platform Strategies
 
@@ -61,8 +62,10 @@ Use these clear, bracketed cues in your scripts to direct the AI's delivery:
 - **Use Pathway Generation**: Create 80% of your conversational flow from a simple prompt, then refine for nuance
 - **Script for Modulation**: Directly notate voice cues in your prompts using the notation system above
 - **Combine Cues for Natural Speech**:
-  - "You're all set! [cheerful][pause 0.5s] Your appointment is confirmed for Friday [downward inflection]."
-  - "I understand that's frustrating [empathetic][slower]. Let's see what we can do [upward inflection]."
+```plaintext
+"You're all set! [cheerful][pause 0.5s] Your appointment is confirmed for Friday [downward inflection]."
+"I understand that's frustrating [empathetic][slower]. Let's see what we can do [upward inflection]."
+```
 
 ### Testing & Optimization
 
@@ -92,10 +95,10 @@ Use these clear, bracketed cues in your scripts to direct the AI's delivery:
 ### Advanced Implementation
 
 - **Emotional Context Integration**: Match voice modulation to customer situations
-  - For emergencies: "[urgent][higher pitch][faster] I understand this is time-sensitive. Let's resolve this immediately."
-  - For price objections: "[lower pitch][slower][empathetic] I completely understand budget concerns. Let me explain the value proposition."
-  - For good news: "[cheerful][upward inflection] Great news! You've qualified for our premium service at no additional cost!"
-  - For technical explanations: "[slower][emphasize: key terms] Let me walk you through how this works step by step."
+  - For emergencies: `"[urgent][higher pitch][faster] I understand this is time-sensitive. Let's resolve this immediately."`
+  - For price objections: `"[lower pitch][slower][empathetic] I completely understand budget concerns. Let me explain the value proposition."`
+  - For good news: `"[cheerful][upward inflection] Great news! You've qualified for our premium service at no additional cost!"`
+  - For technical explanations: `"[slower][emphasize: key terms] Let me walk you through how this works step by step."`
 
 - **Guardrails & Brand Consistency**:
   - Define "off-limits" topics and fallback responses
@@ -115,29 +118,29 @@ Use these clear, bracketed cues in your scripts to direct the AI's delivery:
 
 ## Sample Script Snippets
 
-### Opening with Energy
-```
+**Opening with Energy**
+```plaintext
 Hi [Name]! This is [Agent] from [Company] [cheerful][faster]. 
 I'm calling about your recent inquiry [pause 0.5s].
 Do you have a moment to chat? [upward inflection]
 ```
 
-### Presenting Offers
-```
+**Presenting Offers**
+```plaintext
 I'd like to tell you about our EXCLUSIVE offer [emphasize: exclusive][higher pitch].
 For just $29 a month [pause 0.8s][lower pitch], you'll receive unlimited access to our premium service.
 This offer is GUARANTEED [upward inflection] to save you money.
 ```
 
-### Handling Objections
-```
+**Handling Objections**
+```plaintext
 I completely understand your concern [empathetic][lower pitch].
 Many of our customers initially felt the same way [pause 0.5s].
 However [slower], they found that our service actually saved them time and money in the long run [downward inflection].
 ```
 
-### Creating Urgency & Closing
-```
+**Creating Urgency & Closing**
+```plaintext
 This special pricing ends this Friday [urgent][emphasize: ends this Friday].
 Shall we go ahead and set up your account today? [upward inflection][pause 0.3s]
 Great! [cheerful] Let me confirm your details [slower].

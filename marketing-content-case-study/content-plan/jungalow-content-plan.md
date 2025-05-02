@@ -4,6 +4,7 @@ description: "Comprehensive content marketing strategy for Jungalow, featuring e
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/content-plan/jungalow-content-plan/
 ---
 
 # Jungalow - Comprehensive Brand Content Plan

@@ -4,6 +4,7 @@ description: "Technical configuration file for the AI content planning agent, de
 categories: ["Coding", "Planning"]
 tags: ["specific", "platform"]
 content_types: ["Technical"]
+permalink: /marketing-content-case-study/content-plan/agent-configuration-prompt-input/
 ---
 
 ```JSON

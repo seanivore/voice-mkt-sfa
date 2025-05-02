@@ -4,6 +4,7 @@ description: "Complete production workflow documentation showing the content pla
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/content-plan/production-flow-content-plan/
 ---
 
 Content Planning Production Flow Draft & Review Documents 

@@ -4,11 +4,12 @@ description: "Collection of brand identity briefings for Glossier, Hydro Flask, 
 categories: ["Coding", "Planning", "Copywriting"]
 tags: ["Specific"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/brand-identity-briefings/
 ---
 
 # Brand Identity Documents 
 
-This is the entirety of the information that we provided the agents to produce the marketing content for these three brands. The only document provided was the [Emotion Driven Copywriting](../ai-voice-marketing/research-implementation/writing-guide/emotion-driven-copywriting.md) guide. 
+This is the entirety of the information that we provided the agents to produce the marketing content for these three brands. The only document provided was the [Emotion Driven Copywriting](../ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting.md) guide. 
 
 
 [Glossier Brand](#glossier-brand)

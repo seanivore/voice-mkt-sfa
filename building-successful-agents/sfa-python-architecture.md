@@ -4,6 +4,7 @@ description: A comprehensive overview of how Single-File Agents (SFA) are struct
 categories: ["Coding", "Designing"]
 tags: ["conceptual", "platform", "specific"]
 content_types: ["Technical", "Framework"]
+permalink: /building-successful-agents/sfa-python-architecture/
 ---
 
 ## What Makes SFA Architecture Unique
@@ -69,4 +70,3 @@ When implementing the SFA architecture, follow these guidelines:
 5. Document all functions and components thoroughly
    - Not just one technical document, but a few at different levels of detail, comprehension, and complexity 
    - Create a rule wherever possible to end any work on the SFA by updating all documents in the project directory 
-   - We do this by cleaning up the directory ../assets/docs/building-successful-agents.md../assets/docs/WORK-IN-PROGRESS/technical-specifications.md../assets/docs/WORK-IN-PROGRESS/use-case-workflow-standardization.md

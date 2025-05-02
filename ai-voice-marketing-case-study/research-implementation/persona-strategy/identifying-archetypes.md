@@ -4,6 +4,7 @@ description: "Comprehensive development guide for AI voice marketing personas ac
 categories: ["Vocal Engineering", "Planning"]
 tags: ["overview", "conceptual"]
 content_types: ["Framework", "Research"]
+permalink: /ai-voice-marketing-case-study/research-implementation/persona-strategy/identifying-archetypes/
 ---
 
 # Voice Marketing Personas Development Brief

@@ -4,6 +4,7 @@ description: "Finalized email marketing campaign for Hydro Flask, highlighting t
 categories: ["Copywriting"]
 tags: ["applied", "platform"]
 content_types: ["Case Study"]
+permalink: /marketing-content-case-study/email-blast/hydro-flask-email-campaign/
 ---
 
 # Hydro Flask Email Campaign Final

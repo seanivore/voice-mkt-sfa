@@ -4,6 +4,7 @@ description: "Comprehensive guide to emotion-driven marketing copywriting, featu
 categories: ["Copywriting"]
 tags: ["conceptual", "applied"]
 content_types: ["Reference", "Guide"]
+permalink: /ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting/
 ---
 
 # Emotion-Driven Marketing Copywriting Guide

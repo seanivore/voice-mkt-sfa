@@ -4,6 +4,7 @@ description: Proven strategies and expert guidelines for creating, deploying, an
 categories: ["Coding", "Planning"]
 tags: ["conceptual"]
 content_types: ["Technical", "Guide"]
+permalink: /building-successful-agents/best-practice-design-philosophy/
 ---
 
 # Best Practices for SFA Design 

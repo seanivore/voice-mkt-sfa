@@ -4,6 +4,7 @@ description: "Comprehensive overview of Single-File Agent (SFA) architecture, ex
 categories: ["Coding"]
 tags: ["overview"]
 content_types: ["Reference", "Technical"]
+permalink: /building-successful-agents/
 ---
 
 # Our AI Agentic System Is Called a Single-File Agent (SFA)
