@@ -97,7 +97,7 @@ Are you preparing for a specific AI persona?
 - Professional Voice
 - Voice Modulation
 
-## **[Sub-Sections Organized by Content Focus](/ai-voice-marketing-case-study.md)**
+## **[Sub-Sections Organized by Content Focus](../ai-voice-marketing-case-study.md)**
 
 ### [Bland AI Guides](./bland-ai-guides.md)
 
