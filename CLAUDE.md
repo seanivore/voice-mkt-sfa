@@ -1,48 +1,74 @@
+# Project Progress 
 
+## Updates To Do 
 
-### Phase: Presentation with Resources 
+### Mobile View Optimization 
 
-DELIVERABLE --> PUBLISH 
+When on mobile the content and the sidebar fight for space. I had it balanced in an *okay* way but for some reason it wasn't on all pages. But then I noticed that even when balanced, all the charts just don't look acceptable. 
 
-  - **Presentation**
-    - Add some resource URLs into the presentations 
-    - Add more links to nav 
-    - Update mobile nav button coloring 
+I'd like to treat the sidebar in mobile view as a hamburger navigation menu. Unless you have another idea, I can't seem to figure out how else to handle having both on the page. 
 
-  - **Component Navigation** 
-    - JS is on page and JS directory 
-    - Second presentation needs new components 
+### Content UI 
 
-### Phase: Build Features Out 
+- Quick-copy UI on script examples
+- Open in Google Docs UI option 
 
-  - **Add a CSS animation behind the transparent text brand logos**
+### Search with Filtering 
 
-  - **Category and tag filtering**
-    - Create category quick-links 
-    - Build filtering system 
+- **Design Search UI**
+  - Search bar
+  - Filter sidebar
+  - Results display
+  - Sort controls
+  - Preview cards
 
-  - **Setting up search**
-    - Setup Jekyll Search Plugin
-      - Add jekyll-search or similar to your _config.yml plugins
-      - Create a JSON index of your content
-    - Client-Side Search Implementation
-      - Use a library like Lunr.js or Simple-Jekyll-Search
-      - Link it to the search forms we've already created
+- **Setting up search**
+  - Setup Jekyll Search Plugin
+    - Add jekyll-search or similar to your _config.yml plugins
+    - Create a JSON index of your content
+  - Client-Side Search Implementation
+    - Use a library like Lunr.js or Simple-Jekyll-Search
+    - Link it to the search forms we've already created
 
-### Phase: Build Features Out
-  - Make homepage interactive 
-  - Quick-copy UI on script examples 
-  - Quick-jump to sections 
-  - Open in Google Docs UI option 
-  - Filtered viewing options 
-  - Design Search UI
-    - Search bar
-    - Filter sidebar
-    - Results display
-    - Sort controls
-    - Preview cards
+- **Use Category and Tags as UI on Search**
+  - Create category quick-links 
+  - Build filtering system 
 
-----
+## Content Locations 
+
+### Presentations & Homepage 
+
+I moved the presentation decks into their own project directory to be able to publish them through GitHub Pages from a different repository. All of the assets and HTML for the homepages are still in this repository, but we are linking to and using the presentation deck's directory homepage. 
+
+- Homepage: `https://presenting.august.style/`
+- Presentation 1: `https://presenting.august.style/ai-voice-sales-development` 
+- Presentation 2: `https://presenting.august.style/implement-ai-voice-marketing`
+
+The homepage from this repository is still live. Nothing links to it but if a user ends up there, it does function properly. 
+
+- Live but unused: `https://sfagent.august.style/`
+
+### Resource & Case Studies 
+
+Building off the above note, that leaves all the Markdown > HTML pages in this repository. Other than the presentation decks, the homepage tiles all link to live pages from this GitHub Pages Jekyll site publication. 
+
+**Homepage Quick Links Section** 
+- AI Voice Marketing Cheat Sheet: `https://sfagent.august.style/ai-voice-marketing-case-study/research-implementation/writing-guide/notation-cheat-sheet`
+- Indexes & Section Map: `https://sfagent.august.style/ai-voice-marketing-case-study/index-section-site-map` 
+- Voice Marketing Persona Scripts: `https://sfagent.august.style/ai-voice-marketing-case-study/research-implementation/persona-strategy/annotated-vo-scripts`
+- Emotion-Driven Copywriting Guide: `https://sfagent.august.style/ai-voice-marketing-case-study/research-implementation/writing-guide/emotion-driven-copywriting` 
+
+**Homepage Case Study Links Section** 
+- Agentic Research & Implementation: `https://sfagent.august.style/ai-voice-marketing-case-study` 
+- Automation Marketing Plan Creation: `https://sfagent.august.style/marketing-content-case-study` 
+
+**Homepage All About SFA Links Section** 
+- Workflow Assessment: `https://sfagent.august.style/building-successful-agents/testimonial-job-case-study` 
+- Design Philosophy: `https://sfagent.august.style/building-successful-agents/best-practice-design-philosophy` 
+- Art of SFA Prompt Writing: `https://sfagent.august.style/building-successful-agents/prompt-writing-professional` 
+- Feature Upgrades: `https://sfagent.august.style/building-successful-agents/recent-agentic-workflow-feature-upgrades` 
+- SFA Architecture: `https://sfagent.august.style/building-successful-agents/sfa-python-architecture` 
+- Technical Specifications: `https://sfagent.august.style/building-successful-agents/technical-specifications` 
 
 ## Project Structure & Web Map 
 
@@ -149,40 +175,3 @@ Each directory has a Markdown "Section Page" to be converted into HTML at the sa
         ├── pixel-animation.js
         └── slideshow.js
 ```
-
-## Custom SFA Tool Ideas 
-
-### Media Processing Tools (right up your alley as a designer! 🎨):
-- Image optimization and resizing tools
-- Color palette extractors
-- Design asset metadata managers
-- SVG manipulation tools
-- Font analyzers
-
-### Development Tools (for the coding side 💻):
-- Git operation helpers (commit, branch, merge)
-- Code quality checkers
-- Documentation generators
-- Dependency analyzers
-- Test generators
-
-### Project Management Tools (for keeping things organized 📊):
-- Task trackers and updaters (like your task_reporting tool!)
-- Time tracking tools
-- Resource usage monitors
-- Progress visualizers
-- Team communication helpers
-
-### Data Processing Tools (for handling information 📈):
-- CSV/JSON/XML parsers
-- Data validators
-- Format converters
-- Data visualization generators
-- Analytics reporters
-
-### AI/ML Integration Tools (the fun experimental stuff! 🤖):
-- Model performance monitors
-- Prompt template managers
-- Training data processors
-- Output validators
-- Chain-of-thought analyzers
