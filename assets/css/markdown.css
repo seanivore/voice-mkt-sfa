@@ -106,7 +106,7 @@ h3 {
     font-style: normal;
     font-size: 1.55rem;
     margin-top: 1.5rem;
-    color: #e1aafb;
+    color: #d9bce7;
 }
 
 h4 {
@@ -922,6 +922,7 @@ tr:nth-child(even) {
         border-right: none;
         border-bottom: 1px solid var(--border-color);
         margin-bottom: 1.5rem;
+        padding: 0.5rem;
     }
 
     .main-content {
@@ -957,12 +958,13 @@ tr:nth-child(even) {
 }
 
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;
+    p {
+        font-size: 0.9rem;
+        line-height: 1.8;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h2 {
@@ -970,7 +972,31 @@ tr:nth-child(even) {
     }
 
     h3 {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    code {
+        font-size: 0.8rem;
+    }
+
+    .sidebar a {
+        padding: 0;
+    }
+
+    .sidebar h3 {
+        font-size: 1rem;
+    }
+
+    .sidebar ul {
+        font-size: 0.7rem;
     }
 
     .research-container,
