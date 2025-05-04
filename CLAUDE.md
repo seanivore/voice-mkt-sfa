@@ -76,25 +76,18 @@ Each directory has a Markdown "Section Page" to be converted into HTML at the sa
 
 ```plaintext
 /Users/seanivore/Development/voice-mkt-sfa/
-├── CLAUDE.md
-├── README.md
 ├── _config.yaml
-├── CNAME
 ├── _includes
-│   ├── breadcrumbs.html
 │   ├── footer.html
-│   ├── sidebar-research.html
 │   └── sidebar.html
 ├── _layouts
 │   ├── default.html
-│   ├── page.html
-│   ├── research.html
-│   └── search.html
-├── ai-voice-marketing.md 
-│   ├── bland-ai-guides.md
+│   └── page.html
+├── ai-voice-marketing-case-study --> ai-voice-marketing-case-study.md
+│   ├── bland-ai-guides --> bland-ai-guides.md
 │   │   ├── api-documentation.md
 │   │   └── app-ui-guide.md
-│   ├── deep-research.md
+│   ├── deep-research --> deep-research.md
 │   │   ├── analysis-optimizing-voice-ai-mkt.md
 │   │   ├── analysis-voice-mkt-home-services.md
 │   │   ├── bland-ai-pro-tips.md
@@ -104,74 +97,69 @@ Each directory has a Markdown "Section Page" to be converted into HTML at the sa
 │   │   ├── strategy-curiosity-gap.md
 │   │   ├── strategy-empathy-objection.md
 │   │   └── strategy-strongest-combos.md
-│   ├── index-section-site-map.md
+│   ├── index-section-site-map --> index-section-site-map.md
 │   │   ├── influence-lead-type.md
 │   │   ├── outcome-result-strategy.md
 │   │   ├── strategy-name.md
 │   │   ├── tactic-types.md
 │   │   └── vocal-characteristics.md
-│   ├── research-implementation.md
-│   │   ├── persona-strategy.md
+│   ├── research-implementation --> research-implementation.md
+│   │   ├── persona-strategy --> persona-strategy.md
 │   │   │   ├── annotated-vo-scripts.md
 │   │   │   ├── identifying-archetypes.md
 │   │   │   └── tailored-tactical-frameworks.md
-│   │   ├── writing-guide.md
+│   │   ├── vocal-engineering-strategy-matrix.md
+│   │   ├── writing-guide --> writing-guide.md
 │   │   │   ├── emotion-driven-copywriting.md
 │   │   │   ├── modulation-sound-patterns.md
 │   │   │   ├── notation-cheat-sheet.md
 │   │   │   └── script-voice-indicators.md
-│   │   └── vocal-engineering-strategy-matrix.md
-│   ├── top-conversion-strategy.md
-│   │   ├── assertive-urgent-emotional.md
-│   │   ├── combine-optimize-tactics.md
-│   │   ├── creating-curiosity-gap.md
-│   │   ├── empathy-objection-handling.md
-│   │   └── target-audience-groups.md
-│   ├── strategy-research-case-study.md
-│   ├── sales-development-ai-secrets.html  <-- HTML DESIGNED PAGE 
-│   └── implement-bland-modulation-research.html<-- HTML DESIGNED PAGE 
-├── building-successful-agents.md
+│   └── top-conversion-strategy --> top-conversion-strategy.md
+│       ├── assertive-urgent-emotional.md
+│       ├── combine-optimize-tactics.md
+│       ├── creating-curiosity-gap.md
+│       ├── empathy-objection-handling.md
+│       └── target-audience-groups.md
+├── assets
+│   ├── css
+│   │   ├── home.css
+│   │   ├── markdown.css
+│   │   ├── pixel-animation.css
+│   │   └── wave-animation.css
+│   ├── docs
+│   │   └── brand-text-art.ai
+│   ├── favicon
+│   ├── images
+│   └── js
+│       ├── pixel-animation.js
+│       └── wave-animation.js
+├── building-successful-agents --> building-successful-agents.md
 │   ├── best-practice-design-philosophy.md
 │   ├── prompt-writing-professional.md
 │   ├── recent-agentic-workflow-feature-upgrades.md
 │   ├── sfa-python-architecture.md
 │   ├── technical-specifications.md
 │   └── testimonial-job-case-study.md
-├── marketing-content-case-study.md
-│   ├── content-plan.md
+├── CLAUDE.md
+├── CNAME
+├── index.html
+├── marketing-content-case-study --> marketing-content-case-study.md
+│   ├── brand-identity-briefings.md
+│   ├── content-plan --> content-plan.md
 │   │   ├── agent-configuration-prompt-input.md
 │   │   ├── glossier-content-plan.md
 │   │   ├── hydro-flask-content-plan.md
 │   │   ├── jungalow-content-plan.md
 │   │   └── production-flow-content-plan.md
-│   ├── email-blast.md
+│   ├── email-blast --> email-blast.md
 │   │   ├── ai-prompt-configuration-agent.md
 │   │   ├── glossier-email-campaign.md
 │   │   ├── hydro-flask-email-campaign.md
 │   │   └── production-flow-email-blast.md
-│   ├── instagram-post.md
-│   │   ├── glossier-instagram-posts.md
-│   │   ├── hydro-flask-instagram-posts.md
-│   │   ├── instagram-post-agentic-configuration.md
-│   │   └── production-flow-instagram-posts.md
-│   └── brand-identity-briefings.md
-└── assets
-    ├── audio
-    ├── components
-    │   ├── footer.html
-    │   └── nav-sidebar.html
-    ├── css
-    │   ├── alt-slides.css
-    │   ├── main.css
-    │   ├── markdown.css
-    │   └── pixel-animation.css
-    ├── docs
-    │   ├── brand-text-art.ai
-    │   ├── DESIGN_BRIEF.md
-    │   └── jekyll-theme-design.md
-    ├── favicon
-    ├── images
-    └── js
-        ├── pixel-animation.js
-        └── slideshow.js
+│   └── instagram-post --> instagram-post.md
+│       ├── glossier-instagram-posts.md
+│       ├── hydro-flask-instagram-posts.md
+│       ├── instagram-post-agentic-configuration.md
+│       └── production-flow-instagram-posts.md
+└── README.md
 ```
