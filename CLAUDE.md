@@ -1,39 +1,5 @@
 # Project Progress 
 
-## Updates To Do 
-
-### Mobile View Optimization 
-
-When on mobile the content and the sidebar fight for space. I had it balanced in an *okay* way but for some reason it wasn't on all pages. But then I noticed that even when balanced, all the charts just don't look acceptable. 
-
-I'd like to treat the sidebar in mobile view as a hamburger navigation menu. Unless you have another idea, I can't seem to figure out how else to handle having both on the page. 
-
-### Content UI 
-
-- Quick-copy UI on script examples
-- Open in Google Docs UI option 
-
-### Search with Filtering 
-
-- **Design Search UI**
-  - Search bar
-  - Filter sidebar
-  - Results display
-  - Sort controls
-  - Preview cards
-
-- **Setting up search**
-  - Setup Jekyll Search Plugin
-    - Add jekyll-search or similar to your _config.yml plugins
-    - Create a JSON index of your content
-  - Client-Side Search Implementation
-    - Use a library like Lunr.js or Simple-Jekyll-Search
-    - Link it to the search forms we've already created
-
-- **Use Category and Tags as UI on Search**
-  - Create category quick-links 
-  - Build filtering system 
-
 ## Content Locations 
 
 ### Presentations & Homepage 
@@ -69,6 +35,34 @@ Building off the above note, that leaves all the Markdown > HTML pages in this r
 - Feature Upgrades: `https://sfagent.august.style/building-successful-agents/recent-agentic-workflow-feature-upgrades` 
 - SFA Architecture: `https://sfagent.august.style/building-successful-agents/sfa-python-architecture` 
 - Technical Specifications: `https://sfagent.august.style/building-successful-agents/technical-specifications` 
+
+## Future Updates 
+
+### Content UI 
+
+- Quick-copy UI on script examples
+- Open in Google Docs UI option 
+
+### Search with Filtering 
+
+- **Design Search UI**
+  - Search bar
+  - Filter sidebar
+  - Results display
+  - Sort controls
+  - Preview cards
+
+- **Setting up search**
+  - Setup Jekyll Search Plugin
+    - Add jekyll-search or similar to your _config.yml plugins
+    - Create a JSON index of your content
+  - Client-Side Search Implementation
+    - Use a library like Lunr.js or Simple-Jekyll-Search
+    - Link it to the search forms we've already created
+
+- **Use Category and Tags as UI on Search**
+  - Create category quick-links 
+  - Build filtering system 
 
 ## Project Structure & Web Map 
 

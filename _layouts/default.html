@@ -14,6 +14,16 @@
 </head>
 
 <body>
+    <!-- Hamburger Menu Button -->
+    <div class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Overlay for sidebar when active on mobile -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
     <header class="header">
         <div class="header-container">
             <div class="brand">
@@ -24,8 +34,10 @@
 
     <div class="container">
         <div class="content-wrapper">
-            <aside class="sidebar">
-                {% include sidebar.html %}
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-inner">
+                    {% include sidebar.html %}
+                </div>
             </aside>
             <main class="main-content">
                 {{ content }}
@@ -38,6 +50,83 @@
             <p>© 2025 Sean August Horvath | Created with SFA (Single-File Agents)</p>
         </div>
     </footer>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburgerMenu = document.getElementById('hamburgerMenu');
+            const sidebar = document.getElementById('sidebar');
+            const sidebarOverlay = document.getElementById('sidebarOverlay');
+
+            // Function to check if device is mobile
+            const isMobile = () => window.innerWidth <= 992;
+
+            // Function to toggle sidebar
+            const toggleSidebar = (show) => {
+                if (show) {
+                    sidebar.classList.add('active');
+                    hamburgerMenu.classList.add('active');
+                    sidebarOverlay.classList.add('active');
+                    document.body.classList.add('no-scroll');
+                } else {
+                    sidebar.classList.remove('active');
+                    hamburgerMenu.classList.remove('active');
+                    sidebarOverlay.classList.remove('active');
+                    document.body.classList.remove('no-scroll');
+                }
+            };
+
+            // Toggle sidebar when hamburger is clicked
+            hamburgerMenu.addEventListener('click', function () {
+                const isActive = sidebar.classList.contains('active');
+                toggleSidebar(!isActive);
+            });
+
+            // Close sidebar when overlay is clicked
+            sidebarOverlay.addEventListener('click', function () {
+                toggleSidebar(false);
+            });
+
+            // Close sidebar when escape key is pressed
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && sidebar.classList.contains('active')) {
+                    toggleSidebar(false);
+                }
+            });
+
+            // Add click event listeners to all sidebar links
+            const sidebarLinks = sidebar.querySelectorAll('a');
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    if (isMobile()) {
+                        // Small delay to allow for smooth navigation feel
+                        setTimeout(() => {
+                            toggleSidebar(false);
+                        }, 150);
+                    }
+                });
+            });
+
+            // Handle resize events
+            window.addEventListener('resize', function () {
+                if (!isMobile() && sidebar.classList.contains('active')) {
+                    toggleSidebar(false);
+                }
+            });
+
+            // Smooth scroll to top when clicking brand logo
+            const brandLink = document.querySelector('.brand a');
+            if (brandLink) {
+                brandLink.addEventListener('click', function (e) {
+                    if (window.location.pathname === this.getAttribute('href') ||
+                        window.location.pathname === this.getAttribute('href') + 'index.html') {
+                        e.preventDefault();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

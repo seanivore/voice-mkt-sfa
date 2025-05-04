@@ -292,6 +292,7 @@ tr:nth-child(even) {
     border-right: 1px solid var(--border-color);
     height: 100%;
     overflow-y: auto;
+    transition: left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .sidebar h3 {
@@ -915,27 +916,44 @@ tr:nth-child(even) {
         flex-direction: column;
     }
 
+    .content-wrapper {
+        flex-direction: column;
+    }
+
     .sidebar {
-        max-width: 290px;
-        position: static;
-        height: auto;
-        border-right: none;
-        border-bottom: 1px solid var(--border-color);
-        margin-bottom: 1.5rem;
-        padding: 0.5rem;
+        width: 85%;
+        max-width: 320px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        overflow-y: auto;
+        background-color: var(--bg-color);
+        z-index: 100;
+        transition: all 0.3s ease-in-out;
+        padding: 20px 25px 80px 25px;
+        border-right: 1px solid var(--border-color);
+        box-shadow: 3px 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .sidebar.active {
+        left: 0;
     }
 
     .main-content {
         max-width: 100%;
-        padding: 1rem;
+        padding: 1.5rem 1.2rem;
+        margin-top: 0;
     }
 
     .header {
-        padding: 0;
+        padding: 0.75rem 0;
     }
 
     .brand {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-left: 60px;
+        padding-left: 5px;
     }
 
     .header-container {
@@ -954,6 +972,77 @@ tr:nth-child(even) {
 
     .main-nav li {
         margin: 0.5rem 0;
+    }
+
+    .sidebar-inner {
+        padding-top: 50px;
+    }
+
+    .sidebar-section {
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(150, 150, 150, 0.1);
+        padding-bottom: 15px;
+    }
+
+    .sidebar-section:last-child {
+        border-bottom: none;
+    }
+
+    .sidebar h3 {
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        color: var(--accent-3);
+    }
+
+    .sidebar ul {
+        margin-left: 0;
+        padding-left: 10px;
+    }
+
+    .sidebar li {
+        margin-bottom: 8px;
+    }
+
+    .sidebar a {
+        padding: 6px 0;
+        font-size: 0.95rem;
+        display: block;
+        transition: all 0.2s ease;
+    }
+
+    .sidebar a:hover {
+        padding-left: 5px;
+        color: var(--accent-3);
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    /* Typography adjustments for mobile */
+    h1 {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.35rem;
+    }
+
+    /* Better spacing around content */
+    p,
+    ul,
+    ol {
+        margin-bottom: 1rem;
+    }
+
+    blockquote {
+        margin: 1.2rem 0 1.2rem 0.5rem;
     }
 }
 
@@ -984,7 +1073,8 @@ tr:nth-child(even) {
     }
 
     code {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
+        word-break: break-word;
     }
 
     .sidebar a {
@@ -1009,9 +1099,170 @@ tr:nth-child(even) {
     .footer-section {
         flex: 0 0 100%;
     }
+
+    pre {
+        max-width: 100%;
+        overflow-x: auto;
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .pixel-header {
+        height: 6px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-content {
+        padding: 1.2rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     /* Already set for dark mode - no changes needed */
+}
+
+/* Hamburger menu button for mobile */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 101;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--accent-6);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--text-color);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 1px;
+}
+
+.hamburger-menu:hover {
+    background-color: var(--accent-3);
+    transform: scale(1.05);
+}
+
+.hamburger-menu.active {
+    background-color: var(--accent-2);
+}
+
+.hamburger-menu.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    width: 22px;
+}
+
+.hamburger-menu.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.hamburger-menu.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+    width: 22px;
+}
+
+/* Overlay when sidebar is active on mobile */
+.sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 90;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(3px);
+}
+
+.sidebar-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Sidebar inner container for better positioning */
+.sidebar-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Scrollbar styling for the sidebar */
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--accent-6);
+    border-radius: 5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-3);
+}
+
+/* Small mobile screens */
+@media (max-width: 576px) {
+    .hamburger-menu {
+        top: 12px;
+        left: 12px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .brand {
+        font-size: 1.5rem !important;
+        margin-left: 55px !important;
+    }
+}
+
+/* Mobile styles for hamburger menu */
+@media (max-width: 992px) {
+    .hamburger-menu {
+        display: flex;
+    }
+}
+
+/* Helper class to prevent body scroll when sidebar is open */
+.no-scroll {
+    overflow: hidden !important;
 }
