@@ -200,11 +200,13 @@ img {
     margin: 1rem 0;
 }
 
+/* Table styles - Base */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 1.5rem;
     font-family: "vista-sans-narrow", sans-serif;
+    table-layout: fixed;
 }
 
 th,
@@ -212,10 +214,15 @@ td {
     border: 1px solid var(--border-color);
     padding: 0.75rem;
     text-align: left;
+    vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 th {
     background-color: rgba(28, 128, 151, 0.2);
+    font-weight: 600;
 }
 
 tr:nth-child(even) {
@@ -1117,6 +1124,54 @@ tr:nth-child(even) {
         height: 6px;
         margin-bottom: 1rem;
     }
+
+    /* Responsive tables that can scroll horizontally */
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Make tables more readable on mobile */
+    table {
+        table-layout: auto;
+    }
+
+    th,
+    td {
+        padding: 0.6rem;
+        font-size: 0.95rem;
+        min-width: 120px;
+        /* Prevent columns from becoming too narrow */
+    }
+
+    /* First column (usually labels) should be wider */
+    table tr th:first-child,
+    table tr td:first-child {
+        min-width: 100px;
+        max-width: 25%;
+        font-weight: 600;
+    }
+
+    /* Middle columns can be narrower */
+    table tr th:not(:first-child):not(:last-child),
+    table tr td:not(:first-child):not(:last-child) {
+        min-width: 80px;
+        max-width: 20%;
+    }
+
+    /* Make example/code columns wider to accommodate content */
+    table tr th:last-child,
+    table tr td:last-child {
+        min-width: 180px;
+        max-width: 55%;
+    }
+
+    /* Fix for code blocks in tables */
+    td code {
+        white-space: normal;
+        word-break: break-word;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1265,4 +1320,167 @@ tr:nth-child(even) {
 /* Helper class to prevent body scroll when sidebar is open */
 .no-scroll {
     overflow: hidden !important;
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    table {
+        font-size: 0.9rem;
+    }
+
+    th,
+    td {
+        padding: 0.5rem;
+    }
+
+    /* Even more compact tables for tiny screens */
+    table tr th:first-child,
+    table tr td:first-child {
+        min-width: 80px;
+        max-width: 30%;
+    }
+
+    table tr th:not(:first-child):not(:last-child),
+    table tr td:not(:first-child):not(:last-child) {
+        min-width: 60px;
+    }
+
+    table tr th:last-child,
+    table tr td:last-child {
+        min-width: 140px;
+        max-width: 50%;
+    }
+}
+
+/* Code blocks in table cells */
+td code {
+    white-space: normal;
+    word-break: break-word;
+    font-size: 0.85rem;
+    padding: 0.15rem 0.3rem;
+    background-color: rgba(47, 47, 47, 0.7);
+}
+
+/* Make code in tables more readable */
+table code {
+    display: inline-block;
+    margin: 2px 0;
+}
+
+/* Better tables for mobile with code content */
+@media (max-width: 768px) {
+
+    /* Use flexbox for better handling of table with code */
+    table.has-code-cells {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table.has-code-cells thead,
+    table.has-code-cells tbody {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    table.has-code-cells tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    table.has-code-cells th,
+    table.has-code-cells td {
+        flex: 1 1 auto;
+        min-width: 120px;
+    }
+
+    /* First column */
+    table.has-code-cells th:first-child,
+    table.has-code-cells td:first-child {
+        flex: 0 0 30%;
+    }
+
+    /* Last column with code */
+    table.has-code-cells th:last-child,
+    table.has-code-cells td:last-child {
+        flex: 0 0 60%;
+    }
+}
+
+/* Voice modulation tables specific styling */
+table.voice-modulation-table,
+table.voice-notation-table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* Better spacing for voice modulation tables */
+@media (max-width: 768px) {
+
+    /* Allow table scrolling but with nice structure */
+    .table-container {
+        -webkit-overflow-scrolling: touch;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    table.voice-notation-table,
+    table.voice-modulation-table {
+        width: max-content;
+        min-width: 100%;
+    }
+
+    /* Optimize spacing */
+    table.voice-notation-table td,
+    table.voice-modulation-table td {
+        padding: 8px 12px;
+    }
+
+    /* Different width strategies */
+    table.voice-notation-table td:first-child {
+        width: 100px;
+        min-width: 80px;
+        white-space: nowrap;
+    }
+
+    table.voice-notation-table td:nth-child(2):not(:last-child) {
+        width: 150px;
+        min-width: 150px;
+    }
+
+    table.voice-notation-table td:last-child {
+        min-width: 200px;
+    }
+
+    /* Special styling for code blocks */
+    table.voice-notation-table code,
+    table.voice-modulation-table code {
+        display: inline-block;
+        margin: 2px 0;
+        font-size: 0.85rem;
+        white-space: normal !important;
+        word-break: break-word;
+    }
+
+    /* Better visual hierarchy */
+    table.voice-notation-table th,
+    table.voice-modulation-table th {
+        text-align: center;
+        font-weight: 600;
+        white-space: nowrap;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background-color: rgba(28, 128, 151, 0.3);
+    }
+
+    /* Ensure first column is always visible */
+    table.voice-notation-table td:first-child,
+    table.voice-modulation-table td:first-child {
+        position: sticky;
+        left: 0;
+        background-color: var(--bg-color);
+        z-index: 1;
+    }
 }

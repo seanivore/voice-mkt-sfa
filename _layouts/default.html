@@ -51,7 +51,7 @@
         </div>
     </footer>
 
-    <!-- JavaScript for mobile menu toggle -->
+    <!-- JavaScript for mobile menu toggle and responsive tables -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const hamburgerMenu = document.getElementById('hamburgerMenu');
@@ -125,6 +125,88 @@
                     }
                 });
             }
+
+            // Wrap all tables in a container and optimize for mobile
+            const tables = document.querySelectorAll('table');
+            tables.forEach(table => {
+                // Check if table contains code
+                const hasCode = table.querySelectorAll('code').length > 0;
+
+                if (hasCode) {
+                    table.classList.add('has-code-cells');
+
+                    // Check if it's a table with code in the last column
+                    const lastColCells = table.querySelectorAll('tr td:last-child, tr th:last-child');
+                    let hasCodeInLastCol = false;
+                    lastColCells.forEach(cell => {
+                        if (cell.querySelectorAll('code').length > 0) {
+                            hasCodeInLastCol = true;
+                        }
+                    });
+
+                    if (hasCodeInLastCol) {
+                        table.classList.add('has-code-right-column');
+                    }
+                }
+
+                // Detect voice modulation tables
+                const headerCells = table.querySelectorAll('th');
+                let isVoiceModulationTable = false;
+                let isVoiceNotationTable = false;
+
+                headerCells.forEach(cell => {
+                    const cellText = cell.textContent.toLowerCase();
+                    if (cellText.includes('modulation cue') ||
+                        cellText.includes('script notation') ||
+                        cellText.includes('situation')) {
+                        isVoiceModulationTable = true;
+                    }
+                });
+
+                // Check for voice notation tables with specific content
+                const cellsWithBrackets = table.querySelectorAll('td');
+                cellsWithBrackets.forEach(cell => {
+                    const cellText = cell.textContent.toLowerCase();
+                    if (cellText.includes('[pause') ||
+                        cellText.includes('[downward') ||
+                        cellText.includes('[cheerful') ||
+                        cellText.includes('[upward') ||
+                        cellText.includes('[lower') ||
+                        cellText.includes('[higher') ||
+                        cellText.includes('[faster') ||
+                        cellText.includes('[slower') ||
+                        cellText.includes('[emphatic')) {
+                        isVoiceNotationTable = true;
+                    }
+                });
+
+                if (isVoiceModulationTable) {
+                    table.classList.add('voice-modulation-table');
+                }
+
+                if (isVoiceNotationTable) {
+                    table.classList.add('voice-notation-table');
+                }
+
+                // Wrap table in container if not already wrapped
+                if (!table.parentNode.classList.contains('table-container')) {
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'table-container';
+                    table.parentNode.insertBefore(wrapper, table);
+                    wrapper.appendChild(table);
+                }
+
+                // Additional optimizations for mobile
+                if (isMobile()) {
+                    // Find code blocks in table cells and adjust font size if needed
+                    const codeCells = table.querySelectorAll('td code');
+                    codeCells.forEach(code => {
+                        if (code.textContent.length > 30) {
+                            code.style.fontSize = '0.85rem';
+                        }
+                    });
+                }
+            });
         });
     </script>
 </body>
