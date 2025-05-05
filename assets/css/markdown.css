@@ -132,7 +132,7 @@ p {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.2s;
     color: var(--text-color);
 }
@@ -175,8 +175,9 @@ code {
     color: var(--accent-3);
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     text-wrap: auto;
+    letter-spacing: 0.05rem;
 }
 
 pre {
